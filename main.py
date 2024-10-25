@@ -88,22 +88,27 @@ stemmer = factory.create_stemmer()
 def stem_text(text):
     return stemmer.stem(text)
 
-# Sentiment Analysis function
+# Fungsi untuk memuat leksikon sentimen
 def load_lexicon(file_path):
     with open(file_path, 'r', encoding='utf-8') as file:
         return json.load(file)
 
-def sentiment_analysis(text, pos_lexicon, neg_lexicon):
-    words = text.split()
-    pos_count = sum(1 for word in words if word in pos_lexicon)
-    neg_count = sum(1 for word in words if word in neg_lexicon)
+# Fungsi untuk melakukan analisis sentimen per cluster
+def sentiment_analysis_cluster(texts, pos_lexicon, neg_lexicon):
+    pos_count = 0
+    neg_count = 0
+
+    for text in texts:
+        words = text.split()
+        pos_count += sum(1 for word in words if word in pos_lexicon)
+        neg_count += sum(1 for word in words if word in neg_lexicon)
     
     if pos_count > neg_count:
-        return 'Positif'
+        return 'Positif', pos_count, neg_count
     elif neg_count > pos_count:
-        return 'Negatif'
+        return 'Negatif', pos_count, neg_count
     else:
-        return 'Netral'
+        return 'Netral', pos_count, neg_count
 
 
 # Preprocessing function
@@ -327,17 +332,32 @@ elif page == "Sentiment Analysis":
         st.write(f"### Tampilan Data Preprocessing dari file: {st.session_state.preprocessed_data[selected_file_index]['filename']}")
         st.dataframe(df_selected)  # Display the selected preprocessed data
 
-        # Lakukan sentiment analysis pada kolom teks
-        df_selected['sentiment'] = df_selected['filtered'].apply(lambda x: sentiment_analysis(" ".join(x), pos_lexicon, neg_lexicon))
+        # Inisialisasi hasil analisis sentimen per cluster
+        sentiment_results = []
 
-        # Tampilkan hasil analisis sentimen dan cluster
-        st.write("### Hasil Analisis Sentimen dan Cluster")
-        st.dataframe(df_selected[['cluster', 'filtered', 'sentiment']])
+        # Kelompokkan teks berdasarkan cluster dan analisis sentimen
+        for cluster, group in df_selected.groupby('cluster'):
+            texts = group['filtered'].apply(lambda x: " ".join(x)).tolist()  # Gabungkan kata-kata dalam kolom 'filtered'
+            sentiment, pos_count, neg_count = sentiment_analysis_cluster(texts, pos_lexicon, neg_lexicon)
 
-        # Buat visualisasi distribusi sentimen per kluster
-        st.write("### Distribusi Sentimen per Cluster")
-        sentiment_cluster_counts = df_selected.groupby(['cluster', 'sentiment']).size().unstack(fill_value=0)
-        st.bar_chart(sentiment_cluster_counts)
+            # Tambahkan hasil ke dalam list
+            sentiment_results.append({
+                'Cluster': cluster,
+                'Sentimen': sentiment,
+                'Skor Positif': pos_count,
+                'Skor Negatif': neg_count
+            })
+
+        # Konversi hasil analisis ke DataFrame
+        df_sentiment_results = pd.DataFrame(sentiment_results)
+
+        # Tampilkan hasil analisis sentimen per cluster
+        st.write("### Hasil Analisis Sentimen per Cluster")
+        st.dataframe(df_sentiment_results)
+
+        # Visualisasi distribusi sentimen per cluster
+        st.write("### Distribusi Skor Sentimen per Cluster")
+        st.bar_chart(df_sentiment_results.set_index('Cluster')[['Skor Positif', 'Skor Negatif']])
     else:
         st.warning("Belum ada data yang di-preprocess untuk dianalisis.")
 

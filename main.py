@@ -93,15 +93,11 @@ def load_lexicon(file_path):
     with open(file_path, 'r', encoding='utf-8') as file:
         return json.load(file)
 
-# Fungsi untuk melakukan analisis sentimen per cluster
-def sentiment_analysis_cluster(texts, pos_lexicon, neg_lexicon):
-    pos_count = 0
-    neg_count = 0
-
-    for text in texts:
-        words = text.split()
-        pos_count += sum(1 for word in words if word in pos_lexicon)
-        neg_count += sum(1 for word in words if word in neg_lexicon)
+# Fungsi untuk melakukan analisis sentimen pada sebuah teks
+def sentiment_analysis(text, pos_lexicon, neg_lexicon):
+    words = text.split()
+    pos_count = sum(1 for word in words if word in pos_lexicon)
+    neg_count = sum(1 for word in words if word in neg_lexicon)
     
     if pos_count > neg_count:
         return 'Positif', pos_count, neg_count
@@ -109,7 +105,6 @@ def sentiment_analysis_cluster(texts, pos_lexicon, neg_lexicon):
         return 'Negatif', pos_count, neg_count
     else:
         return 'Netral', pos_count, neg_count
-
 
 # Preprocessing function
 def preprocess_data(uploaded_file):
@@ -332,32 +327,41 @@ elif page == "Sentiment Analysis":
         st.write(f"### Tampilan Data Preprocessing dari file: {st.session_state.preprocessed_data[selected_file_index]['filename']}")
         st.dataframe(df_selected)  # Display the selected preprocessed data
 
-        # Inisialisasi hasil analisis sentimen per cluster
-        sentiment_results = []
-
-        # Kelompokkan teks berdasarkan cluster dan analisis sentimen
+        # Lakukan analisis sentimen untuk setiap cluster
         for cluster, group in df_selected.groupby('cluster'):
-            texts = group['filtered'].apply(lambda x: " ".join(x)).tolist()  # Gabungkan kata-kata dalam kolom 'filtered'
-            sentiment, pos_count, neg_count = sentiment_analysis_cluster(texts, pos_lexicon, neg_lexicon)
+            st.write(f"## Cluster {cluster}")
+            
+            # Inisialisasi hasil analisis untuk cluster saat ini
+            cluster_sentiment_results = []
 
-            # Tambahkan hasil ke dalam list
-            sentiment_results.append({
-                'Cluster': cluster,
-                'Sentimen': sentiment,
-                'Skor Positif': pos_count,
-                'Skor Negatif': neg_count
-            })
+            # Analisis sentimen untuk setiap teks di cluster ini
+            for i, row in group.iterrows():
+                text = " ".join(row['filtered'])  # Gabungkan kata-kata dalam kolom 'filtered'
+                sentiment, pos_count, neg_count = sentiment_analysis(text, pos_lexicon, neg_lexicon)
+                
+                # Tambahkan hasil ke dalam list
+                cluster_sentiment_results.append({
+                    'Teks': text,
+                    'Sentimen': sentiment,
+                    'Skor Positif': pos_count,
+                    'Skor Negatif': neg_count
+                })
 
-        # Konversi hasil analisis ke DataFrame
-        df_sentiment_results = pd.DataFrame(sentiment_results)
+            # Konversi hasil analisis per cluster ke DataFrame
+            df_cluster_results = pd.DataFrame(cluster_sentiment_results)
 
-        # Tampilkan hasil analisis sentimen per cluster
-        st.write("### Hasil Analisis Sentimen per Cluster")
-        st.dataframe(df_sentiment_results)
+            # Tampilkan hasil analisis untuk cluster saat ini
+            st.write(f"### Hasil Analisis Sentimen untuk Cluster {cluster}")
+            st.dataframe(df_cluster_results)
 
-        # Visualisasi distribusi sentimen per cluster
-        st.write("### Distribusi Skor Sentimen per Cluster")
-        st.bar_chart(df_sentiment_results.set_index('Cluster')[['Skor Positif', 'Skor Negatif']])
+            # Visualisasi distribusi sentimen dalam cluster ini
+            st.write(f"### Distribusi Sentimen di Cluster {cluster}")
+            sentiment_counts = df_cluster_results['Sentimen'].value_counts()
+            st.bar_chart(sentiment_counts)
+            
+            # Menyisipkan garis pemisah antar cluster
+            st.write("---")
+
     else:
         st.warning("Belum ada data yang di-preprocess untuk dianalisis.")
 

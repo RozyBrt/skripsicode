@@ -1,0 +1,39 @@
+{
+    "lokasi" : [
+        "pindah kerja",
+        "lokasi",
+        "dekat",
+        "jarak",
+        "jauh"
+    ],
+    "kompensasi": [
+        "gaji",
+        "uang",
+        "duit",
+        "pendapatan",
+        "tunjangan",
+        "bonus"
+    ],
+    "kepuasan_kerja": [
+        "lingkungan",
+        "resiko",
+        "keselamatan",
+        "jam kerja",
+        "waktu",
+        "pusing",
+        "capek",
+        "cape",
+        "lelah"
+    ],
+    "aktualisasi": [
+        "upgrade diri",
+        "apresiasi",
+        "pencapaian",
+        "kelas"
+    ],
+    "hubungan_kerja": [
+        "rekan kerja",
+        "teman",
+        "atasan"
+    ]
+}

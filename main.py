@@ -357,9 +357,15 @@ elif page == "Sentiment Analysis":
 
 elif page == "Data Visualization":
     st.header("Data Visualization")
+    # st.write("### Halaman Data Visualization Menampilkan Visualisasi Dari Halaman ")
+    st.write("#### Visualisasi Yang Ditampilkan Di Halaman Ini Merupakan Hasil Visualisasi Dari Halaman Clustering")
     # Implement visualization logic here
     
-    # Menampilkan semua visualisasi yang disimpan 
-    for i, fig in enumerate(st.session_state.visualizations):
-        st.write(f'### Visualisasi {i+1}')
-        st.pyplot(fig)
+    # Logiika untuk menampilkan visualisasi
+    if 'visualizations' in st.session_state and st.session_state.visualizations:
+    # Menampilkan semua visualisasi yang disimpan
+        for i, fig in enumerate(st.session_state.visualizations):
+            # st.write(f'### {title}')
+            st.pyplot(fig)
+    else:
+        st.write("Belum ada visualisasi yang tersedia. Silahkan lakukan visualisasi di halaman clustering telebih dahulu")

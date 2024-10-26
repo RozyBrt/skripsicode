@@ -106,14 +106,6 @@ def sentiment_analysis(text, pos_lexicon, neg_lexicon):
     else:
         return 'Netral', pos_count, neg_count
 
-# Inisialisasi session state untuk menyimpan visualisasi
-if 'visualizations' not in st.session_state:
-    st.session_state.visualizations = []
-
-# Fungsi untuk menambahkan visualisasi ke session state
-def add_visualization(fig):
-    st.session_state.visualizations.append(fig)
-
 # Preprocessing function
 def preprocess_data(uploaded_file):
     corpus_df = pd.read_csv(uploaded_file)
@@ -305,8 +297,6 @@ elif page == "Clustering":
                 plt.axis('off')
                 plt.title(f'Cluster {cluster_num + 1}')
                 st.pyplot(plt)
-                # Simpan visualisasi
-                add_visualization(plt.gcf())
 
     else:
         st.warning("Belum ada data yang di-preprocess untuk ditampilkan di sini.")
@@ -337,29 +327,44 @@ elif page == "Sentiment Analysis":
         st.write(f"### Tampilan Data Preprocessing dari file: {st.session_state.preprocessed_data[selected_file_index]['filename']}")
         st.dataframe(df_selected)  # Display the selected preprocessed data
 
-        # Analisis sentimen untuk setiap teks
-        df_selected['sentiment'], df_selected['pos_count'], df_selected['neg_count'] = zip(*df_selected['full_text'].apply(lambda x: sentiment_analysis(x, pos_lexicon, neg_lexicon)))
+        # Lakukan analisis sentimen untuk setiap cluster
+        for cluster, group in df_selected.groupby('cluster'):
+            st.write(f"## Cluster {cluster}")
+            
+            # Inisialisasi hasil analisis untuk cluster saat ini
+            cluster_sentiment_results = []
 
-        # Tampilkan hasil analisis sentimen
-        st.write("### Hasil Analisis Sentimen")
-        st.dataframe(df_selected[['full_text', 'sentiment', 'pos_count', 'neg_count']])
-        
-        # Tampilkan analisis sentimen berdasarkan cluster
-        st.write("### Analisis Sentimen Berdasarkan Cluster")
-        sentiment_counts = df_selected.groupby('cluster')['sentiment'].value_counts().unstack().fillna(0)
-        st.bar_chart(sentiment_counts)
-        
-        # Simpan visualisasi bar chart
-        add_visualization(plt.gcf()) 
+            # Analisis sentimen untuk setiap teks di cluster ini
+            for i, row in group.iterrows():
+                text = " ".join(row['filtered'])  # Gabungkan kata-kata dalam kolom 'filtered'
+                sentiment, pos_count, neg_count = sentiment_analysis(text, pos_lexicon, neg_lexicon)
+                
+                # Tambahkan hasil ke dalam list
+                cluster_sentiment_results.append({
+                    'Teks': text,
+                    'Sentimen': sentiment,
+                    'Skor Positif': pos_count,
+                    'Skor Negatif': neg_count
+                })
+
+            # Konversi hasil analisis per cluster ke DataFrame
+            df_cluster_results = pd.DataFrame(cluster_sentiment_results)
+
+            # Tampilkan hasil analisis untuk cluster saat ini
+            st.write(f"### Hasil Analisis Sentimen untuk Cluster {cluster}")
+            st.dataframe(df_cluster_results)
+
+            # Visualisasi distribusi sentimen dalam cluster ini
+            st.write(f"### Distribusi Sentimen di Cluster {cluster}")
+            sentiment_counts = df_cluster_results['Sentimen'].value_counts()
+            st.bar_chart(sentiment_counts)
+            
+            # Menyisipkan garis pemisah antar cluster
+            st.write("---")
 
     else:
-        st.warning("Belum ada data yang di-preprocess untuk ditampilkan di sini.")
+        st.warning("Belum ada data yang di-preprocess untuk dianalisis.")
 
 elif page == "Data Visualization":
     st.header("Data Visualization")
     # Implement visualization logic here
-    
-    # Menampilkan semua visualisasi yang disimpan 
-    for i, fig in enumerate(st.session_state.visualizations):
-        st.write(f'### Visualisasi {i+1}')
-        st.pyplot(fig)

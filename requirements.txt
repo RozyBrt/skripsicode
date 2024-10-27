@@ -1,7 +1,7 @@
-streamlit
-pandas
-nltk
-scikit-learn
-matplotlib
-wordcloud
-Sastrawi
+streamlit==1.36.0
+pandas==1.5.3
+nltk==3.9.1
+scikit-learn==1.5.1
+matplotlib==3.7.2
+wordcloud==1.9.3
+Sastrawi==1.0.1

@@ -332,45 +332,51 @@ elif page == "Sentiment Analysis":
         st.dataframe(df_selected)  # Display the selected preprocessed data
 
         # Inisialisasi hasil sentiment_result jika belum ada
-        if 'sentiment_result' not in st.session_state:
-            st.session_state.sentiment_result = {}
+        if 'cluster' in df_selected.columns:
+            # Inisialisasi hasil sentimen_result jika belum ada
+        
+            if 'sentiment_result' not in st.session_state:
+                st.session_state.sentiment_result = {}
 
-        # Lakukan analisis sentimen untuk setiap cluster
-        for cluster, group in df_selected.groupby('cluster'):
-            # st.write(f"## Cluster {cluster}")
-            
-            # Inisialisasi hasil analisis untuk cluster saat ini
-            cluster_sentiment_results = []
-
-            # Analisis sentimen untuk setiap teks di cluster ini
-            for i, row in group.iterrows():
-                text = " ".join(row['filtered'])  # Gabungkan kata-kata dalam kolom 'filtered'
-                sentiment, pos_count, neg_count = sentiment_analysis(text, pos_lexicon, neg_lexicon)
+            # Lakukan analisis sentimen untuk setiap cluster
+            for cluster, group in df_selected.groupby('cluster'):
+                # st.write(f"## Cluster {cluster}")
                 
-                # Tambahkan hasil ke dalam list
-                cluster_sentiment_results.append({
-                    'Teks': text,
-                    'Sentimen': sentiment,
-                    'Skor Positif': pos_count,
-                    'Skor Negatif': neg_count
-                })
+                # Inisialisasi hasil analisis untuk cluster saat ini
+                cluster_sentiment_results = []
 
-            # Konversi hasil analisis per cluster ke DataFrame
-            df_cluster_results = pd.DataFrame(cluster_sentiment_results)
+                # Analisis sentimen untuk setiap teks di cluster ini
+                for i, row in group.iterrows():
+                    text = " ".join(row['filtered'])  # Gabungkan kata-kata dalam kolom 'filtered'
+                    sentiment, pos_count, neg_count = sentiment_analysis(text, pos_lexicon, neg_lexicon)
+                    
+                    # Tambahkan hasil ke dalam list
+                    cluster_sentiment_results.append({
+                        'Teks': text,
+                        'Sentimen': sentiment,
+                        'Skor Positif': pos_count,
+                        'Skor Negatif': neg_count
+                    })
 
-            # Tampilkan hasil analisis untuk cluster saat ini
-            st.write(f"### Hasil Analisis Sentimen untuk Cluster {cluster}")
-            st.dataframe(df_cluster_results)
+                # Konversi hasil analisis per cluster ke DataFrame
+                df_cluster_results = pd.DataFrame(cluster_sentiment_results)
 
-            # Simpan hasil analisis ke dalam session state untuk cluster ini
-            st.session_state.sentiment_result[cluster] = {
-                'data': df_cluster_results,
-            }
+                # Tampilkan hasil analisis untuk cluster saat ini
+                st.write(f"### Hasil Analisis Sentimen untuk Cluster {cluster}")
+                st.dataframe(df_cluster_results)
 
-            # Menyisipkan garis pemisah antar cluster
-            st.write("----")
-    else:
-        st.warning("Belum ada data yang di-preprocess untuk dianalisis.")
+                # Simpan hasil analisis ke dalam session state untuk cluster ini
+                st.session_state.sentiment_result[cluster] = {
+                    'data': df_cluster_results,
+                }
+
+                # Menyisipkan garis pemisah antar cluster
+                st.write("----")
+        else:
+            st.warning("Lakukan Klastering di Halaman Clustering Terlebih Dahulu")
+            st.warning("Untuk Melihat Hasil Analisis Sentimen Cluster")
+        
+        st.write("Lanjutkan Ke Halaman Data Visualization Untuk Melihat Hasil Visual Sentimen Analysis")
 
 elif page == "Data Visualization":
     st.header("Data Visualization")

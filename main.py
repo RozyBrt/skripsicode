@@ -13,9 +13,13 @@ from Sastrawi.Stemmer.StemmerFactory import StemmerFactory
 import nltk
 nltk.download('punkt_tab')
 
+# setting tab web
+st.set_page_config(page_title="ABSA-KMeans", page_icon="☕")
+
 # Streamlit application
 st.title("ANALISIS FAKTOR-FAKTOR YANG MEMPENGARUHI PERPINDAHAN KARIR DENGAN PEMANFAATAN ASPECT-BASED SENTIMENT ANALYSIS MENGGUNAKAN METODE K-MEANS")
 page = st.sidebar.selectbox("Select a page:", ["Preprocessing", "Clustering", "Sentiment Analysis", "Data Visualization"])
+
 
 # Preprocessing functions
 def case_folding(dataframe, column_name):
@@ -327,9 +331,13 @@ elif page == "Sentiment Analysis":
         st.write(f"### Tampilan Data Preprocessing dari file: {st.session_state.preprocessed_data[selected_file_index]['filename']}")
         st.dataframe(df_selected)  # Display the selected preprocessed data
 
+        # Inisialisasi hasil sentiment_result jika belum ada
+        if 'sentiment_result' not in st.session_state:
+            st.session_state.sentiment_result = {}
+
         # Lakukan analisis sentimen untuk setiap cluster
         for cluster, group in df_selected.groupby('cluster'):
-            st.write(f"## Cluster {cluster}")
+            # st.write(f"## Cluster {cluster}")
             
             # Inisialisasi hasil analisis untuk cluster saat ini
             cluster_sentiment_results = []
@@ -354,17 +362,42 @@ elif page == "Sentiment Analysis":
             st.write(f"### Hasil Analisis Sentimen untuk Cluster {cluster}")
             st.dataframe(df_cluster_results)
 
-            # Visualisasi distribusi sentimen dalam cluster ini
-            st.write(f"### Distribusi Sentimen di Cluster {cluster}")
-            sentiment_counts = df_cluster_results['Sentimen'].value_counts()
-            st.bar_chart(sentiment_counts)
-            
-            # Menyisipkan garis pemisah antar cluster
-            st.write("---")
+            # Simpan hasil analisis ke dalam session state untuk cluster ini
+            st.session_state.sentiment_result[cluster] = {
+                'data': df_cluster_results,
+            }
 
+            # Menyisipkan garis pemisah antar cluster
+            st.write("----")
     else:
         st.warning("Belum ada data yang di-preprocess untuk dianalisis.")
 
 elif page == "Data Visualization":
     st.header("Data Visualization")
     # Implement visualization logic here
+    if 'sentiment_result' in st.session_state:
+        for cluster, result in st.session_state.sentiment_result.items():
+            st.dataframe(result['data'])
+
+            # Visualisasi distribusi sentimen di cluster ini
+            # st.write(f"## Hasil Analisis Sentimen untuk Cluster {cluster}")
+            st.write(f"### Visualisasi Cluster {cluster}")
+            
+            # Hitung distribusi sentimen dan buat pie chart
+            sentiment_counts = result['data']['Sentimen'].value_counts()
+            fig, ax = plt.subplots()
+            ax.pie(
+                sentiment_counts, 
+                labels=sentiment_counts.index, 
+                autopct='%1.1f%%', 
+                startangle=90
+            )
+            ax.axis('equal')  # Equal aspect ratio ensures that pie is drawn as a circle.
+            
+            st.pyplot(fig)  # Display the pie chart
+            
+            # Garis pemisah antar cluster
+            st.write("---")
+    else:
+        st.warning("Belum ada hasil analisis sentimen untuk ditampilkan.")
+

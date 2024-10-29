@@ -6,6 +6,7 @@ import string
 from nltk.tokenize import word_tokenize
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.cluster import KMeans
+from sklearn.metrics import silhouette_score 
 import matplotlib.pyplot as plt
 from wordcloud import WordCloud
 from Sastrawi.Stemmer.StemmerFactory import StemmerFactory
@@ -14,7 +15,7 @@ import nltk
 nltk.download('punkt_tab')
 
 # setting tab web
-st.set_page_config(page_title="ABSA-KMeans", page_icon="☕")
+st.set_page_config(page_title="ABSA-KMeans", page_icon="🧑🏻‍💻")
 
 # Streamlit application
 st.title("ANALISIS FAKTOR-FAKTOR YANG MEMPENGARUHI PERPINDAHAN KARIR DENGAN PEMANFAATAN ASPECT-BASED SENTIMENT ANALYSIS MENGGUNAKAN METODE K-MEANS")
@@ -178,6 +179,10 @@ def cluster_data_with_custom_centroids():
         kmeans = KMeans(n_clusters=4, init=initial_centroids, n_init=1, random_state=0)
         kmeans.fit(X)
         df['cluster'] = kmeans.labels_
+        
+        # Menghitung silhouette score
+        score = silhouette_score(X, kmeans.labels_)
+        st.write(f"Silhouette Score: {score: .4f}")
         
         # Display results
         st.write("### Clustering Results")

@@ -3,9 +3,10 @@ import pandas as pd
 import json
 import re
 import string
-from nltk.tokenize import word_tokenize
+from nltk.tokenize import word_tokenize as token_kata
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.cluster import KMeans
+from sklearn.metrics import silhouette_score
 import matplotlib.pyplot as plt
 from wordcloud import WordCloud
 from Sastrawi.Stemmer.StemmerFactory import StemmerFactory
@@ -25,79 +26,79 @@ page = st.sidebar.selectbox("Select a page:", ["Preprocessing", "Clustering", "S
 # KUMPULAN FUNGSI PREPROSESING
 
 # Fungsi untuk mengubah teks menjadi huruf kecil (lowercase)
-def case_folding(dataframe, column_name):
+def ubah_ke_huruf_kecil(dataframe, column_name):
     dataframe[column_name] = dataframe[column_name].str.lower()
     return dataframe
 
 # Fungsi untuk menghapus karakte-karakter spesial twitter(X) dari data hasil scrapping
-def remove_tweet_special(text):
+def bersihkan_karakter_twitter(text):
     text = text.replace('\\t', " ").replace('\\n', " ").replace('\\u', " ").replace('\\', "")
     text = text.encode('ascii', 'ignore').decode('ascii')
     text = ' '.join(re.sub(r"([@#][A-Za-z0-9_]+)|(\w+:\/\/\S+)", " ", text).split())
     return text.replace("http://", " ").replace("https://", " ")
 
 # Fungsi untuk menghapus angka untuk penyederhanaan data clear
-def remove_number(text):
+def hapus_angka(text):
     return re.sub(r"\d+", "", text)
 
 # Fungsi untuk menghapus tanda baca seperti titik, koma, tanda seru, dll.
-def remove_punctuation(text):
+def hapus_tandabaca(text):
     return text.translate(str.maketrans("", "", string.punctuation))
 
 # Fungsi untuk menghapus whitespace atau spasi yang ada di awal dan akhir teks.
-def remove_whitespace_LT(text):
+def hapus_spasi_awalakhir(text):
     return text.strip()
 
 # Fungsi untuk mengganti spasi berturut turut dengan satu spasi tunggal.
-def remove_whitespace_multiple(text):
+def ganti_spasi_tunggal(text):
     return re.sub(r'\s+', ' ', text)
 
 # Fungsi untuk menghapus karakter tunggal yang berdiri sendiri di dalam teks
-def remove_single_char(text):
+def hapus_karakter_tunggal(text):
     return re.sub(r"\b[a-zA-Z]\b", "", text)
 
 # Fungsi untuk membaca file JSON yang berisi kamus slang (bahasa gaul) dan menyimpannya ke dalam bentuk dictionary
-def load_slang_dict(file_path):
+def muat_kamus_slang(file_path):
     with open(file_path, "r", encoding="utf-8") as f:
         return json.load(f)
     
-# Fungsi untuk menggantikan kata kata slang (bahasa gaul) di dalam teks dengan padanan yang lebih baku atau sesuai (berdasarkan kamus slang yang telah dimuat sebelumnya oleh fungsi load_slang_dict)
-def replace_slang(text, slang_dict):
-    return " ".join(slang_dict.get(word, word) for word in text.split())
+# Fungsi untuk menggantikan kata kata slang (bahasa gaul) di dalam teks dengan padanan yang lebih baku atau sesuai (berdasarkan kamus slang yang telah dimuat sebelumnya oleh fungsi muat_kamus_slang)
+def slang_ke_baku(text, kamus_bahasa_gaul):
+    return " ".join(kamus_bahasa_gaul.get(word, word) for word in text.split())
 
 # Fungsi untuk memecah teks menjadi token atau kata kata individual
-def word_tokenize_wrapper(text):
-    return word_tokenize(text)
+def bungkus_tokenisasi_kata(text):
+    return token_kata(text)
 
 # Kelas yang digunakan untuk menghilangkan kata kata umum yang tidak penting
-class StopWordsId:
-    # Menerima stopword_file yang berisi daftar stopword dalam format satu kata perbaris dan menyinpannya ke dalam atribut self.stopword sebagai sebuah set
+class StopWordsIndo:
+    # Menerima stopword_file yang berisi daftar stopword dalam format satu kata perbaris dan menyinpannya sebagai sebuah set
     def __init__(self, stopwords_file):
-        self.stopwords = self.load_stopwords(stopwords_file)
+        self.stopwords = self.olah_stopword(stopwords_file)
     
     # Membuka file stopword_file, menghapus karakter karakter newline (\n), dan mengembalikan kumpulan (set) stopwords.
-    def load_stopwords(self, stopwords_file):
+    def olah_stopword(self, stopwords_file):
         with open(stopwords_file, 'r', encoding='utf-8') as f:
             return set(f.read().splitlines())
         
     # Menerima teks yang akan diproses sebagai parameter
     # Setiap kata akan dicek apakah ada dalam self.stopwords atau tidak
-    # Jika kata tersebut tidak ada dalam stopwords dan panjangnya lebih dari 3 karakter (len(word) > 3), maka kata tersebut akan disimpan dalam list filtered_words.
+    # Jika kata tersebut tidak ada dalam stopwords dan panjangnya lebih dari 3 karakter (len(word) > 3), maka kata tersebut akan disimpan dalam list kata_bersih.
     # Menggabungkan kembali kata-kata yang tersaring ke dalam satu string yang dipisahkan oleh spasi, dan mengembalikan hasilnya.
-    def remove_stopwords(self, text):
-        words_tokenized = text.split()
-        filtered_words = [word for word in words_tokenized if word not in self.stopwords and len(word) > 3]
-        return " ".join(filtered_words)
+    def hapus_stopwords(self, text):
+        pisahkan_kata = text.split()
+        kata_bersih = [word for word in pisahkan_kata if word not in self.stopwords and len(word) > 3]
+        return " ".join(kata_bersih)
 
 #  Digunakan untuk memfilter kata-kata dalam sebuah dokumen agar hanya menyisakan kata-kata yang ada dalam kamus bahasa Indonesia yang diberikan
 class KamusFilter:
     
     # Memuat daftar kata dari file kamus (kamus_file) dan menyimpannya dalam self.term_dict sebagai sebuah set
     def __init__(self, kamus_file):
-        self.term_dict = self.load_kamus(kamus_file)
+        self.term_dict = self.baca_kamus(kamus_file)
 
     # Membuka file kamus dan membaca daftar kata. Jika tidak ditemukan akan menampilkan pesan error dan mengembalikan set kosong
-    def load_kamus(self, kamus_file):
+    def baca_kamus(self, kamus_file):
         try:
             with open(kamus_file, 'r', encoding='utf-8') as file:
                 return set(file.read().splitlines())
@@ -106,15 +107,15 @@ class KamusFilter:
             return set()
 
     # Menerima dokumen dalam bentuk list kata dan menghasilkan list yang hanya berisi kata-kata bahasa Indonesia dari dokumen.
-    def filter_non_indonesian(self, document):
+    def hapus_bukan_id(self, document):
         return [term for term in document if term in self.term_dict]
 
 # Stemming
-factory = StemmerFactory() # Digunakan untuk membuat objek stemmer.
-stemmer = factory.create_stemmer() # Membuat objek stemmer yang dapat digunakan untuk melakukan proses stemming.
+pengolahdata = StemmerFactory() # Digunakan untuk membuat objek stemmer.
+stemmer = pengolahdata.create_stemmer() # Membuat objek stemmer yang dapat digunakan untuk melakukan proses stemming.
 
 # Fungsi untuk mengubah setiap kata ke bentuk dasarnya.
-def stem_text(text):
+def sederhanakan_teks(text):
     return stemmer.stem(text)
 
 # Fungsi untuk memuat leksikon sentimen
@@ -138,33 +139,33 @@ def sentiment_analysis(text, pos_lexicon, neg_lexicon):
 # Preproses data untuk menjalankan fungsi yang sudah dibuat
 def preprocess_data(uploaded_file):
     corpus_df = pd.read_csv(uploaded_file)
-    corpus_df = case_folding(corpus_df, 'full_text')
-    corpus_df['full_text'] = corpus_df['full_text'].apply(remove_tweet_special)
-    corpus_df['full_text'] = corpus_df['full_text'].apply(remove_number)
-    corpus_df['full_text'] = corpus_df['full_text'].apply(remove_punctuation)
-    corpus_df['full_text'] = corpus_df['full_text'].apply(remove_whitespace_LT)
-    corpus_df['full_text'] = corpus_df['full_text'].apply(remove_whitespace_multiple)
-    corpus_df['full_text'] = corpus_df['full_text'].apply(remove_single_char)
+    corpus_df = ubah_ke_huruf_kecil(corpus_df, 'full_text')
+    corpus_df['full_text'] = corpus_df['full_text'].apply(bersihkan_karakter_twitter)
+    corpus_df['full_text'] = corpus_df['full_text'].apply(hapus_angka)
+    corpus_df['full_text'] = corpus_df['full_text'].apply(hapus_tandabaca)
+    corpus_df['full_text'] = corpus_df['full_text'].apply(hapus_spasi_awalakhir)
+    corpus_df['full_text'] = corpus_df['full_text'].apply(ganti_spasi_tunggal)
+    corpus_df['full_text'] = corpus_df['full_text'].apply(hapus_karakter_tunggal)
 
     # Load dan replace slang
-    slang_dict = load_slang_dict("txt/kamusSlang.json")
-    corpus_df['full_text'] = corpus_df['full_text'].apply(lambda x: replace_slang(x, slang_dict))
+    kamus_bahasa_gaul = muat_kamus_slang("txt/kamusSlang.json")
+    corpus_df['full_text'] = corpus_df['full_text'].apply(lambda x: slang_ke_baku(x, kamus_bahasa_gaul))
 
     # Tokenisasi
-    corpus_df['tokenisasi'] = corpus_df['full_text'].apply(word_tokenize_wrapper)
+    corpus_df['tokenisasi'] = corpus_df['full_text'].apply(bungkus_tokenisasi_kata)
 
     # Stemming
-    corpus_df['stemmed'] = corpus_df['full_text'].apply(stem_text)
+    corpus_df['stemmed'] = corpus_df['full_text'].apply(sederhanakan_teks)
 
     # Inisialisasi stopword dan kamus filter
-    stopwords_processor = StopWordsId('txt/stopwords.txt')
+    stopwords_processor = StopWordsIndo('txt/stopwords.txt')
     kamus_filter = KamusFilter("txt/kamusIndonesia.txt")
 
     # Hapus stopword
-    corpus_df['stopwords'] = corpus_df['stemmed'].apply(lambda x: stopwords_processor.remove_stopwords(x))
+    corpus_df['stopwords'] = corpus_df['stemmed'].apply(lambda x: stopwords_processor.hapus_stopwords(x))
 
     # Filter term non-indonesia
-    corpus_df['filtered'] = corpus_df['stopwords'].apply(lambda x: kamus_filter.filter_non_indonesian(x.split()))
+    corpus_df['filtered'] = corpus_df['stopwords'].apply(lambda x: kamus_filter.hapus_bukan_id(x.split()))
 
     # Menyimpan hasil preproses kedalam file 'hasil.txt'
     corpus_df.to_csv('preprocessing/hasil.txt', index=None, header=True)
@@ -199,16 +200,14 @@ if page == "Preprocessing":
             # Jika tombol "Bersihkan" ditekan, lakukan preprocessing
             if st.button("Bersihkan"):
                 df_preprocessed = preprocess_data(st.session_state.uploaded_file)
-                
-                # Simpan hasil preprocessing di session_state
-                if 'preprocessed_data' not in st.session_state:
-                    st.session_state.preprocessed_data = []  # Inisialisasi list jika belum ada
-                # Simpan data yang diproses dan nama file-nya
-                st.session_state.preprocessed_data.append({
-                    'data': df_preprocessed,
-                    'filename': st.session_state.uploaded_file.name
-                })  
                 st.success("Preprocessing Selesai.")
+
+                # Simpan DataFrame ke file CSV
+                df_preprocessed.to_csv('hasil.txt', sep='\t', index=False) 
+
+                # Tombol unduh file hasil.txt
+                with open('hasil.txt', 'rb') as f:
+                    st.download_button('Unduh Hasil Preprocessing', f, file_name='hasil.txt')  
         else:
             # Warning jika file sudah diproses sebelumnya
             st.warning("File ini sudah di upload")
@@ -227,11 +226,7 @@ elif page == "Clustering":
     st.header("Analisis Faktor") # Menampilkan judul halaman
 
     if 'preprocessed_data' in st.session_state:
-        # Membuat daftar pilihan file dari data yang telah diproses
-        file_options = [f"Data set from file: {item['filename']}" for item in st.session_state.preprocessed_data]
-        selected_file = st.selectbox("Pilih file yang ingin digunakan untuk klaster:", file_options)
-        selected_file_index = file_options.index(selected_file)
-        df_selected = st.session_state.preprocessed_data[selected_file_index]['data']
+        df_selected = st.session_state.preprocessed_data[0]['data']
 
         # Mendefinisikan kalimat untuk setiap centroid
         centroid_sentences = {
@@ -268,6 +263,10 @@ elif page == "Clustering":
             kmeans = KMeans(n_clusters=4, init=initial_centroids, n_init=1, random_state=0)
             kmeans.fit(X)
             df_selected['cluster'] = kmeans.labels_
+            
+            # Menghitung Silhouette Score
+            silhouette_avg = silhouette_score(X, kmeans.labels_)
+            st.write(f"**Silhouette Score:** {silhouette_avg:.2f}")
 
             # Memisahkan klaster menjadi DataFrame yang berbeda
             cluster_0 = df_selected[df_selected['cluster'] == 0][['filtered']].reset_index(drop=True)
@@ -276,15 +275,15 @@ elif page == "Clustering":
             cluster_3 = df_selected[df_selected['cluster'] == 3][['filtered']].reset_index(drop=True)
             
             # Mendefinisikan label kustom untuk setiap klaster
-            cluster_labels = ['kompensasi', 'kepuasan kerja', 'aktualisasi', 'hubungan kerja']
+            label_klaster = ['kompensasi', 'kepuasan kerja', 'aktualisasi', 'hubungan kerja']
 
             # Menampilkan setiap klaster dengan label deskriptif
-            for i, (label, cluster_df) in enumerate(zip(cluster_labels, [cluster_0, cluster_1, cluster_2, cluster_3])):
+            for i, (label, dataframe_klaster) in enumerate(zip(label_klaster, [cluster_0, cluster_1, cluster_2, cluster_3])):
                 st.write(f"### Faktor {label.capitalize()}")
-                st.dataframe(cluster_df[['filtered']])
+                st.dataframe(dataframe_klaster[['filtered']])
 
                 # Save clusters with descriptive names in session state
-                st.session_state[f'cluster_{label}_df'] = cluster_df
+                st.session_state[f'cluster_{label}_df'] = dataframe_klaster
 
             # Menyimpan setiap cluster ke dalam file .txt di folder 'klaster'
             cluster_0.to_csv('klaster/kompensasi.txt', sep='\t', index=False, header=True)
@@ -292,7 +291,8 @@ elif page == "Clustering":
             cluster_2.to_csv('klaster/aktualisasi.txt', sep='\t', index=False, header=True)
             cluster_3.to_csv('klaster/hubungan kerja.txt', sep='\t', index=False, header=True)
 
-            def remove_punctuation(text):
+            # Menghapus tokenisasi kembali
+            def hapus_tandabaca(text):
                 if isinstance(text, str):
                     return re.sub(r'[^\w\s]', '', text)
                 elif isinstance(text, list):
@@ -300,10 +300,10 @@ elif page == "Clustering":
                 return text
 
             # Membersihkan data setiap cluster
-            cleaned_data_0 = cluster_0.applymap(remove_punctuation)
-            cleaned_data_1 = cluster_1.applymap(remove_punctuation)
-            cleaned_data_2 = cluster_2.applymap(remove_punctuation)
-            cleaned_data_3 = cluster_3.applymap(remove_punctuation)
+            cleaned_data_0 = cluster_0.applymap(hapus_tandabaca)
+            cleaned_data_1 = cluster_1.applymap(hapus_tandabaca)
+            cleaned_data_2 = cluster_2.applymap(hapus_tandabaca)
+            cleaned_data_3 = cluster_3.applymap(hapus_tandabaca)
 
             # Menyimpan data yang telah dibersihkan ke file
             cleaned_data_0.to_csv('klaster/kompensasi.txt', sep='\t', index=False, header=True)
@@ -311,7 +311,8 @@ elif page == "Clustering":
             cleaned_data_2.to_csv('klaster/aktualisasi.txt', sep='\t', index=False, header=True)
             cleaned_data_3.to_csv('klaster/hubungan kerja.txt', sep='\t', index=False, header=True)
 
-
+    else:
+        st.warning("Lakukan preprocessing data terlebih dahulu.")
 elif page == "Sentiment Analysis":
     st.header("Analisis Sentimen Faktor")
 
@@ -332,7 +333,7 @@ elif page == "Sentiment Analysis":
                 return pd.DataFrame()  # Kembalikan DataFrame kosong jika file tidak ditemukan
 
         # Fungsi untuk menghitung sentimen berdasarkan leksikon
-        def analyze_sentiment(text):
+        def hitung_sentimen_berdasarkan_leksikon(text):
             if not isinstance(text, str):
                 text = ""
             pos_count = sum(1 for word in text.split() if word in pos_lexicon)
@@ -345,30 +346,30 @@ elif page == "Sentiment Analysis":
                 return 'Netral', 0  # Sentimen netral dan skor
 
         # Label untuk setiap kluster
-        cluster_labels = ['kompensasi', 'kepuasan kerja', 'aktualisasi', 'hubungan kerja']
+        label_klaster = ['kompensasi', 'kepuasan kerja', 'aktualisasi', 'hubungan kerja']
 
         # Menyimpan hasil analisis sentimen dari setiap kluster
-        sentiment_dfs = {}
+        kumpulan_sentimen = {}
 
         # Memuat dan memproses setiap kluster
-        for label in cluster_labels:
-            cluster_df = load_cluster_data(label)  # Ambil DataFrame dari file .txt
-            if not cluster_df.empty:
+        for label in label_klaster:
+            dataframe_klaster = load_cluster_data(label)  # Ambil DataFrame dari file .txt
+            if not dataframe_klaster.empty:
                 # Analisis sentimen dan tambahkan label dan skor
-                cluster_df[['sentiment_label', 'sentiment_score']] = cluster_df['filtered'].apply(
-                    lambda x: pd.Series(analyze_sentiment(x))
+                dataframe_klaster[['sentiment_label', 'sentiment_score']] = dataframe_klaster['filtered'].apply(
+                    lambda x: pd.Series(hitung_sentimen_berdasarkan_leksikon(x))
                 )
                 
                 # Simpan DataFrame untuk kluster saat ini
-                sentiment_dfs[label] = cluster_df
+                kumpulan_sentimen[label] = dataframe_klaster
 
                 # Tampilkan hasil analisis sentimen untuk kluster saat ini
                 st.write(f"### Analisis Sentimen Faktor {label.capitalize()}")
-                st.write(cluster_df[['filtered', 'sentiment_label', 'sentiment_score']])
+                st.write(dataframe_klaster[['filtered', 'sentiment_label', 'sentiment_score']])
 
                 # Simpan hasil analisis ke file
                 output_file_path = f'analisis/{label}.txt'
-                cluster_df[['filtered', 'sentiment_label', 'sentiment_score']].to_csv(
+                dataframe_klaster[['filtered', 'sentiment_label', 'sentiment_score']].to_csv(
                     output_file_path, sep='\t', index=False, header=['analisis', 'sentiment_label', 'sentiment_score']
                 )
 
@@ -378,29 +379,29 @@ elif page == "Data Visualization":
     st.header("Visualisasi Data")
     if st.button("Visualisasikan"):
         # Load hasil analisis sentimen dari file
-        def load_sentiment_data(cluster_name):
+        def memuat_data_sentimen(cluster_name):
             return pd.read_csv(f'analisis/{cluster_name}.txt', sep='\t')
 
         # Label klaster
-        cluster_labels = ['kompensasi', 'kepuasan kerja', 'aktualisasi', 'hubungan kerja']
+        label_klaster = ['kompensasi', 'kepuasan kerja', 'aktualisasi', 'hubungan kerja']
 
         # Load dan visualisasikan data untuk setiap klaster
-        for label in cluster_labels:
-            cluster_df = load_sentiment_data(label)  # Ambil DataFrame dari file
-            if not cluster_df.empty:
-                sentiment_counts = cluster_df['sentiment_label'].value_counts()
+        for label in label_klaster:
+            dataframe_klaster = memuat_data_sentimen(label)  # Ambil DataFrame dari file
+            if not dataframe_klaster.empty:
+                jumlah_sentimen = dataframe_klaster['sentiment_label'].value_counts()
 
                 # Buat Pie Chart
                 st.subheader(f"Visualisasi Analisis Sentimen Faktor {label.capitalize()}")
-                st.write(f"Total data pada faktor {label.capitalize()} sebanyak : {len(cluster_df)}")
+                st.write(f"Total data pada faktor {label.capitalize()} sebanyak : {len(dataframe_klaster)}")
                 fig, ax = plt.subplots()
                 colors = ['#ADD8E6', '#87CEFA', '#4682B4']
-                ax.pie(sentiment_counts, labels=sentiment_counts.index, autopct='%1.1f%%', startangle=90, colors=colors)
+                ax.pie(jumlah_sentimen, labels=jumlah_sentimen.index, autopct='%1.1f%%', startangle=90, colors=colors)
                 ax.axis('equal')  # Membuat pie chart berbentuk lingkaran.
                 st.pyplot(fig)
 
                 # Deskripsi singkat hasil analisis
                 st.write(f"Faktor {label.capitalize()}, analisis sentimen menunjukkan distribusi sebagai berikut:")
-                for sentiment, count in sentiment_counts.items():
+                for sentiment, count in jumlah_sentimen.items():
                     st.write(f"- **{sentiment}**: {count} ulasan")
 

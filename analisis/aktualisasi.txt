@@ -1,9 +1,7 @@
 analisis	sentiment_label	sentiment_score
-pilih pengaruh buruk sukses hidup karir penuh naik jabat selesai	Negatif	-1
-peluang beda bidang kuliah formal potensi rela idealisme putus setia bidang	Negatif	-1
-tuntut kembang maju cabang tingkat	Positif	1
-harga naik kriminalitas bangkrut daya beli turun anggur korupsi nepotisme jerat keluh kualitas hukum keluarga jabat jabat taat moral etika	Negatif	-1
+ganti senin order	Netral	0
+lihat dada sore lihat	Positif	1
+ganti status	Netral	0
+curhat sebar jalan	Netral	0
 aktualisasi aktual pengembangan kembang potensi diri kreatif prestasi jabatan jabat gelar	Positif	1
-langgar perkara remeh rezim culik gabung mawar bebas lenggang jabat perintah untung angkat pangdam jaya	Negatif	-1
-salah faktor bantu bagus kantor ramah jabat senior sungkan ketemu degan dikit	Negatif	-1
-tanda tukar negatif negatif prestasi	Negatif	-1
+nongol sibuk fokus	Negatif	-1

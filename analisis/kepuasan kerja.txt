@@ -1,2 +1,195 @@
 analisis	sentiment_label	sentiment_score
+sesal curhat salah teman gelas pecah rasa pantas situ dekat berani	Negatif	-1
+pepatah kuno bunyi teman jual minyak wangi wangi teman jual ikan amis valid naif makan gaul jahat	Positif	1
+gaul zaman jahat parah zaman teman kuliah camping berani pagi malam tenda jaga malam	Negatif	-1
+teman bangsat jahat suasana mental kepiting rebus naik tarik turun jatuh lihat doktrin buruk gala	Positif	1
+cium langsung teman jahat jujur	Netral	0
+teman hubung adem salah kelas jahat lihat	Negatif	-1
+waktu seminar malam kembang hotel keran kamar mandi malam cium anyir darah heran teman kamar teman ajak bukti	Negatif	-1
+teman ganteng jahat teman putus titik sadap gila	Negatif	-1
+habis teman doang pipi merah lepas jahat jahat parah teman sebel puncak omong sadap	Negatif	-1
+curhat kesel teman dekat ungkit langsung aduh	Netral	0
+kesel kesel alam enak betah teman jahat kasihan	Negatif	-1
+kasih nada dering getar minggu emosi sedih takut	Negatif	-1
+kenal salah teman situ gong nyata suka diam alhasil situ sadar teman jahat gong	Negatif	-1
+teman rupa rasa titik pasrah capek lingkup jahat mustahil amal kejar	Negatif	-1
+sekolah kuliah duit uang pengaruh kuasa kolega lawan jenis naik pangkat promosi proyek bayang kepala tempat rumah teman teman	Positif	1
+alam kantor kantor paksa suruh karir teman divisi marah	Negatif	-1
+bidang jasa karir kecil tahan lihat pergi capek	Positif	1
+panik minggu berat besok senin jenjang karir gaji jahat kantor gonjang ganjing uang tanggal putus	Negatif	-1
+teman kantor susah masalah bawa hubung teman beda problem	Negatif	-1
+kantor target naik lipat sisa jalan laku bias jahat teman umur sopan prinsip	Negatif	-1
+kantor hamil suruh paksa kantor sadar wanita karir urus sulit cici nikah putus urus waras syukur	Negatif	-1
+teman atur tulis masalah pribadi teman kantor kecuali percaya	Netral	0
+kantor capek klinik	Netral	0
+pilih tawar divisi tempat jumlah teman dekat teman tulus saran situasi bobrok sulit selamat pilih	Negatif	-1
+domba teman kantor bawa sara larang komunikasi teman kantor larang ketemu keluarga paksa kantor kasih keluarga panggil katai hina anggap properti milik	Negatif	-1
+selamat pagi enak rasa karir	Netral	0
+menang pegawai sayang adek rajin hidup sedih tulang punggung keluarga	Netral	0
+ajak omong kantor hidup sepi depresi omong teman	Negatif	-1
+pakai kontrak habis enak adaptasi tantang kantor zona nyaman kembang karir	Positif	1
+stres akuntansi teman beranta langsung ruwet rumit runyam hilang perihal beli perihal tanggung maaf	Negatif	-1
+nyata sadar putus pergi rumah didik karir meni rumah kunjung pulang	Positif	1
+saran pamit izin maaf kasih teman pasti sedih teman pasti teman ganti	Positif	1
+pasti beban berat sadar ulang ganti nomor teman	Netral	0
+bingung teman omong beda situ cepat kasih	Negatif	-1
+waktu bantu teman dikit	Negatif	-1
+semangat laku semangat ketemu teman obrol teman sekal suasana senang suasa rumah	Positif	1
+gara omong seblak rindu tempat jujur capek capek selesai bawa pulang	Negatif	-1
+teman tempat jaga salah bidang jatuh	Negatif	-1
+sangking fokus sangka suruh teman	Negatif	-1
+keras tidur rasa capek butuh keluarga pasti keluarga anjing pelit hitung	Negatif	-1
+teman lokasi bangun santai malas kantor langsung lapang berangkat kantor santa betah	Positif	1
+curhat capek hidup lelah salah rendah anggap remeh kuat capek	Negatif	-1
+curhat istri tempat perempuan permanen capek mental buta warna sedih zona nyaman gaji	Negatif	-1
+susah status kontrak tahap cuti potong pecat sangon teman	Negatif	-1
+izin curhat sender salah dikit masalah salah kertas divisi lihat sedih menang tempat sholat istirahat wajar	Negatif	-1
+omong tegang menang langsung suruh pulang sedih ketemu omong	Negatif	-1
+dunia gaul bebas teman posisi sambung dengar senyum	Negatif	-1
+kasihan pegawai sisi tuntut maksimal cinta inovasi kejar karir paham senyum lihat stres muka bangga prestasi pribadi sombong	Positif	1
+teman ultah ajak makan resto selesai dompet bayar tagih rasa traktir nyata	Negatif	-1
+berani gaji enak teman akses mudah betah hidup rantau nyaman rumah	Positif	1
+muncul teman teman dekat sedih makan pempek model	Netral	0
+ulang laku ngotot kejar karir cukup cinta takdir penuh tanggung jujur	Negatif	-1
+teman komunitas produktif semangat susah erti fase semangat	Netral	0
+semangat menang mushola kantor garagara teman hati niat nafkah niat jahat balas serah engkau	Negatif	-1
+alam horor tambang batubara kalimantan teman kisah nyata laung kalteng gambar ilustrasi	Negatif	-1
+libur teman senang seru acara libur ubah alam seram keri salah teman alam seram inap puncak bogor simak	Negatif	-1
+alam duka teman alami hilang	Negatif	-1
+halo jumpa malam alam seram teman libur sang istri libur senang seram simak	Netral	0
+come pasti pasti buah teman masalah	Positif	1
+teman suka tempat nikah habis nikah salah pisah iring waktu laki teman	Negatif	-1
+lagu kenang senang sedih lupa sempit tengkar	Negatif	-1
+curhat kaya sedih syok menang bangkit normal	Netral	0
+curhat dasar alam pribadi karir bagus ajar atur finansial ajar baca	Netral	0
+halo teman curhat kenan ganggu tempat maaf	Negatif	-1
+curhat umur putus tali pusar senin sabtu sabtu tips teman hidup waktu habis	Positif	1
+beranta selaras tidur genap sekian beres lantas solusi hadir teman jembatan	Netral	0
+bual tari jenis pengaruh stres sedih takut	Negatif	-1
+teman kenal beliau	Netral	0
+semi suka percaya tutup masalah semi ajar percaya keluarga teman pasang	Positif	1
+capek cocok galak partner enak ajak libur percaya gampang	Positif	1
+pilih pengaruh buruk sukses hidup karir penuh naik jabat selesai	Negatif	-1
+lupa timbang ganti karir jajah	Negatif	-1
+putus nyaman jenjang karir gaji jenuh karyawan nyokap tuju takut	Positif	1
 kepuasan puas kerja karir bahagia sedih dedikasi nyaman lembur jam kerja waktu cape capek lelah stres stress	Negatif	-1
+bingung karir bidang sesal bingung diskusi teman butuh putus	Negatif	-1
+rasa karir baca buku tema buku tokoh capek	Negatif	-1
+kompetensi lapang utama kelas ekonomi didik pascasarjana eksperimen karir	Positif	1
+seru lulus teknik bank salah minat individu ketenagakerjaan bisnis politik anekdotal teman sesuai bidang natural	Positif	1
+perihal teman kantor jahat nyata gampang ketemu sindir stres stres	Negatif	-1
+rasa adil posisi nakes hubung pasien capek manajemen strategi capek kena gaji	Negatif	-1
+umur takut karir industri karir kecil laku restu	Negatif	-1
+dadak kanker muncul sedih rasa sedih rasa rezeki sehat karir	Negatif	-1
+bayang bayar sesuai kontrak budak protes karir sabotase	Positif	1
+asih semangat teman tahap juang mudah pasti	Positif	1
+kejar karir pondasi keluarga takut gaji sesuai tunggu ganti mimpi mimpi	Positif	1
+capek mending posisi ganti kirim	Positif	1
+capek mental capek fisik susah pepet jenuh mending	Negatif	-1
+teman dadak kendala tunggu bayar inti cepat urus dadak	Positif	1
+salah akibat sempit lapang sedia khusus kelas sosial didik rendah sedih	Negatif	-1
+capek capek salah putus salah salah putus susah cuman kontrak pilih	Negatif	-1
+kadang teman butuh apresiasi hasil rasa	Netral	0
+buah cerah salah jebol abang bantu teman teman	Negatif	-1
+lulus kuliah mimpi ganti teman profesi	Positif	1
+sedih butuh selektif syukur	Negatif	-1
+manfaat kondisi level karir valid	Positif	1
+kantor bagus enak kompak jahat gaji seret karir kembang situ teman enak pasti	Positif	1
+singkat dunia khusus atur umur pendek teman belah rekan	Negatif	-1
+teman kantor keluarga minggu karantina urus ponakan dekat laki	Netral	0
+teman kantor bareng pamit surabaya sedih sedih menang ganti sukacita bahagia	Netral	0
+kabar teman cerai istri garagara bank hindar riba pilih dagang alhasil dagang jalan istri makan sedih	Negatif	-1
+lihat tiktok enak umur teman kuliah sadar mumur arti angkat muda	Positif	1
+senang lihat teman sedih menang kasih sabar rezeki alir	Positif	1
+staff sedih sedih beli gelang emas hadiah	Negatif	-1
+sedih rekan senang	Negatif	-1
+kantor malu sisi rumah bosan capek	Positif	1
+sedih senior kantor senang senior ajar	Negatif	-1
+teman suami istri bank salah riba biaya jual hidup kecewa sikap nyata bumi insaf jalan lurus	Positif	1
+minggu sombong garagara sarjana lulus bangun komunikasi jelek teman cepu bodo sehat jiwa robot	Negatif	-1
+teman jaga hubung rekan tolong teman	Netral	0
+sedih panggil langsung suruh salah alam	Negatif	-1
+video libur bareng teman	Positif	1
+teman sumpah capek teman dunia putar betah jujur entar	Netral	0
+mbak rumah sedih	Netral	0
+teman kantor umur panggil	Negatif	-1
+salah minus alam organisasi lulus gaji lipat hamdalah capek kuliah capek	Netral	0
+butuh capek loyalitas	Negatif	-1
+teman	Netral	0
+teman mbak mbak lucu asik teman mbak sedih mbak lucu	Netral	0
+tunjang besar sedih	Netral	0
+rasa capek bosan butuh duit	Negatif	-1
+besar lihat capek mbak	Positif	1
+sedih teman	Negatif	-1
+capek obat	Negatif	-1
+tahap capek motivasi	Netral	0
+malam sedih teman	Negatif	-1
+sedih teman	Negatif	-1
+kantor rasa sedih menang rasa	Negatif	-1
+kadang capek tidur cukup mending	Netral	0
+sedih teman	Negatif	-1
+partner super enak sedih patah hati	Negatif	-1
+bidang capek susah	Negatif	-1
+capek kumpul keluarga pasti lamar kemarin habis duit	Positif	1
+halo teman utama kandidat kasih konteks tempat	Netral	0
+capek ambek minggu sambat bingung menang parkir	Netral	0
+tanggulang teman sedih senang	Netral	0
+gebu gilir kontrak habis sedih	Negatif	-1
+desember adem teman	Netral	0
+teman galau betah galau	Netral	0
+patah hati sesak tempat rencana kasih kenang teman nama kebut jumat kasi	Negatif	-1
+kembang zona nyaman bidang siang hobi kejar capek bang malam habis kembang	Positif	1
+sedih kasih putus kasih dengar maaf malam karir sinar	Negatif	-1
+sebar oknum biksu media senior militer ting capek giat karir usik	Netral	0
+privat akun lupa sandi kena amit jejak digital pengaruh karir	Negatif	-1
+dengar teman karir sukses teman sukses	Positif	1
+serba salah keluh keluarga karir posisi didik omong dang mending jujur kena mental dengar curhat	Negatif	-1
+kunjung jakarta pekan november seru adaptasi ajar kuliah inggris presentasi diskusi dosen dengar kuliah karir	Positif	1
+titip cuil suka sadar perihal karir suka diam diam nyata jodoh layak suami inisial	Netral	0
+senin januari progres karir aman ambyar	Netral	0
+nama nama rendah pasti otomatis over karir grup sangka buku	Netral	0
+dengar keluh ekonomi keluarga adik masalah keluarga uang pribadi masalah didik karir masalah pribadi teman	Negatif	-1
+dengar dosen stres tanggung istri wanita karir semenjak dunia hilang tidur susah putus	Negatif	-1
+dengar buru buru nikah kejar karir nikmat muda sesal kelar kuliah langsung nikah	Positif	1
+tipikal doyan belanja hemat sikap hidup hemat suami santai suami salah swasta naik karir gaji	Positif	1
+habis dengar teman konstruksi sesuai jurus teknik sipil susah jenjang karir sertifikasi minimal juta syarat wajib	Negatif	-1
+jijik baca pintar masak karir bagus urus suami kandung disabilitas	Negatif	-1
+sedikit tenggelam fandom rasa bakat karir tulis jarang	Negatif	-1
+wanita karir haru	Netral	0
+suami jabat staff suami bantu bantu urus keluarga karir aman	Negatif	-1
+kirim baca gedor sibuk tata karir	Netral	0
+buka suka kepo kating keluarga sukses karir bagus karir kumpul keluarga turun	Positif	1
+teman guru menang maksi gratis didik indonesia butuh akhlak siswa karir guru perhati	Positif	1
+instansi perintah instansi keluarga angin doang harga karir saudara jabat mending diam waktu	Negatif	-1
+lulus kuliah swasta kena sapa alam organisasi pintar teman dikit juang titik darah habis dunia	Negatif	-1
+dengar suami posesif lumrah ketawa karir	Positif	1
+dengar masalah tunang karir curhat masalah rumah tangga nikah nikah	Positif	1
+pilih liat sender jenjang karir alam	Negatif	-1
+galau lihat kanan kiri hidup pace karir cocok budaya waktu keluarga rasa tervalidasi baca waktu keluarga	Negatif	-1
+pura pura tempat capek ketawa karir diam doang renung naik ojol	Positif	1
+jalan karir dengar tega kecewa jatuh nikah	Netral	0
+teman ajak curhat menang menang masalah karir finansial cinta	Netral	0
+curhat teman teman sehat	Netral	0
+kabul sukses dunia karir bagus lupa bakti dengar	Positif	1
+pilih karir suka fokus capai nikah tanggung besar rasa hilang faktor teman nikah	Negatif	-1
+rencana karir berani departemen lulus dikit daftar sekolah	Positif	1
+cinta karir bang abang capek	Netral	0
+jenis formasi pengaruh pengaruh karir pensiun ekonomi	Netral	0
+instansi plan butuh cerah otak kosong karir	Negatif	-1
+babu karir pangkat mentok	Negatif	-1
+ajak omong karir dikit peluang bisnis capek dengar teman drama pasang	Positif	1
+kintil karir jamin	Negatif	-1
+gagal jauh ekspektasi segi karir hubung syukur	Negatif	-1
+kasih tahap step karir cabut tahap step	Negatif	-1
+prioritas jenjang karir formasi utama sesuai tupoksi ilmu ilmu	Positif	1
+didik karir kasih baca sender	Netral	0
+instansi pasti ajar ketar kasih pasti karir formasi utama butuh instansi	Negatif	-1
+tuju jenjang karir pangkat solusi	Positif	1
+waktu suami pasti butuh keluarga istri lihat viral masalah rumah tangga nikah mending kejar karir	Netral	0
+sedih lihat teman curhat rasa takut ganggu stres pandemi picu rasa rasa takut ganggu situasi	Negatif	-1
+abang percaya pergi ikhlas fokus karir trauma kagak fokus karir	Positif	1
+sehat lancar rejeki karir impi mudah jalan waktu kaya inti hebat	Positif	1
+asuh umur bagus kuliah asuh omong keluarga teman rantau jakarta pulang kampung kuliah	Negatif	-1
+dengar istri mantan wanita karir tiktok urus kecil sulit susah	Negatif	-1
+ketemu suami usia janda tempat masalah usia karir nikah masalah pending dikit	Negatif	-1
+teman curhat pasti tanggap peduli konyol mending diam	Positif	1

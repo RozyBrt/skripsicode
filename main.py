@@ -20,7 +20,7 @@ st.set_page_config(page_title="ABSA-KMeans", page_icon="☕")
 
 # Streamlit application
 st.title("ANALISIS FAKTOR-FAKTOR YANG MEMPENGARUHI PERPINDAHAN KARIR DENGAN PEMANFAATAN ASPECT-BASED SENTIMENT ANALYSIS MENGGUNAKAN METODE K-MEANS")
-page = st.sidebar.selectbox("Select a page:", ["Preprocessing", "Clustering", "Sentiment Analysis", "Data Visualization"])
+page = st.sidebar.selectbox("Tentukan Halaman:", ["Preprosesing", "Klastering", "Analisis Sentimen", "Visualisasi Data"])
 
 
 # KUMPULAN FUNGSI PREPROSESING
@@ -168,12 +168,12 @@ def preprocess_data(uploaded_file):
     corpus_df['filtered'] = corpus_df['stopwords'].apply(lambda x: kamus_filter.hapus_bukan_id(x.split()))
 
     # Menyimpan hasil preproses kedalam file 'hasil.txt'
-    corpus_df.to_csv('preprocessing/hasil.txt', index=None, header=True)
+    corpus_df.to_csv('preprosesing/hasil.txt', index=None, header=True)
     return corpus_df
 
 
 # Logika aplikasi
-if page == "Preprocessing":
+if page == "Preprosesing":
     st.header("Persiapan Data")
     uploaded_file = st.file_uploader("Pilih file CSV", type='csv')
 
@@ -200,14 +200,16 @@ if page == "Preprocessing":
             # Jika tombol "Bersihkan" ditekan, lakukan preprocessing
             if st.button("Bersihkan"):
                 df_preprocessed = preprocess_data(st.session_state.uploaded_file)
+                
+                # Simpan hasil preprocessing di session_state
+                if 'preprocessed_data' not in st.session_state:
+                    st.session_state.preprocessed_data = []  # Inisialisasi list jika belum ada
+                # Simpan data yang diproses dan nama file-nya
+                st.session_state.preprocessed_data.append({
+                    'data': df_preprocessed,
+                    'filename': st.session_state.uploaded_file.name
+                })  
                 st.success("Preprocessing Selesai.")
-
-                # Simpan DataFrame ke file CSV
-                df_preprocessed.to_csv('hasil.txt', sep='\t', index=False) 
-
-                # Tombol unduh file hasil.txt
-                with open('hasil.txt', 'rb') as f:
-                    st.download_button('Unduh Hasil Preprocessing', f, file_name='hasil.txt')  
         else:
             # Warning jika file sudah diproses sebelumnya
             st.warning("File ini sudah di upload")
@@ -217,103 +219,101 @@ if page == "Preprocessing":
         for item in st.session_state.preprocessed_data:
             df = item['data'] # Ambil DataFrame yang telah diproses
             filename = item['filename'] # Ambil nama file
-            st.write(f"Hasil Preprocessing dari file: {filename}:") # Tampilkan nama file
+            st.write(f"Hasil Preprosesing dari file: {filename}:") # Tampilkan nama file
             st.dataframe(df) # Tampilkan DataFrame
 
 
 
-elif page == "Clustering":
-    st.header("Analisis Faktor") # Menampilkan judul halaman
+elif page == "Klastering":
+    st.header("Analisis Faktor")  # Menampilkan judul halaman
 
-    if 'preprocessed_data' in st.session_state:
-        df_selected = st.session_state.preprocessed_data[0]['data']
+    # Load data hasil preprocessing dari file
+    def load_preprocessed_data():
+        file_path = 'preprosesing/hasil.txt'  # Ganti dengan path yang sesuai
+        return pd.read_csv(file_path)
 
-        # Mendefinisikan kalimat untuk setiap centroid
-        centroid_sentences = {
-            'kompensasi': "kompensasi gaji uang pendapatan dapat penghasilan hasil intensif gaji sedikit gaji banyak bonus",
-            'kepuasan_kerja': "kepuasan puas kerja karir bahagia sedih dedikasi nyaman lembur jam kerja waktu cape capek lelah stres stress",
-            'aktualisasi': "aktualisasi aktual pengembangan kembang potensi diri kreatif prestasi jabatan jabat gelar",
-            'hubungan_kerja': "hubungan rekan kerja suasana dukungan dukung kolaborasi tempat toxic jahat benci suka"
-        }
+    df_selected = load_preprocessed_data()
 
-        # Menghitung posisi dalam DataFrame untuk setiap centroid
-        num_rows = len(df_selected)
-        centroid_positions = {
-            int(num_rows * 0.25): centroid_sentences['kompensasi'],
-            int(num_rows * 0.50): centroid_sentences['kepuasan_kerja'],
-            int(num_rows * 0.75): centroid_sentences['aktualisasi'],
-            int(num_rows * 0.90): centroid_sentences['hubungan_kerja']
-        }
+    # Mendefinisikan kalimat untuk setiap centroid
+    centroid_sentences = {
+        'kompensasi': "kompensasi gaji uang pendapatan dapat penghasilan hasil intensif gaji sedikit gaji banyak bonus",
+        'kepuasan_kerja': "kepuasan puas kerja karir bahagia sedih dedikasi nyaman lembur jam kerja waktu cape capek lelah stres stress",
+        'aktualisasi': "aktualisasi aktual pengembangan kembang potensi diri kreatif prestasi jabatan jabat gelar",
+        'hubungan_kerja': "hubungan rekan kerja suasana dukungan dukung kolaborasi tempat toxic jahat benci suka"
+    }
 
-         # Menyisipkan kalimat ke dalam DataFrame pada posisi yang ditentukan
-        for pos, sentence in centroid_positions.items():
-            df_selected.at[pos, 'filtered'] = sentence
+    # Menghitung posisi dalam DataFrame untuk setiap centroid
+    num_rows = len(df_selected)
+    centroid_positions = {
+        int(num_rows * 0.25): centroid_sentences['kompensasi'],
+        int(num_rows * 0.50): centroid_sentences['kepuasan_kerja'],
+        int(num_rows * 0.75): centroid_sentences['aktualisasi'],
+        int(num_rows * 0.90): centroid_sentences['hubungan_kerja']
+    }
 
-        # Memastikan semua entri di 'filtered' adalah string untuk proses TF-IDF
-        df_selected['filtered'] = df_selected['filtered'].apply(lambda x: str(x))
+    # Menyisipkan kalimat ke dalam DataFrame pada posisi yang ditentukan
+    for pos, sentence in centroid_positions.items():
+        df_selected.at[pos, 'filtered'] = sentence
 
-        texts = df_selected['filtered'].astype(str)
-        vectorizer = TfidfVectorizer()
-        X = vectorizer.fit_transform(texts)
+    # Memastikan semua entri di 'filtered' adalah string untuk proses TF-IDF
+    df_selected['filtered'] = df_selected['filtered'].apply(lambda x: str(x))
 
-        # Mengambil centroid awal berdasarkan posisi kalimat yang disisipkan
-        initial_centroids = X[list(centroid_positions.keys())].toarray()
+    texts = df_selected['filtered'].astype(str)
+    vectorizer = TfidfVectorizer()
+    X = vectorizer.fit_transform(texts)
 
-        if st.button("Klaster"):
-            kmeans = KMeans(n_clusters=4, init=initial_centroids, n_init=1, random_state=0)
-            kmeans.fit(X)
-            df_selected['cluster'] = kmeans.labels_
-            
-            # Menghitung Silhouette Score
-            silhouette_avg = silhouette_score(X, kmeans.labels_)
-            st.write(f"**Silhouette Score:** {silhouette_avg:.2f}")
+    # Mengambil centroid awal berdasarkan posisi kalimat yang disisipkan
+    initial_centroids = X[list(centroid_positions.keys())].toarray()
 
-            # Memisahkan klaster menjadi DataFrame yang berbeda
-            cluster_0 = df_selected[df_selected['cluster'] == 0][['filtered']].reset_index(drop=True)
-            cluster_1 = df_selected[df_selected['cluster'] == 1][['filtered']].reset_index(drop=True)
-            cluster_2 = df_selected[df_selected['cluster'] == 2][['filtered']].reset_index(drop=True)
-            cluster_3 = df_selected[df_selected['cluster'] == 3][['filtered']].reset_index(drop=True)
-            
-            # Mendefinisikan label kustom untuk setiap klaster
-            label_klaster = ['kompensasi', 'kepuasan kerja', 'aktualisasi', 'hubungan kerja']
+    if st.button("Klaster"):
+        kmeans = KMeans(n_clusters=4, init=initial_centroids, n_init=1, random_state=0)
+        kmeans.fit(X)
+        df_selected['cluster'] = kmeans.labels_
+        
+        # Menghitung Silhouette Score
+        silhouette_avg = silhouette_score(X, kmeans.labels_)
+        st.write(f"**Silhouette Score:** {silhouette_avg:.2f}")
 
-            # Menampilkan setiap klaster dengan label deskriptif
-            for i, (label, dataframe_klaster) in enumerate(zip(label_klaster, [cluster_0, cluster_1, cluster_2, cluster_3])):
-                st.write(f"### Faktor {label.capitalize()}")
-                st.dataframe(dataframe_klaster[['filtered']])
+        # Memisahkan klaster menjadi DataFrame yang berbeda
+        cluster_0 = df_selected[df_selected['cluster'] == 0][['filtered']].reset_index(drop=True)
+        cluster_1 = df_selected[df_selected['cluster'] == 1][['filtered']].reset_index(drop=True)
+        cluster_2 = df_selected[df_selected['cluster'] == 2][['filtered']].reset_index(drop=True)
+        cluster_3 = df_selected[df_selected['cluster'] == 3][['filtered']].reset_index(drop=True)
+        
+        # Mendefinisikan label kustom untuk setiap klaster
+        label_klaster = ['kompensasi', 'kepuasan kerja', 'aktualisasi', 'hubungan kerja']
 
-                # Save clusters with descriptive names in session state
-                st.session_state[f'cluster_{label}_df'] = dataframe_klaster
+        # Menampilkan setiap klaster dengan label deskriptif
+        for i, (label, dataframe_klaster) in enumerate(zip(label_klaster, [cluster_0, cluster_1, cluster_2, cluster_3])):
+            st.write(f"### Faktor {label.capitalize()}")
+            st.dataframe(dataframe_klaster[['filtered']])
 
             # Menyimpan setiap cluster ke dalam file .txt di folder 'klaster'
-            cluster_0.to_csv('klaster/kompensasi.txt', sep='\t', index=False, header=True)
-            cluster_1.to_csv('klaster/kepuasan kerja.txt', sep='\t', index=False, header=True)
-            cluster_2.to_csv('klaster/aktualisasi.txt', sep='\t', index=False, header=True)
-            cluster_3.to_csv('klaster/hubungan kerja.txt', sep='\t', index=False, header=True)
+            dataframe_klaster.to_csv(f'klaster/{label}.txt', sep='\t', index=False, header=True)
 
-            # Menghapus tokenisasi kembali
-            def hapus_tandabaca(text):
-                if isinstance(text, str):
-                    return re.sub(r'[^\w\s]', '', text)
-                elif isinstance(text, list):
-                    return [re.sub(r'[^\w\s]', '', word) for word in text]
-                return text
+        # Menghapus tokenisasi kembali
+        def hapus_tandabaca(text):
+            if isinstance(text, str):
+                return re.sub(r'[^\w\s]', '', text)
+            elif isinstance(text, list):
+                return [re.sub (r'[^\w\s]', '', word) for word in text]
+            return text
 
-            # Membersihkan data setiap cluster
-            cleaned_data_0 = cluster_0.applymap(hapus_tandabaca)
-            cleaned_data_1 = cluster_1.applymap(hapus_tandabaca)
-            cleaned_data_2 = cluster_2.applymap(hapus_tandabaca)
-            cleaned_data_3 = cluster_3.applymap(hapus_tandabaca)
+        # Membersihkan data setiap cluster
+        cleaned_data_0 = cluster_0.applymap(hapus_tandabaca)
+        cleaned_data_1 = cluster_1.applymap(hapus_tandabaca)
+        cleaned_data_2 = cluster_2.applymap(hapus_tandabaca)
+        cleaned_data_3 = cluster_3.applymap(hapus_tandabaca)
 
-            # Menyimpan data yang telah dibersihkan ke file
-            cleaned_data_0.to_csv('klaster/kompensasi.txt', sep='\t', index=False, header=True)
-            cleaned_data_1.to_csv('klaster/kepuasan kerja.txt', sep='\t', index=False, header=True)
-            cleaned_data_2.to_csv('klaster/aktualisasi.txt', sep='\t', index=False, header=True)
-            cleaned_data_3.to_csv('klaster/hubungan kerja.txt', sep='\t', index=False, header=True)
+        # Menyimpan data yang telah dibersihkan ke file
+        cleaned_data_0.to_csv('klaster/kompensasi.txt', sep='\t', index=False, header=True)
+        cleaned_data_1.to_csv('klaster/kepuasan kerja.txt', sep='\t', index=False, header=True)
+        cleaned_data_2.to_csv('klaster/aktualisasi.txt', sep='\t', index=False, header=True)
+        cleaned_data_3.to_csv('klaster/hubungan kerja.txt', sep='\t', index=False, header=True)
 
-    else:
-        st.warning("Lakukan preprocessing data terlebih dahulu.")
-elif page == "Sentiment Analysis":
+        st.success("Klastering selesai dan hasil disimpan.")
+        
+elif page == "Analisis Sentimen":
     st.header("Analisis Sentimen Faktor")
 
     # Load leksikon positif dan negatif
@@ -321,7 +321,7 @@ elif page == "Sentiment Analysis":
     neg_lexicon = load_lexicon('leksikon/leksikon-neg.json')
 
     # Tombol untuk memulai analisis sentimen
-    if st.button("Proceed to Sentiment Analysis"):
+    if st.button("Lakukan proses analisis sentimen"):
 
         # Load data kluster dari folder 'klaster'
         def load_cluster_data(cluster_name):
@@ -375,7 +375,7 @@ elif page == "Sentiment Analysis":
 
 
 
-elif page == "Data Visualization":
+elif page == "Visualisasi Data":
     st.header("Visualisasi Data")
     if st.button("Visualisasikan"):
         # Load hasil analisis sentimen dari file

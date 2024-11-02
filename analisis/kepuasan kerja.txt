@@ -1,0 +1,4 @@
+analisis	sentiment_label	sentiment_score
+pilih pilih capek tempuh jalan jauh transportasi stres kejar lembur masalah pilih	Negatif	-1
+kepuasan puas kerja karir bahagia sedih dedikasi nyaman lembur jam kerja waktu cape capek lelah stres stress	Negatif	-1
+cukup pusing pusing daya juang daya inisiatif gantung pusing arah capek	Negatif	-1

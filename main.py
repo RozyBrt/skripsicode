@@ -9,9 +9,10 @@ from sklearn.cluster import KMeans
 import matplotlib.pyplot as plt
 from wordcloud import WordCloud
 from Sastrawi.Stemmer.StemmerFactory import StemmerFactory
+import os
 
 import nltk
-nltk.download('punkt_tab')
+nltk.download('punkt')
 
 # setting tab web
 st.set_page_config(page_title="ABSA-KMeans", page_icon="☕")
@@ -142,67 +143,19 @@ def preprocess_data(uploaded_file):
     corpus_df['filtered'] = corpus_df['stopwords'].apply(lambda x: kamus_filter.filter_non_indonesian(x.split()))
 
     # Save the processed text to 'hasil.txt'
-    corpus_df.to_csv('hasil.txt', index=False, header=False)
+    corpus_df.to_csv('preprocessing/hasil.txt', index=None, header=True)
     return corpus_df
 
-# Clustering function with custom centroid input and dataset preview
-def cluster_data_with_custom_centroids():
-    # Load data
-    try:
-        df = pd.read_csv('hasil.txt', header=None, names=['preprocessing'])
-    except FileNotFoundError:
-        st.error("Preprocessed file not found. Please preprocess the data first on the 'Text Preprocessing' page.")
-        return
-    
-    st.write("### Tampilan Preprocessing Data")
-    st.dataframe(df)  # Display the first few rows of the preprocessed data
-
-    texts = df['preprocessing'].astype(str)
-
-    # Vectorize text
-    vectorizer = TfidfVectorizer()
-    X = vectorizer.fit_transform(texts)
-    
-    # Allow user to input custom centroids (4 indices)
-    st.write("### Input Index Titik Centroid")
-    centroid_index_1 = st.number_input("Index for Centroid 1", min_value=0, max_value=len(texts) - 1, step=1, value=0)
-    centroid_index_2 = st.number_input("Index for Centroid 2", min_value=0, max_value=len(texts) - 1, step=1, value=1)
-    centroid_index_3 = st.number_input("Index for Centroid 3", min_value=0, max_value=len(texts) - 1, step=1, value=2)
-    centroid_index_4 = st.number_input("Index for Centroid 4", min_value=0, max_value=len(texts) - 1, step=1, value=3)
-    
-    if st.button("Klaster"):
-        # Extract custom centroids from input indices
-        initial_centroids = X[[centroid_index_1, centroid_index_2, centroid_index_3, centroid_index_4]].toarray()
-        
-        # Apply KMeans with custom centroids
-        kmeans = KMeans(n_clusters=4, init=initial_centroids, n_init=1, random_state=0)
-        kmeans.fit(X)
-        df['cluster'] = kmeans.labels_
-        
-        # Display results
-        st.write("### Clustering Results")
-        st.dataframe(df[['preprocessing', 'cluster']])
-        
-        # Word Cloud for each cluster
-        st.write("## Word Clouds for Each Cluster")
-        for cluster_num in range(4):
-            cluster_texts = df[df['cluster'] == cluster_num]['preprocessing'].str.cat(sep=' ')
-            wordcloud = WordCloud(width=400, height=200, background_color='white').generate(cluster_texts)
-            plt.figure(figsize=(5, 3))
-            plt.imshow(wordcloud, interpolation='bilinear')
-            plt.axis('off')
-            plt.title(f'Cluster {cluster_num + 1}')
-            st.pyplot(plt)
 
 # Main application logic
 if page == "Preprocessing":
-    st.header("Text Preprocessing")
-    uploaded_file = st.file_uploader("Choose a CSV file", type='csv')
+    st.header("Persiapan Data")
+    uploaded_file = st.file_uploader("Pilih file CSV", type='csv')
 
 
     # Check if there's already an uploaded file in session state
     if 'uploaded_file' in st.session_state:
-        st.write("File terakhir di upload:")
+        st.write("File yang sedang diproses ...")
         st.write(st.session_state.uploaded_file.name)  # Display the name of the uploaded file
 
     if uploaded_file is not None:
@@ -229,181 +182,196 @@ if page == "Preprocessing":
                     'data': df_preprocessed,
                     'filename': st.session_state.uploaded_file.name
                 })  
-                st.success("Preprocessing completed.")
+                st.success("Preprocessing Selesai.")
         else:
             st.warning("File ini sudah di upload")
 
     # Display all preprocessed data
     if 'preprocessed_data' in st.session_state:
-        st.write("### Preprocessed Data")
         for item in st.session_state.preprocessed_data:
             df = item['data']
             filename = item['filename']
-            st.write(f"Data set from file: {filename}:")
-            st.dataframe(df)  # Display the preprocessed data
+            st.write(f"Hasil Preprocessing dari file: {filename}:")
+            st.dataframe(df) 
 
-# elif page == "Clustering":
-#     st.header("K-Means Clustering")
-#     cluster_data_with_custom_centroids()
+
 
 elif page == "Clustering":
-    st.header("K-Means Clustering")
+    st.header("Analisis Faktor")
 
-    # Pastikan data preprocessed sudah ada
     if 'preprocessed_data' in st.session_state:
-        # Tampilkan dropdown untuk memilih file yang ingin digunakan
         file_options = [f"Data set from file: {item['filename']}" for item in st.session_state.preprocessed_data]
-        selected_file = st.selectbox("Pilih file yang ingin digunakan untuk clustering:", file_options)
-
-        # Dapatkan index dari file yang dipilih
+        selected_file = st.selectbox("Pilih file yang ingin digunakan untuk klaster:", file_options)
         selected_file_index = file_options.index(selected_file)
-
-        # Ambil dataframe dari file yang dipilih
         df_selected = st.session_state.preprocessed_data[selected_file_index]['data']
-        
-        st.write(f"### Tampilan Data Preprocessing dari file: {st.session_state.preprocessed_data[selected_file_index]['filename']}")
-        st.dataframe(df_selected)  # Display the selected preprocessed data
 
-        # Cluster data yang dipilih
-        texts = df_selected['full_text'].astype(str)
+        # Define sentences for each centroid
+        centroid_sentences = {
+            'kompensasi': "kompensasi gaji uang pendapatan dapat penghasilan hasil intensif gaji sedikit gaji banyak bonus",
+            'kepuasan_kerja': "kepuasan puas kerja karir bahagia sedih dedikasi nyaman lembur jam kerja waktu cape capek lelah stres stress",
+            'aktualisasi': "aktualisasi aktual pengembangan kembang potensi diri kreatif prestasi jabatan jabat gelar",
+            'lingkungan_kerja': "lingkungan rekan kerja suasana dukungan dukung kolaborasi tempat toxic jahat benci suka"
+        }
 
-        # Vectorize text
+        # Calculate positions in DataFrame for each centroid
+        num_rows = len(df_selected)
+        centroid_positions = {
+            int(num_rows * 0.25): centroid_sentences['kompensasi'],
+            int(num_rows * 0.50): centroid_sentences['kepuasan_kerja'],
+            int(num_rows * 0.75): centroid_sentences['aktualisasi'],
+            int(num_rows * 0.90): centroid_sentences['lingkungan_kerja']
+        }
+
+        # Insert sentences into DataFrame at specified positions
+        for pos, sentence in centroid_positions.items():
+            df_selected.at[pos, 'filtered'] = sentence
+
+        # Ensure all entries in 'filtered' are strings for TF-IDF processing
+        df_selected['filtered'] = df_selected['filtered'].apply(lambda x: str(x))
+
+        texts = df_selected['filtered'].astype(str)
         vectorizer = TfidfVectorizer()
         X = vectorizer.fit_transform(texts)
 
-        # Input untuk titik centroid
-        st.write("### Input Index Titik Centroid")
-        centroid_index_1 = st.number_input("Index for Centroid 1", min_value=0, max_value=len(texts) - 1, step=1, value=0)
-        centroid_index_2 = st.number_input("Index for Centroid 2", min_value=0, max_value=len(texts) - 1, step=1, value=1)
-        centroid_index_3 = st.number_input("Index for Centroid 3", min_value=0, max_value=len(texts) - 1, step=1, value=2)
-        centroid_index_4 = st.number_input("Index for Centroid 4", min_value=0, max_value=len(texts) - 1, step=1, value=3)
+        # Extract initial centroids based on inserted sentences' positions
+        initial_centroids = X[list(centroid_positions.keys())].toarray()
 
         if st.button("Klaster"):
-            # Extract custom centroids from input indices
-            initial_centroids = X[[centroid_index_1, centroid_index_2, centroid_index_3, centroid_index_4]].toarray()
-
-            # Apply KMeans with custom centroids
             kmeans = KMeans(n_clusters=4, init=initial_centroids, n_init=1, random_state=0)
             kmeans.fit(X)
             df_selected['cluster'] = kmeans.labels_
 
-            # Display results
-            st.write("### Clustering Results")
-            st.dataframe(df_selected[['full_text', 'cluster']])
+            # Separate clusters into different DataFrames
+            cluster_0 = df_selected[df_selected['cluster'] == 0][['filtered']].reset_index(drop=True)
+            cluster_1 = df_selected[df_selected['cluster'] == 1][['filtered']].reset_index(drop=True)
+            cluster_2 = df_selected[df_selected['cluster'] == 2][['filtered']].reset_index(drop=True)
+            cluster_3 = df_selected[df_selected['cluster'] == 3][['filtered']].reset_index(drop=True)
+            # Define custom labels for each cluster
+            cluster_labels = ['kompensasi', 'kepuasan kerja', 'aktualisasi', 'lingkungan kerja']
 
-            # Word Cloud for each cluster
-            st.write("## Word Clouds for Each Cluster")
-            for cluster_num in range(4):
-                cluster_texts = df_selected[df_selected['cluster'] == cluster_num]['full_text'].str.cat(sep=' ')
-                wordcloud = WordCloud(width=400, height=200, background_color='white').generate(cluster_texts)
-                plt.figure(figsize=(5, 3))
-                plt.imshow(wordcloud, interpolation='bilinear')
-                plt.axis('off')
-                plt.title(f'Cluster {cluster_num + 1}')
-                st.pyplot(plt)
+            # Display each cluster with descriptive labels
+            for i, (label, cluster_df) in enumerate(zip(cluster_labels, [cluster_0, cluster_1, cluster_2, cluster_3])):
+                st.write(f"### Faktor {label.capitalize()}")
+                st.dataframe(cluster_df[['filtered']])
 
-    else:
-        st.warning("Belum ada data yang di-preprocess untuk ditampilkan di sini.")
+                # Save clusters with descriptive names in session state
+                st.session_state[f'cluster_{label}_df'] = cluster_df
 
-# elif page == "Sentiment Analysis":
-#     st.header("Sentiment Analysis")
-    # Implement sentiment analysis logic here
-    # Page for Sentiment Analysis
-    
+            # Menyimpan setiap cluster ke dalam file .txt di folder 'klaster'
+            cluster_0.to_csv('klaster/kompensasi.txt', sep='\t', index=False, header=True)
+            cluster_1.to_csv('klaster/kepuasan kerja.txt', sep='\t', index=False, header=True)
+            cluster_2.to_csv('klaster/aktualisasi.txt', sep='\t', index=False, header=True)
+            cluster_3.to_csv('klaster/lingkungan kerja.txt', sep='\t', index=False, header=True)
+
+            def remove_punctuation(text):
+                if isinstance(text, str):
+                    return re.sub(r'[^\w\s]', '', text)
+                elif isinstance(text, list):
+                    return [re.sub(r'[^\w\s]', '', word) for word in text]
+                return text
+
+            # Membersihkan data setiap cluster
+            cleaned_data_0 = cluster_0.applymap(remove_punctuation)
+            cleaned_data_1 = cluster_1.applymap(remove_punctuation)
+            cleaned_data_2 = cluster_2.applymap(remove_punctuation)
+            cleaned_data_3 = cluster_3.applymap(remove_punctuation)
+
+            # Menyimpan data yang telah dibersihkan ke file
+            cleaned_data_0.to_csv('klaster/kompensasi.txt', sep='\t', index=False, header=True)
+            cleaned_data_1.to_csv('klaster/kepuasan kerja.txt', sep='\t', index=False, header=True)
+            cleaned_data_2.to_csv('klaster/aktualisasi.txt', sep='\t', index=False, header=True)
+            cleaned_data_3.to_csv('klaster/lingkungan kerja.txt', sep='\t', index=False, header=True)
+
+
 elif page == "Sentiment Analysis":
-    st.header("Sentiment Analysis")
+    st.header("Analisis Sentimen Faktor")
 
     # Load lexicon
     pos_lexicon = load_lexicon('leksikon/leksikon-pos.json')
     neg_lexicon = load_lexicon('leksikon/leksikon-neg.json')
 
-    if 'preprocessed_data' in st.session_state:
-        # Tampilkan dropdown untuk memilih file yang ingin dianalisis
-        file_options = [f"Data set from file: {item['filename']}" for item in st.session_state.preprocessed_data]
-        selected_file = st.selectbox("Pilih file yang ingin dianalisis sentimennya:", file_options)
+    # Display the button to proceed with sentiment analysis
+    if st.button("Proceed to Sentiment Analysis"):
 
-        # Dapatkan index dari file yang dipilih
-        selected_file_index = file_options.index(selected_file)
+        # Fungsi untuk memuat data cluster dari folder 'klaster'
+        def load_cluster_data(cluster_name):
+            file_path = f'klaster/{cluster_name}.txt'
+            if os.path.exists(file_path):
+                return pd.read_csv(file_path, sep='\t')
+            else:
+                st.error(f"File {cluster_name}.txt tidak ditemukan di folder 'klaster'.")
+                return pd.DataFrame()  # Return empty DataFrame if file not found
 
-        # Ambil dataframe dari file yang dipilih
-        df_selected = st.session_state.preprocessed_data[selected_file_index]['data']
-        
-        st.write(f"### Tampilan Data Preprocessing dari file: {st.session_state.preprocessed_data[selected_file_index]['filename']}")
-        st.dataframe(df_selected)  # Display the selected preprocessed data
+        # Fungsi untuk menghitung sentimen berdasarkan leksikon
+        def analyze_sentiment(text):
+            if not isinstance(text, str):
+                text = ""
+            pos_count = sum(1 for word in text.split() if word in pos_lexicon)
+            neg_count = sum(1 for word in text.split() if word in neg_lexicon)
+            if pos_count > neg_count:
+                return 'Positif', 1  # Positive sentiment and score
+            elif neg_count > pos_count:
+                return 'Negatif', -1  # Negative sentiment and score
+            else:
+                return 'Netral', 0  # Neutral sentiment and score
 
-        # Inisialisasi hasil sentiment_result jika belum ada
-        if 'cluster' in df_selected.columns:
-            # Inisialisasi hasil sentimen_result jika belum ada
-        
-            if 'sentiment_result' not in st.session_state:
-                st.session_state.sentiment_result = {}
+        # Daftar label untuk setiap cluster
+        cluster_labels = ['kompensasi', 'kepuasan kerja', 'aktualisasi', 'lingkungan kerja']
 
-            # Lakukan analisis sentimen untuk setiap cluster
-            for cluster, group in df_selected.groupby('cluster'):
-                # st.write(f"## Cluster {cluster}")
+        # Dictionary untuk menyimpan hasil sentiment dari setiap cluster
+        sentiment_dfs = {}
+
+        # Memuat dan memproses setiap cluster
+        for label in cluster_labels:
+            cluster_df = load_cluster_data(label)  # Memuat DataFrame dari file .txt
+            if not cluster_df.empty:
+                # Analisis sentimen dan menambahkan label dan skor
+                cluster_df[['sentiment_label', 'sentiment_score']] = cluster_df['filtered'].apply(
+                    lambda x: pd.Series(analyze_sentiment(x))
+                )
                 
-                # Inisialisasi hasil analisis untuk cluster saat ini
-                cluster_sentiment_results = []
+                # Menyimpan DataFrame untuk cluster saat ini di dictionary
+                sentiment_dfs[label] = cluster_df
 
-                # Analisis sentimen untuk setiap teks di cluster ini
-                for i, row in group.iterrows():
-                    text = " ".join(row['filtered'])  # Gabungkan kata-kata dalam kolom 'filtered'
-                    sentiment, pos_count, neg_count = sentiment_analysis(text, pos_lexicon, neg_lexicon)
-                    
-                    # Tambahkan hasil ke dalam list
-                    cluster_sentiment_results.append({
-                        'Teks': text,
-                        'Sentimen': sentiment,
-                        'Skor Positif': pos_count,
-                        'Skor Negatif': neg_count
-                    })
+                # Menampilkan hasil analisis sentimen untuk cluster saat ini
+                st.write(f"### Analisis Sentimen Faktor {label.capitalize()}")
+                st.write(cluster_df[['filtered', 'sentiment_label', 'sentiment_score']])
 
-                # Konversi hasil analisis per cluster ke DataFrame
-                df_cluster_results = pd.DataFrame(cluster_sentiment_results)
+                # Menyimpan hasil analisis ke file dengan format yang ditentukan
+                output_file_path = f'analisis/{label}.txt'
+                cluster_df[['filtered', 'sentiment_label', 'sentiment_score']].to_csv(
+                    output_file_path, sep='\t', index=False, header=['analisis', 'sentiment_label', 'sentiment_score']
+                )
 
-                # Tampilkan hasil analisis untuk cluster saat ini
-                st.write(f"### Hasil Analisis Sentimen untuk Cluster {cluster}")
-                st.dataframe(df_cluster_results)
-
-                # Simpan hasil analisis ke dalam session state untuk cluster ini
-                st.session_state.sentiment_result[cluster] = {
-                    'data': df_cluster_results,
-                }
-
-                # Menyisipkan garis pemisah antar cluster
-                st.write("----")
-        else:
-            st.warning("Lakukan Klastering di Halaman Clustering Terlebih Dahulu")
-            st.warning("Untuk Melihat Hasil Analisis Sentimen Cluster")
-        
-        st.write("Lanjutkan Ke Halaman Data Visualization Untuk Melihat Hasil Visual Sentimen Analysis")
 
 elif page == "Data Visualization":
-    st.header("Data Visualization")
-    # Implement visualization logic here
-    if 'sentiment_result' in st.session_state:
-        for cluster, result in st.session_state.sentiment_result.items():
-            st.dataframe(result['data'])
+    st.header("Visualisasi Data")
+    if st.button("Visualisasikan"):
+    # Function to load sentiment analysis results from files
+        def load_sentiment_data(cluster_name):
+            # Directly load the DataFrame from the specified file path
+            return pd.read_csv(f'analisis/{cluster_name}.txt', sep='\t')
 
-            # Visualisasi distribusi sentimen di cluster ini
-            # st.write(f"## Hasil Analisis Sentimen untuk Cluster {cluster}")
-            st.write(f"### Visualisasi Cluster {cluster}")
-            
-            # Hitung distribusi sentimen dan buat pie chart
-            sentiment_counts = result['data']['Sentimen'].value_counts()
-            fig, ax = plt.subplots()
-            ax.pie(
-                sentiment_counts, 
-                labels=sentiment_counts.index, 
-                autopct='%1.1f%%', 
-                startangle=90
-            )
-            ax.axis('equal')  # Equal aspect ratio ensures that pie is drawn as a circle.
-            
-            st.pyplot(fig)  # Display the pie chart
-            
-            # Garis pemisah antar cluster
-            st.write("---")
-    else:
-        st.warning("Belum ada hasil analisis sentimen untuk ditampilkan.")
+        # List of cluster labels
+        cluster_labels = ['kompensasi', 'kepuasan kerja', 'aktualisasi', 'lingkungan kerja']
 
+        # Load and visualize data for each cluster
+        for label in cluster_labels:
+            cluster_df = load_sentiment_data(label)  # Load DataFrame from file
+            if not cluster_df.empty:
+                sentiment_counts = cluster_df['sentiment_label'].value_counts()
+
+                # Pie Chart
+                st.subheader(f"Visualisasi Analisis Sentimen Faktor {label.capitalize()}")
+                st.write(f"Total data pada faktor {label.capitalize()} sebanyak : {len(cluster_df)}")
+                # st.write(sentiment_counts)
+                fig, ax = plt.subplots()
+                colors = ['#ADD8E6', '#87CEFA', '#4682B4']
+                ax.pie(sentiment_counts, labels=sentiment_counts.index, autopct='%1.1f%%', startangle=90, colors=colors)
+                ax.axis('equal')  # Equal aspect ratio ensures that pie is drawn as a circle.
+                st.pyplot(fig)
+
+                # Add a brief description of the results
+                st.write(f"Faktor {label.capitalize()}, analisis sentimen menunjukkan distribusi sebagai berikut:")
+                for sentiment, count in sentiment_counts.items():
+                    st.write(f"- **{sentiment}**: {count} ulasan")

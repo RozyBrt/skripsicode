@@ -1,0 +1,4 @@
+analisis	sentiment_label	sentiment_score
+krusial kabur rekan kewalahan	Negatif	-1
+hear pasti rasa sedih wajar kuat tutup tempat respon semangat dunia	Negatif	-1
+lingkungan rekan kerja suasana dukungan dukung kolaborasi tempat toxic jahat benci suka	Positif	1

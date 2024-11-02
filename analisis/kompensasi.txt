@@ -1,0 +1,14 @@
+analisis	sentiment_label	sentiment_score
+ganti senin order	Netral	0
+pilih jahat gaji dekat keluarga jahat gaji sepi teman tempat	Negatif	-1
+lambat insentif gaji kecil pegawai utama nakes paksa	Netral	0
+lihat dada sore lihat	Positif	1
+ganti status	Netral	0
+kompensasi gaji uang pendapatan dapat penghasilan hasil intensif gaji sedikit gaji banyak bonus	Netral	0
+curhat sebar jalan	Netral	0
+singapura surabaya jakarta lumayan bareng adik	Netral	0
+nongol sibuk fokus	Negatif	-1
+minggu pesan gaji sertifikasi juta giur	Positif	1
+pelan lantun angguk singkat makhluk lata warna putih leher rayap turun telapak tangan lega dokter lihat kondisi pasien seraya kekeh	Positif	1
+menteri menteri korupsi rajalela asai	Negatif	-1
+kadang gemas kucing media	Positif	1

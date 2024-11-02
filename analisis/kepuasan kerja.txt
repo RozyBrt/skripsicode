@@ -1,4 +1,56 @@
 analisis	sentiment_label	sentiment_score
 pilih pilih capek tempuh jalan jauh transportasi stres kejar lembur masalah pilih	Negatif	-1
-kepuasan puas kerja karir bahagia sedih dedikasi nyaman lembur jam kerja waktu cape capek lelah stres stress	Negatif	-1
 cukup pusing pusing daya juang daya inisiatif gantung pusing arah capek	Negatif	-1
+hear pasti rasa sedih wajar kuat tutup tempat respon semangat dunia	Negatif	-1
+dunia mampu hadap kurang nikmat besar harga waktu tanggap	Positif	1
+asih giat ulang ulang kemarin senang yudisium bangun capek bayang	Positif	1
+toko capek pasti pabrik pakai duit sayang buang duit	Netral	0
+sedih butuh selektif syukur	Negatif	-1
+kantor lembur bayar pulang malam buah budaya haram hukum pulang pabrik pulang karyawan pulang ganti	Netral	0
+lumpuh celaka waktu raya kenang situ buka mata alami celaka	Negatif	-1
+auto kafir shalat jumat waktu barista restoran jepang mall tempel hotel mewah shalat jumat makan siang meja lantar	Positif	1
+baca gampang kurun waktu serikat mudah lemah masalah susah bela celaka mati	Negatif	-1
+senang lihat teman sedih menang kasih sabar rezeki alir	Positif	1
+daerah sistem libur tanggal merah ganti libur waktu lebaran lembur loyalitas bayar kecil	Negatif	-1
+curhat umur putus tali pusar senin sabtu sabtu tips teman hidup waktu habis	Positif	1
+dengar dosen stres tanggung istri wanita karir semenjak dunia hilang tidur susah putus	Negatif	-1
+pilih liat sender jenjang karir alam	Negatif	-1
+tahap capek motivasi	Netral	0
+staff sedih sedih beli gelang emas hadiah	Negatif	-1
+iring waktu ubah nyaman temperamen rekan kompeten manajemen tutup mata kait masalah toleransi	Negatif	-1
+susah ganti periode tuju fase stabil izin gantung faktor eksternal pasang waktu hilang bubar	Negatif	-1
+antem belah gara rasa salah awak sulut kelahi hidup karir pilih hidup bahagia mari dukung	Negatif	-1
+real waktu hidup batin buka bentuk asli manis	Positif	1
+bahagia capek stres istirahat suami rumah suami rumah gaji cukup makmur bijak korupsi	Negatif	-1
+capek mending posisi ganti kirim	Positif	1
+nang stres level nang duit sorang nang	Negatif	-1
+sebar oknum biksu media senior militer ting capek giat karir usik	Netral	0
+mending asih hidup	Netral	0
+kantor rasa sedih menang rasa	Negatif	-1
+kasihan waktu habis salah zona nyaman rasa cocok enak	Negatif	-1
+kurang stres silah warga rumah curhat mobil program mobil curhat akal	Positif	1
+kepuasan puas kerja karir bahagia sedih dedikasi nyaman lembur jam kerja waktu cape capek lelah stres stress	Negatif	-1
+nyaman rasa sesuai ekspektasi cocok waktu evaluasi tempat rasa salah semangat	Negatif	-1
+rasa capek bosan butuh duit	Negatif	-1
+bidang capek susah	Negatif	-1
+lupa timbang ganti karir jajah	Negatif	-1
+sedih kasih putus kasih dengar maaf malam karir sinar	Negatif	-1
+paksa titik ubah tuju pasti rasa enak jelek ubah nyaman paksa jelek nyaman	Negatif	-1
+muncul teman teman dekat sedih makan pempek model	Netral	0
+waktu gedung lokasi jaksel rumah daerah jakarta singkat partner masalah kantor gedung singkat ajak gedung	Negatif	-1
+nama nama rendah pasti otomatis over karir grup sangka buku	Netral	0
+habis dengar teman konstruksi sesuai jurus teknik sipil susah jenjang karir sertifikasi minimal juta syarat wajib	Negatif	-1
+salah timbang pilih kantor regulasi utama kait keras seksual nyaman	Netral	0
+kadang capek tidur cukup mending	Netral	0
+menang pegawai sayang adek rajin hidup sedih tulang punggung keluarga	Netral	0
+belanda susah winter berat sakit sistem janji butuh waktu janji tukang tunggu minggu keburu rumah tutup rumput sakit tahan obat dewa	Negatif	-1
+capek kumpul keluarga pasti lamar kemarin habis duit	Positif	1
+butuh proses kabul umur lulus percaya waktu sabar	Positif	1
+entar rasa perhati khawatir jahat cukup asih perhati asih perhati didik karir entar fokus	Negatif	-1
+lepas ambil putus sara emosi teruk tanda pulih waktu murung penat sedih peluang masalah dunia pendam	Negatif	-1
+bangun karir nyaman idam sayang tempat janji nyaman nasib kurang untung tahan jahat butuh	Negatif	-1
+kompetensi lapang utama kelas ekonomi didik pascasarjana eksperimen karir	Positif	1
+juang lelah	Netral	0
+gabut doang main pulang lembur	Negatif	-1
+bangun mimpi karir anime anime siswa guru asih email suruh form nama resah	Positif	1
+devisa perintah sesuai awas waktu bentuk panitia angket tugas selidik untung rugi tahan devisa nasib	Positif	1

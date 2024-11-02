@@ -311,7 +311,6 @@ elif page == "Klastering":
         cleaned_data_2.to_csv('klaster/aktualisasi.txt', sep='\t', index=False, header=True)
         cleaned_data_3.to_csv('klaster/hubungan kerja.txt', sep='\t', index=False, header=True)
 
-        st.success("Klastering selesai dan hasil disimpan.")
         
 elif page == "Analisis Sentimen":
     st.header("Analisis Sentimen Faktor")

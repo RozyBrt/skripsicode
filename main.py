@@ -13,15 +13,19 @@ from Sastrawi.Stemmer.StemmerFactory import StemmerFactory
 import os
 
 import nltk
-nltk.download('punkt_tab')
+nltk.download('punkt')
 
 # Pengaturan untuk halaman web steamlit
-st.set_page_config(page_title="ABSA-KMeans", page_icon="☕")
+st.set_page_config(page_title="ABSA-KMeans", page_icon="💻")
 
 # Streamlit application
 st.title("ANALISIS FAKTOR-FAKTOR YANG MEMPENGARUHI PERPINDAHAN KARIR DENGAN PEMANFAATAN ASPECT-BASED SENTIMENT ANALYSIS MENGGUNAKAN METODE K-MEANS")
 page = st.sidebar.selectbox("Tentukan Halaman:", ["Preprosesing", "Klastering", "Analisis Sentimen", "Visualisasi Data"])
 
+# Data awal
+file_path = "csv/data_tweet.csv"  # Lokasi file CSV data awal
+with open(file_path, "r", encoding="utf-8") as f:
+    csv_raw_data = f.read()
 
 # KUMPULAN FUNGSI PREPROSESING
 
@@ -175,8 +179,18 @@ def preprocess_data(uploaded_file):
 # Logika aplikasi
 if page == "Preprosesing":
     st.header("Persiapan Data")
+    
+    # Tombol Download Data Mentah
+    st.write("Unduh dataset untuk melanjutkan proses analisis di bawah")
+    st.download_button(
+        label="Download File CSV",
+        data=csv_raw_data,
+        file_name="dataset.csv",
+        mime="text/csv",
+        use_container_width= True,
+    )
+    
     uploaded_file = st.file_uploader("Pilih file CSV", type='csv')
-
 
     # Memeriksa apakah file ada dalam session_state
     if 'uploaded_file' in st.session_state:

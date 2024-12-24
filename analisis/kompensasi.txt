@@ -64,7 +64,6 @@ gaji maaf sensitif sender butuh pandang kena gaji kontrak juta gaji karyawan jut
 umur menang lihat umur juta daerah gaji besar juta gaji karyawan kisar juta	Positif	1
 gaji tingkat gaji asing india cuti bayar plus	Positif	1
 gaji gojek rusuh rusuh	Netral	0
-komen data kategori rendah jenjang jabat gaji juta peringkat kabar kagak daftar	Negatif	-1
 lihat gaji jerman banding jerman juta australia juta korea selatan juta jepang juta	Positif	1
 jenis indonesia hitung bpjs sehat komponen gaji tunjang hitung bpjs sehat gaji pokok	Positif	1
 gaji bonus konsultan berat ambil	Negatif	-1
@@ -72,6 +71,7 @@ denda administratif langgar bayar gaji waktu daftar bpjs ketenagakerjaan kena de
 gaji gaji gaji gaji umur hidup ganda kejar tujuh angka bantu keliling capai enam angka	Negatif	-1
 gaji tenaga ahli juta ubah budi juta	Positif	1
 ilmuwan bidang gaji bajak elon langsung naik gaji loyal perang sungguh perang rebut ulas buku indah	Negatif	-1
+kisah pegawai magang buah viral lantar gaji ribu bayar ribu tempat angkat bicara kait	Positif	1
 gaji juta fasilitas makan alat mandi alat solat cuti ambil cuti ganti uang	Positif	1
 gaji profit tempat kurang modal hasil jumlah halu gaji	Negatif	-1
 denda sisa kontrak wajib bayar gaji sakit istirahat sakit sesuai dokter gaji gaji gaji gaji	Negatif	-1
@@ -83,10 +83,8 @@ populer kasih gaji gojek cukup	Netral	0
 denda lambat gaji dasar upah lambat bayar gaji wajib denda total gaji lambat maksimal tunda	Positif	1
 bungkam bantu lihat keluarga klien gaji telat laku tugas	Netral	0
 kaget sistem gaji bisnis dengar standar gaji gaji domisili aduhai tega	Netral	0
-syarikat percaya tukar tempat gaji rendah padan beban tekan politik jabat toksik	Negatif	-1
 sanggup kontrak kasih alhasil bukti kontrak kasih slip gaji susah turun manajer gaji potong	Negatif	-1
 kantor bareng kantor lucu kocak gaji kuda bayar gaji telat	Negatif	-1
-pecat kompensasi tuduh curi curi duit paksa asuransi suami suruh bayar palsu paksa gaji intern juta	Negatif	-1
 kompensasi gaji uang pendapatan dapat penghasilan hasil intensif gaji sedikit gaji banyak bonus	Netral	0
 curhat nakes kupang gaji telat obat alat minim nyata kondisi	Negatif	-1
 real dunia senang mimpi modal doang gaji banting	Positif	1
@@ -96,16 +94,15 @@ paksa bayar benda puluh juta rupiah paksa bayar denda telat kantor besar juta ru
 alam hati tanggung hadap anggap mengap sesuai gaji tuntut makan idealisme	Negatif	-1
 gaji besar pagi malas foto kontraktor lumayan besar risiko risiko badan alat potong	Negatif	-1
 pulang malam tawar timbang gaji telat absen pagi gaji potong lembur lembur	Negatif	-1
+berani gaji enak teman akses mudah betah hidup rantau nyaman rumah	Positif	1
 dunia duit habis tugas sisa rekan bonus gaji lancar singkat pakai pakai logika	Negatif	-1
 lokal indonesia prinsip wajar gaji beda maksimal harga upaya	Positif	1
-budak alam peras otak gaji kembang sungguh tahi	Positif	1
 alkisah buah daerah yogyakarta gaji bayar bpjs lunas puluh karyawan berani	Netral	0
 mamah yayasan pilih susah nyata gaji pabrik besar banding kasih makan	Negatif	-1
 alam horor hotel gaji habis keluarga sisa uang cukup	Negatif	-1
 enak gaji besar sekolah masalah mobil uang belanja murah	Positif	1
 majikan majikan potong gaji bayar kurang jumlah bayar tempoh	Negatif	-1
 gaji langkah hindar jahat pilih filter	Negatif	-1
-sesuai singkat pakai pandu kantor jahat suportif tumbuh ajar gaji kecil rasa kurang kembang	Negatif	-1
 rana tawar gaji majikan budaya suasana bagus budaya suasana teruk majikan gaji	Netral	0
 lingkar favorit golong gaji juta susah daftar program perintah nama kartu indonesia pintar kuliah	Negatif	-1
 gaji	Netral	0
@@ -116,6 +113,7 @@ faktor utama jahat pelit gaji kecil	Negatif	-1
 dosen abdi dalem kuliah indonesia gaji remah roti dosen abdi hasil dosen gaji dosen abdi	Netral	0
 konten posisi kendali jujur gaji buta gabut	Negatif	-1
 jakarta gaji tawar mutasi ponorogo gaji jakarta ponorogo murah ambil	Negatif	-1
+putus nyaman jenjang karir gaji jenuh karyawan nyokap tuju takut	Positif	1
 sesuai masalah gaji juta kriteria gaji juta anggur gaji juta tolol kuli bangun harap mending	Positif	1
 gambar posisi kantor lembur cuti gaji tunjang bonus asuransi status jenjang karir kurang sisa	Negatif	-1
 tiada gaji takat gaji jahat patu percaya rezeki	Positif	1
@@ -221,6 +219,7 @@ tempat kasih suruh selesai gaji kecil	Negatif	-1
 suka zona nyaman perihal nyaman gaji besar cukup butuh suruh tolong kasih paham	Negatif	-1
 tips salah jenis pilih kasih salah rasa bosan salah gaji kena potong lepas	Negatif	-1
 dekat rumah cuti staff jahat gaji komitmen takat	Netral	0
+mudah sahaja gaji kadar inflasi urus hidup zaman	Positif	1
 jauh rumah gaji banding giat doang sekal putus tempat kadang gaji puas batin	Positif	1
 gaji ojol habis lulus kuliah nikah gaji jakarta sistem kontrak gaji digit haru kembang	Positif	1
 suami panggil salah kaget omong berat ambil ambil giur jenjang karir naik gaji	Negatif	-1

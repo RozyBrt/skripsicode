@@ -171,6 +171,9 @@ def preprocess_data(uploaded_file):
     # Filter term non-indonesia
     corpus_df['filtered'] = corpus_df['stopwords'].apply(lambda x: kamus_filter.hapus_bukan_id(x.split()))
 
+    # Hapus baris kosong setelah tokenisasi dan filterisasi
+    corpus_df = corpus_df[corpus_df['filtered'].str.len() > 0]
+    
     # Menyimpan hasil preproses kedalam file 'hasil.txt'
     corpus_df.to_csv('preprosesing/hasil.txt', index=None, header=True)
     return corpus_df

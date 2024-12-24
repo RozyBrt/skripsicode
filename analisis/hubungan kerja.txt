@@ -6,6 +6,7 @@ bahaya hubung jahat sadar rasa rendah rasa arti percaya asli harga hubung jahat	
 salah bahaya hubung jahat sadar rendah rasa rendah arti minder mudah harga makan hubung jahat	Negatif	-1
 mari kenal hubung jahat pasang atur hidup pribadi kontrol pasang alami keras fisik verbal verbal	Positif	1
 bahaya hubung jahat sadar rasa rendah rasa arti percaya asli harga hubung jahat	Negatif	-1
+jahat egois suka cemburu sikap kasar nilai buruk suka manipulasi manfaat suka salah salah	Negatif	-1
 bahaya hubung jahat sadar rasa rendah rasa arti minder gampang asli harga hubung jahat	Negatif	-1
 istilah jahat paksa bahagia optimis situasi dukung tekan emosi negatif hadap	Negatif	-1
 risau jahat hidup pegang jahat hidup kadang peras lepas pandang	Negatif	-1
@@ -28,36 +29,48 @@ jahat parah posesif ampun detik foto kasar kamar mandi lapor lihat takut hubung	
 baca perilaku jahat jurus cuman niat siksa	Negatif	-1
 jahat hina benci bela jilat rendah	Negatif	-1
 real jahat mati	Netral	0
+teman bangsat jahat suasana mental kepiting rebus naik tarik turun jatuh lihat doktrin buruk gala	Positif	1
 hubung jahat jahat saking jahat waktu telpon jahat dengar lagu payung teduh akad marah skip lagu kocak perkara lagu drama setan	Negatif	-1
 masalah jahat arti	Negatif	-1
 sesal jahat nyata	Negatif	-1
 jahat cinta hubung contoh rela	Negatif	-1
 jahat komunitas lumrah jarang kerap indonesia cuman indonesia global jahat komunitas sosial media tele	Negatif	-1
+cium langsung teman jahat jujur	Netral	0
 percaya marah kecil sayang maaf habis lari peluk baca lupa jahat	Negatif	-1
 jahat manis jahat pelan pelan tahap manipulatif sadar sadar susah	Negatif	-1
+teman hubung adem salah kelas jahat lihat	Negatif	-1
 juar jahat hidup tenang drama mata sakit sikit mata lari	Negatif	-1
 ketawa heran suami cocok doang jahat jahat peduli geng jengkel grup	Negatif	-1
 tolong susah rasa bantu tolong bantu diam doang inisiatif bantu real jahat	Negatif	-1
+teman ganteng jahat teman putus titik sadap gila	Negatif	-1
 tempat jahat enak manusia manusia malam menang bengek tempat bangkai	Negatif	-1
 ciri khas hubung jahat ikat cinta main main segenap jiwa real toksik cepat cepat	Positif	1
 berani jahat berani korban sakit takut hilang bahagia	Negatif	-1
+habis teman doang pipi merah lepas jahat jahat parah teman sebel puncak omong sadap	Negatif	-1
 rumah kacau jahat rasa sakit laku suka mempan menang mempan rumah aman kaya tendang	Negatif	-1
+kesel kesel alam enak betah teman jahat kasihan	Negatif	-1
 jebak hubung jahat langsung kasih perhati kecil muka dekil habis main	Negatif	-1
 semenjak ketemu tulus rasa hidup sosial lingkup personal profesional asia jahat komen respon bentuk bumbu	Positif	1
+kenal salah teman situ gong nyata suka diam alhasil situ sadar teman jahat gong	Negatif	-1
 bangun karir nyaman idam sayang tempat janji nyaman nasib kurang untung tahan jahat butuh	Negatif	-1
 telusur bayar jahat bagus paksa tahan keburu depresi	Negatif	-1
+teman rupa rasa titik pasrah capek lingkup jahat mustahil amal kejar	Negatif	-1
+senior kantor galak jahat rasa dunia pusat junior keliling dunia gaji dolar multinasional bangun medsos muhasabah	Negatif	-1
 ramai lari kerap rasa salah tanda tukar tempat rupa perkara normal ramai rasa benda	Negatif	-1
 tempat tempat lamar pilih tangan dunia	Negatif	-1
 bantu ekonomi keluarga tempat dekat pilih jalan	Negatif	-1
 tekan tempat tekan proyek habis stres contoh rumah sakit tenaga medis rasa beban mental berat	Negatif	-1
 aruna panti asuh hidup kenal lang tempat asing selesai didik buah	Netral	0
 sadar sadar rasa ngeri tempat bentuk besok lusa rasa salah teman alam seram kantor simak	Negatif	-1
+kantor target naik lipat sisa jalan laku bias jahat teman umur sopan prinsip	Negatif	-1
 mental puncak suka ketik tempat sehat mental skala minim gilir solusi gaji lembur	Negatif	-1
 rapat kawan ambil personal masalah canang personal dekat habis tempat	Negatif	-1
 aduh takut gantung kondisi mental tempat tahap teman gantung mental masalah keti	Negatif	-1
 rapat masalah pribadi tempat organisasi pribadi pribadi campur aduk	Negatif	-1
 tempat menang canda menang rela pergi drama drama pisah alam sadar	Negatif	-1
+pilih tawar divisi tempat jumlah teman dekat teman tulus saran situasi bobrok sulit selamat pilih	Negatif	-1
 fungsional takut suka dekat tempat jauh dekat fungsional susah laksana	Negatif	-1
+kantor kesel kesel bujukin pimpin beliau cuti cuti angkat telpon jujur suka tempat tunjang turun jauh	Negatif	-1
 nyata situasi tempat laku rekan nila titik rasa toleransi putus	Negatif	-1
 egois tuntut senang pribadi rasa kalah nyata tempat tawar mari peluk	Negatif	-1
 giat penuh harap angkut semangat bentuk tempat berat hati kecil surabaya	Netral	0
@@ -67,6 +80,8 @@ pilih salah rasa mampu harga tempat tempat level tutup bawa gerbong rombong manj
 kecil hasil suka buku main aksesoris lihat tempat cantik bahan bumi semangat	Negatif	-1
 rusun gratis sewa golong mahal tempat hidup paket relokasi mati mata rumah tempat teduh hujan ikat sosial selamat	Positif	1
 besok tempat takut laku rugi mental drop besok minggu rumah keluarga jual	Negatif	-1
+gara omong seblak rindu tempat jujur capek capek selesai bawa pulang	Negatif	-1
+teman tempat jaga salah bidang jatuh	Negatif	-1
 manja objek derita tempat suruh rumah musti saing prestasi	Negatif	-1
 nyata hubung	Netral	0
 anjeng berangkat nyata tempat	Negatif	-1
@@ -81,6 +96,7 @@ curhat rasa tindas tempat angkat leher tempat	Negatif	-1
 tempat negatif rasa marah malas pergi teruk kaki bawang kipas naik gaji kaki bawang ubah perangai	Negatif	-1
 tempat toilet musola jauh debu parah libur sakit tenggorok	Negatif	-1
 sayang putus ambil sesal bahagia drama tempat waras	Negatif	-1
+curhat istri tempat perempuan permanen capek mental buta warna sedih zona nyaman gaji	Negatif	-1
 lembur kucil tempat libur gaji sesuai tekan hasil ambil laku jahat rekan	Positif	1
 kemarin tempat sadar butuh proses	Negatif	-1
 bahas kena salah fatal sayang tempat kasih jamin hadap selamat sehat fisik mental	Negatif	-1
@@ -96,6 +112,7 @@ tempat jahat penuh tekan batin	Negatif	-1
 tempat omong omong cerewet nyaman tempat gara berisik	Negatif	-1
 habis rasai kuat pilih jahat kadang sholat toilet waktu	Positif	1
 sistem budaya jahat habis kasar laku tega lihat	Negatif	-1
+arti jahat staff pakai jalur pantas rekan lihat situ bokap bokap tegur suka	Netral	0
 wajar tempat waras raih hasil maksimal model human cabut	Positif	1
 manajemen kantor tempat super jahat tempat nilai cukup valid	Negatif	-1
 temu ganti rasa sulit temu ganti tempat mantan hati rasa sepi hampa rindu hubung sehat	Negatif	-1
@@ -105,6 +122,7 @@ barang tempat lokasi potensial untung mata simak	Negatif	-1
 terkadang syukur tempat pijak ragu karyawan	Positif	1
 tantang tempat lelah jenuh tenang mudah hadap pola positif	Netral	0
 ajak omong bantu lepas nyaman jahat tahan susah	Negatif	-1
+semangat menang mushola kantor garagara teman hati niat nafkah niat jahat balas serah engkau	Negatif	-1
 fase galau nyaman magang tempat nyaman	Positif	1
 kontrak tempat intern linear jurus jurnalistik suka lulus punch lulus	Positif	1
 jalan nyata jahat tobat maksiat imbas hantam sisi ekonomi cinta hilang	Negatif	-1
@@ -123,11 +141,13 @@ tempat tempat lancar berisik pasti makan enak seru nyata	Negatif	-1
 ungsi iklim rumah tahap kecil besar tempat rumah pilih	Negatif	-1
 ubah kontribusi tempat alami ubah besar hidup rasa asing rasa hubung pilih	Negatif	-1
 rasa masalah hilang pergi gampang tempat dekat lantai jalan kaki jauh naik sepeda jauh naik kereta	Negatif	-1
+teman suka tempat nikah habis nikah salah pisah iring waktu laki teman	Negatif	-1
 masalah suka tempat sayang tempat posisi permanen tempat sesal susah ikhlas	Negatif	-1
 rasa ipar mudik rumah rumah asing tatanan ubah simpel tempat tempat rasa ikhlas barang	Negatif	-1
 tempat tempat makan makan umur hidup pilih bebas pilih tempat	Negatif	-1
 kondisi menang kabur takut tuntut tempat susah ijin sakit ijin potong gaji	Negatif	-1
 percaya tempat ideal kurang pasang pilih kurang toleransi bagus	Negatif	-1
+halo teman curhat kenan ganggu tempat maaf	Negatif	-1
 bahaya tempat rasa penat gila indak rawat ganggu mental langkah ambil laku tempat	Negatif	-1
 tanda tempat verbal normal manager amik janji mungkir ambil kredit ramai tipu staff senyum pilih kasih	Negatif	-1
 pakai benda jahat jahat paksa hadap pakai	Negatif	-1
@@ -146,6 +166,7 @@ rasa tempat cocok kurang nyaman jahat beda visi mudah cicil kudu lunas butuh ang
 tempat rasa takut ikan waktu angkat suruh	Negatif	-1
 sayang jahat sedih	Negatif	-1
 hear pasti rasa sedih wajar kuat tutup tempat respon semangat dunia	Negatif	-1
+perihal teman kantor jahat nyata gampang ketemu sindir stres stres	Negatif	-1
 habis gaji kecil ribu tempat rasa rasa dosa rejeki wajar	Negatif	-1
 karyawan kurang pola maaf dekat rumah kapai daftar jauh rumah kemarin tempat gaji	Positif	1
 keluh susah kebel gaji ajar tempat rasa cukup rasa besar tempat makan hati enak	Negatif	-1
@@ -163,7 +184,6 @@ long sesuai selang kantor nyata dekat tempat tunggu waktu kantor	Netral	0
 kadang situasi hindar jalan lancar tempat cocok semangat rupa	Positif	1
 kuat tekan jahat	Negatif	-1
 nyaman rasa sesuai ekspektasi cocok waktu evaluasi tempat rasa salah semangat	Negatif	-1
-gaji kembang cukup tahan nyaman cabut situasi rasa jahat pengaruh cepat	Negatif	-1
 bong tahan ketemu korban sehat sehat anabul waras hubung personal tempat kena efek	Negatif	-1
 kondusif rasa maju bingung selesai selamat alami demotivasi tempat	Negatif	-1
 baca ngeri nyata tempat kantor tempat alam uang teman bonus jahat	Negatif	-1
@@ -182,6 +202,7 @@ jahat akal rela begadang libur saing rekan kasihan efektif sesuai lihat malas	Po
 mulut perangai jahat tempat henti jawat galas tuju	Negatif	-1
 stres dekat tempat galas perangai setan dekat tempat henti rana stres jahat situ	Negatif	-1
 mental rusak jahat percuma	Negatif	-1
+pegang alias tempat kondisi kecamuk emosi stabil kondisi stabil pengaruh proses langsung	Positif	1
 pilih kantor suportif sedikit super jahat laku kondisi	Negatif	-1
 rasa cocok salah eksternal jahat sehat industri cocok	Negatif	-1
 video jahat balas video kolega beliau jahat kasihan mbak pepatah pandu	Negatif	-1
@@ -216,7 +237,6 @@ diam pengaruh buku sisi bisnis tempat inti hindar intervensi jalan terjun	Netral
 betah ganti tempat rasa kasih	Negatif	-1
 contoh surat letak jawat minggu contoh bahasa melayu rezeki tempat	Negatif	-1
 bagus jahat mudah cakap	Negatif	-1
-sebel selesai masalah potensi ketemu sikap tempat hadap ajar kembang interpersonal	Positif	1
 kondisi dasar tempat gabung bawa sempurna sebal	Negatif	-1
 kaget mantan senior salah gara jahat marah suka grup situ intern grafis	Negatif	-1
 bujang tempat kena cuti staf utama kait bujang rasa budaya	Netral	0
@@ -234,8 +254,11 @@ salah pilih duit nyaman ajar alam muda saran tempat tempat jahat	Negatif	-1
 handel jumat berkah tempat pending berangkat	Negatif	-1
 tempat tawar tempat	Negatif	-1
 capek obat tidur obat kemarin jahat mental cepat	Negatif	-1
+halo teman utama kandidat kasih konteks tempat	Netral	0
 tempat	Negatif	-1
 saudara tempat kemarin celaka trauma doang duit takut model	Negatif	-1
+malas layan staff jahat sila sila angkat kaki undang pergi halang	Negatif	-1
+patah hati sesak tempat rencana kasih kenang teman nama kebut jumat kasi	Negatif	-1
 pilih kuat juang pergi pulang rumah tuju tempat	Negatif	-1
 tempat cukup nekad baca	Negatif	-1
 stres dekat tempat perangai dekat tempat jahat salah punca henti mental ganggu	Negatif	-1
@@ -244,5 +267,6 @@ barusan kandidat tempat rasa tantang jenuh rutinitas butuh tipe andil buah	Negat
 hubungan rekan kerja suasana dukungan dukung kolaborasi tempat toxic jahat benci suka	Positif	1
 gagal jatuh bangun ajar proses besar wujud jahat	Netral	0
 tempat waktu curhat sajadah malam langit pokok	Negatif	-1
+pura pura tempat capek ketawa karir diam doang renung naik ojol	Positif	1
 paham masalah nasehat obsesi laku jahat fitnah trauma parah platform	Negatif	-1
 dosa bunuh hewan bahaya lumayan bahaya bukti kuping waktu kuping tempat	Negatif	-1

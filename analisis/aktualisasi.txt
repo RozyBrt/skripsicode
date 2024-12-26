@@ -1,51 +1,17 @@
 analisis	sentiment_label	sentiment_score
-waktu seminar malam kembang hotel keran kamar mandi malam cium anyir darah heran teman kamar teman ajak bukti	Negatif	-1
-dunia kembang arah revolusi industri hidup binatang libur tunjang santai minum sampanye restoran mewah	Positif	1
-mampu cepat adaptasi dunia alami ubah cepat hilang iring kembang zaman ahli forum ekonomi dunia forum dunia	Positif	1
-alam saing berat naik jabat libur gabut duit pabrik capek pulang makan langsung tidur mental kuat	Positif	1
-kantor muda mamah muda naik jabat syarat penuh kasih target kecil kena mental kasih tekan turun jabat buka	Negatif	-1
-pegawai pangkat rendah butuh uang mutasi jabat enak metropolitan brengsek	Negatif	-1
-pakai kontrak habis enak adaptasi tantang kantor zona nyaman kembang karir	Positif	1
-salah faktor bantu bagus kantor ramah jabat senior sungkan ketemu degan dikit	Negatif	-1
-teman eselon aktif kantor alhasil masalah bentrok mutasi turun jabat bentrok mutasi naik jabat	Negatif	-1
-komen data kategori rendah jenjang jabat gaji juta peringkat kabar kagak daftar	Negatif	-1
-syarikat percaya tukar tempat gaji rendah padan beban tekan politik jabat toksik	Negatif	-1
-sambung kilang kilang kawan cepat dorang urus jabat	Negatif	-1
-kembang karir hasil sesuai harap faktur utama tahan cukup perut cukup hati cukup otak	Positif	1
-rumah asih uang ikhlas uang rokok kasih jabat walkot bupati gubernur amit ketemu jalan ogah	Negatif	-1
-budak alam peras otak gaji kembang sungguh tahi	Positif	1
-tuntut kembang maju cabang tingkat	Positif	1
-relaksasi harap kembang ekspansi buka lowong warga luas ekonomi jateng komitmen	Positif	1
-sesuai singkat pakai pandu kantor jahat suportif tumbuh ajar gaji kecil rasa kurang kembang	Negatif	-1
-lamar kembang jauh peduli kembang lihat tenang lihat loyal naik ganti penuh	Positif	1
-habis tahan suruh naik jabat probabilitas semu asli bingung	Positif	1
-pilih pengaruh buruk sukses hidup karir penuh naik jabat selesai	Negatif	-1
-tahan kuat tenaga situ kondisi jahat posisi jabat rebut juta mudah ganti ganti posisi	Netral	0
-kolom jabat pakai rumus kepala staff operator kolom samping rumus rumus kepala staff operator	Negatif	-1
-putus gaji rendah ganti mental jauh sehat tingkat stres kendali jauh waktu temu keluarga damping tumbuh kembang buah salah putus bijak hidup	Negatif	-1
-sangka kutu loncat sangka katak tempurung ideal kembang karier kudu	Positif	1
-kembang situ jalan samping faktor pengaruh kurang cocok	Negatif	-1
-bagus tekan paksa kembang	Netral	0
-gaji kembang cukup tahan nyaman cabut situasi rasa jahat pengaruh cepat	Negatif	-1
-laku kembang aplikasi kembang aplikasi laku susun lapor ubah susun lapor	Positif	1
-lihat jabat tesis umbi jabat jabat salah umbi salah jabat tesis umbi wani jabat	Negatif	-1
-gampang profesi jabat nama hasil alat penuh butuh barang jasa bayar upah	Netral	0
-tukar perkara sedia gaji rendah pasal jawat kembang resume sedia tukar	Netral	0
-karyawan nama bagas inisiatif ajar komputer naik pangkat admin ajar akuntansi moral butuh karir kembang	Positif	1
-tukar perkara sedia gaji rendah pasal jawat kembang resume sedia tukar	Netral	0
-konsekuensi gaji tawar layak kualitas rekrutmen buruk pegawai demotivasi ongkos rekrutmen jabat aman	Negatif	-1
-kurang karyawan lindung lemah rawan langgar klien kembang padat karya mayoritas	Positif	1
-kantor bagus enak kompak jahat gaji seret karir kembang situ teman enak pasti	Positif	1
+kembang aplikasi maskapai terbang favorit	Positif	1
+kasih jumpa senang lihat luas destinasi kembang sayap	Positif	1
+tahan menit kembang	Positif	1
+milik kembang terbang besok pagi transit menit terbang transit	Positif	1
+dengar sedia pesawat harga rendah kembang zaman	Positif	1
+kembang ekstensi bagus	Positif	1
+peta jalan bisnis sosial kembang jalur cerdas tanam sosial	Positif	1
+kandidat program kembang pimpin daftar daftar	Positif	1
+kembang zaman	Positif	1
+kembang	Positif	1
+prasekolah kembang aplikasi aplikasi mogok	Negatif	-1
+bodoh kecimpung kembang masalah konfirmasi dukung situs	Positif	1
 aktualisasi aktual pengembangan kembang potensi diri kreatif prestasi jabatan jabat gelar	Positif	1
-sebel selesai masalah potensi ketemu sikap tempat hadap ajar kembang interpersonal	Positif	1
-suruh surat bawa pergi jabat buruh	Negatif	-1
-pimpin lembaga enak laku mutasi ikat atur atur maksud unsur bina analisa jabat analisa beban senjang atur lengkap	Negatif	-1
-kembang zona nyaman bidang siang hobi kejar capek bang malam habis kembang	Positif	1
-kembang zaman masalah hadap rumit kondisi pandemi ubah pola hidup zaman ubah lelah fisik mental beban kurang istirahat	Negatif	-1
-industri kembang perhati jual	Positif	1
-langgar perkara remeh rezim culik gabung mawar bebas lenggang jabat perintah untung angkat pangdam jaya	Negatif	-1
-suami jabat staff suami bantu bantu urus keluarga karir aman	Negatif	-1
-instansi perintah instansi keluarga angin doang harga karir saudara jabat mending diam waktu	Negatif	-1
-harga naik kriminalitas bangkrut daya beli turun anggur korupsi nepotisme jerat keluh kualitas hukum keluarga jabat jabat taat moral etika	Negatif	-1
-cocok bijak egaliter milik pandang kuat hadap individual pandang bijak egaliter antusiasme revolusioner kunci kembang ekonomi	Positif	1
-jabat pamer ndeso sederhana lengser jabat raya asuransi mati sehat keluarga pelihara bansos	Negatif	-1
+perangkat lunak rusak hubung dukung langgan solusi teriak kembang	Positif	1
+sistem bayar transaksi bank tiket akal teriak kembang	Netral	0
+kembang terampil komunikasi agen benci konfirmasi terbang siaga	Positif	1

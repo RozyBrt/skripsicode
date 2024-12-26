@@ -1,272 +1,1273 @@
 analisis	sentiment_label	sentiment_score
-jahat suka takut putus pergi	Negatif	-1
-perilaku jahat temu normalisasi simak ulas	Positif	1
-bahas oknum rasa hubung jahat lelah rasa waktu putus putus takut	Negatif	-1
-bahaya hubung jahat sadar rasa rendah rasa arti percaya asli harga hubung jahat	Negatif	-1
-salah bahaya hubung jahat sadar rendah rasa rendah arti minder mudah harga makan hubung jahat	Negatif	-1
-mari kenal hubung jahat pasang atur hidup pribadi kontrol pasang alami keras fisik verbal verbal	Positif	1
-bahaya hubung jahat sadar rasa rendah rasa arti percaya asli harga hubung jahat	Negatif	-1
-jahat egois suka cemburu sikap kasar nilai buruk suka manipulasi manfaat suka salah salah	Negatif	-1
-bahaya hubung jahat sadar rasa rendah rasa arti minder gampang asli harga hubung jahat	Negatif	-1
-istilah jahat paksa bahagia optimis situasi dukung tekan emosi negatif hadap	Negatif	-1
-risau jahat hidup pegang jahat hidup kadang peras lepas pandang	Negatif	-1
-jahat	Negatif	-1
-ciri jahat hubung kontrol pasang sulit dukung curiga kekang bohong keras fisik love	Negatif	-1
-marah gara cium payah cium cium diam melotot seram takut jahat	Negatif	-1
-tongkrong jahat entar jahat contoh teman ketemu omong bisnis omong mantan sambung	Negatif	-1
-suka alam pribadi publik lihat hubung jahat pasang super	Positif	1
-hoki pistol alkisah neon jahat bunuh	Negatif	-1
-jahat jahat jujur hidup dasar ragu rasa bawa pengaruh	Negatif	-1
-henti jahat suka fikir benda sakit hati rasa menang lepas banding rasa teruk harga rasa lemah jumpa motivasi	Negatif	-1
-jahat benda salah kena kena hina benda hidup tenang rasa harap kekal kenal jahat	Negatif	-1
-jahat melulu misuh pasti lemah lembut jahat seram bujuk rasa hantu rasa salah	Negatif	-1
-bawang salah jahat tempat jenis suka puak bawang benda rasa asing	Negatif	-1
-bukti betapa jahat korban jahat mati katai	Negatif	-1
-fandom jahat fandom jahat bunuh mimpi cita fandom jahat banter sebal doang tukang jahat bahaya pakai aksi nyata	Negatif	-1
-kenal jalin hubung jahat hidup bahagia beranta hilang percaya trauma	Netral	0
-tonton hubung jahat sakit mantan alam hubung jahat	Negatif	-1
-jahat parah posesif ampun detik foto kasar kamar mandi lapor lihat takut hubung	Positif	1
-baca perilaku jahat jurus cuman niat siksa	Negatif	-1
-jahat hina benci bela jilat rendah	Negatif	-1
-real jahat mati	Netral	0
-teman bangsat jahat suasana mental kepiting rebus naik tarik turun jatuh lihat doktrin buruk gala	Positif	1
-hubung jahat jahat saking jahat waktu telpon jahat dengar lagu payung teduh akad marah skip lagu kocak perkara lagu drama setan	Negatif	-1
-masalah jahat arti	Negatif	-1
-sesal jahat nyata	Negatif	-1
-jahat cinta hubung contoh rela	Negatif	-1
-jahat komunitas lumrah jarang kerap indonesia cuman indonesia global jahat komunitas sosial media tele	Negatif	-1
-cium langsung teman jahat jujur	Netral	0
-percaya marah kecil sayang maaf habis lari peluk baca lupa jahat	Negatif	-1
-jahat manis jahat pelan pelan tahap manipulatif sadar sadar susah	Negatif	-1
-teman hubung adem salah kelas jahat lihat	Negatif	-1
-juar jahat hidup tenang drama mata sakit sikit mata lari	Negatif	-1
-ketawa heran suami cocok doang jahat jahat peduli geng jengkel grup	Negatif	-1
-tolong susah rasa bantu tolong bantu diam doang inisiatif bantu real jahat	Negatif	-1
-teman ganteng jahat teman putus titik sadap gila	Negatif	-1
-tempat jahat enak manusia manusia malam menang bengek tempat bangkai	Negatif	-1
-ciri khas hubung jahat ikat cinta main main segenap jiwa real toksik cepat cepat	Positif	1
-berani jahat berani korban sakit takut hilang bahagia	Negatif	-1
-habis teman doang pipi merah lepas jahat jahat parah teman sebel puncak omong sadap	Negatif	-1
-rumah kacau jahat rasa sakit laku suka mempan menang mempan rumah aman kaya tendang	Negatif	-1
-kesel kesel alam enak betah teman jahat kasihan	Negatif	-1
-jebak hubung jahat langsung kasih perhati kecil muka dekil habis main	Negatif	-1
-semenjak ketemu tulus rasa hidup sosial lingkup personal profesional asia jahat komen respon bentuk bumbu	Positif	1
-kenal salah teman situ gong nyata suka diam alhasil situ sadar teman jahat gong	Negatif	-1
-bangun karir nyaman idam sayang tempat janji nyaman nasib kurang untung tahan jahat butuh	Negatif	-1
-telusur bayar jahat bagus paksa tahan keburu depresi	Negatif	-1
-teman rupa rasa titik pasrah capek lingkup jahat mustahil amal kejar	Negatif	-1
-senior kantor galak jahat rasa dunia pusat junior keliling dunia gaji dolar multinasional bangun medsos muhasabah	Negatif	-1
-ramai lari kerap rasa salah tanda tukar tempat rupa perkara normal ramai rasa benda	Negatif	-1
-tempat tempat lamar pilih tangan dunia	Negatif	-1
-bantu ekonomi keluarga tempat dekat pilih jalan	Negatif	-1
-tekan tempat tekan proyek habis stres contoh rumah sakit tenaga medis rasa beban mental berat	Negatif	-1
-aruna panti asuh hidup kenal lang tempat asing selesai didik buah	Netral	0
-sadar sadar rasa ngeri tempat bentuk besok lusa rasa salah teman alam seram kantor simak	Negatif	-1
-kantor target naik lipat sisa jalan laku bias jahat teman umur sopan prinsip	Negatif	-1
-mental puncak suka ketik tempat sehat mental skala minim gilir solusi gaji lembur	Negatif	-1
-rapat kawan ambil personal masalah canang personal dekat habis tempat	Negatif	-1
-aduh takut gantung kondisi mental tempat tahap teman gantung mental masalah keti	Negatif	-1
-rapat masalah pribadi tempat organisasi pribadi pribadi campur aduk	Negatif	-1
-tempat menang canda menang rela pergi drama drama pisah alam sadar	Negatif	-1
-pilih tawar divisi tempat jumlah teman dekat teman tulus saran situasi bobrok sulit selamat pilih	Negatif	-1
-fungsional takut suka dekat tempat jauh dekat fungsional susah laksana	Negatif	-1
-kantor kesel kesel bujukin pimpin beliau cuti cuti angkat telpon jujur suka tempat tunjang turun jauh	Negatif	-1
-nyata situasi tempat laku rekan nila titik rasa toleransi putus	Negatif	-1
-egois tuntut senang pribadi rasa kalah nyata tempat tawar mari peluk	Negatif	-1
-giat penuh harap angkut semangat bentuk tempat berat hati kecil surabaya	Netral	0
-rasa sesuai situ lulus tempat alami lulus lepas putus	Negatif	-1
-telingkah tempat mesin bunyi ihwal halang sambut	Negatif	-1
-pilih salah rasa mampu harga tempat tempat level tutup bawa gerbong rombong manjur pakai	Negatif	-1
-kecil hasil suka buku main aksesoris lihat tempat cantik bahan bumi semangat	Negatif	-1
-rusun gratis sewa golong mahal tempat hidup paket relokasi mati mata rumah tempat teduh hujan ikat sosial selamat	Positif	1
-besok tempat takut laku rugi mental drop besok minggu rumah keluarga jual	Negatif	-1
-gara omong seblak rindu tempat jujur capek capek selesai bawa pulang	Negatif	-1
-teman tempat jaga salah bidang jatuh	Negatif	-1
-manja objek derita tempat suruh rumah musti saing prestasi	Negatif	-1
-nyata hubung	Netral	0
-anjeng berangkat nyata tempat	Negatif	-1
-tempat atur ruang meja meja hidup prediksi	Negatif	-1
-dikit jahat kapai tempat were dengar tantang bangga hasil selesai tipes	Negatif	-1
-dunia laki sikap misoginis sikap jahat rasa rebut tempat kuota ambil contoh nyata	Negatif	-1
-tempat sekal personal rapat urus diam	Negatif	-1
-ramai punca harga kawan tempat bosan kurang bayar benda	Negatif	-1
-alam pribadi trauma tempat sumber trauma konflik batin giat were pasti	Netral	0
-kasihan arti jahat profesional intervensi privasi tempat lihat	Netral	0
-curhat rasa tindas tempat angkat leher tempat	Negatif	-1
-tempat negatif rasa marah malas pergi teruk kaki bawang kipas naik gaji kaki bawang ubah perangai	Negatif	-1
-tempat toilet musola jauh debu parah libur sakit tenggorok	Negatif	-1
-sayang putus ambil sesal bahagia drama tempat waras	Negatif	-1
-curhat istri tempat perempuan permanen capek mental buta warna sedih zona nyaman gaji	Negatif	-1
-lembur kucil tempat libur gaji sesuai tekan hasil ambil laku jahat rekan	Positif	1
-kemarin tempat sadar butuh proses	Negatif	-1
-bahas kena salah fatal sayang tempat kasih jamin hadap selamat sehat fisik mental	Negatif	-1
-salah atur harga manusia pasti jahat pasti senioritas	Positif	1
-inti jahat diam	Negatif	-1
-budaya karyawan bakar daging karyawan korea rasa malu karyawan kisah buah komunitas tempat minggu acara	Positif	1
-janji asik nyata jahat parah	Negatif	-1
-masalah segi korporat jahat gila hormat tempat korban politik kantor beda artis budak korporat	Negatif	-1
-tempat tempat kapok mulut perang dingin ketua konsisten stres pegawai rajin tekan malas abai sumpah tahan	Negatif	-1
-kantor karyawan muka kanan jahat parah betah level sakit psikis korea ogah	Negatif	-1
-kultur tempat manipulasi menang mohon kasih bela boro direktur damai	Negatif	-1
-tempat jahat penuh tekan batin	Negatif	-1
-tempat omong omong cerewet nyaman tempat gara berisik	Negatif	-1
-habis rasai kuat pilih jahat kadang sholat toilet waktu	Positif	1
-sistem budaya jahat habis kasar laku tega lihat	Negatif	-1
-arti jahat staff pakai jalur pantas rekan lihat situ bokap bokap tegur suka	Netral	0
-wajar tempat waras raih hasil maksimal model human cabut	Positif	1
-manajemen kantor tempat super jahat tempat nilai cukup valid	Negatif	-1
-temu ganti rasa sulit temu ganti tempat mantan hati rasa sepi hampa rindu hubung sehat	Negatif	-1
-tempat ruang tempat temu tembok butuh sedia butuh tali temali waktu pergi	Negatif	-1
-rasa nyaman cinta rasa nyaman hubung hubung bangun rasa aman stabilitas terkadang penuh konflik sulit	Positif	1
-barang tempat lokasi potensial untung mata simak	Negatif	-1
-terkadang syukur tempat pijak ragu karyawan	Positif	1
-tantang tempat lelah jenuh tenang mudah hadap pola positif	Netral	0
-ajak omong bantu lepas nyaman jahat tahan susah	Negatif	-1
-semangat menang mushola kantor garagara teman hati niat nafkah niat jahat balas serah engkau	Negatif	-1
-fase galau nyaman magang tempat nyaman	Positif	1
-kontrak tempat intern linear jurus jurnalistik suka lulus punch lulus	Positif	1
-jalan nyata jahat tobat maksiat imbas hantam sisi ekonomi cinta hilang	Negatif	-1
-nyaman kuat salah tempat jauh laju aneh rasa jalan kenal ubah jalur sempit batu hidup rumah cahaya	Negatif	-1
-peristiwa jurus seram tempat asing tempat kunjung simak alam salah teman dampar losmen hantu jalan lintas sumatera	Negatif	-1
-tempat tempat nyaman kadang tempat sungguh seram salah teman kisah seram tempat bandung simak	Negatif	-1
-sejarah kelam senyap gambar tari garis seram sudut lembang saji horor tempat latih teman alam seram simak	Negatif	-1
-kadang paksa tempat tempat susah proses adaptasi terpa seram sisi gelap teman alam tempat rumah simak	Negatif	-1
-terkadang tempat tempat milik sejarah kelam seram keluarga alami rumah bandung simak	Negatif	-1
-angker tempat kadang paksa hadap seram dimensi sekal hadir ngeri malam teman seram pabrik tempat peristiwa simak	Negatif	-1
-gagal tempat favorit parfum lagu	Negatif	-1
-tempat putus anggap tempat lelah temu percaya peran utama hidup senang tahan figuran	Netral	0
-tempat nyaman rasa bebas rasa tempat cabut tempat percaya pasti ketemu tempat indah berani pergi	Negatif	-1
-arti tempat adaptasi rekan dinamika beda libur malas mati	Positif	1
-tempat tempat lancar berisik pasti makan enak seru nyata	Negatif	-1
-ungsi iklim rumah tahap kecil besar tempat rumah pilih	Negatif	-1
-ubah kontribusi tempat alami ubah besar hidup rasa asing rasa hubung pilih	Negatif	-1
-rasa masalah hilang pergi gampang tempat dekat lantai jalan kaki jauh naik sepeda jauh naik kereta	Negatif	-1
-teman suka tempat nikah habis nikah salah pisah iring waktu laki teman	Negatif	-1
-masalah suka tempat sayang tempat posisi permanen tempat sesal susah ikhlas	Negatif	-1
-rasa ipar mudik rumah rumah asing tatanan ubah simpel tempat tempat rasa ikhlas barang	Negatif	-1
-tempat tempat makan makan umur hidup pilih bebas pilih tempat	Negatif	-1
-kondisi menang kabur takut tuntut tempat susah ijin sakit ijin potong gaji	Negatif	-1
-percaya tempat ideal kurang pasang pilih kurang toleransi bagus	Negatif	-1
-halo teman curhat kenan ganggu tempat maaf	Negatif	-1
-bahaya tempat rasa penat gila indak rawat ganggu mental langkah ambil laku tempat	Negatif	-1
-tanda tempat verbal normal manager amik janji mungkir ambil kredit ramai tipu staff senyum pilih kasih	Negatif	-1
-pakai benda jahat jahat paksa hadap pakai	Negatif	-1
-mending tahan jahat bentar lihat kasihan jahat pasti capek fisik mental	Netral	0
-lang izin tani lelah jalan dunia tempat bahagia adil	Negatif	-1
-sakit sakit pandang mata sifat rasa takjub hadap pandang dengki cinta jahat salih	Negatif	-1
-nyata jahat beliau cocok fokus studi kontrak wajar hitung	Positif	1
-pilih jahat gaji dekat keluarga jahat gaji sepi teman tempat	Negatif	-1
-sifat dasar manusia tempat tempat kandung pesan sembunyi bahagia	Negatif	-1
-pilih cukup hubung hubung terang tempat imbuh	Negatif	-1
-mudah tempat situ manfaat	Netral	0
-etik rumus karyawan tempat lahir tanggal	Netral	0
-tempat peran jaga sehat mental	Negatif	-1
-stres jahat	Negatif	-1
-rasa tempat cocok kurang nyaman jahat beda visi mudah cicil kudu lunas butuh anggota keluarga semangat juang rupiah kuat	Negatif	-1
-tempat rasa takut ikan waktu angkat suruh	Negatif	-1
-sayang jahat sedih	Negatif	-1
-hear pasti rasa sedih wajar kuat tutup tempat respon semangat dunia	Negatif	-1
-perihal teman kantor jahat nyata gampang ketemu sindir stres stres	Negatif	-1
-habis gaji kecil ribu tempat rasa rasa dosa rejeki wajar	Negatif	-1
-karyawan kurang pola maaf dekat rumah kapai daftar jauh rumah kemarin tempat gaji	Positif	1
-keluh susah kebel gaji ajar tempat rasa cukup rasa besar tempat makan hati enak	Negatif	-1
-rasa situasi lempar departemen garagara jelek cantik goblok bagus performa bagus tempat jauh bagus semangat	Negatif	-1
-nekat jahat tahan stres	Negatif	-1
-karyawan pintar erti pasti undur tempat curiga rugi rekrut	Netral	0
-arti tahan jahat faktor gaji tekan keluarga tempat janji	Negatif	-1
-wajar peluang kondisi tempat kurang tingkat masalah	Negatif	-1
-muak tempat rasa tingkat parah hasil masalah susah	Negatif	-1
-tempat jahat uang lembur kena potong tanggal merah kena potong tempat waktu	Negatif	-1
-muak pamit surat kabur jahat kaya asap desember	Negatif	-1
-nyaman tempat teman gaji takut tempat nyaman trauma bingung	Netral	0
-jahat dilema sehat mental ganggu opsi harap ubah butuh waktu timbang	Negatif	-1
-long sesuai selang kantor nyata dekat tempat tunggu waktu kantor	Netral	0
-kadang situasi hindar jalan lancar tempat cocok semangat rupa	Positif	1
-kuat tekan jahat	Negatif	-1
-nyaman rasa sesuai ekspektasi cocok waktu evaluasi tempat rasa salah semangat	Negatif	-1
-bong tahan ketemu korban sehat sehat anabul waras hubung personal tempat kena efek	Negatif	-1
-kondusif rasa maju bingung selesai selamat alami demotivasi tempat	Negatif	-1
-baca ngeri nyata tempat kantor tempat alam uang teman bonus jahat	Negatif	-1
-nyata jahat bayang parah mbak nyata	Negatif	-1
-september kemarin jahat kantor kantor rasa senang menang	Negatif	-1
-tempat nama rohmat jahat	Negatif	-1
-pergi tempat naik gaji karut ungkit jahat	Negatif	-1
-jumpa rasa jahat	Negatif	-1
-tempat jahat penat mental tanda jahat	Negatif	-1
-jahat susah komunikasi gosip drama teruk takut tukar kurang percaya	Negatif	-1
-jahat kantor	Negatif	-1
-pasti tempat benda peras peras asyik rasa stres letih benda kecil rasa marah	Negatif	-1
-tempat jahat pelangi sembuh lamar jauh tolak pasang jahat jahat	Negatif	-1
-jaman wawancara butuh duit ajar tumbuh titik tempat tumbuh	Negatif	-1
-jahat akal rela begadang libur saing rekan kasihan efektif sesuai lihat malas	Positif	1
-mulut perangai jahat tempat henti jawat galas tuju	Negatif	-1
-stres dekat tempat galas perangai setan dekat tempat henti rana stres jahat situ	Negatif	-1
-mental rusak jahat percuma	Negatif	-1
-pegang alias tempat kondisi kecamuk emosi stabil kondisi stabil pengaruh proses langsung	Positif	1
-pilih kantor suportif sedikit super jahat laku kondisi	Negatif	-1
-rasa cocok salah eksternal jahat sehat industri cocok	Negatif	-1
-video jahat balas video kolega beliau jahat kasihan mbak pepatah pandu	Negatif	-1
-takut jahat inkompeten bedak julid cabut tempat sampah inkompeten tukang julid	Negatif	-1
-tanda tempat budaya jahat kelompok start kelompok mesti gosip jalan pokok goyang angin	Negatif	-1
-stres dekat tempat rana tugas galas rana perangai setan dekat tempat henti stres keliling	Negatif	-1
-gaji jahat tempat jauh	Negatif	-1
-normal tempat bayang interaksi karyawan hitung otomatis cocok komunikasi karyawan cocok tempat milik	Positif	1
-harap beda jahat long jahat personal	Negatif	-1
-stres dekat tempat rana tugas galas rana perangai setan dekat tempat henti stres keliling	Negatif	-1
-heran jahat rasa jahat bawa aura beres kantor tegur sulit syukur kondisi kantor sadar	Negatif	-1
-jahat teman cocok cocok musuh politik gerombol beda keroyok suara mayoritas arti suara	Negatif	-1
-jahat minggu tanam anggur	Negatif	-1
-betah tempat rasa surat	Negatif	-1
-benda tempat	Negatif	-1
-benda tempat	Negatif	-1
-babi budak budak penat jenis tempat penat	Netral	0
-niat jujur omong masalah tempat mending pakai hati sesak baca	Negatif	-1
-tempat buka loker posisi butuh kemarin	Negatif	-1
-tempat nyaman cocok gaji putus korea niat libur korona dasar menang	Positif	1
-sesal dekat tempat mental	Negatif	-1
-besok langsung tempat	Netral	0
-capek pura pura bahagia tempat rasa	Negatif	-1
-rencana curhat tempat posisi pasuk lamar posisi rival	Negatif	-1
-jahat langkah percaya enak alam pribadi	Positif	1
-contoh surat letak jawat minggu contoh bahasa melayu rezeki tempat	Negatif	-1
-jahat waktu arah kurang visi jahat bungkus hasil	Negatif	-1
-tempat jahat rubah darah daging pilih	Negatif	-1
-sayang mental jahat over lembur bayar urus kantor agustus januari pasti tabung cukup	Netral	0
-benci kantor marah akal mental tahan jahat sesal	Negatif	-1
-diam pengaruh buku sisi bisnis tempat inti hindar intervensi jalan terjun	Netral	0
-betah ganti tempat rasa kasih	Negatif	-1
-contoh surat letak jawat minggu contoh bahasa melayu rezeki tempat	Negatif	-1
-bagus jahat mudah cakap	Negatif	-1
-kondisi dasar tempat gabung bawa sempurna sebal	Negatif	-1
-kaget mantan senior salah gara jahat marah suka grup situ intern grafis	Negatif	-1
-bujang tempat kena cuti staf utama kait bujang rasa budaya	Netral	0
-tempat dendam pakai prestasi tempat prestasi dendam	Negatif	-1
-tempat banjir mata pamit habis kontrak nyata kantor jamaah	Negatif	-1
-harap ketemu tempat	Netral	0
-alam tempat	Negatif	-1
-lucu tempat pamit teman kantor betah tempat taruh muka	Netral	0
-aduh capek tempat	Negatif	-1
-indra pasti kena jahat rendah heran lambe	Negatif	-1
-jahat mudah rasa susah	Negatif	-1
-obat capek hati tempat	Negatif	-1
-rasa	Negatif	-1
-salah pilih duit nyaman ajar alam muda saran tempat tempat jahat	Negatif	-1
-handel jumat berkah tempat pending berangkat	Negatif	-1
-tempat tawar tempat	Negatif	-1
-capek obat tidur obat kemarin jahat mental cepat	Negatif	-1
-halo teman utama kandidat kasih konteks tempat	Netral	0
-tempat	Negatif	-1
-saudara tempat kemarin celaka trauma doang duit takut model	Negatif	-1
-malas layan staff jahat sila sila angkat kaki undang pergi halang	Negatif	-1
-patah hati sesak tempat rencana kasih kenang teman nama kebut jumat kasi	Negatif	-1
-pilih kuat juang pergi pulang rumah tuju tempat	Negatif	-1
-tempat cukup nekad baca	Negatif	-1
-stres dekat tempat perangai dekat tempat jahat salah punca henti mental ganggu	Negatif	-1
-surat mohon nyata ubah waktu ubah ubah tempat hantar majikan tunggu	Negatif	-1
-barusan kandidat tempat rasa tantang jenuh rutinitas butuh tipe andil buah	Negatif	-1
-hubungan rekan kerja suasana dukungan dukung kolaborasi tempat toxic jahat benci suka	Positif	1
-gagal jatuh bangun ajar proses besar wujud jahat	Netral	0
-tempat waktu curhat sajadah malam langit pokok	Negatif	-1
-pura pura tempat capek ketawa karir diam doang renung naik ojol	Positif	1
-paham masalah nasehat obsesi laku jahat fitnah trauma parah platform	Negatif	-1
-dosa bunuh hewan bahaya lumayan bahaya bukti kuping waktu kuping tempat	Negatif	-1
+halo jalan ulang senang nomor telepon nama masalah mesan tiket pesawat	Negatif	-1
+halo tiket pesawat bagasi laku	Netral	0
+khawatir jalan senang pesawat hebat maskapai terbang	Netral	0
+tumpang pindai pesawat suruh tempat simpan kelas	Negatif	-1
+nomor telepon hubung reservasi tiket pesawat	Negatif	-1
+lancong pesawat bagasi late janji temu pagi hilang bisnis	Positif	1
+laku kece terbang hilang bisnis pesawat pesawat alami	Negatif	-1
+khawatir terbang pesawat tunda henti teknis	Negatif	-1
+situs masalah mesan tiket pesawat fungsi masalah	Negatif	-1
+keren tonton pesawat	Negatif	-1
+bantu khusus pergi bayi prioritas naik pesawat	Negatif	-1
+alami masalah masalah mesan tiket pesawat situs salah hubung telepon telepon tunggu menit	Negatif	-1
+tiket pesawat periksa email nyata besok	Negatif	-1
+alami masalah barang hilang pesawat bantu temu bandara tuju pesawat	Negatif	-1
+tiket pesawat situs izin hilang bisnis	Negatif	-1
+tiket pesawat situs aktif	Negatif	-1
+foto keren pesawat lepas landas sayap	Negatif	-1
+naik pesawat jumlah catat	Netral	0
+tumpang serang terbang larang terbang awak pesawat lapor	Negatif	-1
+rasa pesawat kemarin	Negatif	-1
+masalah mesan tiket pesawat situs rusak periksa	Negatif	-1
+pesawat sistem siaga	Negatif	-1
+bantu butuh awat usia juang lawan kanker bantu tiket pesawat	Negatif	-1
+tolong naik pesawat malam kursi kiri portofolio butuh	Negatif	-1
+masalah mesan tiket pesawat tegak status cocok pajak tiket hitung poin status	Negatif	-1
+alam harap paksa jinjing kecil kecuali ruang kabin kosong pesawat	Negatif	-1
+pesawat kotor sesuai standar	Negatif	-1
+terbang tuju pesawat kotor tumpang sedih maskapai terbang hebat	Negatif	-1
+masalah mesan tiket pesawat terbang detik minggu kode promo sayang	Negatif	-1
+ulang nenek selamat ulang awak pesawat pramugari	Netral	0
+aduh aduh terbang langsung pesawat	Netral	0
+pesawat cantik	Negatif	-1
+pusing tiket pesawat situs fungsi komputer	Negatif	-1
+keren naik pesawat laku	Netral	0
+pesawat cinta kutu buku	Negatif	-1
+habis khawatir barang bawa bawa pesawat kunci	Netral	0
+kelompok ruang tempat sampah naik pesawat ruang baris	Negatif	-1
+tiket pesawat situs fungsi telepon tunggu menit	Negatif	-1
+suka padu keju anggur pesawat	Negatif	-1
+terbang sempurna pesawat lindung matahari turun maskapai naik	Positif	1
+kelompok maskapai cuaca model layan langgan alami masalah mesan tiket pesawat	Negatif	-1
+rasa naik pesawat cepat rasa	Negatif	-1
+tolak terbit nila hilang pesawat lepas landas masalah mekanik	Negatif	-1
+tiket pesawat masalah pergi	Negatif	-1
+terbang bayar koper hasil pesawat layan sopan	Netral	0
+pesawat bahas mobilitas disabilitas pergi barang naik pesawat	Netral	0
+transfer tiket pesawat tani usia anggota militer jalan operasi otak darurat	Negatif	-1
+nomor telepon hubung reservasi tiket pesawat	Negatif	-1
+hilang ponsel antre naik pesawat minggu	Netral	0
+detail awak pesawat baca	Netral	0
+masalah mekanis pesawat ganti tunda	Negatif	-1
+acara naik pesawat tega hukum longgar hadap barang bawa tempat sampah penuh mantel ruang butuh sistem	Negatif	-1
+terbang tunda pilot naik pesawat duduk	Netral	0
+tiket pesawat murah terbang berangkat	Negatif	-1
+proses hadap barang milik temu pesawat tumpang	Positif	1
+kecil milik masalah terbang kurang tekan pesawat	Negatif	-1
+tiket pesawat hadiah lihat masalah mesan terbang thai	Negatif	-1
+untung hasil naik pesawat kecewa kurang komunikasi	Netral	0
+pesawat kagum terbang kapten	Negatif	-1
+terbang guam buah tualang pesawat operasi	Netral	0
+terbang jebak pesawat akibat tunda	Negatif	-1
+terbang rasa aneh late lambat tunda berangkat pesawat pesawat	Negatif	-1
+batal terbang juang pesawat lambat karyawan salah karyawan	Netral	0
+lihat laku lari besar pesawat lari kasih bantu	Negatif	-1
+terbang lambat duduk landas pesawat gerbang langgan puas	Positif	1
+kondisi buruk emas pesawat acau koneksi klaim kamar hotel tumpang lantar hebat	Negatif	-1
+libur hancur hujan biaya ubah biaya tiket pesawat bantu	Netral	0
+profesional tiket pesawat kursi rasa atur ulang jadwal salah manajemen	Negatif	-1
+stopkontak volt pesawat	Negatif	-1
+pesawat barang bawa periksa nyata bawa cukup konyol	Negatif	-1
+zambia duga bawa pesawat	Negatif	-1
+pesawat	Negatif	-1
+muat menit terbang udara dingin kabin pesawat hancur tingkat armada jarak jauh	Negatif	-1
+pesawat milik hibur perangkat stopkontak erti daya perangkat	Netral	0
+pindai pesawat pesawat pergi	Negatif	-1
+ganti gerbang tunda pesawat anggap maskapai payah	Netral	0
+lapor gagal sistem tunda terbang minggu pesawat landas pacu	Negatif	-1
+sistem kirim butuh bosan duduk pesawat	Negatif	-1
+pesawat dekat gerbang terbang dekat gerbang tuju	Negatif	-1
+lucu terbang pulang terbang naik gerbang dekat pesawat naik	Positif	1
+klaim bagus naik pesawat pesawat darat	Negatif	-1
+naik pesawat periksa gerbang hilang terbang darat menit	Negatif	-1
+barang pesawat telpon bantu	Negatif	-1
+pesawat berangkat turun pesawat	Negatif	-1
+layan langgan buruk antri terbang lambat naik pesawat	Positif	1
+tunggu kabar dompet curi salah pesawat harga selesai	Negatif	-1
+naik pesawat persis cocok masalah agen omong kosong ubah bijak	Negatif	-1
+tolak naik pesawat bukti baca biodata	Negatif	-1
+pesawat indah stopkontak	Negatif	-1
+maksud hasil naik pesawat komunikasi waktu hilang tumpang frustrasi	Positif	1
+gerbang nyata tunda awat aplikasi pesawat lambat	Netral	0
+aplikasi pesawat terbang berangkat tunda pesawat lambat	Negatif	-1
+telepon sakit lupa telepon ganti pesawat lambat lepas landas	Negatif	-1
+jalan naik turun terminal agen lihat menit naik pesawat panik	Negatif	-1
+taruh pesawat tuju terbang tunggu antre bicara status	Netral	0
+tiket pesawat harga kena biaya arti tukar poin tempat	Netral	0
+terbang pedofil putri usia duduk pisah pesawat tuju	Negatif	-1
+laku musisi buruk halang naik pesawat	Negatif	-1
+pesawat terbang terbang langsung kacau	Netral	0
+masalah mesan tiket pesawat jalan tulis jalan selenggara senang darat piyama lucu kena	Negatif	-1
+naik pesawat tunda masalah muat bagasi	Negatif	-1
+terbang batal terbang lambat agen klaim tempat terbang batal terbang rekan naik pesawat tunda	Negatif	-1
+desak konyol fokus langgan tunda pesawat henti langgan	Negatif	-1
+terbang jadwal naik pesawat	Netral	0
+tugas gerbang terbang cegah bawa awak pesawat sikap akal	Negatif	-1
+kasih harfiah panggil naik pesawat lari	Negatif	-1
+februari inti jual tiket pesawat buruk tunggu usir naik pesawat buruk	Negatif	-1
+jaga koneksi berangkat puluh menit turun pesawat darat terbang lambat	Negatif	-1
+pasti video favorit ahli laku awat standar pesawat terbang	Netral	0
+keluh resmi tugas layan langgan salah hubung tolak naik pesawat hilang tolong	Negatif	-1
+naik pesawat tugas lepas sepatu kaus kaki meja lihat kaki tugas jijik	Negatif	-1
+besok naik pesawat biaya bagasi bebas kompensasi kamar hotel	Netral	0
+tunggu pilot pintu pesawat rusak status layan global maskapai aman takjub	Netral	0
+awak pesawat kena pesawat periode panggil	Negatif	-1
+bingung hilang prioritas naik pesawat anggota kartu plus	Netral	0
+izin tumpang naik tumpang turun pesawat anjung naik terbang	Positif	1
+terbang naik pesawat naik pesawat bawa jinjing bayi	Negatif	-1
+naik pesawat reservasi milik nomor tiket agen lambat pesawat	Netral	0
+berangkat kemarin tunggu pesawat berangkat pesawat inap malam	Negatif	-1
+bahasa inggris rasa pesawat muncul	Negatif	-1
+duduk pesawat pilot kasih	Negatif	-1
+sebal tunda pintu gerbang pesawat pemberitahuan	Negatif	-1
+status terbang tunda pesawat	Negatif	-1
+naik pesawat pesawat hanggar terbang	Negatif	-1
+terbang delta berangkat awak pesawat bantu fungsi	Negatif	-1
+lihat agen tiket terminal bubar hilang naik pesawat	Negatif	-1
+pesan tiket pesawat kursi kursi gila	Negatif	-1
+pesawat fungsi terbang pagi	Negatif	-1
+ajar tiket pesawat	Negatif	-1
+alami masalah mesan tiket pesawat terbang afiliasi naik terbang	Negatif	-1
+layan langgan buruk ulang masalah mesan tiket pesawat terbang	Negatif	-1
+tumpang pesawat naik grup premier rupa indikasi proses rusak	Positif	1
+pesawat tuju daftar nama	Negatif	-1
+late naik pesawat bandara badai salju hotel sabar	Positif	1
+pesawat pesawat tunda menit pasti lihat lepas landas gerbang	Negatif	-1
+naik maskapai suka pesawat terbang	Positif	1
+terbang tunda sore naik pesawat duduk landas pesawat sial berangkat	Negatif	-1
+omong kosong tolak naik pesawat pesawat gerbang karyawan payah	Negatif	-1
+kejut besar tunggu pesawat masalah terbang	Negatif	-1
+lari gerbang terbang layan langgan izin pesawat parkir dampar	Negatif	-1
+pesawat berat alangkah darat tunggu menit informasi	Negatif	-1
+tiket pesawat lihat reservasi hubung nama masalah ubah	Negatif	-1
+naik	Positif	1
+alam kecewa pesawat tunggu maaf tulus suruh keluh	Negatif	-1
+terbang buruk alami awak darat abai pesawat pesawat tanggung biaya hotel	Negatif	-1
+alami masalah naik pesawat telepon ulang hotel taksi	Negatif	-1
+halo nomor masalah mesan tiket pesawat saudara nama kasih	Negatif	-1
+maskapai terbang buka pintu kabin tutup pesawat laku malam	Negatif	-1
+pegang pesawat	Negatif	-1
+berangkat menit tunggu pesawat gerbang	Negatif	-1
+naik pesawat besok	Netral	0
+muat pesawat pilot lambat terbang temu pesawat bahan bakar kompeten	Negatif	-1
+rusuh pesawat lihat	Netral	0
+pesawat cukup bijaksana pantas	Negatif	-1
+aksi naik pesawat salah pesawat akal sehat	Negatif	-1
+maskapai buruk tunggu tumpang terbang lambat pesawat bandara	Netral	0
+praktik pasar tipu janji tiket pesawat tahan status kabul	Negatif	-1
+buah pesawat onggok hanggar alami masalah mekanis laku awat	Negatif	-1
+duduk landas pacu izin pesawat gerbang terbang berangkat menit benci	Negatif	-1
+sayang alami alam buruk terbang sabtu awak pesawat sopan tunda parah	Negatif	-1
+serius menit pesawat menit bagasi	Negatif	-1
+izin kursi sedia pesawat kecuali	Negatif	-1
+masalah mesan tiket pesawat berangkat tunda cepat ubah langgan	Negatif	-1
+gerbang pesawat late kabar maaf	Negatif	-1
+klik taut info terbang tiket pesawat baca bebas biaya militer	Negatif	-1
+terbang situs pesan salah tiket pesawat maskapai batal terbang kartu	Negatif	-1
+late duduk pesawat tunggu berangkat rasa puji pantas layan buruk	Negatif	-1
+tolong adakan siar langsung pesawat tonton	Negatif	-1
+pesawat kursi rusak pasang tanda rusak kursi pisah	Negatif	-1
+alam terbang buruk salah lihat muat menit naik pesawat lambat menit	Netral	0
+pesawat	Negatif	-1
+habis kursi pesawat	Negatif	-1
+tunda pilot toilet penuh turun pesawat rusa mesin terbang batal terbang tunda	Negatif	-1
+naik kendara pulang sempurna pesta laku bayar terbang domestik turun pesawat	Positif	1
+ambil tawar salah hitung jumlah kursi pesawat arti terbang	Negatif	-1
+tunda terbang naik pesawat duduk capai turun pesawat	Negatif	-1
+agen kamar mandi naik toilet pesawat penuh harap email nada	Netral	0
+bantu temu terbang jebak duduk pesawat tunggu kabar	Netral	0
+antre macet pesawat nyaman tumpang duduk pesawat terbang	Negatif	-1
+panggil agen layan langgan telepon tunggu terbang kanada mesan tiket pesawat	Negatif	-1
+terbang hebat tuju pesawat kecil tumpang darat mulus	Negatif	-1
+milik diskon kabung tiket pesawat kakek hadir makam minggu	Positif	1
+kasih rusak libur pesawat awat terbang aman	Positif	1
+ubah berangkat siang siang kapten turun pesawat siang omong kosong	Negatif	-1
+senang naik pesawat maskapai hambat latih karyawan komunikasi	Positif	1
+pesawat pesawat berangkat berangkat empati staf gerbang maaf	Negatif	-1
+kirim info bantu terbang pulang berangkat pesawat darat	Negatif	-1
+naik pesawat pramugari milik bantu	Positif	1
+situs kacau tiket pesawat harga kemarin harga kasih	Positif	1
+bantu alam terbang buruk pesawat kotor staf kasar	Negatif	-1
+dana pesawat rusak tumpang landas habis	Netral	0
+terbang dampar landas pacu gerbang sedia pesawat panas nyaman	Positif	1
+laku kecewa buruk pesawat awak terbang	Negatif	-1
+beli tiket kartu prioritas naik pesawat	Netral	0
+lampu rusak butuh menit gerbang pesawat parkir tempat salah kamar mandi kosong terbang	Negatif	-1
+tiket pesawat bebas biaya bagasi personel militer kasih	Negatif	-1
+naik pesawat gerbang tutup tahan menit tumpang	Negatif	-1
+hitung darat pesawat menit tunggu maaf	Netral	0
+pesawat darat berangkat menit	Negatif	-1
+erti bayar ubah masalah pesawat masalah cuaca erti	Negatif	-1
+late jebak naik pesawat hantu muncul	Netral	0
+alami tunda pesawat lihat bandara jauh layan langgan buruk	Negatif	-1
+habis uang beli tiket pesawat terbang milik masalah awat	Netral	0
+menit tunda tiket pesawat situs agen lihat sedia platinum	Netral	0
+lepas landas henti cair laku pesawat operasi malam	Negatif	-1
+agen layan tutup telepon hasil tiket pesawat panggil tiket pesawat	Negatif	-1
+kasih naik pesawat pagi sadar milik pilot	Positif	1
+naik pesawat	Netral	0
+tunda naik pesawat lelah	Netral	0
+izin naik pesawat terbang	Negatif	-1
+cair pesawat parkir tunda	Negatif	-1
+naik tiket alih cuaca pulang	Positif	1
+operasi jalur pesawat	Negatif	-1
+persetan jalur akses utama tutup pesawat laku langgan	Negatif	-1
+insinyur rancang rangka pintu kaki pesawat kursi paksa duduk	Negatif	-1
+fungsi pesawat tugas soket kirim hotel hotel	Positif	1
+berat bawa pesawat	Negatif	-1
+tiket jalan bisnis temu pagi temu temu makan tiket hotel tiket pesawat	Positif	1
+malam masalah mesan tiket pesawat ulang pagi butuh kamar hotel	Negatif	-1
+batal terbang awat pesawat tunda opsi uang	Negatif	-1
+pesawat fungsi hibur kursi nyaman	Netral	0
+izin keluarga kecil naik pesawat terbang maskapai	Negatif	-1
+lantar payah elak kamar masalah mesan tiket pesawat keluh cuaca	Negatif	-1
+duduk pesawat darat gerbang operator serius	Negatif	-1
+alam layan langgan buruk menit naik pesawat malam terbang kecewa	Negatif	-1
+terbang terbang tunda pesawat tunggu gerbang gerbang agen gerbang	Negatif	-1
+mabuk usir terbang tahan pesawat makan	Negatif	-1
+duduk bandara tunggu pesawat bahan bakar cepat dasar tolol	Negatif	-1
+tolong pesawat	Negatif	-1
+aplikasi terbang berangkat late late duduk pesawat	Negatif	-1
+naik jauh cepat naik	Positif	1
+turun pesawat	Negatif	-1
+pesawat barang bawa barang bawa bawa	Negatif	-1
+besok terbang bantu naik pesawat bantu	Netral	0
+kondisi cuaca ekstrem barang bawa pesawat kirim laku	Negatif	-1
+naik terbang	Positif	1
+izin turun pesawat	Negatif	-1
+harap pesawat cadang besok kapal naik pesawat jadwal tunda jadwal	Negatif	-1
+sungguh kejut pesawat terbang nonstop	Negatif	-1
+kasih balas harga tiket pesawat kelompok baya tuju biaya besar	Negatif	-1
+pesawat baris baris masalah	Negatif	-1
+naik tunggu email tunda	Positif	1
+selamat gagal langit gerbang pesawat penuh tunggu cuaca buruk pergi	Negatif	-1
+kasih sistem pasti pesawat	Negatif	-1
+balas periksa terbang alat beda naik pesawat fungsi	Negatif	-1
+tahan besok pagi cukup masalah mesan tiket pesawat pelihara salah	Negatif	-1
+erti sedia pesawat penuh berangkat	Negatif	-1
+pesan salah beli tiket pesawat	Negatif	-1
+terbang besar batal terbang berangkat cuaca buruk pesawat cadang	Negatif	-1
+tunggu pesawat kunjung rumah besok koper hilang	Netral	0
+batal terbang pesawat pesawat tuju	Negatif	-1
+maksud pesawat ganti suka duduk sayap pesawat keluh resmi	Negatif	-1
+izin tumpang terbang blokir pintu pesawat	Negatif	-1
+bersih salju gerbang pesawat duduk menit terbang gagal	Negatif	-1
+milik karyawan pintu gerbang menit naik pesawat harap langgan kompeten saing	Positif	1
+tolong investasi pesawat karyawan kurang beli saham gaji eksekutif kecewa	Negatif	-1
+kasih urus masalah mesan tiket pesawat terbang	Negatif	-1
+teman naik pesawat bukti beli tiket kelas	Negatif	-1
+pesawat tuju tuju terbang	Negatif	-1
+bodoh hilang besar pesawat	Negatif	-1
+omong kosong kursi kelas terbang awak pesawat lambat terbang pesawat hormat	Negatif	-1
+kecewa tumpang dampar hujan gerbang lindung tumpang sisa berangkat pesawat	Negatif	-1
+darat pesawat alam layan langgan buruk terbang lambat kasar barang bawa hilang	Netral	0
+badan pesawat	Negatif	-1
+tingkat pesawat pesawat sedia	Netral	0
+ulang terbang hibur pesawat	Negatif	-1
+tawar tiket pesawat menit kecil lucu terbang jumat batal	Negatif	-1
+resmi milik prosedur naik pesawat efisien waktu menit naik pesawat	Positif	1
+duduk pesawat gerbang sisa terbang sungguh	Negatif	-1
+masalah mesan tiket pesawat jatah bagasi daftar	Negatif	-1
+terbang batal butuh bantu masalah mesan tiket pesawat	Negatif	-1
+pesawat tunggu gerbang tumpang duduk kursi sempit jijik	Negatif	-1
+periksa gambar periksa rutin pesawat	Negatif	-1
+karyawan ratus antre pesawat pasti kasih	Positif	1
+tumpang kelas bayar pesawat	Negatif	-1
+terbang perdana sambung daya listrik darat pesawat tenang kawan	Negatif	-1
+buah pesawat hilang perangkat lunak putus laku tingkat	Positif	1
+terbang suka pesawat kualitas	Netral	0
+hasil kuasa pesawat hasil	Positif	1
+sistem fungsi tunggu menit kena biaya masalah mesan tiket pesawat layan langgan	Negatif	-1
+hadir nikah tonggak sejarah ganti masalah mesan tiket pesawat ulang ganti rugi	Negatif	-1
+lucu terbang kemarin tunda masalah mekanis nasib buruk pesawat masalah	Negatif	-1
+sebal alami sulit masalah mesan tiket pesawat pesan salah jalan awat	Negatif	-1
+hubung karyawan hebat tolak kursi kosong pesawat	Negatif	-1
+tiket pesawat tunggu menit serah tiket terbang nomor beda bayar tiket tiket	Negatif	-1
+terbang naik tahan pesawat	Netral	0
+pesawat darat menit pesawat pintu gerbang sedikit informasi	Negatif	-1
+dildo pesawat	Negatif	-1
+pemberitahuan pesawat	Negatif	-1
+duduk pesawat sungguh akal mimpi buruk	Negatif	-1
+tugas aman pesawat rusak terbang	Negatif	-1
+masalah pesawat jalan	Negatif	-1
+kasih duduk pesawat bahan bakar arang	Negatif	-1
+maskapai buruk jauh tunda pesawat terbang pulang pergi	Negatif	-1
+pesawat alami masalah mekanis terbang lambat duduk pesawat gila	Negatif	-1
+terbang lintas kaleng soda hibur pesawat kualitas	Netral	0
+masalah mesan tiket pesawat jalan minggu kasih pilih mudah	Negatif	-1
+terbang telat transit total belas ganti pesawat terbang konyol	Negatif	-1
+salah pesawat alami masalah awat	Negatif	-1
+tolong naik terbang	Positif	1
+dengar suka kursi tubuh kecil rasa pesawat sempit	Negatif	-1
+rawan serah kursi laku duduk menit pesawat tunggu	Negatif	-1
+kasih tunda naik pesawat muntah pramugari nyata pesawat bersih	Negatif	-1
+kasih tunda terbang bawa pesawat muntah bersih	Negatif	-1
+darat periksa pesawat nomor terbang suara dengar lepas landas darat	Negatif	-1
+tumpang tunggu pesawat landas pacu gerbang hitung jalan	Netral	0
+mohon ikan informasi henti terbang informasi pesawat	Negatif	-1
+visa tanggal juni tiket pesawat	Negatif	-1
+naik pesawat	Netral	0
+pesawat kasih penuh tolol	Negatif	-1
+tiket pesawat harga lipat	Netral	0
+menu makan pesawat sedia	Netral	0
+terbang tunda terbang hilang barang bawa pakai bersih tiket pesawat harga kasih	Netral	0
+periksa bagasi pesawat ramah terbang	Negatif	-1
+awak pesawat hebat	Negatif	-1
+pilot darat pesawat lembut tempat tumpu krim kocok darat mulus	Negatif	-1
+balas harap pesawat rawat terbang	Negatif	-1
+naik waktu turun pesawat tunda menit transparansi terbang sabar lepas status emas	Positif	1
+terbang sedia makan gratis izin pesawat lampu bohlam rusak	Positif	1
+beda jalan tuju pesawat	Negatif	-1
+tunda awat naik awak pesawat area naik	Positif	1
+benda benda pesawat pasti	Netral	0
+bersih pesawat parkir malam hanggar dengar senang bohong layar cuaca	Negatif	-1
+terbang pesan tiket jalan berangkat pesawat muncul sore akurat	Negatif	-1
+jebak temu pesawat kesal	Netral	0
+jujur langgan ubah pulang pesawat berangkat	Negatif	-1
+kena biaya dolar tiket pesawat periksa kartu kredit	Negatif	-1
+sulit percaya pesawat terminal tunda masalah mekanis	Negatif	-1
+maskapai terbang besar buruk bukti naik pesawat pintu dapur buka cuaca derajat	Netral	0
+pesawat kagum terbang	Negatif	-1
+pesawat pilot jebak macet	Negatif	-1
+kasih terbang kelas global pesawat prancis layan	Negatif	-1
+malang untung masalah awat ganti pesawat late	Negatif	-1
+tumpang tunggu malam pesawat operasi lantar malam	Negatif	-1
+halo turun pesawat kacang tanah kirim	Positif	1
+tiket pesawat jalan cepat masalah	Negatif	-1
+palm layak medali tangan pesawat profesional	Positif	1
+harga terbang batal pesawat darat	Negatif	-1
+tunda tunda bandara internasional sedia awak pesawat salah	Negatif	-1
+ponsel pesawat tolong	Negatif	-1
+pesawat kosong lepas landas duduk	Negatif	-1
+pesawat baris milik baris tolong	Netral	0
+erti pilot naik pesawat kelas kursi kelas ekonomi kosong dekat kelas premier	Negatif	-1
+malam fantastis tunggu pesawat tunda terbang batal darat	Negatif	-1
+butuh pesawat pergi berangkat malam maju	Negatif	-1
+cukup layan buruk pesawat rute akal maskapai terbang status sesuai	Negatif	-1
+tunggu naik pesawat nyata panggil awat pesawat dingin	Negatif	-1
+tiket pesawat kode	Negatif	-1
+tunggu pesawat terbang berangkat terbang malam tolong	Negatif	-1
+tiket pesawat september harga april harga murah sungguh tipu langgan senang daya	Positif	1
+gila pesawat darat pesawat kompensasi	Negatif	-1
+penasaran naik pesawat pilot proses terbang	Netral	0
+jebak turun pesawat gagal total mitra pasti alam langgan	Netral	0
+beli tiket pulang pergi tiket pesawat harga diskon	Positif	1
+lihat informasi proses naik pesawat grup	Positif	1
+nomor telepon langsung meja cocok status sungguh sesal masalah mesan tiket pesawat	Negatif	-1
+kecewa duduk pesawat	Negatif	-1
+duduk tunggu pesawat buang	Negatif	-1
+proses naik pesawat payah ajar	Positif	1
+sore pesawat tunda sebal	Negatif	-1
+hasil naik pesawat hotel kasih	Positif	1
+suruh naik pesawat kapten duduk menit	Negatif	-1
+senang naik pesawat pulang hore	Netral	0
+naik pesawat terbang	Netral	0
+serius tunggu pesawat terbang berangkat sore pesawat hebat hebat	Negatif	-1
+kejut kualitas layan terbang terbang awak pesawat ramah suka konsep	Netral	0
+bayar mobil naik pesawat meja bantu pesawat berangkat malu	Negatif	-1
+terbang tunda pesawat lihat cepat	Netral	0
+situs aktif kemarin info hasil tiket pesawat beli naik	Netral	0
+maaf naik pesawat kasih balas	Netral	0
+duduk pesawat lepas landas jadwal awan langit	Negatif	-1
+pesawat panggil polisi pesawat lepas landas	Negatif	-1
+terbang tunda menit pesawat bawa makan tunda bodoh	Negatif	-1
+panggil pesawat senang bantu	Negatif	-1
+ulang nenek senang selamat ulang pesawat pramugari	Netral	0
+pesawat lengkap stopkontak sandar kursi terbang tanggal	Negatif	-1
+masalah mesan tiket pesawat waktu temu ambil risiko tiket	Negatif	-1
+mohon timbang izin tumpang bawa barang bawa bagasi kabin pesawat kelas utama akal	Negatif	-1
+pesawat mekanis terbang periksa pesawat	Negatif	-1
+cantum tempat situs jengkel naik pesawat	Negatif	-1
+tiket pesawat kemarin email nomor konfirmasi salah segmen terbang aktif	Negatif	-1
+informasi kena tarif tiket pesawat minggu	Negatif	-1
+tiket pesawat kemarin muncul akun konfirmasi email hilang segmen	Netral	0
+naik pesawat batal terbang pilot temu siang	Netral	0
+alami masalah mesan tiket pesawat unjung amerika	Negatif	-1
+rekapitulasi tolak turun pesawat bohong tutup telepon	Negatif	-1
+selimut sayang pesawat tolong bawa rumah	Netral	0
+alam terbang keri terbang pesawat	Negatif	-1
+tulang kering retak lari cepat lihat pesawat jauh jalur	Negatif	-1
+terbang tempat duduk jebak titip naik pesawat	Negatif	-1
+klaim cuaca keras tarik kursi pesawat laku laku	Netral	0
+halo beli tiket pesawat paris ecek	Netral	0
+akal kecuali pesawat penuh kursi kosong kabin buka naik	Negatif	-1
+maaf dengar terbang butuh bantu masalah mesan tiket pesawat	Negatif	-1
+kasih halaman rute milik pesawat khusus	Netral	0
+tunggu turun pesawat kejar tunggu detik	Negatif	-1
+naik pesawat selamat utama mekanik masalah cepat energi bagus terbang	Positif	1
+lapor rupa pesawat salut pilot	Positif	1
+masalah mesin mekanik masalah selamat utama ganti pesawat	Negatif	-1
+sabar agen mesan tiket terbang pesawat	Negatif	-1
+promo pesawat sulit edit cepat keluh buah	Netral	0
+operasi pesawat operasi	Positif	1
+ulang naik pesawat tunda naik kereta mobil gerbang	Positif	1
+tablet pesawat telepon mudah alamat email hubung	Negatif	-1
+awak pesawat hilang masalah dokumen tumpang toilet beku turun pesawat uang	Negatif	-1
+fantastis pesawat penuh sesak	Negatif	-1
+tiket pesawat lihat harga frustrasi	Positif	1
+laku tiket pulang pergi naik pesawat	Netral	0
+naik tolak bawa kepala ruang pesawat ruang	Negatif	-1
+percaya masalah mesan tiket pesawat tiket konfirmasi beli batal terbang	Negatif	-1
+tolong bantu pesawat paris kemarin hubung laku	Negatif	-1
+konfirmasi sertifikat masalah mesan tiket pesawat asumsi	Negatif	-1
+jujur langgan kursi rancang muat baris pesawat baris uang	Netral	0
+nilai absen rapat tiket pesawat naik pesawat	Negatif	-1
+ngotot paket pesawat	Negatif	-1
+buah pesawat tabrak gerbang tunggu tempat luas	Negatif	-1
+kirim pesawat pribadi bawa sekolah cuaca dingin jebak	Positif	1
+murah terbang naik pesawat	Netral	0
+tunda pesawat beku terbang	Negatif	-1
+staf kasar butuh jaket tablet bawa barang bawa pesawat penuh hilang	Negatif	-1
+sebal uang tiket pesawat temu cinta hidup jauh	Negatif	-1
+baca tagar akal tipu batal reservasi tiket pesawat	Negatif	-1
+ganti pesawat tunda pesawat tunggu naik pesawat	Negatif	-1
+pesawat fungsi	Negatif	-1
+alami celaka besar informasi tunggu pesawat	Negatif	-1
+tumpang terbang pesawat tabrak pesawat henti	Negatif	-1
+jebak pesawat rusa mekanis kabar jalan	Negatif	-1
+tunggu menit keluarga usia jalan terbang berangkat bandara rupa henti pesawat	Negatif	-1
+pesawat inap malam bandara kejar menit udara tunggu berangkat	Negatif	-1
+masalah mekanis tunda pesawat hubung tunggu menit tolak berangkat	Negatif	-1
+salah tumpang ganti pesawat pesawat layar kursi jelek	Negatif	-1
+cukup adil sebal tumpang pesawat gerbang duduk landas lepas landas	Negatif	-1
+pesawat	Negatif	-1
+keluarga naik pesawat lambat duduk pesawat darat	Netral	0
+langit sahabat tunda cuaca tunda mekanis duduk pesawat	Negatif	-1
+pilih kursi terbang warga kanada masalah mesan tiket pesawat	Negatif	-1
+berat pesawat duduk pesawat aman terbang	Negatif	-1
+pesawat telepon tunggu menit panggil putus	Negatif	-1
+masalah mesan tiket pesawat masalah besar buruk	Negatif	-1
+duduk pesawat barang bawa turun berat pesawat	Negatif	-1
+terbang sulit tunda pesawat putar gerbang	Negatif	-1
+milik masalah sila bayar tiket pesawat penuh tiket cadang	Negatif	-1
+batal tiket pesawat ribu suka nilai tukar	Negatif	-1
+jebak tunggu terbang masalah awat pesawat gagal	Negatif	-1
+munafik tiket pesawat batal nilai tukar buruk untung	Negatif	-1
+stopkontak pesawat sedia kabin premium kabin ekonomi plus	Netral	0
+situs alami masalah mesan tiket pesawat rupa bencana penuh jual jengkel jernih	Negatif	-1
+alami tunda besar darat lambat pesawat hebat darat	Negatif	-1
+nomor referensi masalah mesan tiket pesawat	Negatif	-1
+bagus perhati tumpang pesawat perhati pegang kartu kredit	Negatif	-1
+baris bersih naik pesawat sopan temu tisu bekas kursi tolong	Positif	1
+terbang buruk pramugari pesawat lengkap stopkontak kursi	Negatif	-1
+duduk laku naik pesawat tolong izin pulang	Negatif	-1
+tolak naik pesawat konfirmasi tolak	Negatif	-1
+pesawat kecil terbang benci pesawat kecil	Negatif	-1
+alami ganggu pesawat ganggu jumat pesawat	Negatif	-1
+pesawat jauh unggul harga performa rasa late banding alam	Negatif	-1
+naik pesawat tunda masalah mekanis tunda	Negatif	-1
+pesawat tunda pesawat	Negatif	-1
+cukup cepat layan hubung besar milik pesawat zaman buruk	Negatif	-1
+alami late terjang cuaca buruk tumpang tunggu pesawat serius	Negatif	-1
+pakai balita pesawat milik dekat	Netral	0
+kejut laku tingkat besar rute terbang pesawat layan	Netral	0
+senang barang bawa periksa paksa tugas gerbang jahat naik pesawat lihat kotak simpan kosong	Negatif	-1
+kurang suka tunda pesawat hubung	Negatif	-1
+kasih terbang kagum sayang tipu hasil naik pesawat	Positif	1
+pergi beli tiket pesawat proses menit poin naik bantu	Positif	1
+terbang tunda terbang tahan pesawat	Negatif	-1
+hilang penuh libur naik pesawat tunggu pesawat	Netral	0
+hebat darat sempurna pesawat hancur rencana kacau kasih	Negatif	-1
+paksa izin turun pesawat toilet fungsi libur keluarga meksiko	Negatif	-1
+naik pesawat malam tunda naik pesawat izin dengar aman	Negatif	-1
+dingin pesawat	Negatif	-1
+bantu industri hotel tiket pesawat pergi tempat konsisten terbang	Negatif	-1
+tiket pesawat ponsel email konfirmasi	Netral	0
+menit istri bayi naik pesawat tolong bantu	Negatif	-1
+pesawat masalah mekanis naik pesawat ujung antre jebak	Negatif	-1
+maskapai terbang layan langgan tiket pesawat gratis jangkau	Positif	1
+terbang pesawat penguin	Negatif	-1
+pesawat sepi sopan	Negatif	-1
+suka tolong pesawat panas terbang sauna	Negatif	-1
+suka pesawat cahaya harap jendela besar	Negatif	-1
+tolong turun harga tiket pesawat dolar kasih	Netral	0
+tumpang pesawat	Negatif	-1
+pesawat panggil rupa kombinasi suka kirim pesan teks kaki udara	Negatif	-1
+awak pesawat terbang kirim gratis	Positif	1
+prosedur naik pesawat akal bingung cegah kelahi rebut kursi bagus	Negatif	-1
+agen jalan love kontes pesawat kertas hibur sungguh lihat	Negatif	-1
+awak pesawat laku hebat tunda	Negatif	-1
+naik pesawat butuh kursi roda turun pesawat naik pesawat	Negatif	-1
+saksi pesawat laku tugas	Negatif	-1
+rasa frustrasi beli pesawat muat email	Negatif	-1
+izin naik pesawat tiket biru sedia tempat duduk rombong	Negatif	-1
+staf meja lomba pesawat kertas kartu hadiah hibur tunda	Negatif	-1
+telepon maaf pribadi minggu ulang tiket pesawat tindak kelas harga	Negatif	-1
+tunggu naik pesawat minum gratis	Netral	0
+pahlawan suami hasil periksa aman ambil ponsel pesawat	Negatif	-1
+pahlawan suami hasil periksa aman ambil ponsel pesawat	Negatif	-1
+mudah bisnis pilih naik pesawat naik pesawat	Netral	0
+naik pesawat grup usia pisah laku	Negatif	-1
+terbang fungsi pesawat seri pesawat	Negatif	-1
+terbang tonton gratis pesawat fungsi akses situs situs	Netral	0
+bayar naik pesawat wanita sistem mati erti	Negatif	-1
+salah pesawat kasih bawa	Negatif	-1
+gerbang info berangkat salah pesawat siaga	Negatif	-1
+kasih konfirmasi pesawat alami disleksia arah	Negatif	-1
+baca bijak naik pesawat rombong tumpang usia duduk	Netral	0
+tunggu menit bagasi layan pesawat henti minum	Negatif	-1
+kasih bantu izin naik pesawat	Negatif	-1
+pesawat terbang tumpang turun	Negatif	-1
+suka terbang batal terbang menit naik pesawat pilih selasa sore serius gagal total	Negatif	-1
+pesawat rusak senang	Negatif	-1
+tunda bayar tiket naik pesawat naik duduk kursi uang	Positif	1
+harap bantu lantai pesawat batal menit cuaca terbang pulang pesawat milik cuaca	Negatif	-1
+naik pesawat kasih status siaga pegang malam kemarin	Negatif	-1
+kasih sedikit lambat masalah besar harga perhati naik pesawat layan	Netral	0
+kasih berkat tiket pesawat murah tawar pergi	Negatif	-1
+tiket pesawat keluarga harga tiket akal mahal	Positif	1
+lihat terbang bantu wanita pesawat	Netral	0
+bayar tiket pesawat cukup mudah langgan kelas bisnis	Negatif	-1
+periksa kepala pesawat dinamit taruh	Negatif	-1
+terbang nomor terbang malam naik pesawat tumpang tabrak	Negatif	-1
+terbang terbang malam naik pesawat terbang tumpang hadir makam	Negatif	-1
+wanita naik pesawat kursi sekat milik bayar kasih	Positif	1
+pesawat nyala arti pesawat	Negatif	-1
+batal terbang pantai timur pesawat lepas landas jalan pergi cepat	Negatif	-1
+kasih wakil layan langgan bantu sabar masalah mesan tiket pesawat terbang batal bantu tempat besok	Negatif	-1
+terbang terbang besok naik pesawat terbang tumpang hadir makam	Netral	0
+pilot pesawat profesional layan langgan tempat ambil bagasi kasih	Negatif	-1
+terbang batal terbang tahan bayar naik pesawat tolak hormat terbang jadwal ulang	Negatif	-1
+nama terbang gratis habis sewa pesawat bawa barang bawa	Netral	0
+naik pesawat tuju barang bawa	Netral	0
+tumpang pesawat ambil barang bawa tempat duduk	Negatif	-1
+menit pesawat habis bagasi	Negatif	-1
+bandara pesawat pesawat	Negatif	-1
+singkat tiket pesawat turun harga harga murah	Netral	0
+terbang hujan milik pesawat fungsi maskapai pilih besok	Netral	0
+pergi toilet pesawat tanda wastafel bersih tangan lihat jorok	Negatif	-1
+pesawat bayar bantu teman bangkrut	Negatif	-1
+batal terbang betis ganggu alat pesawat	Negatif	-1
+naik pesawat maskapai telepon uang setir pulang	Positif	1
+balas tahan habis naik pesawat besok pulang	Netral	0
+terbang pesawat darat	Negatif	-1
+total tunda batal terbang staf putus naik pesawat kemudi	Netral	0
+tunda idiot pesawat tunggu	Negatif	-1
+komputer pesawat minggu terbang temu kirim	Positif	1
+suami terbang alami alam buruk pesawat menit	Negatif	-1
+pesawat tunda cuaca pilot undang lihat kokpit	Positif	1
+pilot pesawat terbang sesuai jadwal lepas landas menit	Negatif	-1
+tunggu naik bandara naik pesawat jalan desa dingin tolong bantu	Positif	1
+terbang batal tiket pesawat uang suruh telepon layan langgan tunggu menit tunggu	Negatif	-1
+maskapai terbang favorit sabar tiket pesawat jalan april	Positif	1
+senang naik pesawat tuju	Netral	0
+tahan gerbang menit gerbang panas pesawat nomor terbang	Negatif	-1
+kirim survei langgan tiket pesawat	Positif	1
+payah tumpang pesawat titip barang bawa titip barang bawa naik terbang tunda	Netral	0
+keren pesawat milik terminal tuju keren terbang langit sahabat	Negatif	-1
+pesawat gerbang menit kabar terbang layan buruk	Negatif	-1
+suka tugas gerbang pagi naik pesawat nama wakil merek	Negatif	-1
+frustrasi buah awak pesawat hebat kasih	Negatif	-1
+tiket pesawat sedia desember laku jalan besar	Netral	0
+naik pesawat bantu harap terbang kasih	Netral	0
+terbang tunda naik pesawat hilang aplikasi	Negatif	-1
+tugas bagasi barang bawa pesawat pagi temu	Negatif	-1
+terbang salah terbang alami salut awak pesawat maskapai	Negatif	-1
+terbang pesawat berangkat sadar bantu	Negatif	-1
+poin masalah mesan tiket pesawat tiket tunai kasih	Netral	0
+naik pesawat mahal senang	Positif	1
+pergi pekan raya ulang teman masalah mesan tiket pesawat ulang	Negatif	-1
+harga tiket pesawat lihat musim gugur murah	Positif	1
+pesawat fungsi mewah bayar hilang simpan uang butuh model bisnis	Negatif	-1
+naik hebat terbang	Positif	1
+kabar layan pesawat alam buruk kangen sedia	Negatif	-1
+harap bawa tongsis pesawat	Negatif	-1
+tiket pesawat situs aplikasi tolong	Negatif	-1
+lambat pesawat buka email bayar	Netral	0
+tugas gerbang naik pesawat baca valid acau catat tumpang	Negatif	-1
+tolong laku hadap cepat koneksi pesawat cepat	Negatif	-1
+awak pesawat malam kati tumpang jalan latih medis pesawat	Negatif	-1
+pesawat jadwal mohon terap sistem bayar dana	Negatif	-1
+izin naik pesawat sore kursi sedia terbang tunda maskapai buruk	Netral	0
+kompensasi ganti pesawat	Negatif	-1
+tegak prosedur naik pesawat	Negatif	-1
+harga tiket pesawat suka	Netral	0
+pesawat	Negatif	-1
+masalah mesan tiket pesawat jalan musim panas terbang lambat terbang langsung hilang	Netral	0
+tiket pesawat acara super	Negatif	-1
+terbang senang awak pesawat pimpin pesawat nyanyi lagu selamat ulang salah anggota	Negatif	-1
+harga pesan tiket pesawat halaman harga naik konyol	Positif	1
+temu pesawat kasih dengar keluh kesah	Positif	1
+wakil layan langgan bohong pesawat berangkat pesawat jadwal berangkat	Negatif	-1
+tindak pagi pesawat fungsi tunda	Negatif	-1
+pesawat buruk rela bayar lipat cepat alup	Negatif	-1
+lihat tawar pesawat program populer	Netral	0
+mohon maaf senang senang surat terbang pesawat	Negatif	-1
+terbang pesawat	Negatif	-1
+pusat dengar sedia tempat duduk buka pesawat	Positif	1
+bayar pesawat fungsi cepat unduh mbps tonton gratis ganti	Negatif	-1
+ulang nenek senang selamat ulang awak pesawat pramugari	Netral	0
+tiket pesawat dana sedia bayar laku terbang domestik pulang pergi	Positif	1
+bayar prioritas naik pesawat	Netral	0
+kasih agen naik pesawat dompet pesawat temu	Negatif	-1
+pesawat naik pesawat	Negatif	-1
+logo lihat takjub pesawat terbang	Netral	0
+tiket pesawat pagi sabar keliling	Netral	0
+lihat promo naik pesawat senin terbang periode kualifikasi	Positif	1
+lepas humor jebak pesawat pintu gerbang muat	Negatif	-1
+hibur pesawat malam tiru nyanyi tumpang	Negatif	-1
+tumpang kursi roda naik pesawat duduk baris pintu fisik mampu bantu darurat	Negatif	-1
+duduk pesawat lepas landas	Negatif	-1
+pesawat marah ancam ambil	Negatif	-1
+cuaca buruk terbang pesawat	Negatif	-1
+aduh pesawat cukup penuh hibur lelucon jenaka	Negatif	-1
+inap malam ambil harap naik pesawat	Negatif	-1
+telat naik pesawat hilang kirim tempat kirim tempat	Negatif	-1
+jalan ganti rencana jalan khawatir beli tiket pesawat	Negatif	-1
+naik pesawat suruh turun pesawat tunda	Negatif	-1
+senang naik pesawat waktu pagi bagus	Netral	0
+pesawat gerbang perilaku martabat maaf cukup	Netral	0
+pesawat darat malam dewasa tanggung nomor hubung kasih	Negatif	-1
+gerbang milik sedikit kursi pesawat	Negatif	-1
+pesawat gerbang tunggu pulang	Negatif	-1
+poin beli tiket pesawat tolak	Negatif	-1
+rasa aneh duduk pesawat tunda pesawat	Negatif	-1
+komitmen pesawat batal terbang layan langgan tutup sabar habis	Negatif	-1
+berangkat senin pesawat berangkat kecuali pesawat pesawat tunda bayar taksi	Negatif	-1
+alami masalah mesan tiket pesawat kode promo bagus	Negatif	-1
+kendara pesawat muat	Negatif	-1
+kasih pesawat berangkat laku jebak tunggu	Negatif	-1
+naik pesawat terbang janji ganti late tunda senang	Netral	0
+tunda ikan prioritas naik pesawat arah maaf	Netral	0
+kasih kendali cuaca harga ulang tiket pesawat	Netral	0
+sedih duduk pesawat tunggu mesin barang bawa hilang	Negatif	-1
+terbang kurang pesawat berangkat besok pagi	Negatif	-1
+bagasi pesawat hilang	Negatif	-1
+masalah mesan tiket pesawat ulang alami tangkap layar tulis salah hubung	Negatif	-1
+beli biru terbang terbang tunda hilang posisi naik pesawat	Netral	0
+naik pesawat siksa terbang salah tugas gerbang bantu naik	Negatif	-1
+erti tunda jebak pesawat jadwal terbang	Negatif	-1
+tiket pesawat tahan suruh laku	Negatif	-1
+ulang terbang naik	Positif	1
+nyanyi buah lagu naik pesawat	Positif	1
+pesawat berangkat berangkat pagi turun salju	Negatif	-1
+pesawat lepas landas darat selamat gelas anggur gratis kasih	Negatif	-1
+langgan setia langgan setia pesawat banding	Negatif	-1
+gerbang blokir pesawat lambat berangkat tunda menit	Negatif	-1
+pesawat late karyawan	Netral	0
+pilot terbang pesawat kotor bersih area tempat duduk	Negatif	-1
+situs alami masalah tiket pesawat visa tolak	Negatif	-1
+tiket pesawat keikutsertaan wajib visa zaman tolong bantu gadis hubung	Negatif	-1
+tiket pesawat mudah	Negatif	-1
+pesawat sinar awak pesawat pesawat sinar bagus	Negatif	-1
+tiket pesawat batal milik masalah mesan tiket pesawat terbang pisah acara beda	Negatif	-1
+naik pesawat	Netral	0
+terbang tunda terbang langsung pesawat gerbang	Netral	0
+layan langgan buruk laku bawa naik pesawat	Netral	0
+layan buruk pesawat terbang tunggu pesawat rencana matang	Negatif	-1
+bandara berangkat pesawat	Negatif	-1
+pasti udara pesawat tumpang alami salah mekanis alias tunda	Negatif	-1
+alami tunda duduk menit bayi menang pesawat pesawat	Negatif	-1
+awat pesawat darat jamaika periksa aman ruang awat bersih naik pesawat	Negatif	-1
+pilot nama pesawat	Negatif	-1
+kemarin alami masalah pesawat sistem anggota	Negatif	-1
+turun pesawat sanggup terbang	Netral	0
+darat izin pesawat kasih pesawat siang	Negatif	-1
+sabar sambut pesawat	Positif	1
+tipe pesawat terbang	Negatif	-1
+tiket pesawat murah juni acara olahraga tawar diskon	Negatif	-1
+suka terbang salah pesawat	Negatif	-1
+tiket pesawat timbang putus baca	Negatif	-1
+pesawat tutup lakban	Negatif	-1
+tiket pesawat meksiko kirim selesai	Netral	0
+bodoh metode bayar beli tiket pesawat contoh kartu debit kasih	Negatif	-1
+halo suami beli tiket pesawat malam sadar nama salah laku kasih	Negatif	-1
+lari pinggir jalan tempat mandiri waktu masalah mesan tiket pesawat harga kesal	Negatif	-1
+pesawat	Negatif	-1
+senang lihat pesawat damping	Positif	1
+pesawat berangkat ubah berangkat terbang lambat	Negatif	-1
+lacak tawar tiket pesawat khusus suka pilih internasional	Negatif	-1
+desk tampung pesawat staf cuaca masalah	Negatif	-1
+pesawat tunda berangkat musim hujan	Negatif	-1
+panggil bangun naik pesawat kopi besar ekstra ringan ekstra manis	Positif	1
+naik	Positif	1
+pilot khawatir cadang pesawat kasih kawan	Negatif	-1
+susah sepupu naik pesawat	Negatif	-1
+berat badan ekstra bawa pesawat barang bawa akal sehat gemuk	Negatif	-1
+andai acara pesawat hidup	Netral	0
+naik pesawat kapten lampau waktu putar pesawat	Negatif	-1
+kasih respons cepat pesawat	Netral	0
+tonton pesawat	Negatif	-1
+kecewa tumpang terbang santo laku naik pesawat informasi	Netral	0
+harga kenan hubung pilot pesawat izin interkom	Negatif	-1
+kasih sebal utama pesawat kicau	Netral	0
+bayar milik kursi dasar naik pesawat kecuali bayar	Positif	1
+resmi hilang langgan sungguh poin milik naik pesawat	Positif	1
+serius solusi bantu usia masalah pesawat	Negatif	-1
+tunda pesawat udara	Negatif	-1
+rasa jahat duduk dekat usia pesawat	Negatif	-1
+usia duduk pesawat akal sebal	Negatif	-1
+duduk terminal suka naik pesawat kasih	Negatif	-1
+mitra masalah mesan tiket pesawat	Negatif	-1
+pesawat panas ventilasi angkut	Netral	0
+tiket pesawat pisah usia bodoh pusing	Negatif	-1
+laku alami masalah mesan tiket pesawat ajar	Negatif	-1
+pesawat terbang	Negatif	-1
+alam masalah mesan tiket pesawat cukup hebat	Negatif	-1
+info naik pesawat posisi canggung rewel	Negatif	-1
+istri anjing izin pesawat putri dekat salah besar	Negatif	-1
+staf darat turun pesawat	Negatif	-1
+tumpang duduk pesawat panas udara komunikasi salah besar	Negatif	-1
+pesawat jebak terbang cuaca terbang lambat tumpang pesawat	Negatif	-1
+konyol tunggu turun pesawat bayi lahir	Negatif	-1
+tunggu pesawat darat gerbang tolong pesawat	Negatif	-1
+kasih libur harga tunggu landas pacu pesawat	Positif	1
+pesawat darat masalah	Negatif	-1
+pesawat berangkat tunggu salah organisasi cuaca	Negatif	-1
+sungguh pesawat terbang sewa bawa tumpang	Negatif	-1
+buka derita diabetes butuh pesawat gula	Negatif	-1
+turun pesawat	Negatif	-1
+kasih info laku naik pesawat tingkat	Netral	0
+kirim pesawat hanggar terbang konyol	Negatif	-1
+duduk pesawat laku setia	Negatif	-1
+salah cuaca pesawat udara landas pacu beranta bencana tunggu	Negatif	-1
+terbang berangkat naik	Netral	0
+pesawat hanggar gerbang ubah pesawat tumpang	Negatif	-1
+ajaib pesawat sepatu	Netral	0
+pergi urus bisnis minggu gagal terbang pesawat biru kasih	Negatif	-1
+terbang batal sistem rasa pesawat konfirmasi	Negatif	-1
+wanita curi tempat duduk pesawat duduk tempat protokol standar	Negatif	-1
+enam pesawat tunggu terbang hilang sekolah	Netral	0
+urut naik pesawat naik hewan pandu salah anggota rombong alergi terbang	Negatif	-1
+terbang hebat tempat duduk bagus pesawat indah gemar berat maskapai	Negatif	-1
+buah percaya ambil risiko pesawat kotor bayi wajah	Negatif	-1
+tunda sebentar kredit besar salah pesawat	Negatif	-1
+status terbang tunda masalah pesawat palka	Negatif	-1
+kasih tanggap awak pesawat sabar hadap frustrasi buruk bandara tutup	Negatif	-1
+duduk pesawat	Negatif	-1
+informasi jujur berangkat pesawat naik pesawat bayi	Negatif	-1
+tunggu terbang pesawat darat	Negatif	-1
+jebak pesawat lepas landas kontrol terbang tolak layan buruk	Negatif	-1
+naik pesawat hasil hubung seks toilet	Positif	1
+kasih bantu minum hibur pesawat fungsi	Negatif	-1
+pesawat gantung daftar putar kasih	Negatif	-1
+hotel hilang barang bawa putri hilang barang bawa pesawat berangkat	Negatif	-1
+telantar pesawat tuju gelisah komunikasi	Negatif	-1
+bagus pesawat	Negatif	-1
+rasa ulang masalah mesan tiket pesawat	Negatif	-1
+kemarin tiket pesawat obral kisar poin harga	Netral	0
+tempat butuh stres keri naik pesawat	Negatif	-1
+pesawat terbang mati keluarga sikap sopan	Netral	0
+istri tiket pesawat menit makam pisah duduk laku laku	Negatif	-1
+salju turun area naik pesawat tolak terbang tunda rakus bodoh	Negatif	-1
+harga tanggap buruk hilang hotel awak pesawat salah angin harap tunda	Netral	0
+naik pesawat tidur suka ganggu terbang unduh film	Negatif	-1
+maaf kacau pesawat langsung sila	Netral	0
+naik pesawat ajar ajar harga	Positif	1
+naik pesawat hasil dorong roda arah nyata berani	Netral	0
+pesawat darat alih pesawat terbang	Negatif	-1
+kursi mobil tiup pesawat rasa	Negatif	-1
+tunda duduk pesawat landas lepas landas	Negatif	-1
+jumpa pesawat	Negatif	-1
+tawar akses pesawat konten jurnal	Negatif	-1
+cerdas marah mitra akses digital gratis pesawat	Netral	0
+suka naik pesawat terbang lambat berangkat laku	Netral	0
+kontes trivia menang tiket pesawat kirim	Netral	0
+daftar tiket pesawat muncul pesan salah taut akun masalah	Negatif	-1
+harap pesawat terminal dekat tuju gerbang berangkat	Negatif	-1
+pegang kartu selamat selamat masalah pesawat langsung darat	Netral	0
+terbang terbang pesawat lihat makan ringan kursi tumpang naik pesawat	Netral	0
+tawar akses pesawat jurnal	Negatif	-1
+tawar akses pesawat jurnal	Negatif	-1
+biaya ubah terbang pesawat menit	Negatif	-1
+duduk pesawat masalah mekanis prediksi pesawat buruk	Negatif	-1
+pesawat terbang alih lucu lihat tumpang lari	Negatif	-1
+bagus pesawat berangkat tuju masalah bandara	Negatif	-1
+turun pesawat tunggu baca suhu	Negatif	-1
+temu bersih pesawat kantor bagasi kecil	Negatif	-1
+bawa anjing pesawat	Negatif	-1
+rusak awak kabin jebak pesawat tumpang pijat bokong	Negatif	-1
+lihat botol makan ringan meja tumpang tunggu tiket pesawat terbang	Netral	0
+tiket pesawat pesan harga beli esok harga naik lipat harga turun	Positif	1
+kirim email respons butuh masalah mesan tiket pesawat	Negatif	-1
+naik pesawat rasa masalah mekanis terbang tunda	Negatif	-1
+maju mundur naik pesawat naik pesawat agen hebat	Negatif	-1
+terbang pagi terbang balita pesawat panas suhu nyaman terbang	Netral	0
+maksud tawar tiket pesawat esok harap bayar hotel batal tiket pesawat	Negatif	-1
+titip keren pesawat bawa putus	Negatif	-1
+naik pesawat butuh late butuh ubah terbang ubah naik pesawat	Negatif	-1
+hilang pesawat darat tolong	Negatif	-1
+salah sikap urus tumpang pesawat buruk keras kepala tuntut kalah	Negatif	-1
+kabar pesawat tunang saudara duduk pesawat menit masalah teknis	Negatif	-1
+taruh pesawat lemah ampun laku	Netral	0
+ganti kopi pilot gantung pesawat kafein	Negatif	-1
+kurang kopi terbang pagi lupa muat kopi pesawat	Negatif	-1
+salah paham suka terbang gratis tiket pesawat murah masalah pesawat sebal	Negatif	-1
+sistem masalah mesan tiket pesawat gabung nama nama masalah mesan tiket pesawat buruk	Negatif	-1
+batal tiket pesawat sahabat pergi libur	Negatif	-1
+ulang nenek senang selamat ulang awak pesawat pramugari	Netral	0
+nama maskapai terbang lihat naik pesawat tuju langit laut biru penuh janji	Positif	1
+rusak libur kiri kanan maskapai terbang batal tiket pesawat beli	Negatif	-1
+tiket pesawat bayar konfirmasi nila kena biaya tunai bandara terbang	Positif	1
+bantu puas masalah mesan tiket pesawat jalan tiket pesawat	Negatif	-1
+pasang pesawat	Netral	0
+desain pesawat	Netral	0
+awak pesawat temu kasar muak	Negatif	-1
+protokol standar panggil tugas aman pesawat tangan bayi menang	Negatif	-1
+tunda duduk pesawat tagih	Negatif	-1
+pesawat elak	Negatif	-1
+bayar biaya parkir bandara aplikasi pesawat darat bohong	Negatif	-1
+tunggu terbang pesawat berangkat	Negatif	-1
+mantel bagasi kabin pesawat pagi duduk kursi duduk kursi kasih tiket	Negatif	-1
+tanda desain pesawat	Negatif	-1
+panggil laku pesawat bawa	Negatif	-1
+minggu beli tiket pesawat pulang pergi lihat harga harga turun	Positif	1
+gratis pesawat temu roti iris	Netral	0
+kecewa izin bawa kursi mobil tuju pesawat pesawat kosong keren	Negatif	-1
+masalah mesan tiket pesawat terbang kunjung pekan paskah sulit gemar berat	Negatif	-1
+saji pesawat	Netral	0
+kasih terbang terbang senin malam salju naik pesawat	Negatif	-1
+penasaran pilot balas terbang pesawat henti	Negatif	-1
+kabar bayar uang tiket pesawat	Negatif	-1
+naik berangkat	Netral	0
+tugas gerbang pesawat asli cair antibeku mesin korsleting henti layan pesawat	Negatif	-1
+tunda darat malam pagi naik pesawat	Negatif	-1
+ambil informasi putus telepon laku praktik medis pergi pesawat	Negatif	-1
+respons cepat tunggu harap tiket pesawat	Netral	0
+pesawat untung terbang pulang minggu	Negatif	-1
+pesawat penuh tolak pintu gerbang	Negatif	-1
+milik tiket pesawat harga jangkau sahabat	Positif	1
+pesawat terbang terbang tunda	Negatif	-1
+aduh rasa tiket pesawat tempat hangat cepat saran	Negatif	-1
+sulit fungsi sisi pesawat	Negatif	-1
+suka makan ringan pesawat terbang	Negatif	-1
+sedikit uang tiket pesawat jalan	Negatif	-1
+ganggu situs kait masalah mesan tiket pesawat jalan komunikasi situs bandara mimpi buruk	Negatif	-1
+kasar bantu saran naik pesawat besok pulang pagi tunggu	Netral	0
+dengar pesawat lengkap ecek pesawat tumpang lengkap fitur	Negatif	-1
+duduk pesawat tunggu lepas landas pintu buka katering tunda	Negatif	-1
+suka pesawat tugas gerbang kurang bagus	Negatif	-1
+pintu tutup menit lepas landas henti pesawat berangkat menit naik	Negatif	-1
+naik pesawat berangkat terbang biaya late	Negatif	-1
+pilot lupa bawa buku catat tunggu pesawat menit	Negatif	-1
+pribadi pergi ambil barang bawa pesawat berangkat telepon	Negatif	-1
+pesawat terbang langsung late	Netral	0
+jumpa pesawat besok	Negatif	-1
+lintas gerbang terbang menit terbang berangkat menit jebak tahan pesawat	Negatif	-1
+tiket pesawat murah terbang berangkat	Negatif	-1
+terbang masalah mekanis temu pesawat lepas landas periksa	Negatif	-1
+salah pesawat	Negatif	-1
+pesawat rusak late dampar makam hilang semester	Negatif	-1
+acau terbang lambat hasil naik terbang izin naik pesawat	Positif	1
+tagih kartu tiket pesawat kartu tahan aman	Negatif	-1
+naik pesawat alam buruk kursi baris pintu sempit gerak kaki	Negatif	-1
+halo bicara tiket pesawat umur telepon putus mohon saran situs izin	Negatif	-1
+tunda menit tunda pesawat rusak kasih	Negatif	-1
+bawa marmut kandang hewan pelihara kecil pesawat	Negatif	-1
+hilang pesawat sulit temu kontak barang hilang bandara mohon bantu	Netral	0
+informasi pesawat aplikasi	Negatif	-1
+pesawat berangkat	Negatif	-1
+terbang tugas gerbang pesawat layan langgan bagus	Negatif	-1
+tuju kapten masalah naik pesawat duduk pesawat	Negatif	-1
+khawatir naik pesawat malam	Negatif	-1
+darat muncul pesawat berangkat terbang lambat	Negatif	-1
+tunda angin kencang naik berangkat waktu pesawat peluang tahan	Negatif	-1
+pesawat	Negatif	-1
+aksi pesawat lambat jalan awat layak jalan kurang kerepot tunda	Positif	1
+jalan keri maskapai terbang terbang batal pemberitahuan naik pesawat	Negatif	-1
+bantu ketua naik pesawat sambung sambung ubah rute	Negatif	-1
+bantu terbang pesawat besar rekan hasil latih kecuali	Netral	0
+naik pesawat gerbang terbang turun	Netral	0
+alami alam jalan senang hidup naik pesawat besok gila	Negatif	-1
+keren pintu tutup menit pesawat berangkat menit pesawat	Negatif	-1
+warga terbang maskapai singgung menang pesawat kesal	Netral	0
+batu hantam pesawat pesawat alami tunda mudah kecewa	Negatif	-1
+naik tunggu lepas landas	Netral	0
+berangkat menit dokumen selesai naik pesawat terbang lambat	Netral	0
+februari pesawat wakil kondisi buruk bantu jamin	Negatif	-1
+arus listrik darat putus tumpang jerman lelah turun pesawat jumpa	Negatif	-1
+turun pesawat pilot kirim botol kecil dunia	Negatif	-1
+nyata masalah pesawat gerak pintu kargo buka pesawat aneh	Negatif	-1
+nyata masalah pesawat darat tumpang terbang naik paham	Negatif	-1
+tagih naik pesawat terbang	Negatif	-1
+izin tumpang naik pesawat masalah pilot berangkat	Negatif	-1
+layan buruk pesawat salah tumpang konfirmasi naik terbang bayar kurang kursi terbang	Negatif	-1
+tiket pesawat hadiah berangkat minggu malam malam tiket minggu senin	Negatif	-1
+terbang kursi konfirmasi pesawat kecil izin naik kursi layan buruk	Negatif	-1
+taruh barang bawa pesawat barang bawa kirim klaim klaim tutup	Netral	0
+tiket pesawat daring telepon layan langgan bantu	Netral	0
+tiket pesawat telepon	Negatif	-1
+hebat operasi laku masalah mekanis rekat pesawat	Negatif	-1
+naik pesawat olahraga	Netral	0
+pilot mohon izin naik pesawat terbang penuh tunggu pramugari tolak kontrol misi	Negatif	-1
+terbang berangkat menit naik kabar	Netral	0
+pagi pesawat berangkat agen pintu tutup	Negatif	-1
+terbang mimpi buruk kenal terbang pesawat	Negatif	-1
+turun pesawat tunggu bicara masalah mesan terbang ulang	Negatif	-1
+pesawat berangkat berangkat kasih informasi manfaat	Negatif	-1
+tolak tunggu daftar bandara naik pesawat tunda terbang hilang	Negatif	-1
+tunggu pesawat total lepas landas terbang	Negatif	-1
+pilih terbang pesawat alam jalan buruk	Negatif	-1
+bantu ambil barang pesawat malam	Negatif	-1
+idiot ambil pesawat terbang	Negatif	-1
+pesawat kasar terbang selasa bantu harap	Negatif	-1
+tiket pesawat jatah tempat duduk	Negatif	-1
+terbang pesawat alami masalah mekanis tunggu menit bantu layan langgan bantu manajemen	Negatif	-1
+kendali bodoh ruang pesawat	Negatif	-1
+antri menit masalah mekanis pesawat lapor kesal	Negatif	-1
+pesawat terbang laku alam sepenuh buruk	Negatif	-1
+pilot naik pesawat kasih	Netral	0
+salah pesawat berangkat malam	Negatif	-1
+milik pilot naik pesawat akal	Positif	1
+payah turun pesawat	Negatif	-1
+sandera tumpang komputer mogok tindak ramah hadap langgan turun pesawat suruh	Negatif	-1
+erti hilang pesawat akun dividen	Negatif	-1
+istri pesawat jumat tanggal februari darat kasih	Negatif	-1
+masalah sistem besar manual pesawat terbang tunggu gerbang masalah sistem anggota ketua frustrasi	Negatif	-1
+turun terbang internasional staf sengaja sikap kasar terbang pesawat layak alam keri	Negatif	-1
+pesawat menit gerbang awak pesawat komputer sistem halang dokumen info ikan	Negatif	-1
+layan langgan buruk istri tunggu pesawat terbang batal tunggu	Negatif	-1
+barang pesawat jumat hubung pesan panggil balas laku	Negatif	-1
+sedia diskon kabung tiket pesawat kakek hadir makam minggu	Positif	1
+bantu tempat hotel pesawat langgar bijak	Negatif	-1
+libur alami masalah pesawat	Negatif	-1
+pesawat gerbang awak lambat tuju	Netral	0
+pesawat paksa turun mekanik tunggu pesawat butuh tempat makan butuh bantu tolong	Negatif	-1
+pesawat darat udara	Negatif	-1
+pesawat masalah awat waktu menit pesawat	Negatif	-1
+naik pesawat masalah awat	Netral	0
+habis antre naik pesawat pulang malam batal terbang lambat turun salju	Negatif	-1
+tolong jatuh salah pesawat	Negatif	-1
+koneksi terbang pulang tunda tugas gerbang bantu turun pesawat frustasi	Negatif	-1
+karyawan nama loket tiket kasar pulang rumah sakit pesawat	Netral	0
+paksa turun pesawat minggu awat sedia	Netral	0
+bagasi pesawat hancur jalan berangkat minggu jalan pulang malam	Negatif	-1
+pesawat parkir pulang	Netral	0
+beban pesawat kecil bagasi ekstra turun eksekusi buruk tunda menit	Negatif	-1
+pesawat terbang terbang lambat duduk kabar	Netral	0
+awak pesawat lihat layan langgan buruk	Netral	0
+sebal naik pesawat zona bagasi kosong periksa hilang	Negatif	-1
+kasih senang pulang tunda terbang awak pesawat muncul frustrasi	Negatif	-1
+saudara pesawat jalan pulang hadir makam hubung pusat panggil bantu	Negatif	-1
+pesawat tumpang alami masalah mekanis turun naik terbang terbang	Negatif	-1
+agen tiket antre pintu kasihan pesawat	Negatif	-1
+tumpang duduk pesawat terbang terbang berangkat	Negatif	-1
+maaf butuh pesawat angkat telepon naik pesawat	Negatif	-1
+alami alam sedih keluarga naik pesawat langsung setia libur	Negatif	-1
+alam buruk pekan tunda alih naik pesawat terbang waktu	Negatif	-1
+lupa panggil kopilot jebak pesawat harap dampar terbang gagal	Negatif	-1
+tempat keluarga anggota pesawat duduk bahan salah usia	Negatif	-1
+butuh malam hotel alat pesawat gila	Negatif	-1
+malam berat panggil menit tunda tunda pesawat	Negatif	-1
+serius asih pesawat tunggu	Negatif	-1
+suka naik pesawat	Netral	0
+latih mekanik ajar bawa alat pesawat hanggar	Negatif	-1
+halo pesawat darat terbang berangkat landas tunggu gerbang bawa	Negatif	-1
+sila hubung awak pesawat bantu mohon maaf	Negatif	-1
+karyawan panggil pesawat selesai awat berangkat	Negatif	-1
+layan langgan puluh tunggu pesawat staf	Netral	0
+pesan pesawat naik pesawat landas ganti rugi	Negatif	-1
+pesawat lepas landas teman jebak	Negatif	-1
+pesawat darat menit pesawat dampar teman bantu gagal besar	Negatif	-1
+sampah tiket pesawat hadiah batal hubung telepon	Negatif	-1
+tunda lampu mesin rusak bagus kawan duduk pesawat	Netral	0
+kecuali tunda putus bijaksana dorong pesawat baja selesai	Negatif	-1
+maskapai buruk sejarah terbang pesawat sampah	Negatif	-1
+terbang darat malam pesawat tolong	Negatif	-1
+tumpang pesawat jebak pesawat dengar pilot	Negatif	-1
+berangkat pesawat berangkat jadwal darat malam	Negatif	-1
+keluarga dampar malam agen gerbang tahan pesawat menit kemudi cuaca buruk	Negatif	-1
+jalan buruk harap pilot izin turun pesawat siang tunda malam landas	Negatif	-1
+aduh terbang batal masalah mesan tiket pesawat masalah mesan tiket pesawat ulang tempat terbang malam besok tingkat kasih	Negatif	-1
+terbang pesawat jebak arus masalah cuaca	Negatif	-1
+darat terbang tunggu pesawat jebak	Negatif	-1
+naik pesawat besok pagi akses bandara taksi laku	Positif	1
+maksud malam pasti izin naik pesawat	Negatif	-1
+darat terbang naik terbang	Positif	1
+awak pesawat profesional sopan tugas gerbang bingung	Negatif	-1
+terbang malam batal terbang masalah mekanisme terbang pagi batal terbang salju naik pesawat pulang kelas kosong izin duduk	Negatif	-1
+status tunda tunggu lepas landas pesawat berangkat pasti berangkat sore	Negatif	-1
+tiket pesawat ulang senin hotel	Netral	0
+duduk pesawat menit tunggu turun pesawat layan hebat	Negatif	-1
+hotel malam kamar malam pesawat	Negatif	-1
+bayar terbang pesawat uang	Negatif	-1
+pesawat hancur beranta tolong keluarga cinta	Negatif	-1
+kasih kursi rebah kejut saji minum pesawat	Negatif	-1
+kasih pesawat pramugari senyum jalan sulit	Negatif	-1
+pesawat rute jijik malu	Negatif	-1
+pesawat lepas landas batal terbang masalah bayar akses	Negatif	-1
+layan langgan buruk telepon tiket pesawat	Negatif	-1
+masalah pesawat bocor bahan bakar putus	Negatif	-1
+duduk pesawat	Negatif	-1
+teman pesawat duduk belah pesawat batal terbang pulang	Negatif	-1
+singkir tumpang pesawat puluh menit lepas landas pesawat mesan	Negatif	-1
+cepat naik pesawat duduk landas	Netral	0
+tangan darurat keluarga ulang tiket pesawat pagi terbang sistem butuh bantu cepat	Negatif	-1
+darat naik pesawat waktu bandara	Netral	0
+terbang jadwal pagi terbang batal terbang duduk pesawat dingin	Negatif	-1
+terbang batal minggu pulang lambat kereta tarik pesawat rusak	Negatif	-1
+laku hadap tumpang terbang buruk tunda turun pesawat arah	Negatif	-1
+situs kena biaya tiket pesawat rupa laku tiket	Negatif	-1
+kursi pesawat rusak baris tunda	Negatif	-1
+pesawat maksud duduk kisah gagal gagal terbang	Negatif	-1
+alam kasar awak pesawat sikap kasar tegur langgan	Positif	1
+malam pesawat internet gogo kirim email	Negatif	-1
+pesawat buruk ganti gerbang olahraga pesawat fungsi lelah	Negatif	-1
+tolong pesawat berangkat	Negatif	-1
+terbang barang bawa hilang curi pesawat pintu gerbang layan langgan buruk urus	Negatif	-1
+periksa pesawat naik pesawat	Negatif	-1
+konyol sabar naik pesawat pulang terbang lambat	Positif	1
+masalah awat awak pesawat hilang tunda cuaca bingung langit cerah	Negatif	-1
+kartu kredit tiket pesawat gratis	Netral	0
+staf kontrol lintas naik pesawat	Netral	0
+naik pesawat beku lihat pesawat lepas landas gerbang belah	Negatif	-1
+bawa pesawat model rencana matang	Netral	0
+istri terbang tanggal maret tiket pesawat	Negatif	-1
+bijak kait bawa pompa pesawat	Netral	0
+duduk pesawat tunggu bahan bakar laku naik	Negatif	-1
+laku tumpang sedia pesawat bersih tiru	Netral	0
+harga tekan gabung wakil jadwal pesawat lambat terbang	Netral	0
+tuju lucu dengar telepon dering pesawat derit	Negatif	-1
+suhu pesawat derajat bakar sepenuh ilegal	Netral	0
+ajar operasi pesawat darat pesawat malam sadar masalah mekanis tunda terbang	Negatif	-1
+pilih turun pesawat duduk gerbang	Negatif	-1
+sedia awak pesawat peduli pria tubuh besar tunggu bayar	Negatif	-1
+duduk pesawat pilih naik	Negatif	-1
+pesawat pergi selesai langsung	Netral	0
+pesawat gerak gerak ujung landas pacu duduk milik landas pacu buka	Negatif	-1
+sedia awak pesawat peduli pria badan besar tunggu bayar	Negatif	-1
+gugat hukum duduk pesawat	Negatif	-1
+duduk pesawat terbang	Negatif	-1
+sungguh pergi besar habis pesawat terbang	Negatif	-1
+pesawat ujung landas duduk izin turun	Negatif	-1
+buruk tunda menit terbang lambat cuaca terbang masalah pesawat bahan bakar	Negatif	-1
+ulang tiket batal terbang awak pesawat naik pesawat tunda terbang siang	Negatif	-1
+sore pagi masalah mekanis kurang makan ringan pesawat alam buruk	Negatif	-1
+naik pesawat terbang darat layan buruk	Negatif	-1
+suruh turun pesawat kapten terbang alam keri	Negatif	-1
+naik pesawat terbang lambat paksa duduk menit	Netral	0
+bongkar muat pesawat konyol	Negatif	-1
+naik	Positif	1
+duduk dingin pesawat	Negatif	-1
+sandera profesional pesawat menit duduk pesawat gera	Negatif	-1
+hebat tunda duduk pesawat gerak terbang buruk	Negatif	-1
+tunggu landas pacu menit turun pesawat tingkat layan harap	Netral	0
+pesawat lambat terbang awak pesawat hilang masalah awat gerbang ganti layan langgan	Netral	0
+ambil tiket sopan tunda menit bahan bakar pesawat	Negatif	-1
+rindu bawa naik pesawat tempat duduk cadang	Negatif	-1
+mohon aman sandar kaki kelas bisnis pesawat	Negatif	-1
+lupa bahan bakar sadar kargo pesawat salah tutup tunda	Negatif	-1
+gerbang sopan pesawat lambat terbang tumpang tunggu awak pesawat	Negatif	-1
+buruk duduk pesawat bayar makan	Negatif	-1
+terbang terbang duduk sera pesawat	Negatif	-1
+beli tiket tempat duduk terbang tempat duduk sebar pesawat	Negatif	-1
+pesawat naik menit eksekutif manfaat hormat	Positif	1
+batal terbang awat pesawat beres senang	Negatif	-1
+tunda beku pesawat duduk gerbang pesawat menit tunggu	Negatif	-1
+ganti nama laku pasti keren pesawat ring	Netral	0
+tempat terbang pulang bayar naik pesawat pahlawan	Negatif	-1
+rasa frustrasi turun pesawat tumpang	Negatif	-1
+terbang terminal turun pesawat naik terbang	Negatif	-1
+pesawat tunggu tunggu	Negatif	-1
+kasih lambat laju pesawat khawatir terbang lambat hebat salam	Positif	1
+harga turun pesawat bicara agen naik pesawat	Negatif	-1
+rencana dukung pesawat senang lupa bawa kartu	Netral	0
+hasil hubung telepon batal terbang pulang pesawat jalan berangkat urus	Negatif	-1
+habis sabar duduk pesawat komunikasi menit	Netral	0
+naik pesawat malam sore	Negatif	-1
+lepas pesawat tolong pergi pintu gerbang akal	Negatif	-1
+pesawat mesan bagasi ruang pesawat kacau	Negatif	-1
+pesawat pintu tutup buka butuh bahan bakar	Negatif	-1
+periksa sekunder pesawat hilang	Negatif	-1
+pesawat jijik kursi lantai kotor pramugari kasar bersih	Negatif	-1
+jebak pesawat salju turun salju terbang	Negatif	-1
+duduk pesawat menit menit dokumen sebal	Negatif	-1
+tenang pilot duduk pesawat diam	Negatif	-1
+senang nilai praktik bisnis tuju kurang jumlah tumpang pesawat minimal	Negatif	-1
+berat tunggu berat tunggu pesawat tunggu bandara milik ruang makan	Negatif	-1
+naik tumpang pesawat gilir cair tumpang tunggu	Negatif	-1
+keluarga naik pesawat kecil	Negatif	-1
+dampar makan pesawat alami masalah mekanis terbang	Negatif	-1
+bantu terbang pesawat darat milik koneksi	Netral	0
+pergi pergi pesawat gerbang beda terbang langsung	Negatif	-1
+hubung milik agen sedia butuh bantu masalah mesan tiket pesawat terbang hadiah	Negatif	-1
+tiket pesawat kartu kredit tagih transaksi hasil	Netral	0
+pesawat pergi tempat pilih	Negatif	-1
+besar bawa naik pesawat delta	Netral	0
+udara cair pesawat pesawat layan langgan bantu harap kejar terbang	Negatif	-1
+alami kendala butuh masalah mesan ulang tiket pesawat terbang info	Negatif	-1
+naik pesawat berangkat kasih tanggap	Netral	0
+rumah kemarin pagi pesawat duduk	Netral	0
+dampar dingin jatuh sakit tiket pesawat kursi	Negatif	-1
+telepon pilih tiket pesawat ganti andal lancong bisnis	Negatif	-1
+terbang batal kurang awak pesawat ganti biaya hotel hubung	Negatif	-1
+tunda terbang tunda darat pesawat pulang	Negatif	-1
+informasi terbang bantu tunggu menit tempat tuju tunggu pesawat gerbang tulis	Negatif	-1
+informasi tunda informasi naik pesawat	Netral	0
+tunda naik pesawat tunggu menit pesawat mati sepenuh	Negatif	-1
+periksa status terbang pesawat pintu fungsi cepat sadar	Negatif	-1
+masalah mesan tiket pesawat mati pilih kelola masalah mesan tiket pesawat kirim email tanggap tolong bantu	Negatif	-1
+omong kosong tawar bayar tiket pesawat kelas habis jual kursi kursi kosong	Negatif	-1
+terbang tunda awak pesawat terbang mari langgan bayar layan hebat	Netral	0
+naik pesawat informasi	Netral	0
+hubung sungguh telepon tiket pesawat pergi peduli	Negatif	-1
+pesawat alami masalah mesan terbang ulang naik pesawat ponsel kursi	Negatif	-1
+naik naik pergi	Positif	1
+layan langgan payah tiket pesawat hubung	Netral	0
+tolong tolong tolong pesawat gerbang turun koneksi tutup	Negatif	-1
+pesawat kelas utama klub laksamana senang kirim pesan	Negatif	-1
+naik pesawat malam kemarin terbang jadwal berangkat malam	Negatif	-1
+masalah mesan tiket pesawat terbang kredit terbang batal hubung telepon mohon bantu	Negatif	-1
+terbang telepon pesawat	Negatif	-1
+terbang batal kendara bandara beda habis uang bensin tiket pesawat	Negatif	-1
+taruh barang bawa pesawat	Netral	0
+tolong tunggu lihat turun pesawat cukup cepat	Negatif	-1
+tolong atur terbang tunggu turun pesawat lari pesawat berangkat menit	Negatif	-1
+ulang info bagasi baterai pesawat kompensasi klub laksamana tunggu	Negatif	-1
+tips hotel sedia maskapai terbang hasil naik pesawat	Positif	1
+tiket pesawat kemarin konfirmasi email nomor dividen daftar mohon bantu	Netral	0
+kursi dekat biaya naik pesawat pagi lambai uang	Netral	0
+pesawat tumpang lepas kendala	Negatif	-1
+kasih info hasil terbang berangkat ganti pesawat besok kamis	Negatif	-1
+laku bencana duduk landas pacu bawa pesawat gerbang	Negatif	-1
+cepat naik pesawat pagi pagi tempat	Negatif	-1
+hebat rusak libur berkat pilot staf kompeten pesawat	Positif	1
+naik pesawat siang bandara internasional jalan tunda berangkat	Negatif	-1
+jamur pesawat	Negatif	-1
+pesawat hilang koneksi kasih	Negatif	-1
+maksud dekat gerbang duduk pesawat	Negatif	-1
+menang pesawat ganti gerbang tenang senang astaga	Negatif	-1
+hilang pesawat urung kandang jalan sentuh hewan pelihara	Negatif	-1
+sedia pesawat rute china dasar federal sedia	Positif	1
+terbang lambat komunikasi buruk dengar staf pesawat ganggu	Negatif	-1
+pesawat pensiun	Negatif	-1
+timbang akuisisi tumpang pesawat terbang hina pramugari gantung jaket	Negatif	-1
+jamur pesawat	Negatif	-1
+pesawat hilang koneksi kasih	Negatif	-1
+maksud dekat gerbang duduk pesawat	Negatif	-1
+menang pesawat ganti gerbang tenang senang astaga	Negatif	-1
+hilang pesawat urung kandang jalan sentuh hewan pelihara	Negatif	-1
+sedia pesawat rute china dasar federal sedia	Positif	1
+terbang lambat komunikasi buruk dengar staf pesawat ganggu	Negatif	-1
+pesawat pensiun	Negatif	-1
+saran serah masalah polisi leceh seksual kasih izin pesawat	Negatif	-1
+definisi menit beda erti turun pesawat awat jujur	Netral	0
+masalah mesan tiket pesawat terbang internasional nomor paspor masalah mesan tiket pesawat bandara	Negatif	-1
+peduli tumpang pesawat hubung departemen polisi	Negatif	-1
+terbang senang pesawat cinta hidup	Negatif	-1
+naik pesawat pilih katering titik habis kurang rencana	Negatif	-1
+kasih izin tiket pesawat rasa frustrasi muncul	Negatif	-1
+terbang besok pesawat cuaca buruk pagi timbang rute transit	Negatif	-1
+naik terbang	Positif	1
+pesawat berangkat mekanik temu alat redam kejut	Negatif	-1
+duduk pintu gerbang pesawat berangkat	Negatif	-1
+pria gemuk jebak kamar mandi pesawat	Negatif	-1
+pesawat umur pesawat kulit lepas jahit	Negatif	-1
+kursi jijik kotor renovasi pesawat	Negatif	-1
+erti uras toilet takut dingin bijak periksa naik pesawat	Negatif	-1
+salur minum terbang lepas landas pesawat	Negatif	-1
+pesawat	Negatif	-1
+pilot pesawat pelihara tangan pesawat	Netral	0
+tiket pesawat murah terbang berangkat	Negatif	-1
+gabung maskapai operasional utama pesan tiket pesawat elite	Netral	0
+selamat pagi naik pesawat nyaman	Positif	1
+laku awat pesawat salur udara beku temu pesawat naik	Netral	0
+terbang naik pesawat sore palm	Netral	0
+hilang basket pesawat	Negatif	-1
+staf tolak izin wanita naik berangkat tanda naik	Negatif	-1
+bersih darat pesawat	Negatif	-1
+alami masalah mesan tiket pesawat masalah kursi maret operasi situs maskapai izin pilih kursi	Negatif	-1
+terbang internet pribadi pesawat usia	Negatif	-1
+suruh layan minum butuh kursi roda turun pesawat wanita serang	Negatif	-1
+bicara laku pesawat usia	Negatif	-1
+terbang lambat naik pesawat baris pintu ambil buruk belah beli kursi	Negatif	-1
+temu malam agen info pesawat	Negatif	-1
+bukti duduk pesawat turun pesawat naik	Negatif	-1
+kasih maskapai pesawat lokasi pesawat terbang masalah	Negatif	-1
+lihat pesawat warna sabtu kejut lihat	Positif	1
+pesawat gelincir landas pacu bandara beku	Negatif	-1
+harap tingkat layan langgan awak pesawat informasi akurat	Positif	1
+terbang aman henti cair pesawat	Negatif	-1
+bantu telepon pintu gerbang tiket pesawat klien percaya kurang layan	Netral	0
+turun pesawat ganti pesawat	Negatif	-1
+belikan tiket pesawat terbang pulang salah pesawat besok	Negatif	-1
+sungguh enak terbang batal duduk pesawat	Negatif	-1
+jebak pesawat tuju masalah pesawat	Negatif	-1
+malam waktu timur turun pesawat tangga pesawat tuju landas dingin kirim korsel malam	Negatif	-1
+hubung telepon terbang pesan ulang hilang buah konferensi naik pesawat besok	Positif	1
+rasa alam kelas utama pesawat takjub	Negatif	-1
+pasti canda lihat gambar harap pesawat	Netral	0
+pesawat pesawat operasi jadwal berangkat sore darat malam	Negatif	-1
+laku kelompok naik pesawat pesawat	Negatif	-1
+tunda terbang malam anggota keluarga pesawat	Negatif	-1
+beres pesawat tunggu naik	Netral	0
+pesawat bisnis	Netral	0
+suka tarung buruk pesawat tolong udara udara kasih	Negatif	-1
+maaf cukup pesawat masalah tunda	Negatif	-1
+pesawat luncur landas pacu licin	Negatif	-1
+terbang tunda salah manusia truk makan tabrak pesawat antre beku	Negatif	-1
+tunda jebak pesawat udara	Negatif	-1
+kasih alam terbang buruk pesawat masalah mekanis beda	Negatif	-1
+terbang gerbang pesawat proses naik pesawat buruk terbang lambat	Netral	0
+kasih pramugari pesawat terbang tunda lari pesawat berangkat layan buruk	Negatif	-1
+naik pesawat masalah mekanis sulit sikap loyal	Netral	0
+lepas landas duduk jadwal hasil tunda berangkat pesawat	Negatif	-1
+latih gerbang terbang alami masalah paksa laku periksa gerbang naik pesawat prioritas	Negatif	-1
+situs izin izin naik pesawat pagi maskapai jalan	Negatif	-1
+beli tiket pesawat info terbang tiket email	Negatif	-1
+awak pesawat laku kendali madu gagal total	Negatif	-1
+canda landas pesawat bagus	Negatif	-1
+kemarin naik pesawat kirim kirim	Positif	1
+naik pesawat interior video kursi bagus	Netral	0
+uang pesawat tunggu bicara	Negatif	-1
+cuaca buruk erti pilot telepon pesawat	Negatif	-1
+mustahil hubung maskapai terbang ambil barang pesawat menit turun pesawat	Negatif	-1
+istri terbang batal terbang beli tiket pesawat jemput pulang dana tolong	Negatif	-1
+layan naik pesawat kelas buruk alami	Negatif	-1
+tiket pesawat hubung	Negatif	-1
+tunggu pesawat tunda duduk pesawat tunggu tumpang lambat terbang omong kosong	Negatif	-1
+henti tiket pesawat jelek	Negatif	-1
+pesawat masalah mekanis meja tata	Negatif	-1
+naik menit	Positif	1
+tugas tangan bagasi telepon bagasi pesawat	Negatif	-1
+halo balon butuh terbang salah pesawat	Negatif	-1
+tunggu tiket pesawat rumah masalah cuaca	Negatif	-1
+biaya tiket pulang catat tiket pesawat pesan mahal	Netral	0
+kabar pagi naik pesawat besok pagi rumah sore arti ambil cuti	Positif	1
+tiket pesawat anjing bicara wakil salur bantu	Negatif	-1
+barang bawa naik pesawat terbang batal ulang tiket	Negatif	-1
+bagus jual tiket pesawat tunda menit turun tumpang muat	Netral	0
+hasil naik pesawat email darat info kirim terbang hilang bisnis	Positif	1
+terbang milik tumpang duduk pesawat tunggu bagasi muat tunggu	Netral	0
+naik pesawat naik pesawat tunggu katering	Netral	0
+suami usia jebak malam awak pesawat debat naik pesawat	Negatif	-1
+naik pesawat naik pesawat terbang gerbang	Netral	0
+terbang milik tumpang duduk pesawat tunggu bagasi muat	Netral	0
+lambat awat jebak sarang terbang pesawat henti terbang pesawat prancis bangkrut	Negatif	-1
+pesawat macet agen darat kursi tiket kelas minggu	Negatif	-1
+pesawat rusak turun tumpang suruh turun terbang batal hadir nikah	Negatif	-1
+terbang penuh langgan duduk pesawat tunggu bagasi muat tunda	Netral	0
+jebak pesawat terbang kabar staf pretzel	Negatif	-1
+pesawat ulang terbang tuju matahari benam	Netral	0
+terbang tunda tunggu pesawat muat bagasi	Negatif	-1
+pesawat beli tanggal tanggal pesawat penuh parameter	Negatif	-1
+masalah mesan tiket pesawat ulang kirim nomor telepon	Negatif	-1
+bandara terbang tunda naik pesawat info	Negatif	-1
+jebak pesawat makan pesawat tunggu dorong pesawat bagus	Negatif	-1
+salah bagasi hasil naik pesawat besok	Netral	0
+naik pesawat tugas gerbang suruh pergi khawatir	Negatif	-1
+pesawat tanggal batal atur alternatif tolong bantu	Negatif	-1
+tunggu duduk pesawat komputer fungsi peluang terbang	Negatif	-1
+layan buruk naik turun pesawat kapten cetak info terbang	Negatif	-1
+terbang ganti pesawat bantu	Negatif	-1
+tolak kompensasi batal rusa pesawat kendali	Negatif	-1
+konter pesawat penuh bingung staf	Negatif	-1
+barang bawa pesawat lihat video	Netral	0
+salah tiket pesawat meja tunggu	Negatif	-1
+nyala mesin pecah masalah naik pesawat pesawat	Negatif	-1
+pesawat darat kondisi buruk	Negatif	-1
+naik pesawat jarak mesan tiket ulang terbang malam hubung telepon	Negatif	-1
+henti naik pesawat besok	Negatif	-1
+pesawat berangkat pagi besok pemberitahuan berangkat bandara	Negatif	-1
+pesawat guatemala malam catat butuh pakai besok	Negatif	-1
+laku sulit kasih keras masalah mesan tiket pesawat	Negatif	-1
+timbang akuisisi tumpang pesawat terbang hina pramugari gantung jaket	Negatif	-1
+mesin pesawat habis malam bandara terbang pulang besok	Negatif	-1
+pasti muat pesawat batal terbang lupa	Negatif	-1
+harap pesawat berangkat layan katering sedia lihat samping pesawat laku	Negatif	-1
+naik pesawat besok terbang batal alternatif pergi tolong bantu	Negatif	-1
+cuaca ketidakmampuan parah kurang staf awak pesawat lupa muat elak nyata	Negatif	-1
+tunggu pesawat pengap turun ambil barang bawa	Negatif	-1
+suka pesawat rute naik pesawat fasilitas fungsi	Negatif	-1
+kasih pesawat rusak pesan	Negatif	-1

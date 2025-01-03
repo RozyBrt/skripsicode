@@ -1,226 +1,1330 @@
 analisis	sentiment_label	sentiment_score
-kantor waktu dekat gaji naik cepat strategi jangka buah utas perspektif hadap	Positif	1
-dunia enak bagus serap ilmu mentok habis wajib besar gaji prospek jangka	Positif	1
-utama bidang gaji pakai indonesia indonesia gaji habis hidup	Netral	0
-guru dosen nakes teliti gaji kecil abdi gaji ambil ambil profesi sepi ambil	Negatif	-1
-jabodetabek wajar alias kutu loncat gaji naik daerah lapang rendah	Positif	1
-mending arti gaji besar biaya hidup mahal gaji biaya	Positif	1
-logis laku kriminal takut anggap kutu loncat lokasi preferensi asli jahat gaji kecil	Netral	0
-lihat jaman kuliah lomba kecil takut buka lulus besar kantor cabang lihat jakarta gaji besar bayar pakai	Positif	1
-gaji layak dasar gaji progresif awam juru audit ahli nujum awam tangga gaji ramai	Negatif	-1
-gaji faedah mampu cecah juta juta juta gaji juta bonus juta pelan sumbang pelbagai faedah	Positif	1
+jahat pagi asih sarap antem lawan urus pakai kawin cerai selesai selesai ambil	Negatif	-1
+sorang dekat teruk dekat benda pasal tukar tahun keliling toksik	Negatif	-1
+rame coba bunuh gagal dosis kurang kemarin kasih racun sendok minum kopi	Negatif	-1
+tiada masalah rasa sedih marah tekan serabut putus manusia senarai toksik positif popular	Negatif	-1
+toksik selesai kalimat kurang kenan maaf moga ajar henti temu hubung toksik	Negatif	-1
+senjata makan tuan komen keluar mutiara	Negatif	-1
+maret juni kontak laki dosen kuliah lucu	Netral	0
+toleransi pribadi cukup besar paham lemah rasa intensi pola sulit niat buruk pola ulang	Netral	0
+nada dering getar sedih takut benar	Negatif	-1
+kantor lembur pulang malam budaya haram pulang pabrik pulang karyawan pulang ganti	Netral	0
+rasa penat tekan fikir tukar hati berat rasa takut benda normal ikut survey takut tukar	Negatif	-1
+tanda tukar negatif negatif prestasi	Negatif	-1
+salah dewasa tahan hidup jarang stres bahagia temu bahagia salah	Negatif	-1
+ada takut tukar ada cakap tukar tampak setia stabil tampak susah tukar bagus	Negatif	-1
+kantor waktu dekat gaji naik cepat strategi baik jangka utas perspektif usaha	Positif	1
+kutu loncat selektif terima calon pegawai suka loncat loncat butuh karyawan loyal mending	Positif	1
+awak tukar bidang salah bosan salah dengar duit	Negatif	-1
+dunia kembang arah revolusi industri kerja hidup binatang libur tunjang santai minum sampanye restoran mewah	Positif	1
+kawasan industri jawa salah bijak lantang kawasan industri jawa barat jawa kecil menang domisili kalong	Negatif	-1
+kerja surat mohon ubah waktu tukar lokasi hantar majikan majikan kena balas nama benda atur fleksibel pinda akta moga bantu	Negatif	-1
+dunia enak bagus serap mentok habis wajib usaha besar gaji prospek jangka	Netral	0
+ngebet saran pilih industri produk kewalahan bahan rumah tangga konstruksi infrastruktur	Negatif	-1
+sebab utama bidang gaji indonesia indonesia gaji habis hidup	Netral	0
+senior kantor galak jahat dunia pusat keliling dunia dolar usaha multinasional bangun medsos muhasabah	Negatif	-1
+rasa benda tingkat serba serbi bank cita hidup	Netral	0
+lapang minim minim saing tenaga syarat batas usia minimal alam curang	Negatif	-1
+rasai akibat industrialisasi sektor manufaktur sektor eksploitatif hobi pakai subur alias lapang susut cipta buka lapang	Positif	1
+libur tanggal merah libur waktu lebaran lembur loyalitas kecil	Netral	0
+bagus kaum muda rantau industri tani ikan industri kait sepi minat tani nelayan jepang	Netral	0
+rasa berat ikut pindah tempat ajar sesuai duduk kampung lubuk ladang pepatah guru duduk bangku daerah transmigrasi	Negatif	-1
+retail juang zone dunia bahasa	Negatif	-1
+juta hasil sektor serap tenaga tani hutan ikan alam aneh bangun rusak sektor kasih makan	Positif	1
+jabodetabek wajar alias kutu loncat gaji naik pindah daerah lapang batas rendah	Negatif	-1
+sempat industri posisi lantai produksi jujur sanggup posisi cocok industri tawar industri cocok tarik	Positif	1
+revolusi industri arah globalisasi lini kerja butuh pegawai otomasi salah revolusi industri telpon bingung baca tulis	Netral	0
+lihat usaha minggu tanda beres kenal konsep	Netral	0
+dekat teteh	Netral	0
+cari susah omong ogah kapok omong enak tajir anggur omong	Negatif	-1
+narasi media kenan mundur narasi	Negatif	-1
+mending gaji besar biaya hidup mahal gaji biaya	Positif	1
+pagi pulang malam buta telat balas pesan menit lepas alat sakit tidur kaki tangan hilang rasa	Negatif	-1
+lihat jaman kuliah lomba usaha kecil takut buka lulus usaha besar kantor cabang lihat jakarta gaji besar pakai	Positif	1
+iring waktu lingkung ubah nyaman temperamen rekan kompeten manajemen tutup mata kait masalah	Negatif	-1
+bocor data pribadi kualitas hidup kabur lapang tantang tipe kontrak skala usaha kualitas udara sakit paru lumayan	Negatif	-1
+sisi sebar ilmu pulang sekolah formal ajar ilmu pergi desa daerah kurang talenta rantau salah timpang akses ekonomi harus rantau rumit	Netral	0
+paksa modern bebas undur tunggu bulan kerja tahan usaha wajib asih makan siang lembur minggu kompensasi libur atur manusiawi atur	Negatif	-1
+matahari pagi pancar cahaya lembut suara mesin familiar dengung latar kerja biasa rutinitas rasa bebas pergi pabrik	Negatif	-1
+cenderung pabrik kurang industri padat karya tekstil sepatu kaki juta serap tenaga petinggi ojek kurir	Positif	1
+saing berat naik jabat libur gabut duit pabrik pulang makan langsung tidur mental kuat	Positif	1
+dunia intern senior junior manager senior manager patah hati besar dunia ajar start	Negatif	-1
+asa kena tegur bawa asa dikit bawa asa bawa asa kena bawa asa rasa sakit hati pasti dinamika naik	Negatif	-1
+benar masalah personal ganggu ganggu produktivitas dunia melulu	Negatif	-1
+partner kurang salah faktor masalah mental terap batas	Negatif	-1
+dapat habis celaka ijin proses sembuh ijin ambil kantor jenguk pribadi personal	Negatif	-1
+lupa fenomena enak jidat wajar jauh risiko ajar teknik regulasi emosi psikolog tantrum	Negatif	-1
+kantor cuman asih posisi pilih cuman uang kantor kantor uang	Negatif	-1
+kantor muda mamah muda naik jabat penuh target kecil kena mental tekan turun jabat buka	Negatif	-1
+pegawai pangkat rendah butuh uang lingkung enak metropolitan brengsek	Negatif	-1
+urus internal bawa publik kapasitas organ bijak selesai masalah langsung badut	Positif	1
+pusing kantor pakai kaos formal bingung	Negatif	-1
+kantor duduk diam meja komunikasi atas bagus fokus jalin koordinasi interaksi atas	Negatif	-1
+kondisi pegawai kantor subur budidaya politik kantor tempat interaksi divisi jarang simpan tulis kambing warna item	Negatif	-1
+kondisi sender cpns pindah data kantor cepat ahli bantu baik komputer mati komputer pura pura tolong teman kantor baik komputer lapor pimpin ganti komputer	Negatif	-1
+surat email besar hadir sakit bulan penuh nafas kaki kantor trauma buka laptop tonton doang	Negatif	-1
+klien cerita hubung kurang akibat kontrol emosi pulang sesi sadar lingkung pengaruh	Netral	0
+ubah mentalitas malu telat wajib acara kantor urus pribadi atas manusia salah	Negatif	-1
+kantor urus bisnis bisnis usaha sentimentil person laku bisnis kurang	Positif	1
+jarang diskusi panas klien selesai ruang temu ujung ular kantor lingkung kurang nyaman	Netral	0
+urus kantor pegang urus pribadi keluarga tolong kerabat opsi tolong keluarga urus kantor nomer	Negatif	-1
+kantor nikah antem kaget jalan kaki uang	Negatif	-1
+tahap nyaman hidup kantor selingkuh	Netral	0
+kandung konsekuensi logis damai stres kantor mau ekspektasi ingin idealisme selaras nyata dunia	Negatif	-1
+kemarin habis kantor gabung kantor obrol ujung mental open konsultasi psikolog obat psikiater moga	Negatif	-1
+pindah kantor benar capek benar klinik	Negatif	-1
+person panik takut mampu	Negatif	-1
+terkadang lupa tuju kantor wajib pulang selesai jalan parkir parkir jalan kantor	Positif	1
+sulit izin kantor absen jangka waktu alhasil diam doang kamar harap	Negatif	-1
+pusat kantor pusat canda cengengesan pulang pegawai canda doang hilang sempat pusat jalur	Positif	1
+kadang daerah semenjak hilang malas alhasil nyaman kampus hidup	Positif	1
+fase kantor takut kantor ketemu malas dunia	Netral	0
+pindah kantor besar dokumen	Negatif	-1
+psikolog alas perempuan profesional omong waktu tenang ganggu mental tangan profesional	Negatif	-1
+kantor jalan ganggu serius tegur rubah berisik ruang	Negatif	-1
+menang pegawai sayang adek rajin sempat hidup sedih tulang punggung	Netral	0
+fasilitas kantor urus pribadi bacot tolong ikhlas	Positif	1
+jadi bulat jatuh sakit sakit baring layang jatuh sakit pikir kerja	Negatif	-1
+kerap sambung banjir hujan lebat malas rumah tidur	Negatif	-1
+situasi pilih hapal kantor kunjung asa berat sesal	Negatif	-1
+khawatir waktu front obrol bentar asing beda urus pegawai panik baik	Negatif	-1
+curhat pagi sombong taksir gedung kantor gumam kantor cabang gedung suka	Negatif	-1
+pribadi personal advisor bimbing guru sekolah dosen kampus niscaya akar masalah hilang	Positif	1
+fenomena kantor pegawai wanita sukses meni pegawai	Positif	1
+langkah henti miring kepala sipit mata perhati surat bawa surat surat usaha surat pribadi lantas surat ruang	Negatif	-1
+stres akuntansi teman beranta langsung ruwet rumit runyam hilang perihal beli perihal tanggung maaf	Negatif	-1
+salah faktor bantu lingkung bagus ramah jabat senior sungkan ketemu degan dikit	Negatif	-1
+singkat gedung kantor taksir rasa mimpi daerah doa moga gedung terima gedung kantor jakarta	Positif	1
+waktu gedung lokasi jaksel rumah daerah jakarta singkat partner masalah kantor gedung singkat ajak gedung	Negatif	-1
+bulan divisi divisi rame pisah masalah kantor rekan ruang divisi	Negatif	-1
+tugas pulau jawa singkat kantor bagi gedung tempat jaksel gedung jaktim	Negatif	-1
+kantor camat berkas camat tinggal kantor	Netral	0
+eselon aktif kantor alhasil masalah bentrok atas mutasi turun jabat bentrok naik jabat	Negatif	-1
+gaji mula ikut layak dasar gaji progresif awam juru audit ahli nujum awam tangga gaji ramai	Negatif	-1
+gaji faedah mampu cecah juta tahun juta juta gaji juta bonus juta pelan sumbang pelbagai faedah	Positif	1
 gaji juta rupiah plus fasilitas tolak juta muda paksa putus sekolah kurang gizi buruh kasar nekat seberang tetangga kuli bangsa	Negatif	-1
 milik bisnis sejahtera karyawan level minimal juta gaji pokok profit saham	Positif	1
-baht gaji kilang darab baht gaji minimum gaji baht baht beli murah rasa murah	Negatif	-1
-jujur gaji juta laki proses rekrutmen telaten korban ongkos tulis juta	Positif	1
-syukur pajak bpjs tanggung penuh beda gaji besar tanggung besar gaji kecil tanggung kecil gaji kecil tanggung besar gaji besar tanggung kecil	Negatif	-1
-laku kurang gaji gaji hubung tingkat risiko	Negatif	-1
-gaji kisar juta juta baca kontrak nyata gaji juta	Positif	1
+baht hari gaji kerja kilang darab baht gaji minimum gaji jam baht baht beli murah rasa murah	Negatif	-1
+jujur usaha gaji juta laki ikut proses rekrutmen korban ongkos tulis juta	Positif	1
+syukur usaha pajak iur bpjs penuh usaha beda gaji besar tanggung besar gaji kecil tanggung kecil gaji kecil tanggung besar gaji besar tanggung kecil	Negatif	-1
+laku kurang gaji gaji alas hubung tingkat	Netral	0
+gaji juta juta baca kontrak juta	Positif	1
 gaji staff hijau jawat manager manager data	Netral	0
 deskripsi front desk gaji juta gaji juta gaji juta admin gaji juta admin gaji juta staff gaji juta kurir gaji juta total gaji	Positif	1
-idam naik gaji tulis alam tarik tarik sumber beda	Positif	1
-betapa nilai gaji nilai situ buang pergi syarikat ambil pakai	Positif	1
-posisi gaji juta plus dana operasional juta undur	Positif	1
-kaya gaji potong cuman	Negatif	-1
-bingung harga kasih gaji naik plus janji diam bagus boro apresiasi bagus	Positif	1
-gaji juta bonus penandatanganan juta juta fokus bangun	Positif	1
-mampu bayar gaji karyawan duit besar raib	Netral	0
-gaji besar mampu bayar senarai bayar gaji bank	Netral	0
-kecuali model magang obrol staff gaji magang juta berani bayar	Positif	1
-alam total gaji bonus tunjang fasilitas besar anggap sesuai	Positif	1
-sabar jalan gaji	Positif	1
-gaji gaji hasil mapel ekonomi	Positif	1
+usaha idam naik gaji tulis alam usaha tarik tarik sumber beda	Positif	1
+tampak betapa nilai gaji nilai situ buang pergi syarikat ambil sempat pakai	Positif	1
+cuman	Netral	0
+bingung harga aju gaji naik plus janji diam bagus boro bagus	Positif	1
+gaji bulan juta bonus penandatanganan juta juta fokus bangun usaha moga	Positif	1
+mampu bayar gaji karyawan raib	Netral	0
+gaji besar mampu bayar senarai bayar gaji tinggi bank	Netral	0
+kecuali usaha hak cari model magang obrol staff gaji magang juta usaha berani bayar	Positif	1
+alam total gaji bulan bonus tunjang fasilitas sesuai	Positif	1
+maksud gaji jawat syarikat jumpa	Positif	1
+salah meme dunia istri beli rumah ratus milyar rupiah kompensasi finansial karyawan usaha besar meta golong sungguh dilema keras	Netral	0
+sabar	Positif	1
+gaji gaji hasil biasa mapel ekonomi	Positif	1
 karyawan swasta gaji bruto juta tunjang keluarga istri ribu	Positif	1
-minggu pesan gaji sertifikasi juta giur	Positif	1
+minggu terima pesan gaji sertifikasi juta giur	Positif	1
 gaji email	Netral	0
-mahal gaji nyaman erti hadap ruang lingkup pribadi ganggu jamin sehat gaji jamin	Negatif	-1
-tempat beda waktu gaji aman aman kudu horor gaji lumayan kudu keras juta	Negatif	-1
-gaji terang terang nyata strategi bahas	Positif	1
+garut keluar kerja bulan makan minum listrik pulsa bpjs makan seblak burayot libur curug jagapati ribu	Negatif	-1
+mahal gaji nyaman erti usaha ruang lingkup pribadi jamin sehat gaji usaha jamin	Negatif	-1
+tempat beda waktu atas gaji aman aman kudu atas horor gaji lumayan kudu keras juta	Negatif	-1
+usaha gaji terang strategi bahas	Positif	1
 tawar gaji naik khawatir habis habis ekspansi bisnis ambil kasih salah dekat kerangka	Negatif	-1
-gaji pokok juta arti ribu sakit potong rebu lambat ribu kantor telat potong ceban sinting	Negatif	-1
-teman gaji teman juta senyum minggu email kasih gaji	Positif	1
-jaga toko pagi malam istirahat pulang gaji juta wajar ambil libur	Negatif	-1
-syarikat bayar senyum syarikat minggu lepas calon gaji teka	Positif	1
-kaget waktu gaji juta juta lembur bonus gaji ketemu beliau fasilitas tempat	Positif	1
-kapal pesiar gaji kurang juta bersih potong biaya hidup tanggung tabung juta bersih kapal pesiar	Negatif	-1
-waktu gaco gaji juta area semarang gaji karyawan naik juta kuat malam capek kasihan manager gaji awah	Positif	1
+gaji pokok juta hari ribu sakit hari rebu lambat ribu kantor telat ceban sinting	Negatif	-1
+teman gaji teman juta senyum minggu email gaji	Positif	1
+jaga toko pagi malam istirahat pulang juta wajar ambil libur bulan	Negatif	-1
+syarikat bayar bulan senyum syarikat minggu lepas calon gaji teka	Netral	0
+kaget waktu gaji juta juta bonus tahun gaji ketemu beliau fasilitas tempat pada	Positif	1
+kapal pesiar gaji kurang juta bersih biaya hidup usaha tahun tahun tabung juta bersih kapal pesiar	Netral	0
+waktu gaco gaji juta area semarang gaji karyawan naik juta kuat malam capek kasihan manager gaji	Positif	1
 gaji mending gaji juta start kecil stabil karyawan tunjang bersih gaji juta kontrak jakarta sender bingung	Positif	1
-garuda bayar gaji desember	Netral	0
+garuda aku bayar gaji desember	Netral	0
 laptop balas gaji juta jakarta	Positif	1
-gaji gaji juta naik juta	Positif	1
-bayang karyawan gaji juta arti gaji juta sibuk gabut juta	Positif	1
-kantor gaji naik tunjang uang makan uang bensin pergi	Positif	1
-bingung atur gaji tabel grafik alokasi hasil prinsip migrain lihat angka ganti hasil sekian gaji	Positif	1
-teman kasih partner bayar gaji juta taun	Netral	0
+gaji ikut usaha gaji juta naik juta	Positif	1
+bayang karyawan juta juta hari sibuk gabut juta	Positif	1
+kantor hari gaji naik tunjang uang makan uang bensin pergi	Positif	1
+bingung atur gaji tabel grafik alokasi hasil prinsip migrain lihat ganti hasil sekian gaji	Positif	1
 gaji lepas gaji gaji gaji bonus gaji gaji gaji bonus	Negatif	-1
-gaji lupa angka potong potong beban karyawan bpjs sehat bpjs jahat bpjs potong	Negatif	-1
+butuh posisi mandarin manager manager uang mandarin lokasi jakarta utara gaji kriteria lancar mandarin baca tulis bicara alam minimal alam pimpin divisi	Negatif	-1
+gaji lupa potong potong karyawan bpjs sehat bpjs jahat bpjs usaha potong	Negatif	-1
 solusi ganti rugi gaji juta juta	Positif	1
-contoh kopi super jepang indonesia buka lowong gaji juta juta lihat lulus	Positif	1
-penasaran gaji gaji tunjang keluarga juta tunjang juta total juta potong	Positif	1
-gambar gaji indonesia juta arti harga median rumah tara gantung bijak gaji buah utas singkat	Positif	1
-bagus kualitas karyawan gaji gaji puluh juta standar karyawan gaji besar besar	Positif	1
-gede gaji juta junior juta senior ganti cuti uang jajan uang lulus butuh mandi cuci makan obat tanggung majikan	Negatif	-1
-gaji maaf sensitif sender butuh pandang kena gaji kontrak juta gaji karyawan juta kasih	Positif	1
+contoh usaha kopi super jepang indonesia buka lowong gaji juta juta lihat lulus	Positif	1
+penasaran gaji gaji tunjang keluarga juta tunjang kerja juta total bulan juta potong	Positif	1
+gambar gaji indonesia juta harga median rumah tara gantung bijak gaji keluar utas singkat	Positif	1
+bagus usaha kualitas karyawan gaji puluh juta standar karyawan gaji besar besar	Positif	1
+gede gaji juta junior juta senior ganti cuti uang jajan bulan uang lulus butuh mandi cuci makan obat majikan	Negatif	-1
+gaji maaf sensitif sender butuh pandang alas gaji kontrak juta gaji karyawan juta kasih	Positif	1
 umur menang lihat umur juta daerah gaji besar juta gaji karyawan kisar juta	Positif	1
 gaji tingkat gaji asing india cuti bayar plus	Positif	1
-gaji gojek rusuh rusuh	Netral	0
-lihat gaji jerman banding jerman juta australia juta korea selatan juta jepang juta	Positif	1
-jenis indonesia hitung bpjs sehat komponen gaji tunjang hitung bpjs sehat gaji pokok	Positif	1
-gaji bonus konsultan berat ambil	Negatif	-1
-denda administratif langgar bayar gaji waktu daftar bpjs ketenagakerjaan kena denda contoh lambat bayar gaji denda gaji lambat sesuai	Positif	1
-gaji gaji gaji gaji umur hidup ganda kejar tujuh angka bantu keliling capai enam angka	Negatif	-1
+bagi gaji gojek rusuh rusuh	Netral	0
+komen kategori jenjang gaji tinggi juta peringkat kabar kagak daftar	Netral	0
+gaji jerman tinggi banding jerman juta australia juta korea selatan juta jepang juta	Positif	1
+jenis usaha indonesia hitung bpjs sehat komponen gaji tunjang hitung bpjs sehat gaji pokok usaha	Positif	1
+gaji bonus usaha konsultan berat	Netral	0
+denda administratif usaha langgar bayar gaji waktu daftar kerja bpjs ketenagakerjaan denda contoh usaha lambat bayar gaji denda gaji lambat sesuai	Positif	1
 gaji tenaga ahli juta ubah budi juta	Positif	1
-ilmuwan bidang gaji bajak elon langsung naik gaji loyal perang sungguh perang rebut ulas buku indah	Negatif	-1
-kisah pegawai magang buah viral lantar gaji ribu bayar ribu tempat angkat bicara kait	Positif	1
-gaji juta fasilitas makan alat mandi alat solat cuti ambil cuti ganti uang	Positif	1
-gaji profit tempat kurang modal hasil jumlah halu gaji	Negatif	-1
-denda sisa kontrak wajib bayar gaji sakit istirahat sakit sesuai dokter gaji gaji gaji gaji	Negatif	-1
+ilmuwan bidang elon langsung gaji loyal perang sungguh perang rebut ulas buku indah	Negatif	-1
+kisah pegawai magang viral lantar ribu bayar ribu angkat bicara kait	Positif	1
+lanjut gaji juta fasilitas makan hari alat mandi alat solat cuti ambil cuti uang	Positif	1
+gaji profit usaha tempat modal usaha jumlah halu gaji	Negatif	-1
+denda sisa kontrak usaha wajib bayar gaji sakit panjang istirahat sakit sesuai dokter gaji gaji gaji gaji	Negatif	-1
 kalkulator gaji hitung haji bersih kena potong pajak bpjs jahat bpjs sehat habis	Negatif	-1
-situ gaji referensi gaji tempat posisi	Negatif	-1
-total gaji gaji masyaallah jaga staff zalim	Negatif	-1
-bayar gaji junior	Negatif	-1
-populer kasih gaji gojek cukup	Netral	0
-denda lambat gaji dasar upah lambat bayar gaji wajib denda total gaji lambat maksimal tunda	Positif	1
-bungkam bantu lihat keluarga klien gaji telat laku tugas	Netral	0
-kaget sistem gaji bisnis dengar standar gaji gaji domisili aduhai tega	Netral	0
-sanggup kontrak kasih alhasil bukti kontrak kasih slip gaji susah turun manajer gaji potong	Negatif	-1
-kantor bareng kantor lucu kocak gaji kuda bayar gaji telat	Negatif	-1
-kompensasi gaji uang pendapatan dapat penghasilan hasil intensif gaji sedikit gaji banyak bonus	Netral	0
-curhat nakes kupang gaji telat obat alat minim nyata kondisi	Negatif	-1
-real dunia senang mimpi modal doang gaji banting	Positif	1
-kantor budaya wajib gaji divisi abis juta	Netral	0
+gaji junior	Negatif	-1
+usaha populer kasih gaji gojek cukup	Netral	0
+denda lambat gaji dasar upah usaha lambat bayar gaji wajib denda total gaji lambat tambah maksimal tunda	Positif	1
+viral suruh kritik indonesia anggota tolak jilat dukung wajib	Negatif	-1
+alas tahan indonesia uang ayam	Netral	0
+maaf heboh benar kampus	Netral	0
+sila pergi kuat suka rasa tamu paksa ribet	Negatif	-1
+tahan rasa rusak gelar tanam hubung kelas	Negatif	-1
+jodoh hindar temu malu	Positif	1
+rumah perabot kurang ruang rumah lapang angin sejuk objek serap kitar angin lancar	Positif	1
+jumpa rumah kawan	Positif	1
+tokoh henti pergi pergi singgah tetap henti	Negatif	-1
+macet banjir tahun baku alas perintah pindah masalah wilayah kota indonesia jakarta	Negatif	-1
+pergi doa baik	Netral	0
+abang bego pulang indonesia hidup stabil jamin obat gratis udara bersih pulang swedia indonesia swedia	Negatif	-1
+alarm ubah lokasi cempedak jakarta timur minggu februari pindah alas teknis kait izin	Negatif	-1
+pergi pergi bosan asik sadar	Positif	1
+milik peluk besar tahap butuh keluarga besar ajar revolusi mental	Negatif	-1
+contoh alas mati keluarga dekat jaga ahli keluarga sakit pasang lahir rumah pecah akal	Positif	1
+hijrah tempat tantang nabi hijrah mekah madinah waktu mekah tolong indonesia tolong rezim	Negatif	-1
+base butuh validasi apa kondisi mental misi mesti	Negatif	-1
+baik jasa kenang putus kecil bincang pikir pergi pergi	Positif	1
+warga harga manusia diskriminasi	Positif	1
+indonesia indonesia alam kurang enak benar	Negatif	-1
+bang butuh kardus besar pindah baju baju hitung bawa pakai koper kardus pasrah	Positif	1
+tenaga bawa ijazah sekolah akta lahir foto arsip aman	Positif	1
+alas malas pulang kampung primitif hobi julid cermin suka lihat sukses bahan omong	Netral	0
+pilih salah mampu guna sempat level tutup atas bawa gerbong rombong manjur	Negatif	-1
+ajak kampung halaman antem sehat waktu mamah pikir pergi kampung halaman	Negatif	-1
+semangat sehat aman jelek	Negatif	-1
+agama faktor suami istri istri suami nyaman yakin mujizat sembuh sakit pengaruh lingkung	Netral	0
+beli ayun kucing debu doang desember girang mampus bayar barang kosong sekian	Negatif	-1
+tuju rumah hidup susah gampang	Netral	0
+surat benar total bawa barang bawa telat salah warga	Negatif	-1
+masak jaga	Netral	0
+sukses rasai foya foya pakai gaji nikah rasai suami pelihara kucing tolong sakit baca tonton anime	Positif	1
+tahan jemput	Netral	0
+laptop tolong doang	Netral	0
+kamus	Netral	0
+mental buruk mental ajar imbang ajar naik sepeda kuwait latih mental imbang	Netral	0
+gantung definisi subyektif putus beda masal kait bencana alam besar perang krisis ekonomi	Negatif	-1
+bingung kolam parah murah jalan kaki berat nilai kolam	Negatif	-1
+gampang kepala keluarga surat surat	Netral	0
+besok waktu urus pindah desa beda lurah kapai indak pisah	Negatif	-1
+tokoh angkot jalan angkot sesuai	Negatif	-1
+dana sungkan terima rezeki ribet	Positif	1
+waktu bijak blokir	Negatif	-1
+tanggal oktober besok sangka ganti warga moga capai salah bangun kedai seblak uranus bareng	Negatif	-1
+butuh alas besar cukup suka tunggu buah hasil suka kebun besok beli benih media tanam tanam benih samping rumah rawat buah	Negatif	-1
+jakarta pisah hantu hati aruna panti bocah kecil kuntit dadak ubah	Positif	1
+lantas ajar henti rasa besar selamat raya	Negatif	-1
+warung bakso gampang beli bakso warung belah bakso warung enak suporter sepak bola dukung belah	Negatif	-1
+muak kaum dunia kaum serba salah	Negatif	-1
+bahu jelita hadap kacau mampu proses pindah sera susun debu saing dominasi ruang	Negatif	-1
+singapura surabaya jakarta lumayan bareng adik	Netral	0
+kamar mandi mandi doang kena usir	Negatif	-1
+hidup puluh hidup puluh ganti lupa	Netral	0
+kelomang rumah	Positif	1
+solo pilih	Netral	0
+pindah ancam serang perompak lanun solok kuta aman lokasi strategis sungai untung ekonomi raja tani dagang	Negatif	-1
+bawa anabul pulau kilas jalan pasu bulu pindah bogor sumatera barat	Negatif	-1
+tangan bengkak kena tusuk kena sayat badan remuk siap pulang pergi kadang warteg tutup beli siang malam nasi keras tidur ulang	Negatif	-1
+bungkam bantu keluarga klien gaji telat tugas	Negatif	-1
+dewasa erti kadang sesuai kadang sulit kadang capek jalan sesuai sesuai suka posisi	Positif	1
+encok tiada rumah	Netral	0
+tempat parah sisi juang usaha baik hidup berangkat pagi pulang malam pulang bulan hari jalan	Negatif	-1
+jumat siang malam kemarin pagi malam siang malam istirahat makan duduk menit diri jalan nyala	Negatif	-1
+kaget sistem gaji dengar standar gaji gaji domisili pikir aduhai tega	Negatif	-1
+murah budak pesan meja jepara kaget kakek sepuh bantu barang pakai truk bobrok ogah libat tindas	Negatif	-1
+ekspektasi tanggal	Negatif	-1
+atas lembur kagak bayar lembur pagi gila	Negatif	-1
+gumul kertas kertas konfirmasi kuesioner sampling rumit sentuh kalimat	Negatif	-1
+urus dokumen ecek data usaha usaha milik sebentar pergi minum jalan jalan sibuk	Negatif	-1
+susah waktu susah	Negatif	-1
+nonstop siang	Netral	0
+pagi pagi pagi urus agens agens gila jajan pikir over buruk tinggal	Negatif	-1
+masalah delegasi tugas waktu habis resep selesai seni susah	Negatif	-1
+gaji doang target target kadang lembur tambah	Positif	1
+minggu minggu tidur bingung	Netral	0
+teman lokasi bangun santai malas kantor langsung lapang berangkat kantor betah	Positif	1
+pagi diri	Negatif	-1
+tukang kebun	Negatif	-1
+sesuai atur kantor karyawan murka protes anggap alas adil	Netral	0
+padat studio aktivitas kerja batas produksi musik pandu rekam klien temu musisi produser rapat kecil dapat perangkat malfungsi	Positif	1
+enak asa sarap bingung sarap	Positif	1
+anjak kursi beda	Negatif	-1
+kemarin pagi malam sore selesai	Negatif	-1
+sulit anggur sulit tahan sulit libur sakit sinis apresiasi salah langsung jelek capek	Negatif	-1
+lelah fisik batin sungguh dunia kantor cocok naif bisnis bisnis rekan rekan	Positif	1
+asih giat ulang ulang kemarin senang yudisium bangun capek bayang	Positif	1
+anjeng berangkat	Negatif	-1
+cocok posisi sesuai janji sambung janji	Netral	0
+dasar amat lihat langsung serba totalitas muas stres	Positif	1
+hadap proses tulis transkrip ibu pilih pasuk tulis	Netral	0
+sangka titik titik hadap	Negatif	-1
+alam asam lambung trauma senioritas trauma salah kompetisi nyanyi kesan	Negatif	-1
+enak fasilitas bagus bayar bpjs kudu tunggu	Netral	0
+nasihat rasa kena berat mulut tegur sombong sapa	Negatif	-1
+karyawan karyawan vidio korporat putus hubung saudara hitung usaha alami bangkrut undang	Positif	1
+salah kadang dengar curhat negatif sadar energi kuras energi positif negatif dengar jaga jarak enek mending	Positif	1
+curhat dikit sakit hati dikit sibuk rebah posisi barusan pinjam uang	Negatif	-1
+budaya bunuh tahap timbul fenomena sindrom mati kejut akibat	Negatif	-1
+curhat capek hidup lelah anggap remeh benar kuat capek	Netral	0
+curhat maaf alam lupa ajar sekolah honorer didik butuh guru	Positif	1
+curhat tolong kasih minus kontraktor tahan bidang	Negatif	-1
+usia senior kantor pabrik bawah jauh marah sistem ngawur sesuai sisi takut alhasil cecer pimpin	Negatif	-1
+kurang stres warga rumah curhat mobil program mobil curhat akal	Positif	1
+pupus muka bumi bangga staff kena resume benda pakai email panggil	Negatif	-1
+hari ragu kirim kirim jenuh maaf kaya curhat moga kasih	Positif	1
+tener todo gente todo tener	Netral	0
+kerja cukup pusing pusing daya juang daya inisiatif gantung pusing arah capek	Negatif	-1
+sanggup kontrak alhasil bukti kontrak slip gaji susah manajer alas gaji potong	Negatif	-1
+curhat kondisi bagus gaji dikit jauh dekat bohong masalah kantor malu	Negatif	-1
+senioritas tuntut fasilitas utara dapat golong peran suka ubah enak	Negatif	-1
+tempat negatif rasa marah malas pergi teruk kaki bawang kipas naik gaji kaki bawang perangai	Negatif	-1
+cipta usaha mudah sisi buruh susah undur buruh perempuan paksa henti undur akibat usaha gugat milyar	Negatif	-1
+toilet musola jauh parah libur sakit tenggorok	Negatif	-1
+tragedi celaka buka mata realitas keras lingkung insiden statistik angka nyawa keluarga mimpi putus kaum hak lingkung aman sehat	Negatif	-1
+salah timbang pilih kantor regulasi kait keras seksual nyaman	Netral	0
+bareng lucu kocak gaji kuda bayar gaji telat	Negatif	-1
+energi klien habis rekan keluh cerita arah pengaruh saran	Positif	1
+kantor goreng obrol leyeh ruang peristiwa celaka peristiwa pidana besar	Negatif	-1
+komunikasi manajemen keluh tulis lisan manajemen nada profesional cari solusi buruk situasi	Netral	0
+simak curhat ganti cerai meni depresif bunuh hamil besar lapar tidur	Negatif	-1
+dengar curang laku bual kosong ustaz pesan pasang elak cakap dua cakap peribadi adu keburu rumah tangga undang	Negatif	-1
+kantor pusat manusia manusia padan kasih potong paksa bawa pulang laptop rumah salut	Positif	1
+beda sekolah tahun kena sakit kelamin mesin cuci mobil sepupu penjara bulan pulang capek	Negatif	-1
+sender kerja jaga toko lumayan dekat rumah rumah toko pagi malam siang sore kurleb gaji	Positif	1
+curhat habis usaha oren bagus susah naik lihat kece omong inggris lihat tampil kaya	Positif	1
+mati performa etika selesai urus izin beritahu pasti paham izin asih	Negatif	-1
+curcol dadak jalan bulan lambat hasil ajar minimal empati sikon	Netral	0
+problem bukti nyata nyokap bokap bokap tendensi gaji nyokap nyokap	Negatif	-1
+susah status kontrak tahap usaha cuti sangon	Negatif	-1
+selesai perkara kelas makan kedai malas masak masalah habis makan pulang bentar tempat pintu toilet copot sakit babi pulang	Negatif	-1
+curhat minggu usaha global bpjs asa serba enak rasa	Negatif	-1
+normal detik data sabtu rumah uang lembur jakarta pakai laptop pribadi	Positif	1
+korupsi kolusi nepotisme gratifikasi suap plus peras langsung fasilitas kantor perlu pribadi korupsi	Positif	1
+curhat potensi nyaman solusi berani takut	Positif	1
+curhat kemarin atas kantor pusat lelet atas lelet langsung langsung	Positif	1
+curhat sedikit waktu bela sibuk asih	Negatif	-1
+lapor dinas ketenagakerjaan masalah selesai kerja lapor dinas ketenagakerjaan tempat mediasi dinas menindaklanjuti keluh panggil usaha selesai sengketa	Negatif	-1
+sambung kilang banyak kilang kawan cepat dorang satu urus ada jabat	Negatif	-1
+umum atur curhat pasang cinta konteks kerja sanksi contoh gaji rekan	Positif	1
+libur tanggal merah fitri paskah natal kompensasi curi usaha duit paksa asuransi	Negatif	-1
+gerangan kesal dengar kamar lelaki gondok pagi tidur ganggu dering telfon asal aju cuti libur	Negatif	-1
+agam masalah kantor omset kuartal capai target minor mayor	Netral	0
+curhat nakes kupang gaji telat obat alat minim kondisi	Negatif	-1
+curhat keluarga masalah solusi solusi butuh uang batal solusi benar jalan solusi	Positif	1
+real dunia senang mimpi modal doang banting	Positif	1
+rasai budaya kuadran baca rasai budaya	Positif	1
+omong tegang menang langsung suruh pulang sedih ketemu omong	Negatif	-1
+dunia bolong solat rajin solat	Positif	1
+familiar bandung kultur banyak bandung masalah gengsi pasif agresif	Negatif	-1
+salah budaya suka alias transparansi enak berani atas sayang nyaman efisien	Positif	1
+tahap situasi kacau budak tindas pegawai jatuh sakit ubah evaluasi inovasi radikal visioner kecewa usaha pakai inovasi waktu	Positif	1
+kultur usaha pakai baju makan kultur fasilitas perilaku usaha	Positif	1
+cepat	Netral	0
+budaya wajib gaji divisi juta	Netral	0
+cukup tahun	Negatif	-1
+benci kultur indonesia acara mesti uras tenaga aktivitas fisik senin mesti cuti rasa	Negatif	-1
+sholat muslim istikamah selang bulan rekan gerak sholat bawa pengaruh positif	Positif	1
+manager veto person among kari hear	Netral	0
+bangku kuliah terus dadak matang waktu minggu doang	Positif	1
+pola pegawai indak pamer senang bahagia pantas kondisi minim bahagia energi sugesti energi prihatin kere jadi kondisi	Positif	1
+oktober kemarin saksi lingkung usaha hibur multinasional korea selatan rundung lingkung hak bebas keras	Negatif	-1
+habis usaha manusiawi toleran	Netral	0
+jarang kena kena kena	Negatif	-1
+dunia gaul bebas teman posisi sambung dengar senyum	Negatif	-1
 kena getah raya bonus ringgit union mati habis intern bayar gaji minimum wage kompromi	Negatif	-1
-paksa bayar benda puluh juta rupiah paksa bayar denda telat kantor besar juta rupiah paksa uang bayar	Negatif	-1
-alam hati tanggung hadap anggap mengap sesuai gaji tuntut makan idealisme	Negatif	-1
-gaji besar pagi malas foto kontraktor lumayan besar risiko risiko badan alat potong	Negatif	-1
-pulang malam tawar timbang gaji telat absen pagi gaji potong lembur lembur	Negatif	-1
-berani gaji enak teman akses mudah betah hidup rantau nyaman rumah	Positif	1
-dunia duit habis tugas sisa rekan bonus gaji lancar singkat pakai pakai logika	Negatif	-1
-lokal indonesia prinsip wajar gaji beda maksimal harga upaya	Positif	1
-alkisah buah daerah yogyakarta gaji bayar bpjs lunas puluh karyawan berani	Netral	0
-mamah yayasan pilih susah nyata gaji pabrik besar banding kasih makan	Negatif	-1
+nama usaha tempat lumayan bisnis retail panen kandidat sedikit bisnis tani	Netral	0
+lihat usaha kolot proses rekrutmen data nama adek kakek nenek ciri ciri usaha kolot	Netral	0
+lolos situ mbak bayang betapa jahat kantor fokus pakai rapi pakai kemeja putih kuning leher aneh	Negatif	-1
+dunia pakai	Netral	0
+budaya karyawan bakar daging karyawan korea malu pikir karyawan bagi komunitas minggu acara	Positif	1
+pola indonesia kultur perempuan bebas hamil pikir lahir suami kadang	Positif	1
+jujur ruang lingkup kecil lingkung lumayan divisi politik benar	Negatif	-1
+budaya workaholic budaya kedok ilusi karyawan hidup imbang kurang keren	Positif	1
+trauma	Netral	0
+kantor aneh umur hidup gaji telat cepat minggu kontrak atas kocak geming magang masalah dokumen duit konten kocak	Negatif	-1
+drakor normalisasi malam bela tidur meja kultur salah faktor angka lahir drop drastis	Negatif	-1
+lewat pabrik tangan masalah kasihan curhat pimpin asa kasihan	Netral	0
+catat wawancara beda serba santai konservatif pakai detail nyaman stres	Positif	1
+bayar benda puluh juta rupiah bayar denda telat kantor juta rupiah cari kerja uang tambah	Positif	1
+daftar salah lini terbit pakai panel malas profesional jadwal wawancara tunggu salah maaf	Negatif	-1
+budaya kantor minum dugem wajar anjing kirim foto dugem grup internal divisi encok cuman senyum miris	Negatif	-1
+usaha keroyokan bagus suka reputasi mulut mulut bundir nama benar	Negatif	-1
+bareng mentok sabtu pulang senin langsung efektif waktu	Positif	1
+tampar muka kencang kacamata lepas kepala meja kepala tembok istirahat bulan tidur sakit drama	Negatif	-1
+mental pimpin usaha tolol habis pegawai manusia produk goblok	Positif	1
+lingkung wamil pagi naik kereta pakai gantung	Negatif	-1
+sebel sumpah usaha karyawan gilir libur karyawan sayang doang sakit hati sumpah besar	Positif	1
+alam usaha hati harus usaha mengap sesuai gaji tuntut makan idealisme	Negatif	-1
+besar pagi malas foto kontraktor lumayan besar alat potong	Negatif	-1
+korea pantas korea lokasi indonesia edan suntik vitamin segar pakai koyo	Netral	0
+dunia sekolah bas libur semester tanggal merah besar	Positif	1
+kena senior dadak dada sakit laku tidur duit	Negatif	-1
+jadi teror besar esok dian insiden gempar pabrik salah karyawan budi tewas enas dekat mesin giling cabik	Negatif	-1
+kirim mantan besan struk badan dagang rusak bangkrut sakit sakit bulan batuk darah pegawai	Negatif	-1
+usaha lihat usaha dada sore usaha	Positif	1
+teman ultah ajak makan resto selesai keluar dompet bayar tagih biasa	Negatif	-1
+usaha keren masalah langsung cuci tangan masalah penjara aneh aneh tempat tanda bahaya	Negatif	-1
+suka baju bebas sepatu bebas fasilitas lengkap tunjang jatah produk kantor giat hibur	Positif	1
+lingkung sehat judes mata	Negatif	-1
+asli korea pilih usaha usaha korea	Netral	0
+posisi cukup gila nama sadar	Negatif	-1
+malam hari tawar gaji telat absen pagi gaji lembur	Negatif	-1
+sakit staff mintak cuti buka long vent staff	Negatif	-1
+dengar manusia rumah manusia ubah butuh rumah ubah manusia pergi tetap butuh rumah pergi	Positif	1
+takut hilang salah alas sulit jauh takut hilang takut temu rasa takut lang maju	Negatif	-1
+takut lepas salah alas pilih tunggu takut lepas pikir pergi hilang sempat pikir tahan hati	Negatif	-1
+indak rela	Netral	0
+rasa takut lupa salah hambat besar rasa takut lupa hapus kenang harga hilang bahagia	Negatif	-1
+pasti susah saking empet perintah bangsat	Negatif	-1
+ruang tembok butuh butuh tali temali pergi	Negatif	-1
+detik burung walet burung walet jenis burung unik perilaku burung walet jadi walet hewan setia salah burung walet hinggap	Negatif	-1
+jamur dinding perintah tempat ahli bangun layak rumah kontrak rumah layak rumah	Positif	1
+renung benar	Netral	0
+perintah fungsi mustahil evaluasi kabinet ganjil cukup serius	Negatif	-1
+rumah sorot dilema keluarga bareng rumah suka obrol natural keluarga utuh rumah	Positif	1
+ketidakpastian salah tanda pergi hubung terus ketidakpastian arah komitmen nyata kabur rasa sayang	Negatif	-1
+perintah rata wilayah kantor kantor besar mayoritas jakarta terpa ibukota prospek duit besar daerah giur rantau	Netral	0
+alas omong suami rada tua	Negatif	-1
+perata ibukota ulang masalah bas pusat oligarki harap tumpah nusantara perata ekonomi perata rusa	Positif	1
+rasa nyaman cinta rasa nyaman hubung hubung rasa aman stabilitas terkadang penuh konflik sulit	Positif	1
+mending pulau lose long simpel asa pisah	Netral	0
+kampus nilai jelek pakai jamin nilai naik ribet adaptasi entar kampus jelek pasti mudah	Positif	1
+salah pandemi dampak ekonomi mobil peduli lingkung gaji istri	Negatif	-1
+filosofi pindah duduk tebar gula semut bangun pusat ekonomi masyarakat iring bangun sarana prasarana tunjang	Positif	1
+rantau rumah rantau rasa kereta pasti menang doa kabul	Netral	0
+faktor timbang banyak personal utama ganti paspor kuat pilih tara properti bebas pilih industri	Negatif	-1
+alas juang titik hasil alas takut dunia takut dunia alam berani	Netral	0
+suami rumah akses mudah dua usaha kurleb rumah suami kasihan lihat boros jalan belio rencana rumah	Positif	1
+pindah rumah asih uang uang rokok jabat walkot bupati gubernur amit ketemu jalan ogah	Negatif	-1
+hidup mampu pedestrian bagus nyaman jalan kaki sisi hidup manusia jalan kaki romantis pasang bagus	Positif	1
+pakai semangat karya industri peduli duit kantor pulang karya rumah	Positif	1
+hidup	Netral	0
+pepatah lelah serah kalimat terkadang pasti rasa lelah rasa lelah henti capai semangat senin	Negatif	-1
+sholeh malas	Negatif	-1
+sobat industri percaya yakin mampu capai bawa sukses selamat aktivitas sobat	Positif	1
+kapal mitra angin dorong laju cepat jauh mitra samudera bisnis luas takut simak betapa mitra bisnis	Positif	1
+tahan sedikit rekan peduli suasana nyaman sedikit	Netral	0
+dunia dar cari duit habis rekan bonus gaji lancar pakai asa pakai logika	Negatif	-1
+pegawai semangat jalan tugas jaga pola suasana hati positif jaga semangat	Positif	1
+untung sesuai jurus didik sesuai jurus bidang damai ada sesuai jurus bidang	Positif	1
+suka semangat usaha keras senyap perkara jaya bunyi petir keluar bunyi sambar	Negatif	-1
+dekat bonus stres	Negatif	-1
+usaha lokal indonesia prinsip wajar batas usaha gaji beda maksimal usaha harga	Netral	0
+hidup usaha harmonis usaha karyawan cengli usaha cengli karyawan laku karyawan mesti usaha tuntut karyawan cuan	Positif	1
+usaha alam usaha banyak otak gaji alas kembang sungguh tahi	Netral	0
+sedikit nasihat sejahtera mental ganggu fokus merosot mudah jaga mental	Negatif	-1
+halo selamat semangat senin lembar baik semangat tekad	Positif	1
+keras prinsip berangkat asa maksud apatis lingkung bawa hati mati dalem mending cukup pulang bayar cukup	Negatif	-1
+bosan jebak rutinitas gaji waktu batas tuntut hidup tambah takut hasil peluang bisnis kantor komen kolom komentar	Positif	1
+tahan semangat uang rapi uang dingin jatuh aman mental main bisnis bisnis	Positif	1
+alkisah usaha daerah yogyakarta gaji bpjs puluh karyawan berani usaha	Netral	0
+nasehat orientasi ajar karakter belagu langsung enak pintar beliau direktur	Positif	1
+selamat buruh moga wajar lindung hukum penuh pecat kedok bayar sangon moga cepat sadar betapa kontrak usaha abai	Positif	1
+hebat samping amarah benci sumpek cemas rasa nyaman anteng kantor cuti gaji pulang	Negatif	-1
+sabtu insan bukit asam laksana semangat tebar energi henti	Negatif	-1
+buruh cipta dadap tangerang aksi tolak uang makan uang lawan bentuk tindas buruh umur juang	Netral	0
+baik bangsa jalan lurus konten pamer iman saksi	Positif	1
+keluar tenaga tenaga pikir tenaga badan aura capek pasti sebel kesel omong warna aura	Negatif	-1
+toksik sakit hati pahit dalem fokus habis kontrak langsung jual goreng rumah	Netral	0
+habis bonafide karyawan asuransi tunjang giat kantor melulu ambil cuti pakai pasti	Positif	1
+rasa milik usaha rasa milik kerja rasa maksimal untung usaha lihat apresiasi promosi naik	Positif	1
+takut budak korporat budak usaha besar gengsi katai budak sempat	Positif	1
+pagi takut siang pikir sore lancar pikir tahan hidup	Netral	0
+pesan kemarin malam putus coba hasil sulit mudah	Netral	0
+sadar muda aset usaha tua liabilitas usaha tua liabilitas	Negatif	-1
+usaha pasti pasti bisnis mimpi sulit susah nikmat usaha bantu	Positif	1
+sambat	Negatif	-1
+lompat lompat relatif stabil cetak badai reda asik goreng gaji kena	Netral	0
+semangat habis kontrak habis usaha jepang tembus paksa jatuh bangun darah karyawan jalan	Positif	1
+tukar rasa waktu gila uang hidup butuh uang beban lelah harga	Negatif	-1
+bijak usaha serikat kerja juang hapus bijak polemik bijak waktu dua peluang nikah	Netral	0
+kecam mampu	Netral	0
+bangun lingkung lanjut hubung harmonis bantu usaha cipta lingkung sehat inklusif dampak positif sejahtera kerja hasil usaha jangka	Positif	1
+terkadang hasil jual banding jerih payah serah pilih	Positif	1
+hidup	Netral	0
+mamah yayasan cari pilih cari susah gaji pabrik besar banding makan	Negatif	-1
+ancam sirat pangkat gaji mikat jiwa kerah upaya sang usaha rambut jagung habis minat balik arah	Positif	1
+prima human kuat syarikat staff staff enjin syarikat enjin bagus syarikat jalan lancar moga	Positif	1
+kontrak tempat intern usaha jurus jurnalistik suka lulus punch lulus	Positif	1
+usaha rawat almarhumah guna fokus gapai cita cita sektor	Positif	1
+bodo sekolah pakai otak cetak uang cetak uang wajib usaha anggota	Negatif	-1
+kerjasama denyut kepala kian sapa jeda nama heran kerja cinta	Positif	1
+relaksasi harap usaha kembang ekspansi buka lowong warga ekonomi jateng komitmen	Positif	1
+toleh papan iklan milik tampil poster rekrut wajah usaha apik karyawan bawa portofolio coba untung	Positif	1
+jaga stabilitas usaha kurang jumlah pegawai teriak efisiensi efisiensi versi direksi beda	Negatif	-1
+buruk engkau bukti engkau hebat hidup pasti hadap sulit buruk gagal kecewa rintang jalan kadang	Negatif	-1
+angkara murka sisi buruk manusia kisah cukup tonton tulis jawi	Negatif	-1
+alam horor kerja tambang batubara kalimantan tinggal kisah nyata laung kalteng gambar ilustrasi	Negatif	-1
+alam buruk daki dikit daki habis gunung mdpl start alam mistis suara aneh	Negatif	-1
+alam cari alami hilang	Negatif	-1
+kunjung obrol dagang telur tempat bundir puluh silam ajak bicara fenomena	Negatif	-1
+ruko hantu alam enak keluarga tempat ruko rumah toko salah kalimantan nama daerah ilustrasi	Negatif	-1
+jalan makan waktu ubah malam penuh teror putus pulang sedikit larut	Negatif	-1
+huni nal eksistensi uji nyali indra bagi alam seram gudang cianjur simak	Negatif	-1
+alam total hilang siuman buka mata berat lihat bingung	Positif	1
+buru buru jatuh cinta kasih percaya nilai ambil putus makan	Positif	1
+dekat jauh jauh dekat	Negatif	-1
+wanita pakai putih kusut tembus tembok kamar	Negatif	-1
+waris kisah nyata kisah kirim salah ponakan kisah nyata alami gambar ilustrasi	Negatif	-1
+cukup uras emosi detik alam keluarga hantu detik ilmu hitam tenung	Negatif	-1
+motor tabrak neon jatuh angin tempat sepi minggu nyokap barang palsu oktober hebat bulan	Negatif	-1
+pulang rumah ada penuh luka bekas lutut siku perih telinga ubah warna	Negatif	-1
+uji dunia mampu hadap uji kurang uji uji nikmat besar harga waktu tanggap	Positif	1
+alam sholat maghrib masjid ihram langsung asa semut dikit fokus baca imam sholat rukuk telapak ujung kaki nyamuk	Netral	0
+pikir dunia mules berak habis pusing cemas bingung berak berak serah kamar mandi mules berat panas dingin menang	Negatif	-1
+terkadang alam sadar rasa mesti rasa semu hampa sisi nurani terpana mata buka takut henti laju nyali mari simak kisah seram	Negatif	-1
+waktu studi banding singgah salah hotel ngeri koridor kamar enak	Negatif	-1
+gambar pakai cerita sedikit narasi pikir buruk pikir jelma tanduk mati pikir	Negatif	-1
+kurang kurang untung disabilitas daksa jalan kruk lampu merah lihat tuna wisma tidur pinggir trotoar	Netral	0
+seringkali jebak pilih asing tegang terus emosi ingin tentang	Netral	0
+sedikit lihat kaki kamar tempat adik bungsu tidur adik berangkat dar	Negatif	-1
+pilih ambil jalan pintas alami susah hidup jalan pintas gelimang dosa harga mahal ngeri malam salah teman cerita sisi kelam simak	Negatif	-1
+alami alam ngeri hidup	Negatif	-1
+pesta raya ubah panggung penuh ambisi raya kacau puluh buruk	Positif	1
+real waktu hidup batin bentuk asli manis	Positif	1
+alam enak berak jongkok	Negatif	-1
+anggap rasa sakit kecewa derita derita rasa sakit derita pikir anggap	Negatif	-1
+batu lumut licin kotor telungkup noda lumpur robek perosok meter nyeri akibat lebam tanggung beban berat raga sang pria	Negatif	-1
+horor inap kecil salah ibukota kabupaten kamar kotor suara ribut malam tetangga potong keramik	Negatif	-1
+naik salah ajar temu bantu temu erti berani ambil konsekuensi salah	Negatif	-1
+kemarin hidup hidup fokus susah tidur nafsu makan sakit kepala mual muntah pagi muntah syukur kuat telinga buka lebar bantu	Negatif	-1
+hitung lewat jalur unjung kerabat hadir keluarga malam beda aneh bulu remang tapak pedal	Negatif	-1
+siku kulit kelupas singgung batu desis tahan rasa perih mata kelana	Negatif	-1
+bal malam nakal bekas bundir trauma angkat	Negatif	-1
+jadi horor alami habis sahur berak cium aneh berak siram hilang	Negatif	-1
+rasa jantung dengkul kepala pusing mata tangan keringat gemetar buset	Negatif	-1
+dapat reaksi sangka langsung belalak aksi perihal luka akibat ceroboh	Netral	0
+pasuk pagi ruko cukup besar ruko kantor hook sudut	Negatif	-1
+percaya klenik ajar ikhlas erti benda bawa petaka	Positif	1
+bayu sangka jalan pulang malam ubah alam cekam pulang hadir acara nikah kerabat desa belah	Negatif	-1
+libur keluarga malam tidur dengar suara lihat dalem suara suara setan bule	Netral	0
+malam malam senang tuan sabar peluk kecup kasur tunggu manis kamar gadis tarik	Negatif	-1
+ustaz rukuk muncul aneh kaki ustaz hitam keluar cair busuk	Negatif	-1
+mimpi buruk ronta pukul tendang dinding keras kuku lepas senter padam harap	Negatif	-1
+cukup trauma narasumber coba rayu dengar utuh notabene jarang rasa rasa takut takut dengar penggal penggal	Negatif	-1
+alam setan manusia horor manusia hotel daerah wonosobo sekolah pilih kasih kena timpang sosial	Netral	0
+parah salah daerah adek pincang gara renang sore	Negatif	-1
+hotel suka mimpi buruk demam horor banyak pasti	Positif	1
 alam horor hotel gaji habis keluarga sisa uang cukup	Negatif	-1
-enak gaji besar sekolah masalah mobil uang belanja murah	Positif	1
-majikan majikan potong gaji bayar kurang jumlah bayar tempoh	Negatif	-1
-gaji langkah hindar jahat pilih filter	Negatif	-1
-rana tawar gaji majikan budaya suasana bagus budaya suasana teruk majikan gaji	Netral	0
-lingkar favorit golong gaji juta susah daftar program perintah nama kartu indonesia pintar kuliah	Negatif	-1
-gaji	Netral	0
-alam lamar alam alam kompetitor kuat bayar gaji lamar alam alam	Netral	0
-lamar alam alam kompetitor kuat bayar gaji lamar alam alam	Netral	0
-alam pasang iklan pakai anggar karyawan belah alam alam gaji	Positif	1
-faktor utama jahat pelit gaji kecil	Negatif	-1
-dosen abdi dalem kuliah indonesia gaji remah roti dosen abdi hasil dosen gaji dosen abdi	Netral	0
+tampak ujung kamar bayang item tangga samping kamar malam teman kesambet kolam renang muncul belatung kamar mandi belah	Negatif	-1
+pulang kampung putus hotel malam bal alam	Netral	0
+kebelet jalan jalan lari kebelet gedung kosong	Negatif	-1
+ingat hidup alami larut diam gulir pasang netra jatuh formulir serta prosedur carik kertas	Negatif	-1
+korban tabrak lari tunggu sepi tangan ngebut trauma	Negatif	-1
+ganggu kaki ustaz cair basah cair bau busuk sengat	Negatif	-1
+besar tahan	Netral	0
+enak telpon saking butuh tidur paksa rasa menit tidur	Negatif	-1
+senang warna putih kuning lengket gula hampir nal hadir benda	Negatif	-1
+jadi milu waktu bocah surup lewat rukiyah tinggal kuat pakar masalah jiwa psikolog kapai pendeta	Negatif	-1
+celaka serempet mobil habis trauma jalan enak tremor jantung apa berani	Negatif	-1
+rasa minus dekat puncak alam	Negatif	-1
+suri mampu bentuk senyum kecut tertawa menang tusuk garpu sedikit ragu santap suasana	Negatif	-1
+hotel melati angker nama teman anyir lembab tualang	Netral	0
+kisah alami disorder coba ringan rasa aneh jerat pikir tulis aneh tuang tulis	Negatif	-1
+kamar rokok kecoa kamar kecoa renang kotor fobia binatang horor tidur mobil trauma inap murah jujur	Negatif	-1
+tampar keras renung kacau sadar kacau pantas karma buruk hilang sesal sama	Netral	0
+bungkus hawa dingin rambat aroma busuk sengat muntah busuk tangan gemetar bawa bungkus kios	Negatif	-1
+jalan bruk usaha wajah familiar	Positif	1
+pria dewasa curi uang lapar pergi makan rumah untung	Netral	0
+sepeda jatuh telinga merah bentuk sanksi malam ruang omel perkara main petang pulang penuh luka kulit	Negatif	-1
+suara dengar kencang pria muda sungkur dekat besi pinggir jalan gelap sakit sembari lengan sakit	Negatif	-1
+paksa titik ubah pasti rasa enak biasa jelek ubah nyaman paksa jelek nyaman	Negatif	-1
+sambung sekolah alamat indigo mutasi kendara mutasi	Netral	0
+enak besar sekolah masalah mobil uang belanja murah	Positif	1
+kenang muncul salah alas utama sulit kenang muncul lagu favorit media sosial paksa	Netral	0
+lari kutub jauh bumi kutub sulit	Negatif	-1
+bahagia rela tukang bersih restoran tukang sampah indonesia makmur konyol bodoh bebas	Negatif	-1
+hindar ubah besar hidup takut stres panjang ubah takut panjang rasa puas frustrasi	Positif	1
+susah pasti syarat minimal visa tenaga susah surat sponsor mending bule buru naturalisasi	Netral	0
+pasti wanita cenderung pasti hubung status pasang jelas hubung pilih mundur	Positif	1
+pindah rumah bahas tanam pekarang tinggal barang nyokap doang mesti bawa pohon bunga melati	Negatif	-1
+susah ganti periode fase stabil izin gantung faktor eksternal pasang hilang bubar	Negatif	-1
+surat antar syarat baru domisili	Netral	0
+lagu kenang senang sedih lupa sempit tengkar	Negatif	-1
+hubung besok tayang asih paruh sisi penuh kisah tuju tarik hati resep tilik	Positif	1
+lumayan jauh jauh ubah gempar jelang tanda tanda moga tanggal	Negatif	-1
+rasa ipar mudik rumah rumah asa asing tatanan ubah simpel rasa ikhlas	Positif	1
+pindah buang kecil barang barang sampah	Negatif	-1
+kamar lantai lantai asa pengap mual muntah lantai habis lantai aman tidur nyenyak bebas ganggu pagi	Negatif	-1
+tinggal mebel huni meja kursi dipan lemari bawa butuh cepat harga rumah luas	Positif	1
+bingung kecil gampang pusing mual naik jarak meter mual tonton drama baca buku baca posisi pusing	Negatif	-1
+ketidakpastian ubah dadak ketidakpastian ubah besar hidup kerja hilang krisis uang timbul rasa takut cemas bingung	Negatif	-1
+bingung diri duduk tumpu kardus isi baju bawa apartemen pakai	Netral	0
+tidur tidur geser malam pagi	Negatif	-1
+minggu atap rumah bocor pipa masalah paksa dana darurat beli serba mahal	Netral	0
+jorok kotor bersih kapai susah luwes sampah sera buang susah yesus	Negatif	-1
+maaf curhat jujur tidur pikir panggil	Negatif	-1
+baca gabut buku posisi butuh gabut posisi	Negatif	-1
+tonton merinding parah karyawan kantor bekas rumah kuat ganggu merinding kantor	Negatif	-1
+curhat syok menang bangkit normal	Positif	1
+kondisi menang kabur takut tempat susah ijin sakit ijin potong gaji	Negatif	-1
+nasib kerja hadap ancam gelombang lindung layak atur pihak buruh nasib ujung tanduk	Negatif	-1
+anggur curhat erti curhat baca	Negatif	-1
+rencana nikah kurang syukur rumah menang pusing sakit maaf curhat	Negatif	-1
+curhat kantor makan bareng obrol poin	Positif	1
+curhat rekan masalah gilir masalah asih solusi kasih motivasi mental hancur	Negatif	-1
+kuli kantor langsung proyek	Positif	1
+dunia personal salah fatal staff waktu sempat amunisi manager sikat staff baca kontrak atas	Negatif	-1
+curhat lulus habis kena alami pecah telur bagi tips juang sehat mental oceh negatif tetangga keluarga	Netral	0
+tips hancur solidaritas kerja label beda buruh pegawai pecah status kontrak honorer atur payung hukum beda saing hidup layak stigmatisasi serikat	Netral	0
+info jasa curhat curhat lebar balas apa kepala	Negatif	-1
+sakit pemberitahuan gambar hari asih selamat karyawan lawan	Netral	0
+curhat umur putus tali pusar senin sabtu sabtu tips teman hidup habis	Positif	1
+dengki sifat harap hilang sanggup santau kisah ustaz kongsi alam santau	Netral	0
+kenal adek dewi adik bantu hidup biaya adek paksa putus sekolah kelas juang bantu	Negatif	-1
+setan tiri mangsa adik adik benda sumbang mahram rogol benda salah	Negatif	-1
+masalah duduk dua masalah sehat masalah hati sakit sulit	Negatif	-1
+mentereng remuk syafii panorama mentereng remuk sakit sosial kronis tipu biasa senang senang setia sumber	Negatif	-1
+amal bomoh sihir jenayah syariah baharu salah perempuan lagak lelaki hamil lahir nikah sedia liwat	Positif	1
+heran dewa seks umur hindar zina cerai nikah zina selangkang	Negatif	-1
+semedi wujud hati bening hati manusia senantiasa hiruk ramai akibat keruh diam upaya semedi mampu endap suasana keruh hati suci	Netral	0
+hikmah pagi salah salah	Negatif	-1
+lepas gagal tuntut ubah setapak tuju tara sabah sekutu semenanjung malaysia taraf semenanjung	Negatif	-1
+tangga kuat patah bawa peti lompat timpa peti sang cedera berat kepala tinggal dunia jalan rumah sakit belah	Negatif	-1
+masalah masalah harap hasil harap titik hasil titik masalah masalah konsekuensi logis harap kurang	Negatif	-1
+real syariah sistem	Netral	0
+tania hubung usaha perihal jadi barusan adik sepupu takut	Netral	0
+meni mari sakinah mawadah sakinah kurang pasang mampu jaga lidah mawadah kurang pasang mampu pilih tutup belah mata	Negatif	-1
+beranta selaras tidur hari genap sekian beres lantas solusi hadir	Positif	1
+stop lelaki perempuan love	Netral	0
+adu	Negatif	-1
+hidup keras warga maya kongsi keluh ganggu ulang	Negatif	-1
+fenomena harafiah makna hidup sang tuntun lelaki perempuan tangan tangan pribadi tokoh sang maha tunggal	Positif	1
+temu semaya samudra malu sudut pandang	Positif	1
+tulis mari tulis cerita akrab kenal asing	Positif	1
+tolong hutang	Negatif	-1
+penting penting munafik musyrik kafir alquran masalah bawa khayal untung duniawi	Netral	0
+pakai gantung gaya terbit gaya dewan koma frasa kereta kereta kereta pakai koma guna	Negatif	-1
+video sesajen kawasan gunung bincang hangat netizen muslim tindak	Positif	1
+masalah masalah nasional	Negatif	-1
+wejang hidup buru buru salah kurang salah unggul suka rendah aku suci satu	Negatif	-1
+kahwin masalah sosial zina leluasa akibat mampu tahan nafsu mampu kahwin mampu golong kahwin	Netral	0
+siap fenomena pasang pemuda amanah tangguh pemuda amanah umum tangguh lalu pemuda amanah tumpu jentera hadap banjir	Positif	1
+samudra tuan masak tolong ajar sudut pandang	Positif	1
+bahagia capek stres istirahat rumah suami rumah gaji kerja cukup makmur bijak aco korupsi	Negatif	-1
+bunuh babit remaja bimbang senario serius masyarakat pandemik senyap	Negatif	-1
+bual tari jenis pengaruh stres sedih takut ada	Negatif	-1
+sungguh ubah kaum ubah surah	Negatif	-1
+masalah sender masalah alami moga nasehat guna baca rezeki halal ubah haram sabar rezeki	Positif	1
+selamat pagi bahasa arab salam salam syiar saudara elak hilang makna ucap salam	Negatif	-1
+badan lemah kuku hitam kampung jumpa ustaz kena santau bulan cakap nali badan kurus kering batuk darah henti	Negatif	-1
+letak jawat langkah pulih yakin	Positif	1
+sembilan adat cukup istimewa laku hari ramadan isi keluarga kumpul laksana sedia sambut ramadan	Positif	1
+tania milik alam enak kalimat mimpi buruk kait adik sepupu	Positif	1
+taksir pasang santet hilang pintar kental unsur agama timur seram	Negatif	-1
+derita imajinasi ketimbang nyata khawatir takut cemas serta sulit susah timbul derita ketimbang sulit susah	Negatif	-1
+ritual rias pengantin pengantin tampil bidadari tiup asap rokok wajah ritual ucap rias tiup pengantin	Negatif	-1
+suka jenis uji hidup meni jenis haram haram sabar ajal jemput lajang hapus dosa	Netral	0
+individu habis waktu ajar penuh syarat akademik kurang kompeten gelar adil	Netral	0
+kila sisi	Netral	0
+melayu sakit jujur spesifik contoh tuan rumah minum panas sejuk tetamu susah tuan rumah lepas tetamu minum hidang jela masalah	Negatif	-1
+lagu nuansa tempo pesan alur dar tujuh silam demam musuh tujuh tenaga sisa	Negatif	-1
+turun duli nkri tara sosial usik dominasi haram	Positif	1
+jalin hubung juang ajar usaha maaf tanggung diskusi masalah	Negatif	-1
+dampak hujan semarang seram lelep banjir benar banjir gunung jaman nabi azab	Negatif	-1
+paham sikap sakinah mawadah sakinah kurang pasang cela mawadah kurang pasang pilih fokus kurang pasang ladang amal pahala	Negatif	-1
+maha dengar telinga bunyi imam hasan dengar suara tiada suara	Positif	1
+sanggah kisah fiktif kolaboratif bahasa indonesia sudut pandang	Netral	0
+bahasa melayu malaysia akar dialek dialek saing bahasa melayu saing bawa maksud lawan	Negatif	-1
+genap minggu derita kaum pria seru keluh runtuh kejap mata demam	Negatif	-1
+lebih puasa enam puasa ramadan puasa enam syawal puasa tahun riwayat muslim	Negatif	-1
+kenal beliau	Netral	0
+obrol tania pagi alas perihal tania alas	Netral	0
+kemarin lihat sen terima abas abas benar cemara konsep sen abas pacar	Positif	1
+semi adil lahir keluarga harmonis harmonis tulang punggung keluarga suka suka keluarga kurang buruk	Negatif	-1
+wanita ratus duduk kampung aman lepas busuk bahan kimia sungai hampir kampung	Negatif	-1
+sumber masalah salah paham mau menang bayar hutang sumber masalah undang adab sejarah manusia	Negatif	-1
+biasa rumah ruang amat apartemen milik sakinah mawadah rahman kosong kardus risi	Netral	0
+semi suka percaya tutup semi ajar keluarga teman pasang	Positif	1
+senja anggap perempuan didik remeh meni pria baik ekonomi baik senja kabur	Negatif	-1
+sepakat lindung penuh imbal senja raih prestasi sulit senja ragu hati	Positif	1
+duduk lantas tepuk dekat cangkir betul kuasa rengkuh nona kecil kanan lantas sesap	Netral	0
+daya upaya kuasa genggam singgung selasar medis temu genap tahun cakap	Positif	1
+bincang titik pinjam istilah letak validitas materi	Negatif	-1
+benda susah nikah sabah urus kena sabah benda kena ubah urus	Negatif	-1
+terjemah istilah lowong cari mula mampu tekan manajemen kantor payah ajar gaji kompetitif sedia	Negatif	-1
+lambang disjungsi contoh lambang konjungsi contoh kendati	Negatif	-1
+hidup stres	Negatif	-1
+tawar gaji majikan budaya suasana bagus tinggal budaya suasana teruk majikan gaji	Negatif	-1
+alas lamar kembang jauh peduli kembang tenang loyal naik ganti penuh	Positif	1
+susah karyawan susah panggil butuh cari butuh lincah muda umur maksimum lulus kampus nama	Negatif	-1
+lari konsumsi cuman alih masalah selesai stres masalah bingung bingung pikir	Negatif	-1
+habis aju tahan naik jabat semu usaha asli bingung	Positif	1
+baca semak info	Negatif	-1
+catat materi simpan lupa jenis klausa klausa lawan kalimat jadi rurut	Negatif	-1
+dasar syukur sulit bayar dasar syukur kuliah gaji guru honorer kecil dasar syukur	Positif	1
+gila stres gila stres gila pakai stres gila stres simpul stres gila	Negatif	-1
+lingkar favorit golong gaji juta susah daftar program perintah kartu indonesia pintar kuliah	Negatif	-1
+syukur sulit bayar syukur kuliah gaji honorer turun syukur	Positif	1
+terjemah lowong mampu tekan manajemen kantor payah ajar gaji kompetitif sedia	Positif	1
+making	Netral	0
+banyak gaji lingkung	Netral	0
+alam lamar alam alam usaha kompetitor kuat bayar lamar alam alam	Netral	0
+lamar alam alam usaha kompetitor kuat bayar lamar alam alam	Netral	0
+alam pasang iklan usaha pakai anggar karyawan usaha belah alam alam	Positif	1
+susah panggil butuh cari butuh lincah muda umur maksimum lulus kampus nama	Negatif	-1
+dosen abdi dalem kuliah indonesia remah roti dosen abdi cari hasil dosen dosen abdi	Negatif	-1
+susah sukses butuh pegawai laksana calon lamar enam alat	Netral	0
+bodo sulit bayar ringan cicil bodo pinjol cicil sakit lewat bodo semester beres kuliah molor	Negatif	-1
+kasih sempat timbang dalam evaluasi butuh pribadi profesional sadar lanjut proses seleksi	Positif	1
+kasih sempat ikut proses harga waktu proses sempat	Positif	1
+niaga	Netral	0
+mental ikat dinas jalan diagnosa berat psikiater sanggup lampir surat psikiater kena	Netral	0
+moga mundur upah kecil upah layak temu mudah cukup rasa getir marah moga ketimbang injak ledek kuat bantu	Negatif	-1
+cuti cuti cuti lahir cuti sakit cuti tahun henti undur pensiun anggur	Negatif	-1
+pakai rumus karyawan umur umur divisi jelas hitung	Positif	1
+predikat opsi milik transitif alami transitif intransitif sebab transitif alami transitif ketemu cepat	Netral	0
 konten posisi kendali jujur gaji buta gabut	Negatif	-1
+singkat jelas	Negatif	-1
+pegawai atas rekan pegawai malu singgung laku lawan atas mendem emosi malu	Netral	0
+masalah mundur istirahat rancang rencana selesai masalah hasil pulih masalah kabur masalah kabur masalah kabur	Negatif	-1
 jakarta gaji tawar mutasi ponorogo gaji jakarta ponorogo murah ambil	Negatif	-1
-putus nyaman jenjang karir gaji jenuh karyawan nyokap tuju takut	Positif	1
-sesuai masalah gaji juta kriteria gaji juta anggur gaji juta tolol kuli bangun harap mending	Positif	1
-gambar posisi kantor lembur cuti gaji tunjang bonus asuransi status jenjang karir kurang sisa	Negatif	-1
+pikir ajar kampus bahas	Positif	1
+kemarin lolos referensi milik alam terampil relevan posisi alam latar	Netral	0
+pakai bahasa inggris nama nama posisi nama	Negatif	-1
+susah panggil butuh ganti butuh cari butuh lincah muda umur maksimum lulus	Negatif	-1
+kondisi usaha aman potensi	Positif	1
+masalah masalah lembur	Negatif	-1
+sesuai masalah gaji juta kriteria gaji juta anggur gaji juta tolol kerja kuli bangun harap mending	Positif	1
+kolom jabat pakai rumus kepala staff operator kolom rumus rumus kepala staff operator	Negatif	-1
+jasa joki tugas resume rangkum opini studi edit video essay ospek karya tulis ilmiah makalah poster jurnal artikel lapor pamflet	Positif	1
+lanjur lanjur lanjur lanjur lanjur lanjur lanjur lanjur lanjur lanjur lanjur lanjur lanjur lanjur lanjur lanjur lanjur lanjur lanjur lanjur lanjur lanjur lanjur lanjur lanjur lanjur lanjur lanjur	Netral	0
+eksplanasi eksposisi persuasi argumentasi	Negatif	-1
+perempuan mimpi susah payah titi karier lewat agam alam masalah pola perempuan biasa mandiri hidup perempuan	Netral	0
+konjungsi korelatif rupa konjungsi pasang	Positif	1
+cepat susah	Negatif	-1
+ramadhan ramadhan ramadhan ramadhan	Netral	0
+september september september september september september september september september september september september	Netral	0
 tiada gaji takat gaji jahat patu percaya rezeki	Positif	1
-tanda patut stres lampau mental mahal gaji keliling jahat kaki jilat gaji naik kedekut dekat	Negatif	-1
+ada stres depresi motivasi hidup segan mati normal	Negatif	-1
+kasih alas kantor kantor alas sekolah jadwal alas keluarga benar nikah alas maki	Netral	0
+ceri ngeri tobat tobat tobat tobat omong kotor kasar motivasi tobat	Negatif	-1
+lihat mampu komunikasi atas konflik cerdas emosional contoh situasi	Netral	0
+bersih	Netral	0
+moga lulus cpns moga lulus cpns moga lulus cpns moga lulus cpns moga lulus cpns moga lulus cpns moga lulus cpns moga lulus cpns moga lulus cpns moga lulus cpns	Positif	1
+kausalitas	Netral	0
+konkret konkrit omzet omset komplet komplit risiko resiko komoditas komoditi andal handal ubah rubah fosil miliar milyar kaos kaus cedera cidera analisis analisa aktivitas aktifitas ekstra	Negatif	-1
+nomor nomer asas azas ekstrem ekstrim ekuivalen elite elit apotek apotik zaman jaman imbau himbau hipotesis hipotesa dekret dekrit diagnosis diagnosa familier familiar fotokopi finis	Negatif	-1
+hipotesis hipotesa indra indera influenza influensa kanker kangker kompleks komplek cenderamata cinderamata kuesioner kuisioner kuintal kwintal legalisasi legalisir leukemia leukimia maag perintah	Negatif	-1
+wang wang wang wang wang wang wang wang wang wang wang wang wang wang wang wang wang wang wang wang	Netral	0
+bosan hidup masyarakat percaya suka percaya usaha bangun lingkung nyaman pasrah	Positif	1
+henti sambung master sambung master	Negatif	-1
+luah stres penat syukur ramai kadang kadang luah pakai	Positif	1
+tanda patut stres lampau mental mahal gaji jahat kaki jilat tahun gaji naik kedekut dekat	Negatif	-1
 gaji kena wajib bayar gaji	Negatif	-1
-gaji jakarta putus pilih dagang gaji ketemu mantan posisi mbak dagang besar angka	Negatif	-1
+takut rezeki rezeki luas tunggu	Positif	1
+gaji jakarta putus pilih dagang gaji ketemu mantan mbak dagang besar angka	Negatif	-1
+lapang bangsa cina saing gaji tara sambung hidup pabrik tutup kejar rendah perintah	Negatif	-1
 dilema grad zaman cepat bagus pilih peluang nasihat suruh bagus gaji besar	Negatif	-1
-gaji naik atur manager ganggu cuti benda ajar	Netral	0
-ramai henti gaji kurang harga kawan jahat beban repek kebaji abai	Negatif	-1
-situasi gaji nilai naik gaji bijak susah	Positif	1
-putus gaji juta senin jumat lembur stres cuman	Positif	1
-habis tolak nasib omset cabang pegang sender capek cabang penuh jahat gaji pokok kecil juta sender omset	Negatif	-1
-aspek psikologis masyarakat kolektif gaji konsultasi duit habis kadang doang	Positif	1
+ramai cakap zone gain basic bosan contoh pasal gaji pasal suka takut	Negatif	-1
+kuna hal person huwa tena	Netral	0
+kadang mampu faham rasa asa kebas henti duduk rumah rehat tarik nafas layan alami asa merana kawan faham mesti sesal henti	Negatif	-1
+putus kerja gaji rendah mental jauh sehat tingkat stres kendali jauh waktu temu keluarga damping tumbuh kembang buah salah putus bijak hidup	Negatif	-1
+bahasa	Negatif	-1
+lepas ambil putus sara ada emosi teruk tanda pulih waktu asa murung penat sedih peluang pikir masalah dunia	Negatif	-1
+puas hati personal tukar bidang suka suka	Positif	1
+pakai mintak lepas	Negatif	-1
+bahasa	Negatif	-1
+gaji naik atur manager cuti benda ajar	Positif	1
+bahasa	Negatif	-1
+ramai atur taking long mental	Netral	0
+perempuan takut umur sayang haru putus sayang	Netral	0
+situasi gaji nilai gaji bijak susah	Netral	0
+pulang berangkat kadang besok langsung	Positif	1
+kisah rapat staff talk talk front staff tahan staff	Netral	0
+alas henti	Negatif	-1
+grad rush ajar takut	Netral	0
+cpns umur hidup susah pakai kontrak habis kontrak	Negatif	-1
+jawat awam putus henti henti alas sayang jamin takut niaga	Negatif	-1
+gatal gatal cakap benda buruk pasal majikan cakap buruk pasal kerja cakap pasal jahat jatuh cinta	Negatif	-1
+habis aju tolak alas nasib omset cabang pegang sender capek cabang penuh jahat gaji pokok kecil juta sender omset	Negatif	-1
+cakap tenaga start malas	Netral	0
+aspek psikologis masyarakat kolektif gaji konsultasi habis kadang doang terus	Positif	1
 salah gaji rendah	Negatif	-1
-inti problematik gaji juta gaji tahan undur gaji bayar niat rodi gratis	Positif	1
-gaji habis tengkar suami suami hasil suami juta suruh jajan kabupaten kecil pulau jawa jujur ambil putus	Negatif	-1
+kondisi emosi dasar timbang rasional omong jelek suka etika	Negatif	-1
+salah alas kantor direktur selingkuh manager suami kawin istri keluarga istri suka istri objektif	Netral	0
+mudah tulang punggung makan hidup rezeki atur hasil bulan berat	Positif	1
+etik kalang pikir makan besok sulit realistis indonesia lulus sarjana sarjana sulit cari usaha patok umur	Positif	1
+surat kasar lembur bonus juta mending ikhlas pasal	Positif	1
+ajar pasal tukar tukar grad	Negatif	-1
+sepenuh tenaga ada alas titik moga pulih	Positif	1
+sukses alami ketidakpastian bidang alami takut ambil step usaha bangun	Negatif	-1
+beda mau pecat sangon bpjs	Negatif	-1
+bahasa	Negatif	-1
+plan bijak kondisi finansial gengsi ingin paham tanggung	Netral	0
+seru lulus teknik bank salah minat individu ketenagakerjaan bisnis anekdotal teman sesuai bidang natural	Positif	1
+tahan ijazah bagus usaha	Netral	0
+rejeki kasih jauh bawa masalah besar lowong moga	Netral	0
+inti gaji juta gaji satu undur kerja rodi gratis	Positif	1
+peluang beda bidang kuliah potensi rela putus setia bidang	Negatif	-1
+gaji habis tengkar suami suami hasil suami juta jajan kabupaten kecil pulau jawa jujur ambil putus	Negatif	-1
 erti gaji juta jauh level risiko contoh anggap dengar gaji juta tarik terkadang	Positif	1
-rasa sulit tawar gaji gaji minimal naik	Negatif	-1
-gaji putus libur gaji kurang juta jujur badan toleransi	Netral	0
-gaji nekat ganti fase capek gaji juta	Positif	1
-enak gaji kecil sedih paksa gaji kurang butuh	Negatif	-1
+kutu loncat katak tempurung kembang karier kudu	Positif	1
+gaji putus kerja libur gaji kurang juta bulan jujur badan	Negatif	-1
+tawar ekonomi	Negatif	-1
+gaji nekat ganti fase capek gaji hari	Netral	0
+nafsu makan mual gelisah rambut rontok henti haid takut mental tempe syukur kerja	Negatif	-1
+besar habis mentereng langsung	Positif	1
+kaca alam umur bangga faktor utama bangkit drop cari keluarga jauh perintah keluarga	Negatif	-1
+kurleb loyal poin suka loyal suruh beli anjing	Negatif	-1
+lingkung enak kecil sedih paksa gaji kurang butuh	Negatif	-1
 marah kecewa pasang kuat lamar tolak gaji gaji besar	Negatif	-1
-sender gaji slip gaji potong jamsostek saldo kantor arti bpjs gaji sender sedih	Negatif	-1
-gaji aneh salah over kasih gaji besar capek ajar	Negatif	-1
+adil posisi nakes hubung pasien capek manajemen strategi capek gaji	Netral	0
+sender tahun gaji slip gaji potong jamsostek bpjs gaji sender sedih	Negatif	-1
+bentak menang menang kantor tekan gede	Negatif	-1
+gaji aneh usaha salah sebab over kasih gaji besar capek ajar	Negatif	-1
 gaji rendah teruk gaji kadang gaji	Netral	0
 besar gaji jomplang rasai gaji kabur	Netral	0
-ramai gaji harga jahat beban repek kebaji abai	Negatif	-1
-kena resiko gaji gaji turun naik gantung naik suka turun marah jenis suka gaji turun sektor formal salah	Negatif	-1
-stres ganti dinas stres potong gaji	Negatif	-1
-hubung nama ekspektasi gaji banding biaya hidup gaji banding beban gaji banding kualifikasi ekspektasi manusiawi puas organisir stop suka	Positif	1
-gaji kecil dada jahat pilih	Negatif	-1
-ganti kaya gaji juta kadang uang makan tunjang gaji	Positif	1
-rasa cukup mending rengek gaji kecil	Negatif	-1
-kadang timbang rela tempat gaji faktor jarak keluarga kecil	Negatif	-1
-daya beli turun tutup kecil sesuai gaji kecil palu	Negatif	-1
-sifat lembut keras ketat waktu sepi sedih partner situ keras gaji rendah gaji	Negatif	-1
-paksa bayar gaji paksa laku ganti rugi sisa kontrak wajib pasal ubah	Negatif	-1
-kuat baca teman malas gaji besar anggur september	Negatif	-1
+kena resiko gaji gaji turun naik gantung naik suka turun marah jenis suka gaji turun sektor formal	Negatif	-1
+lepas besar karyawan ribu jumlah sedikit	Negatif	-1
+stres uji ganti dinas stres gaji	Negatif	-1
+komen beritahu stres sahaja pandang tiada stres	Netral	0
+halo denda minggu kuat hilang wajib	Positif	1
+hubung ekspektasi gaji banding biaya hidup gaji banding beban gaji banding kualifikasi ekspektasi manusiawi kerja puas stop suka	Positif	1
+cari ganti kaya cari juta kadang uang makan tunjang gaji	Positif	1
+cukup mending rengek gaji kecil	Negatif	-1
+putus kasih ruang evaluasi suruh tukar panggil	Negatif	-1
+kadang rela faktor jarak keluarga kecil lingkung	Negatif	-1
+masalah struktural lepas tanggung tunggu ideal problem tunggu magang kondisi dunia	Negatif	-1
+langsung langsung posisi operasional layan jadi	Positif	1
+capek mending kirim	Positif	1
+kurang tingkat ganti karyawan jamin atur ketat usaha cenderung selektif putus hubung rendah kurang biaya rekrutmen latih produktivitas	Negatif	-1
+capek kawan kantor usaha pola sesuai susah rayu kuat bulan tunggu tanggal	Negatif	-1
+mending kaya ikut usaha tekan kontrak	Negatif	-1
+tekan arah hidup kabar lingkung mutasi tahan alas resiko butuh uang capek	Negatif	-1
+daya beli turun usaha tutup usaha kecil sesuai gaji kecil palu	Negatif	-1
+bulan kaget kantor tahun menang asik wajar sayang	Netral	0
+nyaman gaji takut nyaman trauma bingung	Positif	1
+cari lapang	Netral	0
+lingkung nyaman takut mumpuni rejeki	Positif	1
+lembut keras ketat waktu sedih partner keras gaji rendah gaji	Negatif	-1
+paksa bayar gaji paksa usaha ganti rugi sisa kontrak pasal	Negatif	-1
+teman dadak kendala usaha usaha tunggu bulan cepat usaha urus dadak	Positif	1
+kabar tindak profesional etis pilih kabur langgar kontrak konsekuensi gaji sulit rekomendasi citra negatif	Negatif	-1
+situasi usaha impi alas profesional kasih minggu erti sopan tutup tanggung moga erti kasih	Negatif	-1
+bpjs potong gaji tahu kantor tanggal kontrak doang gagal garagara bpjs tempat babi karir mandek	Negatif	-1
+kuat baca teman malas gaji besar anggur september tengah	Negatif	-1
 rendah lamar sekian minggu naik gaji suka	Netral	0
-enak gaji rapel gaji cair entar bayar	Negatif	-1
-ganti tempat mending minim manfaat gaji bagus waktu siksa batin	Negatif	-1
-gaji nyaman gaji besar nyaman kembang tahan gaji besar puter ujung ujung sumber hasil minus sulit	Positif	1
-kuat tekan jalan gaji kadang	Positif	1
-posisi ribet enak cpns gaji takut sesuai ekspektasi	Netral	0
-takut jajah gaji telat potong kurang nekat harga gampang gerak diam tempat	Negatif	-1
-kuasa kuat gaji usia maksimum karyawan polos ketenagakerjaan milik kendara pribadi	Positif	1
-rasa gaji rendah ubah gaji gaji rendah pegawai lurus tolak suap kucil susah promosi tempat posisi kering duit modernisasi lurus roket	Negatif	-1
-rasa sistem tulis suka atur gaji sesuai niat tunggu	Negatif	-1
-efek gaji tingkat suka daya tawar langsung ganti bisnis gerak cepat	Positif	1
-efek gaji tingkat suka daya tawar langsung ganti bisnis gerak cepat	Positif	1
-paksa gaji bayar	Negatif	-1
-tempat masak kasir tamu gaji juta duduk sebentar istirahat marah manja	Negatif	-1
-salah henti kebun bumn gaji sesuai risiko hewan buas susah	Negatif	-1
-karyawan gaji kecil gaji gaji kecil resah paket jahat ganti asik	Negatif	-1
+gaji gaji cair entar	Negatif	-1
+baca kontrak usaha milik atur kait selesai kontrak sopan contoh	Positif	1
+erti kontrak gampang kontrak jalan bayar ganti rugi kecil	Negatif	-1
+lihat henti aju kantor waktu cari ganti	Negatif	-1
+tahan ijazah lingkung edan	Negatif	-1
+semenjak apresiasi putus	Netral	0
+rencana bingung enak kontrak	Netral	0
+capek capek salah putus salah ibu salah putus susah cari cuman kontrak pilih	Negatif	-1
+alias tahan profesional atas super	Negatif	-1
+takut jajah gaji telat kurang nekat kerja lingkung harga gampang gerak diam	Negatif	-1
+receh mampu paham ukur kreatifitas komunikasi cukup sedikit	Negatif	-1
+tampil pakai sikap pasuk ruang dengar sepele pengaruh kenal cerita hobi buat salah	Positif	1
+aneh sambung masalah pilih	Negatif	-1
+tulis gelar sarjana hukum salah spasi tanda hubung nama institusi inkonsisten nama publik polri kapital huruf kecil	Negatif	-1
+kembang aplikasi kembang aplikasi susun lapor tahun susun lapor tahun	Positif	1
+jago jago dikit jago jago jago jago kosong coba dikit gantung situasi	Positif	1
+jabat tesis umbi jabat jabat salah umbi salah jabat tesis umbi wani jabat	Negatif	-1
+ponakan nyang salam lapor hasil pakai kurang beli mobil mobil beli	Positif	1
+kosakata baku sumatra baku sumatera analisis baku analisa izin baku idzin ijin risiko baku resiko aktivitas baku aktifitas	Negatif	-1
+kantor	Netral	0
+nama nama milik latar didik bidang studi universitas jumlah industri nama industri nama usaha posisi	Positif	1
+frasa pola kalimat tentu judul simpul kalimat efektif baku baku	Positif	1
+mata usaha sehat afiat lembur begadang tidur kerja tanggung gaji remah roti bangka cekat	Negatif	-1
+usaha magang bayar alam magang alam usaha magang bayar	Netral	0
+kuasa usaha kuat gaji usia maksimum usaha cari karyawan polos ketenagakerjaan milik kendara pribadi usaha	Positif	1
+rasa rendah ubah gaji rendah pegawai usaha lurus tolak suap susah promosi posisi kering duit modernisasi lurus roket	Negatif	-1
+kerja kirim lamar lamar besok anjeng anjeng gaji anjing berani bayar anjing juta cukup anjing anjing besok langsung anjing	Negatif	-1
+naik senang positif main baik	Positif	1
+hidup jamin rezeki antara	Netral	0
+detak putar terima kasih dinding bicara kualitas komitmen tanggung	Netral	0
+jargon cukup pakai konsep gagas narasi keren	Negatif	-1
+ubah pamit perlahan	Positif	1
+pakai baju batik hasil kolaborasi apik proyek nama istilah bahasa sansekerta kerja	Positif	1
+pindah tugas instansi instansi pindah instansi lingkup perintah pusat perintah daerah proses mutasi pegawai	Negatif	-1
+mohon kerja syukur terima engkau engkau engkau	Negatif	-1
+perempuan nganjuk jawa timur hidup penuh batas sandang disabilitas semangat buruh cuci	Negatif	-1
+karyawan kontrak kalah doang langsung	Positif	1
+tarik hebat ajar kabinet bentuk ganti kabinet kabinet dar kuli doang	Negatif	-1
+until until until hantar tahan tahan tahan	Netral	0
+logo zona karya pusat dunia seni dunia seni seniman bentuk ikat kait pisah	Positif	1
+sender kostum anonim maaf kasih sayang jahit manual mesin	Negatif	-1
+tukar perkara sedia gaji rendah pasal jawat resume tukar	Negatif	-1
+pakai bekas asia tenggara ultah melulu sedih karya kasih dampak lingkung	Negatif	-1
+cipta tempat impor pangan sejajar produksi impor opsi pilih cipta peluang buru rente sengsara tani	Negatif	-1
+usul joget	Netral	0
+tukar guling kerap tukar lahan bangun lokasi lokasi beda istilah sadur bahasa belanda makna tukar konotasi guling bantal guling	Negatif	-1
+ambil gambar nama kerja fotografer gambar makan bini bayar sewa rumah terus hidup bang sumber rezeki percuma kredit pakai gambar tolong rezeki	Positif	1
+tukar perkara sedia gaji rendah pasal jawat resume tukar	Negatif	-1
+sedih butuh selektif syukur	Negatif	-1
+pulang makna beda makna milik harta beda pilih bagi alih alih uang situasi ubah mari ubah	Netral	0
+garuda naga teknik referensi garuda patung garuda bal referensi naga thailand myanmar naga	Negatif	-1
+tubuh diam istirahat pikir waktu anda keras waktu waktu hakim sang pikir	Negatif	-1
+tambah gaji tingkat usaha daya tawar langsung bisnis gerak cepat alas ada	Positif	1
+motto main cari senang main main menang motto hidup inspirasi hidup	Negatif	-1
+libur harap beda habis energi libur nikmat	Positif	1
+tambah gaji tingkat usaha daya tawar langsung bisnis gerak cepat alas ada	Positif	1
+kuliah beda dapat tukang gali sumur tukang gali ajar dewasa tindak sikap bijak medsos paham	Negatif	-1
+gaji	Netral	0
+tempat masak kasir tamu gaji juta duduk sebentar istirahat manja	Negatif	-1
+besar kemarin	Netral	0
+usaha goyang karyawan formasi tenaga mumpuni pasti	Positif	1
+salah alas henti usaha kebun bumn gaji sesuai risiko hewan buas dalam susah	Negatif	-1
+karyawan gaji kecil gaji gaji kecil resah benar paket jahat ganti lingkung asik	Negatif	-1
 gaji bidang senang grad gaji insomnia jahat sakit mata sakit	Negatif	-1
-ramai henti gaji kurang harga kawan jahat beban repek kebaji abai	Negatif	-1
-ramai henti gaji kurang harga kawan jahat beban repek kebaji abai	Negatif	-1
-gaji tawar buah syarikat kontrak tulis bayar elok henti rasa syarikat	Negatif	-1
+kasih cuti sakit kasih sempat psikiater lihat minum obat tenang lega minggu mekanisme jamin tempat	Negatif	-1
+cukup sensitif bebauan fasilitas harum jeruk kuasa sesuai pulang sakit kuat	Positif	1
+gaji syarikat kontrak tulis bayar henti rasa syarikat	Netral	0
 gaji kena mekanik	Negatif	-1
-besar kurang beban operasional karyawan sesuai gaji beban operasional berat karyawan gaji juta ganti karyawan cukup gaji juta	Positif	1
+fasilitas kantor bagus beban berat	Negatif	-1
+besar kurang beban operasional usaha karyawan sesuai gaji beban operasional berat karyawan gaji juta karyawan cukup juta	Positif	1
 gaji kena barista faham	Negatif	-1
-dunia kantor salah pecat hilang gaji hilang nyawa tugas gaji enak	Negatif	-1
-ramai henti gaji kurang harga kawan jahat beban	Negatif	-1
+dunia kantor salah hilang gaji bulan hilang nyawa tugas gaji enak	Negatif	-1
+atur pulang usaha senang rajin selesai usaha	Netral	0
 gaji gaji pakai	Netral	0
-masalah gaji lokasi tempat kurang motivasi lolos cpns undur	Negatif	-1
-takut henti jahat start pandang naik gaji pasal syarikat duit beli bahagia	Netral	0
-naik otomatis naik naik sulit faktor terap naik gaji kantor opsi naik gaji	Positif	1
+masalah gaji lokasi tempat motivasi alas serta lolos cpns undur	Negatif	-1
+betapa wacana publik narasi pihak alih enggan konsekuensi sanksi hukum	Negatif	-1
+pegang alias tempat kondisi pikir kecamuk emosi stabil kondisi stabil pengaruh proses langsung	Positif	1
+agam rupa birokrasi pungli internal rebut rapat efisien raja lela akar gaji layak	Positif	1
+pagi bangun tidur langsung lemes sore pulang gentayang sehat waras prioritas utama	Netral	0
+konsekuensi gaji layak kualitas rekrutmen buruk pegawai demotivasi ongkos rekrutmen tambah aman	Positif	1
+sisi mayoritas model bisnis visi produk cepat sinar	Positif	1
+pribadi langsung rela kuat bayar pikir lihat margin bayar mampu	Positif	1
+letih benda perah otak letih nonstop	Netral	0
+naik otomatis naik naik sulit faktor usaha terap naik gaji kantor opsi naik gaji	Positif	1
+kurang karyawan lindung lemah rawan usaha klien kembang batas padat karya mayoritas	Positif	1
+maaf serius buka lowong lamar kenal sayang sayang poin masak lodeh masak	Netral	0
+salah rahasia posisi organisasi butuh	Negatif	-1
+susah kerja usaha israel hendak pribadi umkm gaji minimal turun drastis pasu turun sebab usaha israel tingkat pecah rumah	Netral	0
 paham jamin naik gaji pangkat kena lompat naik	Positif	1
-umur minim alam bayar murah dalih alam imbal fokus rumah tangga cuti gaji perempuan	Netral	0
-korban gaji juta paksa hidup gaji juta paksa laki suruh gaji kecil mampu	Negatif	-1
-punca timpal gaji kena tanggungjawab silap staff alam percaya bagus naik pangkat drama	Positif	1
-gaji banding keluarga buai gaji besar wajar manusiawi bayar waktu sepenuh keluarga level	Netral	0
-ramai waktu minggu maksimum waktu rehat gaji lepas gaji bayar suruh	Negatif	-1
-gaji cuti besar hindar cuti sakit	Negatif	-1
-teman level bisnis bisnis level staff hidup gaji karyawan cuman hasil profit gaji gaji	Positif	1
-mesti sorang stres jahat gaji sikit	Negatif	-1
-ambil domisili rencana rumah lumayan gaji bingung	Netral	0
-gaji gaji alias pegang bayar juta	Netral	0
+kemarin obrol kepala tukang bangun asisten naik level tukang mumpuni tolak alas omong	Negatif	-1
+umur minim alam murah dalih alam fokus rumah tangga usaha cuti gaji perempuan	Negatif	-1
+gaji juta paksa hidup gaji juta gaji kecil mampu	Netral	0
+syarikat bekas majikan bekas fikir jenis negatif mustahil syarikat plak habis	Positif	1
+dasar data usaha over karyawan sebab over karyawan usaha hadap	Positif	1
+proses wajar salah kandidat karyawan asih proses pakai jalur sesuai atur karyawan duit	Positif	1
+gaji keluarga buai gaji besar wajar manusiawi waktu keluarga level	Netral	0
+dunia ajar bodo mesti hati fokus duit alam sekolah kuliah adaptasi	Netral	0
+kerja ramai waktu minggu maksimum waktu rehat gaji lepas gaji bayar	Negatif	-1
+kala usaha cuti besar hindar cuti alas sakit	Negatif	-1
+bipolar sayang	Netral	0
+jepang jepang harga manusia eropa suka korea adil karyawan contoh bagi bonus beda hasil kerja departemen belah hubung karyawan usaha	Positif	1
+singkat dunia atur biasa umur pendek teman belah rekan	Negatif	-1
+teman level bisnis level staff hidup gaji karyawan cuman hasil profit gaji	Positif	1
+besar lompat besar individual kecil	Netral	0
+sanksi karyawan kondisi desak poin penyalahgunaan untung pribadi pindah simpan keluar barang	Negatif	-1
+kelola emosi kurang emosi sehat	Negatif	-1
+cerai masjid sholat isya buka gerbang rumah suami istri bandung kemarin pasang putus pisah ketemu obrol kisar september pisah	Positif	1
+betah surat	Netral	0
+tahap lampau stres mesti rasa kadang tahan jenis paruh jalan kadang gaji bayar komitmen sabar rezeki milik	Positif	1
+rencana	Netral	0
+bahasa	Negatif	-1
+surat kemarin tahan maki grup kirim grup suruh modul lembar waktu	Negatif	-1
+nominasi jatuh	Netral	0
+libur tonton bola	Netral	0
+besar erti urus rumah buntu sungguh	Netral	0
+sadar cari gampang	Negatif	-1
+cepat pulang besok berangkat	Negatif	-1
+trend bisnis sesal uang habis bisnis laku listrik utang baca komen	Positif	1
+fokus jaga	Netral	0
+besar tinggal tempat jelek jelek rembet sistem jelek karyawan	Negatif	-1
+karyawan lebih karyawan karyawan kaya pasuk alam	Positif	1
+sabar cepat larat penat	Netral	0
+menang habis kuat tekan takut atas tidur suka takut atas	Negatif	-1
+saran rencana kuliah bingung kontrak tulis omong sumpah bingung kuliah aktif	Negatif	-1
+libur pulang sore malam kuliah	Netral	0
+ambil domisili rencana lumayan gaji bingung aju	Negatif	-1
+kuna siku had	Netral	0
+kabar teman garagara bank alas hindar riba pilih dagang alhasil dagang jalan istri makan sedih	Negatif	-1
+tahan intern sopan kirim surat gaji kemarin kontrak langsung kirim surat	Positif	1
+koyo kowe sing kowe nyaman pilih tahan	Positif	1
+atas sakit sender psikiater kapai terima	Negatif	-1
+plot ketemu jodoh	Positif	1
+gaji alias pegang bayar juta	Netral	0
 asyik baca kena surat gaji tempat gaji syukur geram	Negatif	-1
-gaji kasih kasih mending jujur bingung	Netral	0
+staff sedih beli gelang emas hadiah	Negatif	-1
+langsung usaha tanda tangan minggu	Positif	1
+mentang mentang salah stres	Negatif	-1
+asih bingkis rekan ucap bingung	Netral	0
+hidup banyak sungkan miskin profesional syukur nyaman atur	Netral	0
+minggu kuat alas omong omong apa kadung omong	Negatif	-1
+bulan kena anjing	Negatif	-1
+mintak belanja cuti malam staff	Negatif	-1
+mampu suka hati tanggung kawan marah sudah until sentiasa plan	Negatif	-1
+kantor ruko kecil indah	Negatif	-1
+rasa jela radial	Negatif	-1
+mogok massal majalengka buruh bentangkan spanduk mundur	Negatif	-1
+lelah mari alih profesi	Netral	0
+percaya kalimat kemarin habis bumn sehat mental usaha swasta lokal pulang bentar ketemu dunia damai rumah anugerah	Positif	1
+kontrak masalah	Negatif	-1
+takut hitung hitung kuat pikir kencang asam lambung naik	Positif	1
+tanggap susah	Netral	0
+gaji mending jujur bingung	Netral	0
+kantor malu sisi rumah bosan capek	Positif	1
+takut hitung hitung kuat pikir kencang asam lambung naik enak butuh saran	Positif	1
 enak gaji sedikit bulak jaman susah	Negatif	-1
+lolos rekan alas jujur butuh saran kasih	Negatif	-1
+nakes mundur beban berat insentif tangan pandemi perintah cair	Negatif	-1
+sedih senior kantor senang senior ajar	Negatif	-1
+teman suami istri bank aji salah riba jual hidup kecewa sikap nyata bumi insaf jalan lurus	Positif	1
+rame dosen niat murni ilmu promosi jurus habis cari susah alam	Negatif	-1
+nakes alih profesi pilih beban banding insentif cair	Negatif	-1
+kabar dampak buruk mutlak dampak cari bpjs mangkir aset usaha usaha tempat ikut atur	Negatif	-1
+bpjs ketenagakerjaan	Netral	0
+ajar tanggung lebaran lumayan	Negatif	-1
+minggu sombong garagara sarjana lulus coba bangun komunikasi jelek teman bodo sehat jiwa robot	Negatif	-1
+sedih panggil langsung atas suruh alas salah alam bulan	Negatif	-1
+contoh surat letak jawat minggu bulan contoh bahasa melayu rezeki tempat	Negatif	-1
+salah pakai acara maki grup asih paham atas model	Negatif	-1
 paksa kena tahan maki asyik zero staff salah gaji mental	Negatif	-1
-pasti mending gaji	Positif	1
+bahasa	Negatif	-1
+juang lelah	Netral	0
+kantor	Netral	0
+nakes mundur beban berat insentif tangan pandemi perintah cair	Negatif	-1
+surat suka jelek tunggu aju habis	Negatif	-1
+kantor	Netral	0
+syukur semangat	Positif	1
+tonton layang putus curiga kagak pilih pisah ngeri bawa sakit	Negatif	-1
+kemarin cari libur	Netral	0
+contoh surat letak jawat minggu bulan contoh bahasa melayu rezeki tempat	Negatif	-1
+capai empat cukup apresiasi gabut	Negatif	-1
+maskapai resmi tawar undur sukarela	Positif	1
+sakit hati takut beban tabung rasa putus lihat	Negatif	-1
+surat alam	Netral	0
+mbak rumah benar sedih	Netral	0
+tanggal	Negatif	-1
+salah minus alam organisasi lulus gaji lipat hamdalah capek kuliah capek	Netral	0
+surat letak jawat henti moga manfaat	Positif	1
 lambat insentif gaji kecil pegawai utama nakes paksa	Netral	0
-gaji bonus kuat habis waktu situ jerih payah pandang belah mata	Negatif	-1
-gaji besar pilih	Negatif	-1
+gaji bonus kuat jerih payah belah mata	Negatif	-1
+auto kafir shalat jumat waktu barista restoran jepang mall tempel hotel mewah shalat jumat makan siang meja lantar	Positif	1
+butuh capek loyalitas	Negatif	-1
+tekan selasa kamis	Netral	0
+mending tanggung sehat mental padan	Negatif	-1
+entar pasti alas simak bpjs	Positif	1
+benar besar pilih	Negatif	-1
+bahasa	Negatif	-1
+bahasa	Negatif	-1
+bahasa	Negatif	-1
+alas	Netral	0
+bahasa	Negatif	-1
+alas putus	Netral	0
+tahan henti kongsi	Negatif	-1
+hadap kena profesionalisme	Negatif	-1
+serius ancang desember sehat	Negatif	-1
+plan henti bulan tulis	Negatif	-1
+salah salah alas gampang staff asih makan gengsi susah	Negatif	-1
+juara	Netral	0
+toko capek pasti pabrik pakai duit sayang	Positif	1
+kasih ajar tabung cinta kasih pilih hidup	Netral	0
+dunia kejam tekan fisik	Negatif	-1
+wajar suruh masalah gila	Negatif	-1
+istirahat duduk komputer kuat tahan lapar pusing takut	Negatif	-1
+tahun rumah tangga hasil kelas filial syarat kuliah henti cari jati	Netral	0
 gaji salah	Negatif	-1
-cukup gaji bingung umur umur	Negatif	-1
+tulis surat undur guna gaya bahasa resmi sopan formal tuju harus surat contoh	Netral	0
+jadi wajar risih jadi	Netral	0
+prinsip dunia mending jalan duit sreg sesal rasa alam ketimbang jalan sesal ikut duit	Negatif	-1
+suruh keras	Negatif	-1
+cukup gaji bingung atas umur umur	Negatif	-1
+habis asih surat alas gemetar salah	Negatif	-1
+tanggungjawab besar jugala henti dapat	Negatif	-1
+bingung cari	Negatif	-1
+tunda surat kena sapa coba puasa	Negatif	-1
+indonesia dinas tahun percaya dinas bareng pilih buruh pabrik ikan	Netral	0
 umur lulus kuliah gaji juta gaji naik dobel digit juta investasi meni rumah mobil	Positif	1
-nyata tolak zona nyaman gaji bonus gabut gaji alias gabut	Negatif	-1
+serius situ posting lowong posisi komunikasi ganti mending cabut	Negatif	-1
+besok aju	Negatif	-1
+maaf curhat maju mundur juang susah	Negatif	-1
+bosan	Netral	0
+pagi siang entar	Netral	0
+maaf curhat putus salah posisi	Negatif	-1
+amplop hitam	Netral	0
+maaf bosan topik resesi inti tahan sumber	Negatif	-1
+bahasa	Negatif	-1
+mending asal	Netral	0
+sorang sunyi	Negatif	-1
+baca lupa ngoyo sehat sakit mati mudah sehat nyawa tanggung lingkung normal mending	Negatif	-1
 rasa hujung gaji gaji stres	Negatif	-1
-minggu lancar kantor enak masalah gaji jarak putus	Negatif	-1
-tempat gaji lumayan teman	Negatif	-1
-tingkat iring mampu harap syarikat sistem naik gaji sesuai gaji	Positif	1
+ubah rantau tangerang rumah tangga rumah	Positif	1
+resolusi	Positif	1
+kagak	Negatif	-1
+capai wisuda tempat baca buku rawat kucing luka capai olahraga atur ganti gadget tonton konser	Negatif	-1
+bahasa	Negatif	-1
+lembur sing bpjs	Positif	1
+susah cari kena	Negatif	-1
+alas bulan	Negatif	-1
+stres level duit	Negatif	-1
+minggu nikah	Netral	0
+tunjang besar sedih	Netral	0
+bosan bingung habis kapai	Netral	0
+kurang pakai jajan suruh jaga	Negatif	-1
+detik detik malas berangkat	Negatif	-1
+cukup tahun	Negatif	-1
+rasa capek bosan butuh duit	Negatif	-1
+besar lihat capek mbak	Positif	1
+malu asih ucap pisah untung doang	Negatif	-1
+pasti rejeki baik cari susah susah akhirat	Negatif	-1
+cakap stop rezeki rasa rasa tahan tarik nafas hembus	Negatif	-1
+suami suami urus cair bpjs ketenagakerjaan lihat februari bpjs surat kantor turun	Netral	0
+bisnis pasti paham normal pasti enak doang cukup kutat	Positif	1
+puyeng puyeng info	Negatif	-1
+pandai suka bang cukup legal	Negatif	-1
+capek	Netral	0
+susah majikan syarikat sebab tiada hitam putih contoh surat bahasa malaysia kredit	Negatif	-1
+mental diam rumah	Positif	1
+cipta susah senang paket	Netral	0
+over minggu cabut minggu pikir suka lempar tanggung cabut	Negatif	-1
+rejeki usaha uji naik kelas hidup beranta zina suami	Positif	1
+resolusi	Positif	1
+tenang baik besar pandai suka hati faham	Netral	0
+coba tahan rasa cemas takut gelisah nyaman maag kambuh hidup tenang	Negatif	-1
+asih surat malas semangat minggu	Negatif	-1
+raja ambil putus kejut henti dekat pasar rasa ramai dekat moga situasi	Negatif	-1
+percaya cari	Netral	0
+rasa	Negatif	-1
+rasa jawat sesuai tolak tawar alas skrip tolak tawar adab	Negatif	-1
+alas cuti angel dunia seng sehat	Netral	0
+putus besar putus	Netral	0
+bahasa moga manfaat	Positif	1
+kantor sedih menang bis rasa	Negatif	-1
+minggu lancar enak masalah gaji jarak moga	Netral	0
+teori basket	Netral	0
+kadang capek tidur cukup mending	Netral	0
+cakap surat tempoh kawan moga bantu	Positif	1
+lulus langsung putus sekolah masak restoran buka bisnis kecil dapur rumah tipikal dapur kering basah	Positif	1
+berat bawa kalong paksa desak tulang punggung keluarga	Netral	0
+lebaran pulang lebaran	Netral	0
+tahan tahan habis cukup kereta habis bayar plan	Negatif	-1
+gabut doang main pulang lembur	Negatif	-1
+tingkat iring mampu harap syarikat sistem naik gaji sesuai gaji kerja	Positif	1
+partner super enak sedih patah hati	Negatif	-1
+kudu	Netral	0
+suka senior senior	Negatif	-1
+betah sebal mending sumpah susah	Negatif	-1
+usaha moga cepat selesai	Positif	1
+pikir ajar erti tanggal bantu takut	Negatif	-1
+berkas ijazah kontrak ikat harga layak pantas	Positif	1
+klien sosok eksekutif mapan bulan kepala aju cuti entar kapai tulis medium rasa plong	Positif	1
+bidang capek cari susah	Negatif	-1
+ramai gila lepas dengar jatuh kena geng	Negatif	-1
+bisnis tunggu sidang skripsi masyaallah jalan baik	Positif	1
 habis gaji	Netral	0
-tolong kemarin kasih rincian gaji aman kantor kontrak kirim takut	Positif	1
-libur gaji juta tunggu juta penjara	Positif	1
-gaji gaji naik gaji nilai bayar kecil	Positif	1
-staff gaji sesuai milik sedia harap sedia ruang cukup tuju	Positif	1
-gaji slip gaji potong jahat jamin pensiun klaim dana nominal sesuai potong rencana besok bantu kasih	Negatif	-1
+nongol sibuk fokus	Negatif	-1
+capek kumpul keluarga pasti lamar kemarin habis duit	Positif	1
+nekat kerja habis omong asa lega pakai bohong plong nikmat waktu anggur minggu minggu	Negatif	-1
+kena bebel ayat makan sewa sapa bayar tahan telinga	Negatif	-1
+cair bpjs ketenagakerjaan henti moga manfaat	Netral	0
+anda main jalan rumah anggur duit heran	Negatif	-1
+peka fenomena timpang senjang parah buruh pabrik buruh beda privilese mampu harap jahat bijak	Negatif	-1
+mental hadap subang jaya jalan kebun badan letih layan hara depa hadap	Negatif	-1
+curhat berangkat hati rasa nyaman tangan semangat	Netral	0
+partner	Netral	0
+henti gila minggu mental fikir pasal mental duit simpan susut otak kusut	Negatif	-1
+donat	Netral	0
+libur bulan gaji juta tunggu bulan juta asa per	Positif	1
+gaji gaji naik gaji kecil	Netral	0
+suruh surat bawa pergi jabat buruh	Negatif	-1
+atas langsung omong sulit tahan tahan sulit pasti baik haru	Netral	0
+aneh aneh karyawan balas walah peduli	Positif	1
+sikit surat dekat email email personal tender waktu pagi tender petang	Negatif	-1
+staff sesuai milik atas sedia sedia ruang cukup tuju	Positif	1
+berita ekonomi gelap ngeri sender rencana takut benar	Negatif	-1
+karyawan kontrak isi dokumen serah kerja usaha formulir bpjs surat terang uang	Positif	1
+dikit salah kuasa otak soak karyawan negosiasi gaji mandiri ikut jejak nilai nilai tawar jual	Netral	0
+gaji slip potong jahat jamin pensiun klaim nominal sesuai potong rencana besok bantu kasih	Negatif	-1
+manusia manfaat makhluk manfaat hidup cari	Positif	1
+sabar hati	Positif	1
+admin suruh cari order angkat barang gudang clearance ecek barang marah	Negatif	-1
+gebu gilir kontrak habis sedih	Negatif	-1
+kantor asisten mental hati gara	Negatif	-1
+staff kampus kuliah rencana uang bpjs kantor	Netral	0
+anjing garagara nilai	Netral	0
+besit	Negatif	-1
 habis sesuai gaji	Positif	1
-tempat kasih suruh selesai gaji kecil	Negatif	-1
-suka zona nyaman perihal nyaman gaji besar cukup butuh suruh tolong kasih paham	Negatif	-1
+pasti melulu malas duduk bicara hati hati malas	Negatif	-1
+manager kuliah	Netral	0
+tukar karier dilema kena tukar karier tukar karier moga bantu	Negatif	-1
+tipe pensiun lihat tipe pensiun	Negatif	-1
+cari pasang malas malas	Negatif	-1
+lintas tukar takut plus mesti rasa tukar	Negatif	-1
+tanda peras ramai tanda peras tukar tanda tanda	Negatif	-1
+ogah mutasi	Negatif	-1
+salah awak tukar bidang bosan dengar duit tengok contoh	Netral	0
 tips salah jenis pilih kasih salah rasa bosan salah gaji kena potong lepas	Negatif	-1
-dekat rumah cuti staff jahat gaji komitmen takat	Netral	0
-mudah sahaja gaji kadar inflasi urus hidup zaman	Positif	1
-jauh rumah gaji banding giat doang sekal putus tempat kadang gaji puas batin	Positif	1
-gaji ojol habis lulus kuliah nikah gaji jakarta sistem kontrak gaji digit haru kembang	Positif	1
-suami panggil salah kaget omong berat ambil ambil giur jenjang karir naik gaji	Negatif	-1
-gaji naik karir mentok dinas dada melon suka tekan atuh	Negatif	-1
+kena henti dorang stres peras ramai rasa benda henti	Negatif	-1
+stigma jaman bayang langsung pakai baju hitam putih bawa brosur prospek kunci usaha pegang langgan	Positif	1
+stres love tukar otak geng	Negatif	-1
+awak tukar bidang salah bosan dengar duit paksa ajar bidang	Negatif	-1
+lompat zaman susah mental	Negatif	-1
+said tahan upah rendah butuh tingkat miskin struktural bagus mesti didik didik pikir dana didik makan besok	Negatif	-1
+maksud alas henti alas rasa hala tuju maksud tahan	Negatif	-1
+alas butuh uang maklum rumah proses cari jati lahir nyaman terima beasiswa kontribusi ranah publik	Positif	1
+kena tukar gaji kena lihat faktor peluang staf staf cuti tahun tempat kena angkut isteri angkut senarai	Negatif	-1
+mudah sahaja gaji ikut kadar inflasi urus hidup	Positif	1
+jauh rumah gaji doang putus tempat kadang gaji puas batin	Positif	1
+pimpin lembaga enak mutasi ikat atur atur unsur bina analisa jabat analisa beban senjang kerja atur lengkap	Negatif	-1
+korporat enak izin mall pulang izin	Negatif	-1
+jujur sebel cari faktor susah pakai faktor kantor faktor atas mantan rekan	Negatif	-1
+pelbagai budaya jepang ramah keluarga biaya hidup ubah pola generasi muda	Negatif	-1
+kembang zona nyaman bidang siang hobi kejar capek bang malam habis kembang	Positif	1
+surat mohon ubah waktu ubah ubah tempat hantar majikan tunggu	Negatif	-1
+lompat kenal kawan sorang lompat tukar tukar baju besar gaji	Netral	0
+majikan kosong tukar lepas email	Negatif	-1
+kembang zaman masalah rumit kondisi pandemi ubah pola hidup zaman ubah lelah fisik mental beban kurang istirahat	Negatif	-1
+tempo cari kadang cuman kadang cari pintar lepas jilbab kandidat cantik bias	Negatif	-1
+wajib wilayah amatir bidang ingin kuat hasil sempurna mau setia ingin peduli	Negatif	-1
+industri kembang jual	Positif	1
+masalah penting kuat tahun sesuai	Netral	0
+kabur bawa raket tenis	Negatif	-1
+baik putus mualaf moga ridho teguh iman jalan istikamah	Positif	1
+banten menang putar menang putar	Netral	0
+kalah hidup latar prinsip latar kenal	Negatif	-1
+curhat salah metode katarsis metode rilis stres erat interaksi komunikasi relasi curhat usia perempuan	Negatif	-1
+kelas muda bawa acara salah program tvri sembarang tokoh	Negatif	-1
+golkar bupati bengkulu anggota panggil nurani gabung timnas urus golkar bengkulu suka	Negatif	-1
+aspirasi jalan aspirasi warga harun pakar hukum tata	Negatif	-1
+unggul curhat sibuk nasib solusi baik tenang privasi jaga	Positif	1
+premium kabir real	Positif	1
+ajar psikologi masalah curhat sadar curhat bantu kondisi hadap masalah hidup curhat bantu omong dengar	Negatif	-1
+mahasiswa nilai jelek mata kuliah baik	Negatif	-1
+curhat kandung kasar maki ejek asa rendah	Negatif	-1
+nasib makhluk sempat minimal kepala kendali cuaca najam paser utara	Netral	0
+kiri kanan berani pilih takut	Negatif	-1
+kadang gemas kucing media	Positif	1
+lulus dunia dengar rumit main catur industri simak tarik rangkum	Positif	1
+keren juang kasih tahan serah pasti kado indah kasih tulis indah guru	Positif	1
+jasa curhat durasi jakarta area khusus biaya area jakarta barat bayar muka transfer info	Netral	0
+rangka admin syarat waktu wita valid	Netral	0
+kamis juni program base heboh episode curhat mantan tayang	Netral	0
+cagub kamil program atas macet jakarta mobil curhat serius	Netral	0
+stres depresi masalah curhat cerita lega semangat curhat asih manfaat	Negatif	-1
+kiri clurit kapal layan jaga air nkri clurit marine april total kontrak ada unit	Negatif	-1
+langgar perkara remeh rezim culik gabung mawar bebas lenggang jabat perintah baru untung pangdam jaya	Negatif	-1
+jaksa gantung laksana karir gaji fungsional jaksa tunjang uang tambah gantung abdi atas	Negatif	-1
+gaji pacar ojol habis lulus kuliah nikah gaji jakarta sistem kontrak gaji digit haru kembang	Positif	1
+dana sertifikasi sender hasil berkat	Positif	1
+lulus spesialis didik paud kompetensi beliau dukung suami pilih	Positif	1
+andai ngeri sistem	Negatif	-1
+halo curhat rezeki umur sedikit alam bidang admin kurleb administrasi rumah sakit barista kewalahan barangkali	Netral	0
+oren moga bantu tahun hasil semangat sempat pasti usaha sabar	Positif	1
+program curhat	Netral	0
+tahun lewat ramadhan adem ayem antem makan belikan motor adek kasih	Negatif	-1
+lulus kuliah swasta kena sapa alam organisasi pintar teman dikit juang titik darah habis dunia	Negatif	-1
+indah foto bupati garut bawa piala piala seragam sukses istri cantik sesuai	Positif	1
+profesi guru guru tukang potong rambut mampu	Netral	0
+kasih lolos pegawai juli	Netral	0
+ciri ciri cinta tanah intelek cantik hidung mancung duit bangga	Netral	0
+sayang start	Netral	0
+naik sepeda lintas india swedia temu gadis cantik puja metro aku sentuh tekad bulat sulit maling hati lelaki kayuh	Positif	1
+maaf curhat kasih	Netral	0
+sapa curhat buka jasa curhat	Positif	1
+coba paham asa kasar lahir rangkak jatuh urus bahagia raya bahagia	Positif	1
+admin	Netral	0
+curhat curah usaha luap pikir resah ceramah komentar sakit	Negatif	-1
+umur nekat rantau asisten rumah tangga hasil tabung juta daftar kuliah	Positif	1
+damping manusia manusia lahir tinggal tugas sesat manusia buat dosa film cerita konflik manusia	Positif	1
+gila program mobil curhat solusi macet jakarta mending curhat mamah macet sungguh beti menteri pssi	Positif	1
+butuh proses hari tahun kabul umur lulus percaya sabar	Positif	1
+suka main ajak nikah jadi sabar syukur	Positif	1
+bicara proses konseling psikologi komunitas psikologi indonesia seringkali sederhana curhat mudah masyarakat	Positif	1
+pakai sale	Netral	0
+video kiran peringkat enam dunia usia bentuk otot usia idap sakit serius binaraga kiran wujud bunuh rutinitas rumah tangga	Negatif	-1
+alas psikolog klinis curhat klien sulit klien salah klien layan psikologi klien sulit puter otak	Positif	1
+minggu bahas alumni jurus fisika malam bahas alumni jurus dokter sila jalan karier tips karier	Positif	1
+prestasi moga sukses lancar	Positif	1
+profesi penasaran bareng urus curhat nama instansi harap sensor	Negatif	-1
+admin akun jelas tuju tahu admin sangkut mohon itikad	Netral	0
+kadang kasihan cantik salah salah cantik	Negatif	-1
+curhat tulis kecuali gembok aman	Netral	0
+waktu saran curhat kalem dewasa super person respon	Positif	1
+tunggal putra sukses babak besar korea open salah berkat peran	Negatif	-1
+bayang ada baik sending love saudara saudara	Positif	1
+kendala curhat curhat curhat kemarin	Netral	0
+larang curhat larang berak toilet	Negatif	-1
+salah tolong masalah mental curhat prof budi salah curhat kalang lepas laki biasa tahan erti lampias asa	Negatif	-1
+hasil visum dokter memar kujur tubuh kepala kaki	Netral	0
+dokter hamil pakai pisau suami kdrt tukang bubur	Negatif	-1
+usul khurafat muncul khurafat bani rasuk publik aneh khurafat populer khurafat ucap aneh khurafat	Netral	0
+karya atur serta kelas gambar pandang media pensil beranda seni karya kertas ukur	Positif	1
+baka hayat balad	Netral	0
+dokter rencana cabut lapor kdrt	Netral	0
+cocok aktris korea idam korea	Netral	0
+media admin tiktok	Netral	0
+curut binatang tikus curut keluarga tikus topik benah surabaya	Netral	0
+pakai jasa curhat	Positif	1
+manfaat semangat ketemu acara sederhana lihat pakai	Positif	1
+curhat suka hiperbola lucu	Netral	0
+lupa kawan salah kacau kemarin bingung kalah putus main nomor delapan	Negatif	-1
+besok pagi warga senam kuat gemas goyang	Negatif	-1
+abang rendah anggap hati bang tanda ganggu disorder golong ganggu pribadi anggap abang jauh haus	Negatif	-1
+malas gerak tentu fokus cocok salah level hidung lelep	Negatif	-1
+konyol salah pribadi masalah masalah institusi lucu kejar bahar ulama buka murtad	Negatif	-1
+adek daya kaya alam lahan usaha tambang sawit properti makan layak hidup layak	Netral	0
+masalah denda justifikasi konkrit denda denda kepala otak paham juta maksimum maksimum	Positif	1
+bahaya mental disorder mendem amarah baca buku	Negatif	-1
+pakar masalah depa depa lembab lembab depa puji salah jawat lembab salah	Negatif	-1
+masalah hindar besar rumit sulit pakai	Negatif	-1
+insiden bayi bayi perempuan usia patah tulang paha kanan jaga asuh	Negatif	-1
+cari kandung etnik suku suku madura ribu ungsi drama puisi esai video animasi	Negatif	-1
+belanda susah winter berat sakit sistem butuh waktu tukang tunggu minggu keburu rumah rumput sakit tahan obat dewa	Negatif	-1
+tega dandi alami komplikasi sakit lahir komplikasi sakit dandi juang lawan sakit lahir tukang cilor	Negatif	-1
+wajah asli kuak coba pecah fokus warganet satu sambo fitnah sebut oposisi sambo oposisi	Negatif	-1
+kurang uang sang kirim uang milik kasih tajir melintir tolak bantu	Netral	0
+harga naik kriminalitas bangkrut daya beli turun anggur korupsi nepotisme jerat keluh kualitas hukum keluarga jabat jabat taat moral etika	Negatif	-1
+keluh sedikit sesak tremor mending dokter tembak	Negatif	-1
+indonesia naik mobil jawa naik babi dayung perahu pakai panah masak unggun makan pakai terang lilin	Positif	1
+masalah ujung pikir kelana jauh pikir kadang sesak pikir terbang jauh khawatir bukti kadang	Negatif	-1
+sakit endemik malaysia sakit endemik malaysia sendi nama adjektif nama endemik nama	Negatif	-1
+keluarga besar suami ponakan umur pakai kepala jilbab pakai jilbab jilbab buka dialog	Positif	1
+pikir sempit salah sebab duduk mayoritas muslim golong alami tinggal potensi murka	Negatif	-1
+dendeng prasasti salah kuno awet makan	Negatif	-1
+dentum keras dengar pagi fenomena langit bentuk pusar angin moga aman kendali	Positif	1
+suami lupa bukti berat salah tamu pintu	Negatif	-1
+dengki sakit bahaya lahir benci benci bunuh perlahan	Negatif	-1
+berita indonesia pasti besok hubung tampan thailand naik daun media indonesia	Positif	1
+lemah ekor babi tukang bekam mampu sebar hoaks	Negatif	-1
+nikah umur adik bungsu perempuan nikah tinggal pakai urut adik nikah tahun nikah nikah semangat putus	Negatif	-1
+pengaruh mitos jenis kelamin tahu bentuk perut istri cari nama perempuan janin	Netral	0
+kaum mending pasti sesal boros biaya murah	Netral	0
+korupsi tuju sistem absurd tertib lahan basah peras	Negatif	-1
+seni insan	Netral	0
+adik maut kena renjatan elektrik mandi pekarang diam kampung teras jenang malam	Netral	0
+manusia peduli suka taruh harap besar luka	Positif	1
+ganggu singkat huruf ganggu huruf	Negatif	-1
+gotong bantu pinta tetangga batin siang malam menang terus henti alami kejang	Negatif	-1
+jebak perang global kutub besar adu hancur china cemburu timteng pakai usik kerjasama	Negatif	-1
+belanja masalah program kampanye pasang bang turun langsung temu masyarakat serap aspirasi dengar masalah warga titik lokasi	Positif	1
+kenal selesai uji bahasa belanda malas kena denda bayar hermes mampu beli serius sayang duit tips	Negatif	-1
+perkara pacar doang benci kirim karang	Negatif	-1
+alami ada masalah sisi lihat	Negatif	-1
+hadir muka bumi waktu kena ajar pakai	Negatif	-1
+maaf tolong tingkah maaf jengkel ganti jengkel	Negatif	-1
+dar lahir beda masalah utama fokus lahir resah	Negatif	-1
+istilah serap bahasa parsi suara bunyi hingar bahasa melayu istilah bahasa hindi bang bahasa cina bawa maksud azan	Negatif	-1
+menteri banyak korupsi rajalela	Negatif	-1
+cocok bijak egaliter milik pandang kuat penting individual tentang pandang penting bijak egaliter antusiasme revolusioner kunci kembang ekonomi	Positif	1
+dekat tempel pacar takut komitmen dua syukur hidup beranta	Positif	1
+guna devisa perintah sesuai awas waktu panitia angket selidik untung rugi tahan guna devisa	Positif	1
+sukses sukses kena masalah bahagia jatuh bangkrut bundir	Negatif	-1
+mbak moga tolong perkara salah adat turun perkara seragam lantas bebas atur hukum rasai mbak laki badan besar emosi marah menang rasa	Negatif	-1
+heran teman dosen kampus swasta malang mahasiswa timur indonesia lambat papan tulis gagap lancar baca tulis paham kalimat	Negatif	-1
+jabat pamer ndeso sederhana lengser jabat raya mati sehat bansos	Negatif	-1
+salah jamur salah salah alias mending dokter malaysia	Negatif	-1
+pelan angguk singkat makhluk lata warna putih rayap turun telapak tangan lanjut lega dokter kondisi seraya	Positif	1
+dekat seni kampus long semester organisasi masalah besar posisi wakil magang stasiun babak bur teman inisiatif kasihan	Negatif	-1
+kembar denim lucu salah nama	Negatif	-1
+komen bantu donasi juta tarik donasi ikhlas bayar hutang syukur bantu baik	Positif	1
+hutang gunung beban berat bangsa sulit gerak korupsi gurita desa pusat generasi apatis	Negatif	-1
+momen stres parah diagnosa psikiater depresi momen jatuh kuliah beranta tarik lingkung aman	Negatif	-1
+tidur rusak niat baik coba susah	Negatif	-1
+sakit cuman buka mulut normal makan	Negatif	-1
+masalah ulah problematik cukup kasih	Negatif	-1
+sebab proses sukar contoh mohon isi borang tulis hadir salah komputer lapor polis	Positif	1
+iseng tengil tipikal suka cari ribut sisi masalah berisik bawel suka	Negatif	-1
+anjeng psikologi pakai bahasa bagus lanjur lomba menang deras	Negatif	-1

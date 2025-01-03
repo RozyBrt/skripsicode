@@ -1,51 +1,81 @@
 analisis	sentiment_label	sentiment_score
-waktu seminar malam kembang hotel keran kamar mandi malam cium anyir darah heran teman kamar teman ajak bukti	Negatif	-1
-dunia kembang arah revolusi industri hidup binatang libur tunjang santai minum sampanye restoran mewah	Positif	1
-mampu cepat adaptasi dunia alami ubah cepat hilang iring kembang zaman ahli forum ekonomi dunia forum dunia	Positif	1
-alam saing berat naik jabat libur gabut duit pabrik capek pulang makan langsung tidur mental kuat	Positif	1
-kantor muda mamah muda naik jabat syarat penuh kasih target kecil kena mental kasih tekan turun jabat buka	Negatif	-1
-pegawai pangkat rendah butuh uang mutasi jabat enak metropolitan brengsek	Negatif	-1
-pakai kontrak habis enak adaptasi tantang kantor zona nyaman kembang karir	Positif	1
-salah faktor bantu bagus kantor ramah jabat senior sungkan ketemu degan dikit	Negatif	-1
-teman eselon aktif kantor alhasil masalah bentrok mutasi turun jabat bentrok mutasi naik jabat	Negatif	-1
-komen data kategori rendah jenjang jabat gaji juta peringkat kabar kagak daftar	Negatif	-1
-syarikat percaya tukar tempat gaji rendah padan beban tekan politik jabat toksik	Negatif	-1
-sambung kilang kilang kawan cepat dorang urus jabat	Negatif	-1
+pasti dengar omong keluarga berani keluarga penting budak keluarga sapi perah mending	Positif	1
+alas alam kantor kantor suruh karir alas teman divisi marah	Negatif	-1
+bidang jasa karir usaha kecil alas tahan lihat pergi capek	Positif	1
+panik minggu berat senin jenjang karir gaji atas jahat kantor gonjang ganjing tanggal putus kerja	Negatif	-1
+kantor bawah hamil suruh paksa kantor sadar wanita karir urus sulit cici nikah putus urus waras syukur	Negatif	-1
+selamat pagi enak karir	Positif	1
+pakai alas habis enak adaptasi coba lingkung tantang kantor zona nyaman kembang karir	Positif	1
+sadar putus pergi tinggal rumah didik karir meni rumah kunjung pulang asa	Positif	1
+kasihan sisi maksimal cinta inovasi kejar karir paham lingkung senyum stres muka bangga prestasi pribadi sombong	Netral	0
 kembang karir hasil sesuai harap faktur utama tahan cukup perut cukup hati cukup otak	Positif	1
-rumah asih uang ikhlas uang rokok kasih jabat walkot bupati gubernur amit ketemu jalan ogah	Negatif	-1
-budak alam peras otak gaji kembang sungguh tahi	Positif	1
-tuntut kembang maju cabang tingkat	Positif	1
-relaksasi harap kembang ekspansi buka lowong warga luas ekonomi jateng komitmen	Positif	1
-sesuai singkat pakai pandu kantor jahat suportif tumbuh ajar gaji kecil rasa kurang kembang	Negatif	-1
-lamar kembang jauh peduli kembang lihat tenang lihat loyal naik ganti penuh	Positif	1
-habis tahan suruh naik jabat probabilitas semu asli bingung	Positif	1
-pilih pengaruh buruk sukses hidup karir penuh naik jabat selesai	Negatif	-1
-tahan kuat tenaga situ kondisi jahat posisi jabat rebut juta mudah ganti ganti posisi	Netral	0
-kolom jabat pakai rumus kepala staff operator kolom samping rumus rumus kepala staff operator	Negatif	-1
-putus gaji rendah ganti mental jauh sehat tingkat stres kendali jauh waktu temu keluarga damping tumbuh kembang buah salah putus bijak hidup	Negatif	-1
-sangka kutu loncat sangka katak tempurung ideal kembang karier kudu	Positif	1
-kembang situ jalan samping faktor pengaruh kurang cocok	Negatif	-1
-bagus tekan paksa kembang	Netral	0
-gaji kembang cukup tahan nyaman cabut situasi rasa jahat pengaruh cepat	Negatif	-1
-laku kembang aplikasi kembang aplikasi laku susun lapor ubah susun lapor	Positif	1
-lihat jabat tesis umbi jabat jabat salah umbi salah jabat tesis umbi wani jabat	Negatif	-1
-gampang profesi jabat nama hasil alat penuh butuh barang jasa bayar upah	Netral	0
-tukar perkara sedia gaji rendah pasal jawat kembang resume sedia tukar	Netral	0
-karyawan nama bagas inisiatif ajar komputer naik pangkat admin ajar akuntansi moral butuh karir kembang	Positif	1
-tukar perkara sedia gaji rendah pasal jawat kembang resume sedia tukar	Netral	0
-konsekuensi gaji tawar layak kualitas rekrutmen buruk pegawai demotivasi ongkos rekrutmen jabat aman	Negatif	-1
-kurang karyawan lindung lemah rawan langgar klien kembang padat karya mayoritas	Positif	1
-kantor bagus enak kompak jahat gaji seret karir kembang situ teman enak pasti	Positif	1
-aktualisasi aktual pengembangan kembang potensi diri kreatif prestasi jabatan jabat gelar	Positif	1
-sebel selesai masalah potensi ketemu sikap tempat hadap ajar kembang interpersonal	Positif	1
-suruh surat bawa pergi jabat buruh	Negatif	-1
-pimpin lembaga enak laku mutasi ikat atur atur maksud unsur bina analisa jabat analisa beban senjang atur lengkap	Negatif	-1
-kembang zona nyaman bidang siang hobi kejar capek bang malam habis kembang	Positif	1
-kembang zaman masalah hadap rumit kondisi pandemi ubah pola hidup zaman ubah lelah fisik mental beban kurang istirahat	Negatif	-1
-industri kembang perhati jual	Positif	1
-langgar perkara remeh rezim culik gabung mawar bebas lenggang jabat perintah untung angkat pangdam jaya	Negatif	-1
+baik sempat ngotot kejar karir cukup penuh tanggung jujur	Negatif	-1
+curhat dasar alam pribadi karir bagus ajar atur finansial moga ajar baca	Positif	1
+pilih pengaruh buruk sukses hidup karir penuh kerja naik jabat selesai	Negatif	-1
+putus lingkung nyaman jenjang karir gaji jenuh karyawan nyokap tuju takut	Positif	1
+gambar posisi usaha kantor tentu lembur cuti gaji tunjang bonus asuransi status jenjang karir kurang	Negatif	-1
+bingung karir bidang sesal bingung diskusi teman butuh putus	Negatif	-1
+kompetensi lapang asal kelas ekonomi tengah didik pascasarjana sempat eksperimen karir	Positif	1
+umur takut tinggal karir industri karir restu	Netral	0
+dadak kanker muncul sedih rasa sedih rasa rezeki sehat karir	Negatif	-1
+bayar sesuai kontrak budak protes atas karir sabotase	Netral	0
+kejar karir pondasi keluarga kerja takut sesuai tunggu mimpi mimpi	Positif	1
+karyawan bagas inisiatif komputer naik pangkat admin ajar akuntansi moral butuh atas karir kembang	Positif	1
+manfaat kondisi level karir usaha valid	Positif	1
+kantor bagus enak kompak jahat gaji seret karir kembang alas enak pasti	Positif	1
+sedih kasih putus kasih dengar maaf malam moga karir sinar	Netral	0
+sebar oknum biksu media senior militer ting capek giat karir usik	Netral	0
+antem belah gara salah awak sulut kelahi hidup karir pilih bahagia mari dukung	Negatif	-1
+karir prinsip preferensi kerja cocok curhat bentrok prinsip preferensi kadang susah prinsip contoh kasar bidang ekstraktif	Positif	1
+privat akun lupa sandi kena amit jejak digital pengaruh karir	Negatif	-1
+dengar teman karir sukses teman pacar sukses	Positif	1
+serba salah keluh keluarga karir posisi didik omong mending jujur kena mental dengar curhat	Negatif	-1
+kunjung jakarta pekan november adaptasi ajar kuliah inggris presentasi diskusi dosen banyak dengar kuliah karir	Positif	1
+titip cuil suka sadar perihal karir suka diam diam jodoh layak inisial	Netral	0
+senin januari progres karir aman ambyar	Netral	0
+nama nama rendah pasti otomatis over karir sangka	Positif	1
+dengar keluh ekonomi keluarga adik masalah keluarga uang pribadi masalah didik karir masalah pribadi teman	Negatif	-1
+dengar dosen stres tanggung istri wanita karir semenjak hilang tidur susah putus apa	Negatif	-1
+dengar buru buru nikah kejar karir nikmat muda sesal kelar kuliah langsung nikah	Positif	1
+suami panggil salah usaha kaget omong berat ambil giur jenjang karir naik gaji	Negatif	-1
+tipikal doyan belanja dik hemat sikap hidup hemat suami santai suami salah usaha swasta naik karir gaji	Positif	1
+habis dengar teman kerja usaha konstruksi sesuai jurus teknik sipil susah jenjang karir sertifikasi minimal juta syarat wajib	Negatif	-1
+jijik baca pintar masak karir bagus urus disabilitas	Negatif	-1
+entar rasa perhati khawatir jahat cukup asih perhati asih perhati didik karir entar fokus	Negatif	-1
+gaji kala naik karir mentok dinas dada melon suka iri bawah tekan atuh	Negatif	-1
+sedikit tenggelam fandom bakat karir tulis jarang	Negatif	-1
+wanita karir haru	Netral	0
 suami jabat staff suami bantu bantu urus keluarga karir aman	Negatif	-1
-instansi perintah instansi keluarga angin doang harga karir saudara jabat mending diam waktu	Negatif	-1
-harga naik kriminalitas bangkrut daya beli turun anggur korupsi nepotisme jerat keluh kualitas hukum keluarga jabat jabat taat moral etika	Negatif	-1
-cocok bijak egaliter milik pandang kuat hadap individual pandang bijak egaliter antusiasme revolusioner kunci kembang ekonomi	Positif	1
-jabat pamer ndeso sederhana lengser jabat raya asuransi mati sehat keluarga pelihara bansos	Negatif	-1
+kirim asa baca gedor sibuk tata karir	Netral	0
+buka suka kepo kating keluarga sukses karir bagus karir kumpul keluarga turun	Positif	1
+teman guru menang maksi gratis didik indonesia butuh akhlak karir guru benar	Positif	1
+instansi perintah instansi usaha keluarga angin doang karir saudara jabat mending diam waktu	Negatif	-1
+dengar posesif lumrah ketawa karir	Positif	1
+dengar masalah tunang karir curhat masalah rumah tangga nikah nikah	Positif	1
+pilih sender jenjang karir alam	Negatif	-1
+galau lihat kanan kiri hidup pace karir cocok budaya waktu keluarga tervalidasi baca waktu keluarga	Netral	0
+pura pura tempat capek ketawa karir diam doang renung naik ojol	Positif	1
+jalan karir dengar kecewa nikah	Positif	1
+teman curhat menang menang masalah karir finansial cinta	Negatif	-1
+sukses dunia karir bagus lupa doa bakti dengar	Positif	1
+pilih karir suka fokus capai pikir nikah tanggung besar rasa hilang faktor teman nikah	Negatif	-1
+rencana karir berani departemen lulus dikit daftar sekolah	Positif	1
+cinta karir bang abang capek	Netral	0
+jenis pengaruh pengaruh karir pensiun	Negatif	-1
+instansi plan butuh dapat cerah kerja otak kosong karir	Negatif	-1
+babu karir pangkat mentok	Negatif	-1
+omong karir dikit peluang bisnis capek dengar teman drama pasang	Netral	0
+kintil karir jamin	Negatif	-1
+kasih tahap step karir cabut	Negatif	-1
+jadi jenjang karir formasi kerja sesuai tupoksi ilmu ilmu tambah	Positif	1
+didik karir kasih baca sender	Netral	0
+instansi pasti ajar ketar pasti karir formasi utama instansi	Netral	0
+tuju jenjang karir pangkat	Positif	1
+waktu pikir suami pasti butuh keluarga lihat viral masalah rumah tangga nikah mending kejar karir	Netral	0
+publik ancam karir lawan kuasa milik kuat politik kuat halal jatuh	Netral	0
+abang percaya pergi ikhlas balik fokus karir trauma kagak fokus karir	Netral	0
+moga sehat lancar rejeki karir jalan waktu hebat	Positif	1
+dengar istri mantan wanita karir tiktok urus kecil sulit cari	Negatif	-1
+nyanyi solo karir bawa lagu nyanyi lagu dewa baru nyanyi lagu	Positif	1
+ketemu suami usia janda tempat masalah usia karir nikah dikit	Negatif	-1
+bangun mimpi karir anime anime siswa asih email suruh form nama resah	Netral	0

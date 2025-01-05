@@ -306,6 +306,7 @@ problem bukti nyata nyokap bokap bokap tendensi gaji nyokap nyokap	Negatif	-1
 susah status kontrak tahap usaha cuti sangon	Negatif	-1
 selesai perkara kelas makan kedai malas masak masalah habis makan pulang bentar tempat pintu toilet copot sakit babi pulang	Negatif	-1
 curhat minggu usaha global bpjs asa serba enak rasa	Negatif	-1
+kompensasi naik gaji uang pendapatan dapat penghasilan hasil intensif gaji sedikit gaji banyak bonus	Positif	1
 normal detik data sabtu rumah uang lembur jakarta pakai laptop pribadi	Positif	1
 korupsi kolusi nepotisme gratifikasi suap plus peras langsung fasilitas kantor perlu pribadi korupsi	Positif	1
 curhat potensi nyaman solusi berani takut	Positif	1

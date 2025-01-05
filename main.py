@@ -1,5 +1,6 @@
 import streamlit as st
 import pandas as pd
+import seaborn as sns
 import json
 import re
 import string
@@ -8,6 +9,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.cluster import KMeans
 from sklearn.metrics import silhouette_score
 from sklearn.metrics import davies_bouldin_score
+from sklearn.decomposition import PCA
 import matplotlib.pyplot as plt
 from Sastrawi.Stemmer.StemmerFactory import StemmerFactory
 import os #dipake pas klasifikasi sentimen
@@ -203,6 +205,41 @@ elif page == "Klastering":
         st.write(f"**Silhouette Score:** {silhouette_avg:.2f}")
         st.write(f"**Davies-Bouldin Index:** {db_score:.2f}")
 
+        
+        # Menurunkan dimensi data dengan PCA untuk visualisasi
+        pca = PCA(n_components=2)
+        X_pca = pca.fit_transform(X.toarray())
+        
+        # Membuat DataFrame untuk visualisasi
+        df_visual = pd.DataFrame({
+            'PCA1': X_pca[:, 0],
+            'PCA2': X_pca[:, 1],
+            'Cluster': kmeans.labels_
+        })
+        
+        # Visualisasi Scatter Plot
+        plt.figure(figsize=(10, 6))
+        sns.scatterplot(
+            x='PCA1', 
+            y='PCA2', 
+            hue='Cluster', 
+            palette='tab10', 
+            data=df_visual,
+            legend='full'
+        )
+        plt.title('Visualisasi Klaster Hasil K-Means')
+        # plt.xlabel('Komponen Utama 1')
+        # plt.ylabel('Komponen Utama 2')
+        plt.legend(title='Klaster', loc='best')
+        st.pyplot(plt)
+
+        # Menampilkan DataFrame untuk masing-masing klaster
+        for cluster_label in sorted(df_selected['cluster'].unique()):
+            st.write(f"### Klaster {cluster_label}")
+            cluster_data = df_selected[df_selected['cluster'] == cluster_label][['filtered']].reset_index(drop=True)
+            st.dataframe(cluster_data)
+
+
         # Memisahkan klaster menjadi DataFrame yang berbeda
         cluster_0 = df_selected[df_selected['cluster'] == 0][['filtered']].reset_index(drop=True)
         cluster_1 = df_selected[df_selected['cluster'] == 1][['filtered']].reset_index(drop=True)
@@ -211,14 +248,6 @@ elif page == "Klastering":
         
         # Mendefinisikan label kustom untuk setiap klaster
         label_klaster = ['kompensasi', 'kepuasan kerja', 'aktualisasi', 'hubungan kerja']
-
-        # # Menampilkan setiap klaster dengan label deskriptif
-        # for i, (label, dataframe_klaster) in enumerate(zip(label_klaster, [cluster_0, cluster_1, cluster_2, cluster_3])):
-        #     st.write(f"### Faktor {label.capitalize()}")
-        #     st.dataframe(dataframe_klaster[['filtered']])
-
-        #     # Menyimpan setiap cluster ke dalam file .txt di folder 'klaster'
-        #     dataframe_klaster.to_csv(f'klaster/{label}.txt', sep='\t', index=False, header=True)
 
     
         # Daftar kalimat yang ingin dihapus
@@ -249,19 +278,11 @@ elif page == "Klastering":
                 # Jika teks berupa list, hapus kalimat tertentu dalam daftar
                 text = [word for word in text if word not in kalimat_yang_ingin_dihapus]
             return text
-
-        # Membersihkan data setiap cluster
-        cleaned_data_0 = cluster_0.applymap(hapus_tandabaca).applymap(hapus_kalimat)
-        cleaned_data_0 = cleaned_data_0.replace('', np.nan).dropna()
-
-        cleaned_data_1 = cluster_1.applymap(hapus_tandabaca).applymap(hapus_kalimat).dropna()
-        cleaned_data_1 = cleaned_data_1.replace('', np.nan).dropna()
-
-        cleaned_data_2 = cluster_2.applymap(hapus_tandabaca).applymap(hapus_kalimat).dropna()
-        cleaned_data_2 = cleaned_data_2.replace('', np.nan).dropna()
-
-        cleaned_data_3 = cluster_3.applymap(hapus_tandabaca).applymap(hapus_kalimat).dropna()
-        cleaned_data_3 = cleaned_data_3.replace('', np.nan).dropna()
+        
+        cleaned_data_0 = cluster_0.apply(lambda col: col.map(hapus_tandabaca))
+        cleaned_data_1 = cluster_1.apply(lambda col: col.map(hapus_tandabaca))
+        cleaned_data_2 = cluster_2.apply(lambda col: col.map(hapus_tandabaca))
+        cleaned_data_3 = cluster_3.apply(lambda col: col.map(hapus_tandabaca))
 
         for i, (label, dataframe_klaster) in enumerate(zip(label_klaster, [cleaned_data_0, cleaned_data_1, cleaned_data_2, cleaned_data_3])):
             st.write(f"### Faktor {label.capitalize()}")
@@ -273,6 +294,9 @@ elif page == "Klastering":
         cleaned_data_1.to_csv('klaster/kepuasan kerja.txt', sep='\t', index=False, header=True)
         cleaned_data_2.to_csv('klaster/aktualisasi.txt', sep='\t', index=False, header=True)
         cleaned_data_3.to_csv('klaster/hubungan kerja.txt', sep='\t', index=False, header=True)
+        
+    # else:
+    #     st.error("Jumlah centroid awal tidak sesuai dengan jumlah klaster.")
 
 elif page == "Analisis Sentimen":
     st.header("Analisis Sentimen Faktor")

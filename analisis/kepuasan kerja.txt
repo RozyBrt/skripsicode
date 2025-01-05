@@ -112,6 +112,7 @@ staff hati makan usaha susah jaman mampu dasar syukur entar kerja	Negatif	-1
 lamar kerja tabel isi nama usaha posisi info loker tanggal hasil letak	Negatif	-1
 kerja kuat tenaga kondisi jahat posisi juta ganti posisi	Positif	1
 lupa timbang ganti karir jajah kerja	Negatif	-1
+kepuasan puas kerja karir bahagia sedih dedikasi nyaman lembur jam kerja waktu cape capek lelah stres stress	Negatif	-1
 lihat platform belah niat capek emosi kesel impi kerja	Negatif	-1
 tutup peluang sesuai lolos proses seleksi cocok kerja	Netral	0
 harap temu kerja tenang upah layak beban cukup tugas tumbuh rekan peduli pimpin lindung sekrup usaha mulia	Negatif	-1

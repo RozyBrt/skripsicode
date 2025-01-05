@@ -194,7 +194,8 @@ elif page == "Klastering":
     # Mengambil centroid awal berdasarkan posisi kalimat yang disisipkan
     initial_centroids = X[list(centroid_positions.keys())].toarray()
 
-    if st.button("Klaster"):
+    # if st.button("Klaster"):
+    if ("Klaster"):
         kmeans = KMeans(n_clusters=4, init=initial_centroids, n_init=10, random_state=0)
         kmeans.fit(X)
         df_selected['cluster'] = kmeans.labels_

@@ -6,7 +6,6 @@ nltk.download('punkt')
 from nltk.tokenize import word_tokenize
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.cluster import KMeans
-from sklearn.metrics import silhouette_score
 from sklearn.metrics import davies_bouldin_score
 import matplotlib.pyplot as plt
 from Sastrawi.Stemmer.StemmerFactory import StemmerFactory
@@ -178,9 +177,6 @@ elif page == "Clustering":
         kmeans = KMeans(n_clusters=4, init=initial_centroids, n_init=10, random_state=0)
         kmeans.fit(X)
         df_selected['cluster'] = kmeans.labels_
-        # Menghitung Silhouette Score
-        # silhouette_avg = silhouette_score(X, kmeans.labels_)
-        # st.write(f"**Silhouette Score:** {silhouette_avg:.2f}")
 
         # Menghitung DBI
         db_score = davies_bouldin_score(X.toarray(), kmeans.labels_)

@@ -1,4 +1,83 @@
 analisis	sentiment_label	sentiment_score
+<<<<<<< HEAD
+tempat tempat jahat rangkap	Negatif	-1
+teman jahat jahat gila tempat	Negatif	-1
+jahat tempat pasti jahat toleransi	Negatif	-1
+tempat capek utama nyaman tempat nyaman jahat jahat	Negatif	-1
+jahat	Negatif	-1
+jahat	Negatif	-1
+hadap tempat jahat	Negatif	-1
+rasai tempat jahat	Negatif	-1
+rasai jahat tempat	Negatif	-1
+tempat jahat	Negatif	-1
+jahat tempat	Negatif	-1
+jauh jahat tempat	Negatif	-1
+teman jahat tempat	Negatif	-1
+betah tempat jahat	Negatif	-1
+tempat jahat level tempat	Negatif	-1
+capek jahat tempat keliling jahat	Negatif	-1
+tempat jahat parah	Negatif	-1
+jahat tempat jahat pilih kasih	Negatif	-1
+rumah jahat tempat jahat	Negatif	-1
+asih semangat tempat jahat tempat	Negatif	-1
+tempat hindar jahat tempat jahat	Negatif	-1
+tempat tempat jahat	Negatif	-1
+jahat tempat	Negatif	-1
+tengok ramai tempat jahat tempat jahat stres	Negatif	-1
+jahat tempat	Negatif	-1
+jahat	Negatif	-1
+izin tempat betah tempat jahat	Negatif	-1
+pribadi jahat jahat hubung jujur teman jahat jahat	Negatif	-1
+jahat manusia tempat	Negatif	-1
+jahat jahat	Negatif	-1
+tempat jahat	Negatif	-1
+jahat tempat parah	Negatif	-1
+jahat tempat	Negatif	-1
+tempat lihat jahat	Negatif	-1
+jahat tempat	Negatif	-1
+jahat tempat	Negatif	-1
+tolong tempat jahat	Negatif	-1
+jahat	Negatif	-1
+hidup jahat tempat	Negatif	-1
+jahat tempat	Negatif	-1
+jahat tempat	Negatif	-1
+jahat tempat	Negatif	-1
+tempat jahat tahan	Negatif	-1
+tempat jahat	Negatif	-1
+teman tempat jahat jahat	Negatif	-1
+tempat jahat	Negatif	-1
+capek jahat tempat	Negatif	-1
+tempat jahat	Negatif	-1
+jahat tempat	Negatif	-1
+jahat tempat	Negatif	-1
+tempat jahat	Negatif	-1
+tempat jahat	Negatif	-1
+jahat	Negatif	-1
+tempat jahat	Negatif	-1
+keluarga jahat pasang jahat tempat jahat jahat	Negatif	-1
+jahat tempat	Negatif	-1
+tempat jahat tempat	Negatif	-1
+suami tempat start jahat jahat	Negatif	-1
+jahat	Negatif	-1
+jahat jahat	Negatif	-1
+jahat	Negatif	-1
+jahat	Negatif	-1
+tempat jahat	Negatif	-1
+jahat	Negatif	-1
+tempat jahat	Negatif	-1
+tempat jahat jahat	Negatif	-1
+tempat jahat capek	Negatif	-1
+jahat gaji jahat pasti teman tempat	Negatif	-1
+tempat jahat	Negatif	-1
+jahat tempat	Negatif	-1
+jahat tempat	Negatif	-1
+tempat jahat gaji bayar	Negatif	-1
+tempat jahat gaji besar jahat tahan	Negatif	-1
+nyata tempat jahat	Negatif	-1
+bingung pilih tempat jahat tempat	Negatif	-1
+jahat tempat	Negatif	-1
+jahat	Negatif	-1
+=======
 jahat suka takut putus tinggal pergi	Negatif	-1
 perilaku jahat normalisasi lingkung hari simak ulas	Netral	0
 oknum hubung jahat lelah waktu putus takut	Negatif	-1
@@ -310,3 +389,4 @@ sedih teman curhat takut ganggu stres pandemi picu rasa takut ganggu situasi	Neg
 teman curhat pasti peduli konyol mending diam	Netral	0
 paham nasehat obsesi jahat fitnah trauma platform	Negatif	-1
 dosa bunuh hewan bahaya lumayan bahaya kuping waktu kuping tempat	Negatif	-1
+>>>>>>> 746b3a1516bae1797e6b749941e6d02f8c7082ca

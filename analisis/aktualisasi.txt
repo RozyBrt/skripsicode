@@ -1,4 +1,71 @@
 analisis	sentiment_label	sentiment_score
+<<<<<<< HEAD
+tukar perkara sedia gaji rendah pasal jawat kembang resume sedia tukar	Netral	0
+kembang karir hasil sesuai harap faktur utama tahan cukup perut cukup hati cukup otak	Positif	1
+tukar perkara sedia gaji rendah pasal jawat kembang resume sedia tukar	Netral	0
+mumpuni karier rasa kontribusi kembang	Netral	0
+harap kembang tempat beda suasana rasa tantang tempat alam luas	Negatif	-1
+loyalitas hasil sesuai tawar gaji bangun sulit kembang jauh	Positif	1
+tukar perkara sedia gaji rendah pasal jawat kembang resume sedia tukar	Netral	0
+gaji tempat gaji kembang sesal arti rasa	Netral	0
+tempat tempat kembang sehat pilih pilih	Negatif	-1
+minimal putus kutu loncat jenjang karir fasilitas tara tempat gaji	Negatif	-1
+salah utama kena gaji jenjang karir omong jelek besar gaji jenjang karir janji	Negatif	-1
+manfaat kondisi level karir valid	Positif	1
+putus gaji rendah ganti mental jauh sehat tingkat stres kendali jauh waktu temu keluarga damping tumbuh kembang buah salah putus bijak hidup	Negatif	-1
+henti kembang bosan hobi kembang semangat	Positif	1
+kantor bagus enak kompak jahat gaji seret karir kembang situ teman enak pasti	Positif	1
+tolong resmi bank swasta lolos gaji putus karir jauh riba	Negatif	-1
+tindak laku alam peluang sesuai tuju karir ahli kembang	Positif	1
+gaji lipat sesuai masalah kecil jenjang karir jakarta transportasi cukup ongkos jahat rekan doang	Negatif	-1
+putus nyaman jenjang karir gaji jenuh karyawan nyokap tuju takut	Positif	1
+kembang karir hasil sesuai harap faktur utama tahan cukup perut cukup hati cukup otak	Positif	1
+bismillah rangkum sederhana paham merger akuisisi sektor bisnis kecuali industri malu agens kembang	Positif	1
+cabut manager peka karir kembang kompensasi belit kasi ajar apresiasi mentor kultur sehat ruang inovasi	Negatif	-1
+harap kembang tempat beda suasana rasa tantang tempat alam luas	Negatif	-1
+ganti besar mesin laku manusia tangan besar kembang semangat panjenengan	Positif	1
+industri kembang perhati jual	Positif	1
+salah utama kena gaji jenjang karir omong jelek besar gaji jenjang karir janji	Negatif	-1
+manfaat kondisi level karir valid	Positif	1
+lamar kembang jauh peduli kembang lihat tenang lihat loyal naik ganti penuh	Positif	1
+dunia kembang arah revolusi industri hidup binatang libur tunjang santai minum sampanye restoran mewah	Positif	1
+mentoring curhat rasa kembang bantu	Netral	0
+kantor bagus enak kompak jahat gaji seret karir kembang situ teman enak pasti	Positif	1
+pegang divisi tahan cuman kembang ilmu karir jepang besar	Positif	1
+tindak laku alam peluang sesuai tuju karir ahli kembang	Positif	1
+terang alternatif jahat dukung kembang tumbuh kembang profesional	Positif	1
+kembang kontrak pakai	Positif	1
+jaman bosan karir teman cuan gede	Negatif	-1
+sebel selesai masalah potensi ketemu sikap tempat hadap ajar kembang interpersonal	Positif	1
+tawar tempat gaji kultur koneksi potensi kembang potensi laku betah tempat	Netral	0
+putus gaji rendah ganti mental jauh sehat tingkat stres kendali jauh waktu temu keluarga damping tumbuh kembang buah salah putus bijak hidup	Negatif	-1
+lamar kembang jauh peduli kembang lihat tenang lihat loyal naik ganti penuh	Positif	1
+putus tempat kenal kemarin pasti hidup niat kembang nyata	Positif	1
+karyawan habis susah beritahu habis bentak tempat kembang	Negatif	-1
+galau lihat lihat kembang menang lihat paham	Positif	1
+kantor bagus enak kompak jahat gaji seret karir kembang situ teman enak pasti	Positif	1
+duit jenjang karir duit naik sender normal gaji tenang	Positif	1
+tanda timbang kronis beranta rekan jahat kembang jalan	Negatif	-1
+terang alternatif jahat dukung kembang tumbuh kembang profesional	Positif	1
+tempat jahat milik masalah jaga profesionalisme positif bicara kembang ajar tantang	Negatif	-1
+tolong resmi bank swasta lolos gaji putus karir jauh riba	Negatif	-1
+kantor kantor telat bayar gaji kantor ganti sulit kasih situ kembang	Netral	0
+tindak laku alam peluang sesuai tuju karir ahli kembang	Positif	1
+putus nyaman jenjang karir gaji jenuh karyawan nyokap tuju takut	Positif	1
+kembang kurang modal kecil ambil waktu masalah visa	Negatif	-1
+tukar perkara sedia gaji rendah pasal jawat kembang resume sedia tukar	Netral	0
+kembang karir hasil sesuai harap faktur utama tahan cukup perut cukup hati cukup otak	Positif	1
+tukar perkara sedia gaji rendah pasal jawat kembang resume sedia tukar	Netral	0
+loyalitas hasil sesuai tawar gaji bangun sulit kembang jauh	Positif	1
+tempat tempat kembang sehat pilih pilih	Negatif	-1
+putus gaji rendah ganti mental jauh sehat tingkat stres kendali jauh waktu temu keluarga damping tumbuh kembang buah salah putus bijak hidup	Negatif	-1
+tempat kembang buruk mending	Negatif	-1
+lihat asil lihat ruang lingkup pribadi ruang lingkup kembang bayang ruang lingkup jahat maju otak selesai	Negatif	-1
+jahat tempat kembang	Negatif	-1
+semangat cuek balas prestasi tempat ambil hati jahat karir	Negatif	-1
+pilih gaji juta kantor nyaman jenjang karir gaji juta kantor jahat jenjang karir gaji juta libur	Positif	1
+tempat rekan jahat dukung kembang ambil jauh keluarga kurang harap perfek tempat lumayan	Negatif	-1
+=======
 pasti dengar omong keluarga berani keluarga penting budak keluarga sapi perah mending	Positif	1
 alas alam kantor kantor suruh karir alas teman divisi marah	Negatif	-1
 bidang jasa karir usaha kecil alas tahan lihat pergi capek	Positif	1
@@ -79,3 +146,4 @@ dengar istri mantan wanita karir tiktok urus kecil sulit cari	Negatif	-1
 nyanyi solo karir bawa lagu nyanyi lagu dewa baru nyanyi lagu	Positif	1
 ketemu suami usia janda tempat masalah usia karir nikah dikit	Negatif	-1
 bangun mimpi karir anime anime siswa asih email suruh form nama resah	Netral	0
+>>>>>>> 746b3a1516bae1797e6b749941e6d02f8c7082ca

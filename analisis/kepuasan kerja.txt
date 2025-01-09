@@ -1,4 +1,680 @@
 analisis	sentiment_label	sentiment_score
+<<<<<<< HEAD
+waktu pandemik bayar gaji selesa relaks fikir henti henti pandemik benda henti waktu	Negatif	-1
+pilih salah rasa mampu harga tempat tempat level tutup bawa gerbong rombong manjur pakai	Negatif	-1
+jahat waktu arah kurang visi jahat bungkus hasil	Negatif	-1
+enak tempat ajar tempat tumbuh tempat serve pulang gaji robot	Negatif	-1
+ubah mentalitas malu telat wajib acara kantor urus pribadi debat manusia salah	Negatif	-1
+jamin aman sesuai lolos alam nyaman enak	Netral	0
+tempat pasti suka duka beban kolega gampang kabur kerikil kecil pasti permisif jahat salah ambil cuti salah	Negatif	-1
+benci pusat jahat	Netral	0
+kadang lucu rasa libur tanggal merah jaman kuliah kaya logis	Negatif	-1
+kaca lahir sedia ruang laktasi busui waktu fleksibel busui perah jelek karyawan kecuali lembur	Positif	1
+karyawan bohong lamar tempat arti nyaman tahan evaluasi sistem manajemen jauh lihat elegan	Netral	0
+cepat nikah bawa bareng hidup lepas jahat	Negatif	-1
+benci kantor marah akal mental tahan jahat sesal	Negatif	-1
+nekad tempat jahat teman kantor suportif budak sistem kantor hancur hasil kesel uang kantor tolong	Negatif	-1
+teman manager waktu pandemi tahan karyawan karyawan rumah mending tutup gaji asih	Positif	1
+stres rasa situ fikir duit kalis jahat stres baca seronok	Negatif	-1
+urgen tawar jahat tempat loyal kutu loncat	Negatif	-1
+bayar juta begadang tidur come	Netral	0
+sayang mental jahat over lembur bayar urus kantor agustus januari pasti tabung cukup	Netral	0
+kadang suka kesel omong duit nyokap kena doang laki hamil pasti jauh jahat hidup	Negatif	-1
+jahat kantor	Negatif	-1
+nyata jahat bayang parah mbak nyata	Negatif	-1
+kantor lembur bayar pulang malam buah budaya haram hukum pulang pabrik pulang karyawan pulang ganti	Netral	0
+barusan teman jepang jaman masalah loyal kutu loncat problem	Negatif	-1
+telusur bayar jahat bagus paksa tahan keburu depresi	Negatif	-1
+kena henti dorang stres peras ramai rasa benda henti	Negatif	-1
+september kemarin jahat kantor kantor rasa senang menang	Negatif	-1
+tempat sesuai nyata utama masalah kadang pagi malam pulang gila	Negatif	-1
+salah pilih duit nyaman ajar alam muda saran tempat tempat jahat	Negatif	-1
+wacana buah bibir sorot kerap pergok contoh	Negatif	-1
+pulang sore galak main sabtu tanggal merah jarak rumah kantor takut tanggap	Positif	1
+laksana patut kuat kuasa september tangguh cuti salin cuti waktu minggu lepas raja putus pinda akta tangguh januari	Netral	0
+staff hati makan susah jaman mampu dasar syukur entar	Negatif	-1
+nyata jahat beliau cocok fokus studi kontrak wajar hitung	Positif	1
+jawat awam putus henti nasihat henti sayang jamin takut niaga	Negatif	-1
+henti cikgu posting jalan kereta jalan laut sekolah cantik budaya santai	Netral	0
+rasa tempat cocok kurang nyaman jahat beda visi mudah cicil kudu lunas butuh anggota keluarga semangat juang rupiah	Negatif	-1
+drop tempat jahat jahat drop etis versi kasih	Negatif	-1
+gatal gatal cakap benda buruk pasal majikan cakap buruk pasal cakap pasal jahat jatuh cinta	Negatif	-1
+rekan tempat tempat gaji digit digit jabat rendah kontrak start stabil	Negatif	-1
+salah tetangga jahat cepat	Negatif	-1
+mampu tempat gaji cuman lepas tempat tempat	Negatif	-1
+teman kantor utama salah sender sender suka sebentar uang asuransi jamin pasti cela kurang	Negatif	-1
+bangun kantor bangun keburu sarap kantor salah posisi eksklusif	Netral	0
+minimarket bang warnet kafe toko baju toko daging motel libur cuman tidur uang	Positif	1
+paksa modern bebas undur tunggu anggap tahan wajib asih makan siang lembur minggu kasih kompensasi libur atur manusiawi banding atur	Negatif	-1
+sayang jahat sedih	Negatif	-1
+kantor tempat kawan kantor jahat kantor mesti kaca jahat	Negatif	-1
+obat mantan rekan teman mbak jauh sepatu mall tempat beliau manager region jateng mall	Negatif	-1
+slogan sekolah kampung uang saku sekolah ajar riset sintas perempuan minggu lihat tangis sintas tahan dinamika henti rasa salah	Netral	0
+dekat rumah dekat kantor rekan ajar dekat jalan doang tahan minggu habis niat susah	Netral	0
+pasti pulang malam subuh emak kasih cuman dekat rumah dekat rumah potensi malam	Positif	1
+rasai betah jahat kemarin berkas berkas	Netral	0
+suruh pulang selesai kantor tutup artikel	Negatif	-1
+waktu tempat percaya tempat melulu masalah gaji	Negatif	-1
+rekan posisi situ	Netral	0
+stres cemas akibat tekan hidup pribadi lelah fisik mental paksa kurang inspirasi rutinitas monoton perfeksionis alias fokus	Negatif	-1
+undang tempat jujur masalah tolong kasih referensi over	Negatif	-1
+paksa pagi pulang malam buta hukum telat balas pesan menit paksa lepas alat kena sakit paksa tidur kaki tangan hilang rasa	Negatif	-1
+jahat surat	Negatif	-1
+tempat kondisi kantor jahat manusia ubah dukung kriminal timbang lihat jahat	Netral	0
+arti tahan jahat faktor gaji tekan keluarga tempat janji	Negatif	-1
+jamin aman sesuai lolos alam nyaman enak	Netral	0
+pilih salah rasa mampu harga tempat tempat level tutup bawa gerbong rombong manjur pakai	Negatif	-1
+jahat waktu arah kurang visi jahat bungkus hasil	Negatif	-1
+ubah mentalitas malu telat wajib acara kantor urus pribadi debat manusia salah	Negatif	-1
+karyawan bohong lamar tempat arti nyaman tahan evaluasi sistem manajemen jauh lihat elegan	Netral	0
+kaca lahir sedia ruang laktasi busui waktu fleksibel busui perah jelek karyawan kecuali lembur	Positif	1
+jaman bisnis identik milik keluarga indak butuh struktur organisasi detail iring ubah jaman buah milik milik saham	Positif	1
+teman manager waktu pandemi tahan karyawan karyawan rumah mending tutup gaji asih	Positif	1
+urgen tawar jahat tempat loyal kutu loncat	Negatif	-1
+baca kontrak asih denda selesai kontrak kompetitor jujur tempat	Netral	0
+akak teman nutrisi lipat mantap	Positif	1
+jahat bagus jahat bagus keteter jauh rumah mahal over rasa stres	Negatif	-1
+lompat bonus tahan until	Netral	0
+sesal suruh surabaya hidup jamin pasti rumah kendara bego pakai pisah teman waktu suka yuda	Negatif	-1
+barusan teman jepang jaman masalah loyal kutu loncat problem	Negatif	-1
+teman jamin capek nyaman	Netral	0
+sejarah catat presiden sulit ekonomi utang potensi gusur warga lokal luas rusa kalimantan cenderung untung oligarki	Netral	0
+telusur bayar jahat bagus paksa tahan keburu depresi	Negatif	-1
+undur massal pandemi kondisi stres pelik karyawan putus salah karyawan pandemi	Negatif	-1
+singkat dunia khusus atur umur pendek teman belah rekan	Negatif	-1
+nyata jahat beliau cocok fokus studi kontrak wajar hitung	Positif	1
+manual digital kudu harga kurs murah digitalisasi pakai produk lokal jamin aman data	Netral	0
+gatal gatal cakap benda buruk pasal majikan cakap buruk pasal cakap pasal jahat jatuh cinta	Negatif	-1
+zaman salah bank birokrasi susah capai minim	Negatif	-1
+saran mbak sangon ganti alam pojok paksa klarifikasi jatuh nama stres niat ambil	Negatif	-1
+kurang jelek kembang doang proses ajeg capek tempat jelek tempat hikmah doang bagus	Negatif	-1
+karakteristik loker indonesia subjektif pandang ijazah keras angkat tahan ijazah jahat tahan suka cepat laku urus jual laku	Positif	1
+uang bawa kabur mantan manajer uang sisi manajer uang bawa kabur gaji bayar uang buruk uang buruk suka ambil uang urus pribadi	Negatif	-1
+stres cemas akibat tekan hidup pribadi lelah fisik mental paksa kurang inspirasi rutinitas monoton perfeksionis alias fokus	Negatif	-1
+rekan posisi situ	Netral	0
+sadar tolol jahat tahan slip	Negatif	-1
+plan mental jahat titik	Negatif	-1
+mesti sorang stres jahat gaji sikit	Negatif	-1
+kudap wajib lembur traktir	Negatif	-1
+rekan wanita program hamil jago desain	Positif	1
+minggu betah bingung	Netral	0
+tahap lampau stres mesti rasa kadang tahan jenis paruh jalan kadang gaji bayar komitmen sabar rezeki milik	Positif	1
+tetangga kantor capek tempat jahat kepala rehat capek jalan	Negatif	-1
+jahat waktu arah kurang visi jahat bungkus hasil	Negatif	-1
+sakit rasa salah kaya hambat tuju hidup beliau rasa salah sakit akibat kurang urus pusing stres kaya beban rumah	Negatif	-1
+kudu rabi suami lembur rabi solusi pasti	Positif	1
+jujur jahat capek modal lurah riwayat hidup	Negatif	-1
+waktu teman angkat sedih menang rekan teman angkat sedih	Netral	0
+tolong kasih cocok kosmetik mall capek	Netral	0
+benci kantor marah akal mental tahan jahat sesal	Negatif	-1
+kaca lahir sedia ruang laktasi busui waktu fleksibel busui perah jelek karyawan kecuali lembur	Positif	1
+waktu sehat mental miskin duit miskin mental	Negatif	-1
+malas pulkam ketemu tante sepupu pokok anggota keluarga pasti bagus tempat kemarin lihat susah pandemi sabar sabar	Netral	0
+tempat pasti suka duka beban kolega gampang kabur kerikil kecil pasti permisif jahat salah ambil cuti salah	Negatif	-1
+bidang minat suka pergi menang ambil putus henti tawar bonus	Negatif	-1
+tempat jahat rubah darah daging pilih	Negatif	-1
+nekad tempat jahat teman kantor suportif budak sistem kantor hancur hasil kesel uang kantor tolong	Negatif	-1
+lembur mesti rawat rumkit lelah kronis tipes teman bawa suka turun jabat sakit pilih auto kelimpungan	Negatif	-1
+lolos rekan jujur butuh saran kasih	Negatif	-1
+sayang mental jahat over lembur bayar urus kantor agustus januari pasti tabung cukup	Netral	0
+stres lepas tengok nyawa sikit cakap hadap hadap paksa	Negatif	-1
+teman manager waktu pandemi tahan karyawan karyawan rumah mending tutup gaji asih	Positif	1
+suasana kantor enak jahat rekan tahan butuh duit pahit	Negatif	-1
+stres rasa situ fikir duit kalis jahat stres baca seronok	Negatif	-1
+tempat nyaman cocok gaji putus korea niat libur korona dasar menang	Positif	1
+jahat bagus jahat bagus keteter jauh rumah mahal over rasa stres	Negatif	-1
+jaman pakai mental adaptasi inti paham	Netral	0
+bayar juta begadang tidur come	Netral	0
+mbak pasti rasai rasa posisi capek capek capek jahat kontrak pinalti uang keluarga sayang	Netral	0
+bagus jahat mudah cakap	Negatif	-1
+jahat langkah percaya enak alam pribadi	Positif	1
+ambil kena kantor kantor jahat gaji cukup alokasi uang tahan kenal putus pilih	Negatif	-1
+minggu sombong garagara sarjana lulus bangun komunikasi jelek teman cepu bodo sehat jiwa robot	Negatif	-1
+auto kafir shalat jumat waktu barista restoran jepang mall tempel hotel mewah shalat jumat makan siang meja lantar	Positif	1
+kadang luah stres penat syukur ramai kadang luah pakai	Positif	1
+kaget mantan senior salah gara jahat marah suka grup situ intern grafis	Negatif	-1
+indra pasti kena jahat rendah heran lambe	Negatif	-1
+cakap surat tempoh bantu	Positif	1
+kasih kagak lembur tugas manager	Negatif	-1
+nyata jahat bayang parah mbak nyata	Negatif	-1
+istirahat duduk komputer kuat tahan lapar pusing takut	Negatif	-1
+jahat kantor	Negatif	-1
+rekan	Netral	0
+prediksi tutup pecat total zona nyaman tolak lembur revolusi	Negatif	-1
+jumpa rasa jahat	Negatif	-1
+solusi hadap jahat solusi bagus cocok gampang bekal	Positif	1
+tempat tempat gaji besar partner jahat akal partner enak	Negatif	-1
+cocok staf kontrak tempat rasa peluang	Negatif	-1
+tempat teman kantor jahat serba salah	Negatif	-1
+rekan suportif	Netral	0
+akal masalah kadang tuntut loyalitas hitung lembur	Netral	0
+salah kantor jahat sakit mental bahan guyon divisi waktu kantor ning suruh pakai bolpoin mata diam	Negatif	-1
+september kemarin jahat kantor kantor rasa senang menang	Negatif	-1
+tidur total laku stop capek	Netral	0
+mental buruk kena penalti surat terang dokter rehat penalti besar juta balas	Negatif	-1
+telusur bayar jahat bagus paksa tahan keburu depresi	Negatif	-1
+akal masalah kadang tuntut loyalitas hitung lembur	Netral	0
+kena henti dorang stres peras ramai rasa benda henti	Negatif	-1
+saran jahat beban waktu kuat	Negatif	-1
+alam maksud kutu loncat kantor gulung tikar kantor cocok gaji	Positif	1
+gejolak hati pasti butuh duit tahan stres mental utama dana darurat beban keluarga mudah	Negatif	-1
+inti nyaman pasti laku beda rekan hasil tekan	Positif	1
+mental hadap subang jaya jalan kebun badan letih layan hara sepah depa hadap	Negatif	-1
+contoh surat bahasa bahasa melayu kawan kawan	Negatif	-1
+jawat awam putus henti nasihat henti sayang jamin takut niaga	Negatif	-1
+jaman konten personal publik kecuali tempat rawan	Negatif	-1
+nyata jahat beliau cocok fokus studi kontrak wajar hitung	Positif	1
+staff hati makan susah jaman mampu dasar syukur entar	Negatif	-1
+surat kasar lembur bayar bonus juta mending ikhlas tagih	Positif	1
+luah stres penat syukur ramai kadang kadang luah pakai	Positif	1
+capek jahat salah cepat	Negatif	-1
+rasa tempat cocok kurang nyaman jahat beda visi mudah cicil kudu lunas butuh anggota keluarga semangat juang rupiah	Negatif	-1
+siang obrol teman tahan mbak kantor ajar kantor relasi rekan	Netral	0
+perihal teman kantor jahat nyata gampang ketemu sindir stres stres	Negatif	-1
+nyokap percaya minum tidur sakit kepala stres selesai	Negatif	-1
+kesan klise anggap adek anggap adek doang	Netral	0
+genap jahat habis modal modal modal duduk rasa sesak	Negatif	-1
+hantar surat start dengar majikan koyak jahat	Negatif	-1
+habis tolak nasib omset cabang pegang sender capek cabang penuh jahat gaji pokok kecil sender omset	Negatif	-1
+semangat jahat	Negatif	-1
+lihat pesan tempat situ uang	Netral	0
+minggu tuan putri labu salah daerah blok	Negatif	-1
+jahat maksud bohong	Negatif	-1
+butuh uang capek jaman	Negatif	-1
+istirahat rupa rupa istirahat bebas pakai kapai langgar hukum atur internal bayar sangon	Negatif	-1
+tipe jahat	Negatif	-1
+sabtu senin jumat	Positif	1
+halo kontrak izin jahat ganti bagus	Negatif	-1
+paksa modern bebas undur tunggu anggap tahan wajib asih makan siang lembur minggu kasih kompensasi libur atur manusiawi banding atur	Negatif	-1
+sayang jahat sedih	Negatif	-1
+tempat garagara rekan jahat susah ajak kerjasama tingkat hati hubung jujur pakai	Netral	0
+wajar rasa sedih utama jahat atur istirahat waktu makan menit langsung salah mohon	Negatif	-1
+henti pasti komitmen dana cemas cukup utama komitmen fikir	Negatif	-1
+pilih tahan tempat capek muak stres beban gaji timbang semangat peluk jauh	Negatif	-1
+tawar rana tawar bagus rana manusia bagus jahat jahat gaji	Negatif	-1
+capek jahat muka domba sadar tempat	Negatif	-1
+mending mental aman cadang gaji mental jiwa raga tekan	Netral	0
+rekan surabaya tawar tempat dekat keluarga kecil	Negatif	-1
+gedik gedik buka staff bayar bayar gaji minggu bayar staff suara hantar surat saman bodoh	Netral	0
+kantor niat sakit mending imbas kasihan sakit kena potong sakit kadang rekan jabat sampah bawa virus	Negatif	-1
+tempat kondisi kantor jahat manusia ubah dukung kriminal timbang lihat jahat	Netral	0
+kuliah kuliah tempat gila rodi istirahat mending duduk komputer	Negatif	-1
+malas gila gila pakai stres	Negatif	-1
+akal jaman	Negatif	-1
+kuliah	Netral	0
+masalah rekan rekan masalah bocor alias suka masalah	Negatif	-1
+jahat entar garagara kurang karyawan lebar	Negatif	-1
+kantor tempat kawan kantor jahat kantor mesti kaca jahat	Negatif	-1
+jahat kaya manusia gaji salah bahasa binatang pusing aduh putus	Negatif	-1
+pasti kenal alam alam capai tempat	Netral	0
+tempat jahat uang lembur kena potong tanggal merah kena potong tempat waktu	Negatif	-1
+undang tempat jujur masalah tolong kasih referensi over	Negatif	-1
+arti tahan jahat faktor gaji tekan keluarga tempat janji	Negatif	-1
+konten kreator guru jahat nyata jahat akibat ulah	Negatif	-1
+waktu pandemik bayar gaji selesa relaks fikir henti henti pandemik benda henti waktu	Negatif	-1
+pilih salah rasa mampu harga tempat tempat level tutup bawa gerbong rombong manjur pakai	Negatif	-1
+jamin aman sesuai lolos alam nyaman enak	Netral	0
+tempat arti enak ayam sayur sesuai koridor kantor tempat	Netral	0
+enak tempat ajar tempat tumbuh tempat serve pulang gaji robot	Negatif	-1
+ubah mentalitas malu telat wajib acara kantor urus pribadi debat manusia salah	Negatif	-1
+hubung masalah artikel rencana asih lindung karyawan hubung masalah komunikasi sehat mental	Negatif	-1
+urgen tawar jahat tempat loyal kutu loncat	Negatif	-1
+kenal start kondisi mental pengaruh fisik kena parah rawat inap operasi putus gaji kecil waktu hidup mbak	Negatif	-1
+nyata posisi gambar kursi pengaruh semenjak meja kasur jatuh leseh ganti kursi sakit pinggang	Negatif	-1
+dosa tali silaturahmi teman rasa jahat bawa pengaruh buruk putus kontak	Negatif	-1
+stres rasa situ fikir duit kalis jahat stres baca seronok	Negatif	-1
+waktu rekomendasi managemen pasar salah bidang milik pengaruh besar rekan kasih	Netral	0
+bang rasa jakarta bogor kantor kondisi jakarta stres beda jauh kantor kantor tempat pengaruh	Negatif	-1
+jahat bagus jahat bagus keteter jauh rumah mahal over rasa stres	Negatif	-1
+ganggu waktu jabat hormat rehat komunikasi tempoh akta sekira waktu majikan bayar	Negatif	-1
+pinda akta september cuti salin cuti waktu kena ambil	Negatif	-1
+cipta omnibus jalan capai oktober tingkat tajam omnibus sejati cipta oligarki mudah kurang sangon upah murah privatisasi hubung kurang buruh	Netral	0
+jahat kantor	Negatif	-1
+jurnal riset korelasi jarak waktu tempuh tingkat stres pegawai hasil korelasi positif komuter rentan hadap stres masalah psikis	Netral	0
+kurang waktu minggu september pinda akta kenal atur fleksibel mohon rumah situasi desak	Netral	0
+kantor lembur bayar pulang malam buah budaya haram hukum pulang pabrik pulang karyawan pulang ganti	Netral	0
+kuat kuasa pinda akta tangguh januari ubah akta kena kait waktu kurang cuti salin gaji jangka laksana september	Positif	1
+jahat akal rela begadang libur saing rekan kasihan efektif sesuai lihat malas	Positif	1
+amit nyata jahat lihat dampak performa efek sakit igau tidur negatif kompromi sehat nomor	Negatif	-1
+salah pilih duit nyaman ajar alam muda saran tempat tempat jahat	Negatif	-1
+skala luas bukti beranta pengaruh buruk performa making profesi taruh nyawa jaman tidur bodoh egois	Negatif	-1
+kurang pusat ekonomi maju ekonomi tempat kurang raya kurang cemar kurang stres jimat syarikat staff jimat	Negatif	-1
+transfer transfer stres	Negatif	-1
+pulang sore galak main sabtu tanggal merah jarak rumah kantor takut tanggap	Positif	1
+stres dekat tempat perangai dekat tempat jahat salah punca henti mental ganggu	Negatif	-1
+stres	Negatif	-1
+laksana patut kuat kuasa september tangguh cuti salin cuti waktu minggu lepas raja putus pinda akta tangguh januari	Netral	0
+wacana buah bibir sorot kerap pergok contoh	Negatif	-1
+kantor pulang cepat pulang gila bayang pulang jalan jakarta macet parah buka telat buka jalan rumah jauh hebat kantor	Negatif	-1
+kaji gembira kurang stres stres ganggu	Negatif	-1
+nyata jahat beliau cocok fokus studi kontrak wajar hitung	Positif	1
+padang jawa	Netral	0
+jawat awam putus henti nasihat henti sayang jamin takut niaga	Negatif	-1
+perihal teman kantor jahat nyata gampang ketemu sindir stres stres	Negatif	-1
+habis tolak nasib omset cabang pegang sender capek cabang penuh jahat gaji pokok kecil sender omset	Negatif	-1
+sayang jahat sedih	Negatif	-1
+stres stres kuasa waktu singkat takut pecat salah hidup stres stres	Negatif	-1
+paksa modern bebas undur tunggu anggap tahan wajib asih makan siang lembur minggu kasih kompensasi libur atur manusiawi banding atur	Negatif	-1
+palu gaji alami akibat cemas depresi ganggu aspek hidup pribadi waktu bayang berat hidup	Negatif	-1
+cuti ganti takut alay rekan kantor ganti hubung kontak	Negatif	-1
+jalan penat rumah rasa dekat	Netral	0
+paksa pagi pulang malam buta hukum telat balas pesan menit paksa lepas alat kena sakit paksa tidur kaki tangan hilang rasa	Negatif	-1
+hindar ubah besar hidup takut stres ubah takut hindar rasa puas frustrasi	Negatif	-1
+percaya percaya stres tempat berat rekan jahat	Negatif	-1
+geng mari tempat jahat atus jawat kosong	Negatif	-1
+jahat besok waktu	Negatif	-1
+tempat jahat jalan hidup hasil	Negatif	-1
+urgen tawar jahat tempat loyal kutu loncat	Negatif	-1
+jahat tempat stop bawang negatif stop dengar bawang takut bawang stop salah bantu	Negatif	-1
+tempat jahat rubah darah daging pilih	Negatif	-1
+sangka jahat jatuh karya hidup puji melulu ujung sehat nyaman malas kembang mesti imbang	Negatif	-1
+tempat pasti suka duka beban kolega gampang kabur kerikil kecil pasti permisif jahat salah ambil cuti salah	Negatif	-1
+saban kantor toksik tongseng jahat ciri ciri	Negatif	-1
+jahat tempat stop bawang start negatif stop dengar bawang takut bawang stop salah bantu stop	Negatif	-1
+jahat hubung kontrol pasang sulit dukung curiga kekang bohong keras fisik love	Negatif	-1
+mesti sorang stres jahat gaji sikit	Negatif	-1
+jahat bahaya jiwa bahaya cepat hakim jahat ajar sadar hakim sadar kadang hakim cermin gulat batin	Negatif	-1
+jahat hindar hubung jahat teman jahat hindar jahat dekat	Negatif	-1
+lihat jahat kapai korporat kantor dengar prinsip cukup mental enak erti	Netral	0
+lulus potensi letak letak jahat jahat	Netral	0
+bawang salah jahat tempat jenis suka puak bawang benda rasa asing	Negatif	-1
+jahat benda salah kena kena hina benda hidup tenang rasa harap kekal kenal jahat	Negatif	-1
+mending tahan jahat bentar lihat kasihan jahat pasti capek fisik mental	Netral	0
+rasa kawan dekat sekolah jahat dekat tempat jumpa perangai nilai sentuh kalut	Negatif	-1
+makan situ periuk nasi suka tutup mulut jahat berat hidup gampang	Negatif	-1
+jahat besok waktu	Negatif	-1
+capek erti tempat jahat hati enak	Negatif	-1
+susah kena teruk tempat teruk penuh jahat kesah pendek tempat teruk	Negatif	-1
+asli rasa jahat gosip main perang dingin petinggi kuasa salah manager main tulis bismillah tamat hormat	Negatif	-1
+teman minggu kirim surat undur grup habis maki grup langsung kirim surat jahat suka maki karyawan grup	Negatif	-1
+jahat omong suka sakit jahat talk	Negatif	-1
+jauh jauh jahat jahat jahat	Negatif	-1
+ajar hindar kejar sisi buruk jahat malas rajin sisi buruk rajin waktu istirahat korban sehat wajar	Negatif	-1
+selamat semangat kabar bahagia juang tahan tempat jahat semangat	Negatif	-1
+takut utang bayar tempat jahat aspek	Negatif	-1
+tahan hidup tempat jahat posisi gila	Negatif	-1
+tanda jahat dekat tempat lupus bahan jahat	Negatif	-1
+stres rasa situ fikir duit kalis jahat stres baca seronok	Negatif	-1
+susah tempat jahat gila babi	Negatif	-1
+psikolog jahat dampak buruk kategori jahat jahat	Negatif	-1
+malas jaman sekolah kuliah ketemu kelompok teman jahat tempat ketemu teman gejala arah jahat jauh sayang dekat	Negatif	-1
+rasa tempat jahat kadang susah tabung pasti harap besar hadap teriak	Negatif	-1
+sampah tempat jahat situ	Negatif	-1
+sinar rasa jahat tempat	Negatif	-1
+tempat jahat rasa ekosistem keras kepala rugi mending laku aktivitas peluang jujur pasti pintu buka	Negatif	-1
+pandang rasa rasa angkat kaki sakit badan salah suasana jahat angkat kaki	Negatif	-1
+nama jahat niat tempat untung butuh dukung balut	Negatif	-1
+januari selesai teman tempat enak rasa manajer jahat laku payah	Negatif	-1
+jahat kama plan mental wiki sasa drip jahat pesa	Negatif	-1
+manusia tempat tahi level jahat	Negatif	-1
+sekian tahan tempat jahat potong gaji hidup real	Negatif	-1
+lepas henti alami tekan peringkat halau buang hidup tempat penuh manusia jahat paksa	Negatif	-1
+nekad tempat jahat teman kantor suportif budak sistem kantor hancur hasil kesel uang kantor tolong	Negatif	-1
+suka umbar masalah tempat jahat clear masalah ungkit	Negatif	-1
+bismillah lancar tempat jahat	Negatif	-1
+pilih tahan tempat jahat tawar tempat enak suka hidup	Negatif	-1
+ajar situ omong jahat positif situ omong jahat hidup hidup jalan ganggu	Negatif	-1
+abih baran layan perangai jahat sorang dekat tempat	Negatif	-1
+jahat petrol mimi supervisor kama mimi uniform	Negatif	-1
+fikir gaji rasa suasana tempat jenis jahat jenis takboleh kerjasama kepala rasa auto rasa malas	Negatif	-1
+tuju jatuh jahat jaman bangga sibuk tidur langgeng jahat	Negatif	-1
+kuliah magang tempat jahat ambis	Negatif	-1
+bebas tempat jahat	Negatif	-1
+rugi tahan jahat dekat tempat tempat kering	Negatif	-1
+sangka jumpa jahat tempat tenang sikit	Negatif	-1
+tempat jahat nyata badan	Negatif	-1
+sadar teman tempat jahat	Negatif	-1
+kena hadap jahat tempat	Negatif	-1
+semangat dikit tempat enak teman jahat	Negatif	-1
+jahat tempat lihat hasil apresiasi	Netral	0
+tempat jahat jahat tahan rejeki kasih aset nyaman partner enak keluarga aset nyaman ambil lemah	Negatif	-1
+ubah sikap persepsi rekan jahat kejap butuh waktu adaptasi dekat sesuai paham ketimbang pusing fokus	Netral	0
+langsung tempat jahat minggu nyaman langsung bawa surat	Positif	1
+jaga sehat mental tempat jahat rekan muka kopet auto debet gagas	Negatif	-1
+tempat jahat manajemen urang dekat berat sumpah capek mental mending	Negatif	-1
+tempat jahat mending mundur tahan sehat	Negatif	-1
+tempat jahat pamit kasih	Negatif	-1
+ketemu ambis jahat sekolah kampus tempat	Netral	0
+suasana kantor enak jahat rekan tahan butuh duit pahit	Negatif	-1
+gaji digit rambut rontok bolak psikiater jahat bolak pabrik tidur fitnah teman katai	Negatif	-1
+stres stres jahat tempat	Negatif	-1
+tempat jahat paksa tahan capek	Negatif	-1
+hasil tempat jahat rasa lega tempat adaptasi rasa hela nafas	Negatif	-1
+jahat jahat tempat masalah sepele tahi	Negatif	-1
+lulus tempat bagus rada jahat umur	Negatif	-1
+jahat grup grup muka suka teman	Negatif	-1
+senang sesuai rasai jahat tempat ketemu super enak kenal jahat ujung pilih rasai nyaman	Netral	0
+sumpah jahat tempat teman menang	Negatif	-1
+hilang sifat jauh kenal selesai tempat habis kontrak kontak teman rasa nyaman langsung jahat	Negatif	-1
+lagu cocok manusia jahat sebal tempat kesel	Negatif	-1
+nilai buah pantas label jahat mesti introspeksi lihat salah emosi	Negatif	-1
+bahaya saran grad kecuali jahat nama grad erti jahat kagak implisit omong jahat mudah identifikasi jarang	Negatif	-1
+jahat salah perhati masalah kelar diam	Negatif	-1
+baca dekat pasal jahat dekat tempat bingo	Negatif	-1
+jaman stres tempat jahat minggu surabaya senin habis angkat koper start	Negatif	-1
+masalah semenjak jahat respon masalah respon semangat masalah berat	Negatif	-1
+jahat tempat risih	Negatif	-1
+petang malas tempat jahat semangat pergi	Negatif	-1
+tolong badan capek cukup tidur tempat jahat sungguh kesan jalan usia	Negatif	-1
+mintak tempat jahat	Negatif	-1
+henti tempat sehat jahat yesus kasih tempat cepat	Negatif	-1
+habis talk tempat sakit lihat tahan menang tempat jahat parah banjir derita situ	Negatif	-1
+jahat tempat manager senior lembur kontribusi efek lihat	Negatif	-1
+jahat bagus jahat bagus keteter jauh rumah mahal over rasa stres	Negatif	-1
+bukti betapa jahat korban jahat mati katai	Negatif	-1
+suka naik gunung komen gemar telat alias ketua sumpah jahat bego wajar suka	Negatif	-1
+tolong hormat bang faham korek pasal jahat tempat	Negatif	-1
+drama rasai jahat tempat betah pasti	Negatif	-1
+pasal jahat awak situ jahat tahan	Negatif	-1
+bawa nama ganggu performa arti cocok musti sesuai lepas salah manusia bawa kolega jahat inti cocok jalan	Negatif	-1
+penuh pasal tempat jahat faham	Negatif	-1
+laku suasana tempat jahat kadang tuju	Netral	0
+betapa jahat tempat kelakar	Negatif	-1
+kasih rumus serah percaya masalah sentimen pribadi masalah tanda jahat	Negatif	-1
+cakap sorang kutuk jahat bodoh tempat staff jahat benci	Negatif	-1
+seng lapang temu istilah jahat tempat laku	Netral	0
+tempat kantor jahat suka degdegan	Negatif	-1
+kurang paksa tempat jahat maju putus sedih	Negatif	-1
+definisi jahat konteks sepakbola arsenal main beli tiket tonton arsenal arsenal jahat	Negatif	-1
+admin gaji motor pakai operasional tempat jahat berangkat rasa menang patut saran	Negatif	-1
+tempat jahat tunjang karir bingung susah kabur asli tahan	Negatif	-1
+duduk sorang jauh adik duduk sepang start start sorang tempat jahat	Negatif	-1
+duit teman real artikel teman rekan	Netral	0
+rang jahat tempat	Negatif	-1
+urus mental sikit penat hadap jahat tempat	Negatif	-1
+lelaki sayang perempuan diam jahat percaya hati hitam jumpa syukur	Netral	0
+jahat fault sayang plus	Netral	0
+mental tempat jahat anugerah	Negatif	-1
+jahat langkah percaya enak alam pribadi	Positif	1
+jahat paham konsep wajib keluarga konservatif takut pulang malam masalah didik	Negatif	-1
+tempat jahat layan emosi tahan situ talk awak bagus sentiasa	Negatif	-1
+osis sekolah jahat pagi marah maki maki bina osis angkat sakit maag kambuh vertigo kambuh	Negatif	-1
+definisi jahat mati suruh	Negatif	-1
+oktober keluarga sehat ikhlas rela pergi lapang dada hadap jauh jahat tempat	Negatif	-1
+jenis kuat kipas jahat tempat	Negatif	-1
+human sorang hidup email waktu jahat	Negatif	-1
+admin henti zaman hilang hilang akal gila jahat henti span sakit	Negatif	-1
+hadap jahat jahat manusia sempurna jahat kawal minda negatif	Negatif	-1
+bahaya hubung jahat sadar rasa rendah rasa arti minder gampang asli harga hubung jahat	Negatif	-1
+tengok tempat sumbang jahat baca habis kejut	Negatif	-1
+stres dekat tempat galas perangai setan dekat tempat henti rana stres jahat situ	Negatif	-1
+laku racun guru sekolah hadap rekan nyinyir gadget pribadi bawa bantu kontra rekan bahas sekolah guru senior	Positif	1
+tempat jahat penat mental tanda jahat	Negatif	-1
+kaget mantan senior salah gara jahat marah suka grup situ intern grafis	Negatif	-1
+manajemen kantor tempat super jahat tempat nilai cukup valid	Negatif	-1
+mulut perangai jahat tempat henti jawat galas tuju	Negatif	-1
+kena jahat tempat institusi sahaja tempat bidang kongsi	Negatif	-1
+semangat abdi pamrih istilah jahat suka pakai kalimat tugas beban sumbangsih nkri penasaran khas kantor	Negatif	-1
+jahat start	Negatif	-1
+tempat nama rohmat jahat	Negatif	-1
+tempat suara bagus jahat	Negatif	-1
+tempat senior lumayan jahat salah omong besar dunia salah ciut kucing takut salah	Negatif	-1
+kongsi alam jahat hadap tempat	Negatif	-1
+tempat jauh rumah kawan jahat salah rezeki	Negatif	-1
+baca ngeri nyata tempat kantor tempat alam uang teman bonus jahat	Negatif	-1
+jahat halo alam jalan mampu saran	Netral	0
+alam kantor laptop	Netral	0
+jahat bagus tanda sadar laku kurang manipulasi tempat kamus jaksel	Negatif	-1
+jahat salah momen besar bambang suka macet rumah suka basa basi omong langsung kicep	Negatif	-1
+jahat kantor	Negatif	-1
+pegawai bank lihat target besar penuh tekan galak senioritas rekan jahat lembur tempat	Netral	0
+kantor jahat nama pasti jujur suka takut kondisi susah	Negatif	-1
+jahat astaga tempat	Negatif	-1
+nyata jahat bayang parah mbak nyata	Negatif	-1
+makhluk jahat tempat muka	Negatif	-1
+pasti tempat benda peras peras asyik rasa stres letih benda kecil rasa marah	Negatif	-1
+salah pilih duit nyaman ajar alam muda saran tempat tempat jahat	Negatif	-1
+manager pakai jahat	Negatif	-1
+salah tanda tempat jahat status cuti	Negatif	-1
+solusi hadap jahat solusi bagus cocok gampang bekal	Positif	1
+jahat bahaya jiwa bahaya cepat hakim jahat ajar sadar hakim sadar kadang hakim cermin gulat batin	Negatif	-1
+tempat jahat angkat kaki pergi tempat angkat kaki pergi	Negatif	-1
+kesel mbak tempat jahat rasa sadar laku nyaman	Negatif	-1
+pilih kantor suportif sedikit super jahat laku kondisi	Negatif	-1
+tempat pasti ketemu jahat	Netral	0
+bismillah tempat jahat	Negatif	-1
+jahat tempat anjing	Negatif	-1
+seram nyata teman kantor jahat kantor langsung komen	Negatif	-1
+tempat jahat cakap benda rumah	Negatif	-1
+start selesa tempat jahat	Negatif	-1
+posisi proses suami bangun rumah tempat jahat susah	Negatif	-1
+minggat tempat jahat	Negatif	-1
+tendang biru tendang tempat jahat tahan	Negatif	-1
+senang kena tempat jahat sedih duit hasil	Negatif	-1
+tempat jahat asem manis	Negatif	-1
+stres dekat tempat perangai dekat tempat jahat salah punca henti mental ganggu	Negatif	-1
+tempat jahat cepat rasa penat penat perangai manusia	Negatif	-1
+tempat jahat jahat masalah sender introspeksi enak ribet asli	Negatif	-1
+jahat titik capek hubung kembang alias situasi sisa tuduh ribut sayang rasa egois dominasi hubung putus	Negatif	-1
+jahat jerat jahat kasih tahan hubung hubung nyata	Negatif	-1
+bantu bimbang jujur nalar manusia	Netral	0
+jahat alur tahan kesan sindir mari teman	Negatif	-1
+tempat jahat trauma tempat takut bawa takut ulang	Negatif	-1
+tempat jahat tahan bentar rejeki tempat	Negatif	-1
+sikap jahat pengaruh tempat keluarga keluarga mental jahat jaga arus racun	Negatif	-1
+sponsor lancar tempat jauh jahat	Negatif	-1
+tempat jahat jahat mata sisa	Negatif	-1
+amit nyata jahat lihat dampak performa efek sakit igau tidur negatif kompromi sehat nomor	Negatif	-1
+salah salah manusia jahat tempat laku	Negatif	-1
+mental kondisi tempat jahat sesuai desk hancur jauh keluarga posisi waras mental hidup keras	Negatif	-1
+pasti jahat rumah tempat keluarga besar beliau turun dunia imbang hidup	Netral	0
+mulut jahat senior buli junior jahat lari arab	Negatif	-1
+ketemu lupa jauh tempat jahat	Negatif	-1
+bayang waktu dedikasi antri bpjs tempat jahat level	Negatif	-1
+dilema capek tempat jahat	Negatif	-1
+tempat magang salah dikit baperan tempat kantor jahat kontrak	Negatif	-1
+sumpah tempat jahat pulang curhat info	Negatif	-1
+hidup jahat tempat rasa	Negatif	-1
+tempat jahat pelangi sembuh lamar jauh tolak pasang jahat jahat	Negatif	-1
+tempat jahat sabar jela fikir	Negatif	-1
+keluh kesah tempat utama jahat sadar jahat	Negatif	-1
+nyaman tempat jahat rasa menang	Negatif	-1
+paruh stres menang sedih sakit stres skripsi putus cinta operasi usus buntu nenek stres tempat jahat	Negatif	-1
+penat kena hadap jahat tempat	Negatif	-1
+suka heran jahat tempat sulit	Negatif	-1
+kuat bawa sebel jahat tempat malas	Negatif	-1
+jahat tempat person real ampun	Negatif	-1
+bingung standar jahat saran maksud mental pasuk waktu lembur sangon	Negatif	-1
+keras binatang keras peras keras suruh jahat	Negatif	-1
+tempat mesti jahat situ	Negatif	-1
+contoh hubung jahat agens fandom profit rugi utang agens induk kalah agens	Negatif	-1
+curhat trauma tempat garagara rekan jahat trauma efek tempat besok percaya	Negatif	-1
+lucu tempat dukung tempat bagus jahat semangat rekomendasi tempat	Negatif	-1
+telusur bayar jahat bagus paksa tahan keburu depresi	Negatif	-1
+mental rusak jahat percuma	Negatif	-1
+kawan intern dekat jumpa menang jahat intern pakai selidik habis melulu putus sesal	Negatif	-1
+salah budaya jahat indonesia urus hidup pribadi netizen perang komentar bela masalah selebgram kait hidup masalah keluarga	Negatif	-1
+jahat akal rela begadang libur saing rekan kasihan efektif sesuai lihat malas	Positif	1
+level staff pergi toilet kena lepas tender mental jahat	Negatif	-1
+september kemarin jahat kantor kantor rasa senang menang	Negatif	-1
+jahat kepala jahat alam	Negatif	-1
+contoh jahat patut wujud tengok jepun ajar berdikari bina jati	Netral	0
+jahat tahan enak sehat hidup bego	Negatif	-1
+dunia utuh berangkat pagi kantin kantor survey pusat kabupaten bekas	Negatif	-1
+nama jahat capek sedih kesal tuju pasti berat gila kuat pasti tepar	Netral	0
+tanda tempat verbal normal manager amik janji mungkir ambil kredit ramai tipu staff senyum pilih kasih	Negatif	-1
+salah juang tahan hidup singkat jahat tolong	Negatif	-1
+sindir sindir jahat jahat kaca enak suruh proses tempat jahat jahat jahat	Negatif	-1
+letih sedih stres tempat jahat marah cakap	Negatif	-1
+capek anjing pasang topeng tempat jahat	Negatif	-1
+tahan tahan tempat jahat	Negatif	-1
+sedih tempat jahat sedih sangka manusia rupa perangai jangka dahsyat sakit balas akhirat	Negatif	-1
+rasa berat berangkat malas malas tempat jahat	Negatif	-1
+pergi tempat jahat sumpah sedih sanggup mudah suami bakar semangat bahagia lepas bodoh	Negatif	-1
+habis tempat rekan jahat	Negatif	-1
+sender habis kontrak lega jahat sender tempat sisi sender pusing sender tulang punggung keluarga	Negatif	-1
+tempat jahat cuti cuti adek kena	Negatif	-1
+rasa tempat jahat henti payah	Negatif	-1
+wujud tempat jahat langsung kurang jahat takut kandang buaya kandang harimau	Negatif	-1
+stres dekat tempat perangai dekat tempat jahat salah punca henti mental ganggu	Negatif	-1
+baca gambar lepas habis intern start nyepi tahan tempat jahat	Negatif	-1
+seru tempat jahat gaji lumayan jahat tempat lawan tantang langsung kicep	Negatif	-1
+ajar hidup betapa kadang sadar tempat jahat jarak umur paut temu keluarga	Positif	1
+tukar tempat stres jahat patut seronok tahi tuduh	Negatif	-1
+kasih sedia wawas alami jahat paham alam golong paksa perhati mampu milik	Negatif	-1
+tips hadap jahat tempat jahat perangai karut cakap faktor usia	Negatif	-1
+kuliah farmasi tempat jahat	Negatif	-1
+sender sembuh sender tolak pasang inti jahat pasang pasang	Positif	1
+semenjak ketemu tulus rasa hidup sosial lingkup personal profesional asia jahat komen respon bentuk bumbu	Positif	1
+rasai nama tempat zona nyaman jahat jahat teman jahat rasai	Negatif	-1
+jahat gaul jahat pandai gaul suka buruk lepas pilih kasih masalah long	Negatif	-1
+omong tempat jahat teman jahat jahat mending kaca pantas omong jahat semangat pagi	Negatif	-1
+arti jahat staff pakai jalur pantas rekan lihat situ bokap bokap tegur suka	Netral	0
+gampang anggur adik lulus pensiun tempat jahat	Negatif	-1
+buram maksud jahat tempat marah normal	Negatif	-1
+umur jahat tempat	Negatif	-1
+definisi stres toksik laku usia tekan henti sokong patut jaga intervensi lang alam dewasa	Positif	1
+tempat jahat plus kapai	Negatif	-1
+takut salah ambil putus kuat jahat keluarga milik keluarga milik rasai susah keluarga notabene jilat	Negatif	-1
+dunia masalah tempat beda bela jahat rekan jahat tempat rasa	Negatif	-1
+stres dekat tempat rana tugas galas rana perangai setan dekat tempat henti stres keliling jahat	Negatif	-1
+jahat diam cermin kalah sakit egois cermin	Negatif	-1
+jahat mudah percaya anggap	Netral	0
+bahagia tempat suka geng puak layan tegur tegur diam diam cukup gaji bahagia jahat drama	Negatif	-1
+video jahat balas video beliau jahat kasihan mbak pepatah pandu	Negatif	-1
+nyata jahat beliau cocok fokus studi kontrak wajar hitung	Positif	1
+tempat jahat pilih diam tahan jahat kejam takut jahat gali rahasia hidup senjata	Negatif	-1
+tanda tempat budaya jahat kelompok start kelompok mesti gosip jalan pokok goyang angin	Negatif	-1
+selesai masalah cerdas komunikasi wajar emosi sayang dewa tempat pasti pintar jahat	Negatif	-1
+tempat aman nyaman harga nyata jahat	Netral	0
+jahat diam malas gaduh rasa over over	Negatif	-1
+episode jahat	Negatif	-1
+kantor jahat rupa rejeki terkadang kantor jahat tempat kembang tempat cocok pulang ambil gaji	Negatif	-1
+takut jahat inkompeten bedak julid cabut tempat sampah inkompeten tukang julid	Negatif	-1
+sadar kantor jahat suka keluarga	Negatif	-1
+sikap toleh bagus lepas jahat tempat jahat bagus amal sikap lepas toilet bayar hasil	Negatif	-1
+perangai jahat dekat tempat kurang selesa	Negatif	-1
+jahat jenis cepat risau over fikir talk	Negatif	-1
+perihal teman kantor jahat nyata gampang ketemu sindir stres stres	Negatif	-1
+jahat izin jahat hidup	Negatif	-1
+salah ciri pasang jahat laku keras fisik verbal surup hajar ampun maaf menang budak tuan pasang luluh maaf siklus ulang	Netral	0
+dunia dokter jahat normalisasi suka dengar dokter residen suruh butuh salah guru	Negatif	-1
+drop tempat jahat jahat drop etis versi kasih	Negatif	-1
+nyata jauh jahat tahan dapur segalagalanya kondisi untung minimal uang	Negatif	-1
+bilik lipas kena marah jahat	Negatif	-1
+sedih jahat minggu beban rekan sindir salah rekan senior ajar	Negatif	-1
+manager sayang kompetensi jahat	Netral	0
+cakap jahat cakap dengki cakap tempat problem tempat cakap problem problem	Negatif	-1
+were jahat rasa tekan takut hilang bebas harga pribadi positif	Negatif	-1
+nama jahat busuk buang paksa genggam harap busuk manfaat kedok hikmah racun racun buang rugi	Negatif	-1
+jahat tempat vendor vendor rasa	Negatif	-1
+jahat personal	Negatif	-1
+habis tolak nasib omset cabang pegang sender capek cabang penuh jahat gaji pokok kecil sender omset	Negatif	-1
+bahaya dekat jahat anggap pasang laki laki jahat kasar pasang laki bela salah pasang	Negatif	-1
+tempat jahat anjing	Negatif	-1
+kantor lihat jahat	Netral	0
+sehat paham komunikasi niat jahat protes rasa kekang serang refleksi hormat butuh	Negatif	-1
+nasihat jenis jahat puji kosong asyik kritik salah mata salah	Negatif	-1
+jenis jahat tempat tarikh gaji waktu bayar sebar ambil elak rapat golong	Negatif	-1
+bahaya hubung jahat sadar rasa rendah rasa arti percaya asli harga hubung jahat	Negatif	-1
+jahat lihat tenang salah celah langkah laku salah mata gerak	Negatif	-1
+tanda tanda dekat tempat jahat tukar tukar cakap susah mintak cuti kena perli teruk buli kredit jahat	Negatif	-1
+rasa stop jahat tempat positif sehat layak harga tempat	Negatif	-1
+jahat mahasiswa besar pola bocah mahasiswa malas kontribusi kelompok suka musuh balas sengak	Negatif	-1
+jahat keluarga	Negatif	-1
+tanda jahat stres berangkat takut interaksi rekan rasa remeh harga sehat mental fisik ganggu rasa kucil jauh	Negatif	-1
+teman jahat ketemu teman cocok arti langsung	Positif	1
+jahat tempat stop bawang start negatif stop dengar bawang takut bawang stop salah bantu stop	Negatif	-1
+atur buah debat korea selatan korea atur kantor pagi sore karyawan smoking menit	Positif	1
+sumpah rasa lihat tempat jahat stres tempat pasti pasti harap	Negatif	-1
+jenis jahat tempat tarikh gaji waktu bayar sebar ambil elak rapat golong	Negatif	-1
+normalisasi lembur bayar karyawan suka drama nyinyir jahat mampus kantor besar	Negatif	-1
+salah bahaya hubung jahat sadar rendah rasa rendah arti minder mudah harga hubung jahat	Negatif	-1
+tongkrong jahat entar jahat contoh teman ketemu omong bisnis omong mantan sambung	Negatif	-1
+tempat sempurna kadang stres kadang kadang jenis kuat royan pasal	Netral	0
+kena tengok cakap duduk over kadang jahat dekat tempat asah adab ajar	Negatif	-1
+sifat pasang potensi jahat malas konsisten kontrol emosi rasa luka uang bijak	Negatif	-1
+jahat suka jaga tepi kain staff layan suruh personal	Negatif	-1
+dikit jahat kapai tempat were dengar tantang bangga hasil selesai tipes	Negatif	-1
+tempat jahat fokus turun produktivitas kecil sepele salah	Negatif	-1
+tempat jahat validasi teman keluarga bawa arus sesuai desk pulang waktu pulang kepo urus terap prinsip pulang ambil	Negatif	-1
+teman jahat jatuh kuliah tempat	Negatif	-1
+pilih rasai jahat rasa capek	Negatif	-1
+tanda putus ajar pimpin alami mental tempat jahat	Negatif	-1
+jahat habis tiktok	Negatif	-1
+tempat fokus jahat drama alam pahit ajar dukung tantang tahan mental	Negatif	-1
+makan siang tempat jahat alamin seru kasih	Negatif	-1
+kantor jahat	Negatif	-1
+paham tahan tempat jahat susah kudu pakai november juli stres	Negatif	-1
+ijazah tempat jahat tahan lulus kuliah pura capek maaf curhat dikit cuman senyum	Negatif	-1
+keluarga beranta cinta gagal tempat jahat indah capek butuh istirahat butuh rumah butuh tempat singgah	Negatif	-1
+kantor jahat	Negatif	-1
+istirahat tempat jahat parah istirahat	Negatif	-1
+rencana nyata putus balas kasih sayang tempat ketemu jahat tempat	Negatif	-1
+teman jahat jatuh kuliah tempat	Negatif	-1
+niat motor beli motor mudah sekolah niat harap jahat person jahat tempat jujur mampu penat	Negatif	-1
+tempat jahat sakit jiwa	Negatif	-1
+jahat egois suka cemburu sikap kasar nilai buruk suka manipulasi manfaat suka salah salah	Negatif	-1
+jahat banding	Negatif	-1
+olah nikel rokok tempat sedia langgar fatal langsung pecat tempat bawa atur kejam urus pilih mati selamat	Negatif	-1
+heran panas jahat kadang atur senior tahi anjing kesel duit lagak gaji songong	Negatif	-1
+salah jahat rapat sesuai arah	Negatif	-1
+kebelet nyata tekan batin tempat jahat banding stres rumah kondisi	Negatif	-1
+habis lebaran manusia tempat nyaman jahat positif zona admin gudang	Positif	1
+mami licia pulang tempat jahat ikhlas hati ikhlas bulat	Negatif	-1
+jahat tempat harap kena teruk	Negatif	-1
+tempat jahat betah teman tempat betah baca nabi yunus	Negatif	-1
+keluh tempat jahat habis	Negatif	-1
+rindu waktu duduk situ jahat tempat	Negatif	-1
+jahat omong salah goreng informasi asumsi jelek goreng informasi sesuai fakta	Negatif	-1
+capek jahat manipulatif tempat	Negatif	-1
+tetangga jahat singgung gosip kena fitnah jelek hati lihat sukses fitnah miskin hina	Negatif	-1
+jahat jahat jujur hidup dasar ragu rasa bawa pengaruh	Negatif	-1
+sorok kurang bodoh bagus putus amal jahat	Negatif	-1
+jahat egois suka cemburu sikap kasar nilai buruk suka manipulasi manfaat suka salah salah	Negatif	-1
+jaman ajar beda tempat jahat jauh lihat wajar asumsi justifikasi performa salah kantor	Negatif	-1
+kesi jahat lantak sorang sorang person	Negatif	-1
+gilir sakit paksa apresiasi maaf himpun jahat mending bubar	Negatif	-1
+jahat japri marah grup kantor wenang diam	Negatif	-1
+mampu jahat menat plus mulut cika suka suka ampu habis nama buruk	Negatif	-1
+pilih kantor jahat adil jahat rugi masalah kesel muka maksud	Negatif	-1
+pegawai bagus alias jahat besok ajar timbang	Netral	0
+tempat manila rapat minggu zoom manila kantor muak rapat cabut listrik kantor rapat putus maaf mati lampu	Netral	0
+jahat potensi langgar ketenagakerjaan jaman demo mati buruh zaman	Negatif	-1
+stres mental kena tempat jahat rumah mental	Negatif	-1
+stres dekat tempat jahat tahan reng	Negatif	-1
+aura atmosfer tempat jahat kangen bareng waktu kecil kadang capek bingung	Negatif	-1
+jebak jahat tempat	Negatif	-1
+sadar penuh pribadi zona jahat tempat mending mending sehat lepas tahap	Negatif	-1
+tempat tekan capek fisik capek mental capek tempat jahat ganti karir nyonya nyonya nyonya	Negatif	-1
+tegur sentap tempat jahat tempat nafas keluh sedih bengang stres rungut ketul	Negatif	-1
+sakit tempat jahat sakit tahan menang rumah muak menang mati	Negatif	-1
+tempat jahat hilang manajer waktu kasih saran obrol pegawai sapa saran peduli kemarin teman teman	Negatif	-1
+tempat magang jahat maksud alam bidang stres kena mental stres depresi	Negatif	-1
+lelaki jahat sepah dekat tempat liar lelaki rumah tangga jahat bincang laki bini bawa tempat	Negatif	-1
+senin ketemu jahat drama tempat gaji sesuai akal	Negatif	-1
+kalah masalah tempat jahat pelit tempat pelit jahat korupsi senior bocah	Negatif	-1
+teman cepat takut tempat jahat ling nyaman	Negatif	-1
+sedih menang pisah tempat jahat parah nyaman bismillah panggil slot kosong	Negatif	-1
+tolong jauh jahat tempat	Negatif	-1
+saran mending tempat jahat tempat kuat	Negatif	-1
+susah tempat jahat butuh duit	Negatif	-1
+tempat nyaman jahat tempat tolong mudah	Negatif	-1
+kucil keluarga tempat jahat tipu rekan putus juang fokus resin	Negatif	-1
+bantu tempat rasa jahat salah salah sepenuh dinamika partner enek perut gara sayang uang	Negatif	-1
+garagara tempat jahat muka teman tempat	Negatif	-1
+hati badminton kasihan tempat jahat pasti laku suka enak nyaman suka jebak main	Netral	0
+sadar tempat jahat jalan	Negatif	-1
+kawan tempat limit jahat kawan langsung kawan tempat	Negatif	-1
+jahat katai rekan balas tempat loker wajar abai	Negatif	-1
+guru sertifikasi ajar kurang rebut akibat suasana tempat jahat	Negatif	-1
+semenjak tempat jahat gampang sakit	Negatif	-1
+staff jahat tempat stres	Negatif	-1
+umur lulus tempat jahat umur lulus lihat gaji jakarta	Positif	1
+kultur rumah sakit seringkali lebar relasi dokter awat bidan apoteker runyam dokter dokter apoteker resep obat cocok	Netral	0
+jemput teman jahat minus pagi malam masalah besar palugada sesuai porsi	Negatif	-1
+sabar tempat jahat	Negatif	-1
+aduh kocak ketawa kantor tempat seru maaf trauma tempat jahat habis	Negatif	-1
+tempat jahat bang pandai	Negatif	-1
+jahat surat	Negatif	-1
+jahat omong doang gampang rasai rasai jahat kontrak besok makan	Negatif	-1
+bodo bolos dasar tempat jahat mending	Negatif	-1
+kasihan kantor jahat term waktu tenaga kantor salah jaga kantor nilai kantor jujur	Netral	0
+kuna jahat kuna	Negatif	-1
+cina jahat takut jahat rana takut jahat muda	Negatif	-1
+paksa pagi pulang malam buta hukum telat balas pesan menit paksa lepas alat kena sakit paksa tidur kaki tangan hilang rasa	Negatif	-1
+jahat kwanza jahat bana	Negatif	-1
+=======
 tanda kena tukar stres penat tengok semangat luntur kerja rasa cepat penat penat	Negatif	-1
 tanda kena tukar stres penat tengok semangat luntur kerja rasa cepat penat penat	Negatif	-1
 dunia kerja ajaib penuh butuh hidup ajang makan ruang aktualisasi ganas hidup serasa jungkir	Negatif	-1
@@ -279,3 +955,4 @@ keras kerja	Netral	0
 gagal kerja jauh ekspektasi segi karir hubung syukur kerja	Negatif	-1
 asuh bagus kuliah kerja asuh omong teman rantau jakarta kerja pulang kampung	Negatif	-1
 daerah makan makan rusak sekolah rusak lapang kerja anda bantu lapang kerja bebas pinjol manfaat	Positif	1
+>>>>>>> 746b3a1516bae1797e6b749941e6d02f8c7082ca

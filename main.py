@@ -1,60 +1,33 @@
 import streamlit as st
 import pandas as pd
-import json
-import re
-import string
-from nltk.tokenize import word_tokenize  # Corrected here
+import numpy as np
+import nltk
+nltk.download('punkt')
+from nltk.tokenize import word_tokenize
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.cluster import KMeans
 from sklearn.metrics import silhouette_score
 from sklearn.metrics import davies_bouldin_score
 import matplotlib.pyplot as plt
 from Sastrawi.Stemmer.StemmerFactory import StemmerFactory
-import os #dipake pas klasifikasi sentimen
-import numpy as np
-import nltk
-nltk.download('punkt')
+import re
+import string
+import json
+import os
 
 # Pengaturan untuk halaman web streamlit
-st.set_page_config(page_title="ABSA-K-Means")
+st.set_page_config(page_title="revisi-code")
 
 # Streamlit application
-st.title("ANALISIS FAKTOR-FAKTOR YANG MEMPENGARUHI PERPINDAHAN KARIR DENGAN PEMANFAATAN ASPECT-BASED SENTIMENT ANALYSIS MENGGUNAKAN METODE K-MEANS")
-page = st.sidebar.selectbox("Tentukan Halaman:", ["Preprosesing", "Klastering", "Analisis Sentimen", "Visualisasi Data"])
+st.title("ANALISIS SENTIMEN PADA FAKTOR-FAKTOR YANG MEMPENGARUHI PERPINDAHAN KARIR DENGAN MENGGUNAKAN METODE ASPECT-BASED SENTIMENT ANALYSIS DAN K-MEANS")
+page = st.sidebar.selectbox("Tentukan Halaman:", ["Preprosesing", "Clustering", "Sentiment Analysis", "Data Visualization"])
 
-# Data awal
-file_path = "csv/data_tweet.csv"  # Lokasi file CSV data awal
+# MENENTUKAN LOKASI FILE HASIL SCRAPING
+file_path = "csv/crawling.csv"  # Lokasi file CSV data awal
 with open(file_path, "r", encoding="utf-8") as f:
     csv_raw_data = f.read()
 
-# KUMPULAN FUNGSI PREPROSESING
-def preprocessing(text, slang_dict, stopwords, kamus_indonesia, stemmer):
-    text = text.lower()  # casefolding
-    text = re.sub(r"\\t|\\n|\\u|\\|http[s]?://\\S+|[@#][A-Za-z0-9_]+", " ", text)  # karakter khusus
-    text = re.sub(r"\\d+", "", text)  # menghapus angka
-    text = text.translate(str.maketrans("", "", string.punctuation))  # Menghapus tanda baca
-    text = re.sub(r"[^a-zA-Z\s]", "", text)  # Menghapus karakter selain huruf dan spasi
-    text = re.sub(r"\b[a-zA-Z]\b", "", text) #menghapus satu huruf (besar/kecil)
-    text = re.sub(r"\\s+", ' ', text).strip()  # Menghapus whitespace tambahan
-    text = ' '.join([slang_dict.get(word, word) for word in text.split()]) #normalisasi
-    text = word_tokenize(text) #tokenisasi
-    text = ' '.join([stemmer.stem(word) for word in text if word not in stopwords and len(word) > 3 and word in kamus_indonesia]) #steming, stopwords dan filter
-    return text
-
-# 1. Casefolding: Mengubah teks menjadi huruf kecil (text.lower()).
-# 2. Penghapusan karakter khusus: Menghapus karakter seperti tab (\t), newline (\n), URL, dan mention Twitter (@ atau #) (re.sub(r"\\t|\\n|\\u|\\|http[s]?://\\S+|[@#][A-Za-z0-9_]+", " ", text)).
-# 3. Penghapusan angka: Menghapus semua angka (re.sub(r"\\d+", "", text)).
-# 4. Penghapusan tanda baca: Menghapus semua tanda baca (text.translate(str.maketrans("", "", string.punctuation))).
-# 5. Penghapusan karakter selain huruf dan spasi: Menghapus karakter yang bukan huruf atau spasi (re.sub(r"[^a-zA-Z\s]", "", text)).
-# 6. Penghapusan satu huruf: Menghapus kata-kata yang terdiri dari satu huruf (re.sub(r"\b[a-zA-Z]\b", "", text)).
-# 7. Penghapusan whitespace tambahan: Menggantikan spasi ganda dengan spasi tunggal (re.sub(r"\s+", ' ', text).strip()).
-# 8. Normalisasi: Menggantikan kata-kata slang dengan kata-kata formal menggunakan slang_dict.
-# 9. Tokenisasi: Memecah teks menjadi kata-kata individu (word_tokenize(text)).
-# 10. Steming: Mengubah kata-kata menjadi bentuk dasarnya menggunakan stemmer.
-# 11. Penghapusan stopwords: Menghapus kata-kata yang tidak penting (stopwords).
-# 12. Filter: Menghapus kata-kata yang tidak ada dalam kamus_indonesia atau memiliki panjang kurang dari 4 karakter.
-
-# cara pembacaan data
+# MUAT SUMBERDAYA
 def load_lexicon(file_path):
     with open(file_path, 'r', encoding='utf-8') as file:
         return set(json.load(file))
@@ -63,17 +36,29 @@ def load_file(file_path):
     with open(file_path, 'r', encoding='utf-8') as file:
         return set(file.read().splitlines())
 
-# muat sumberdaya
 slang_dict = json.load(open("txt/kamusSlang.json", "r", encoding="utf-8"))
 stopwords = load_file('txt/stopwords.txt')
 kamus_indonesia = load_file('txt/kamusIndonesia.txt')
 
-
-# Inisialisasi stemmer
+# INISIALISASI STEMMER
 factory = StemmerFactory()
 stemmer = factory.create_stemmer()
 
-# Preproses data untuk menjalankan fungsi yang sudah dibuat
+def preprocessing(text, slang_dict, stopwords, kamus_indonesia, stemmer):
+    text = text.lower()  # Case folding
+    text = re.sub(r"\\t|\\n|\\u|\\|http[s]?://\\S+|[@#][A-Za-z0-9_]+", " ", text)  # Menghapus karakter khusus
+    text = re.sub(r"\\d+", "", text)  # Menghapus angka
+    text = text.translate(str.maketrans("", "", string.punctuation))  # Menghapus tanda baca (pakai import string)
+    text = re.sub(r"\\s+", ' ', text).strip()  # merapihkan spasi ganda
+    text = re.sub(r"\b[a-zA-Z]\b", "", text) # Menghapus satu huruf (besar/kecil)
+    text = ' '.join([slang_dict.get(word, word) for word in text.split()]) # Normalisasi (pemanfaatan kamus slang)
+    text = word_tokenize(text) # Tokenisasi (sebelum stemming)
+    text = [stemmer.stem(word) for word in text] # Stemming
+    text = [word for word in text if word not in stopwords and len(word) > 3 and word in kamus_indonesia] # Stopwords & memilah kata
+    text = ' '.join(text)
+    return text
+
+# FUNGSI UNTUK MENJALANKAN SELURUH FUNGSI PREPROCESSING
 def preprocess_data(uploaded_file):
     df = pd.read_csv(uploaded_file)
     
@@ -148,10 +133,7 @@ if page == "Preprosesing":
             st.write(f"Hasil Preprosesing dari file: {filename}:")  # Tampilkan nama file
             st.dataframe(df)  # Tampilkan DataFrame
 
-
-
-
-elif page == "Klastering":
+elif page == "Clustering":
     st.header("Analisis Faktor")  # Menampilkan judul halaman
 
     # Load data hasil preprocessing dari file
@@ -163,10 +145,10 @@ elif page == "Klastering":
 
     # Mendefinisikan kalimat untuk setiap centroid
     centroid_sentences = {
-        'kompensasi': "kompensasi naik gaji uang pendapatan dapat penghasilan hasil intensif gaji sedikit gaji banyak bonus",
-        'kepuasan_kerja': "kepuasan puas kerja karir bahagia sedih dedikasi nyaman lembur jam kerja waktu cape capek lelah stres stress",
-        'aktualisasi': "aktualisasi aktual pengembangan kembang potensi diri kreatif prestasi jabatan jabat gelar industri karir",
-        'hubungan_kerja': "hubungan rekan kerja suasana dukungan dukung kolaborasi tempat toxic jahat benci suka teman kawan toleransi takut buruk"
+        'kompensasi': "kompensasi uang pendapatan dapat penghasilan hasil intensif gaji sedikit bonus",
+        'kepuasan_kerja': "kepuasan puas bahagia sedih nyaman lembur jam kerja waktu cape capek lelah stres stress suntuk pening pusing",
+        'aktualisasi': "pengembangan kembang potensi kreatif prestasi jabatan jabat gelar industri karir ahli ilmu bakat capai",
+        'hubungan_kerja': "hubungan hubung rekan teman kawan kolaborasi tempat suasana dukungan dukung toksik toxic jahat benci toleransi takut buruk"
     }
 
     # Menghitung posisi dalam DataFrame untuk setiap centroid
@@ -196,12 +178,13 @@ elif page == "Klastering":
         kmeans = KMeans(n_clusters=4, init=initial_centroids, n_init=10, random_state=0)
         kmeans.fit(X)
         df_selected['cluster'] = kmeans.labels_
-        
         # Menghitung Silhouette Score
-        silhouette_avg = silhouette_score(X, kmeans.labels_)
+        # silhouette_avg = silhouette_score(X, kmeans.labels_)
+        # st.write(f"**Silhouette Score:** {silhouette_avg:.2f}")
+
+        # Menghitung DBI
         db_score = davies_bouldin_score(X.toarray(), kmeans.labels_)
-        st.write(f"**Silhouette Score:** {silhouette_avg:.2f}")
-        st.write(f"**Davies-Bouldin Index:** {db_score:.2f}")
+        st.write(f"**Davies-Bouldin Score:** {db_score:.2f}")
 
         # Memisahkan klaster menjadi DataFrame yang berbeda
         cluster_0 = df_selected[df_selected['cluster'] == 0][['filtered']].reset_index(drop=True)
@@ -211,22 +194,13 @@ elif page == "Klastering":
         
         # Mendefinisikan label kustom untuk setiap klaster
         label_klaster = ['kompensasi', 'kepuasan kerja', 'aktualisasi', 'hubungan kerja']
-
-        # # Menampilkan setiap klaster dengan label deskriptif
-        # for i, (label, dataframe_klaster) in enumerate(zip(label_klaster, [cluster_0, cluster_1, cluster_2, cluster_3])):
-        #     st.write(f"### Faktor {label.capitalize()}")
-        #     st.dataframe(dataframe_klaster[['filtered']])
-
-        #     # Menyimpan setiap cluster ke dalam file .txt di folder 'klaster'
-        #     dataframe_klaster.to_csv(f'klaster/{label}.txt', sep='\t', index=False, header=True)
-
     
         # Daftar kalimat yang ingin dihapus
         kalimat_yang_ingin_dihapus = [ 
-            "kompensasi naik gaji uang pendapatan dapat penghasilan hasil intensif gaji sedikit gaji banyak bonus",
-            "kepuasan puas kerja karir bahagia sedih dedikasi nyaman lembur jam kerja waktu cape capek lelah stres stress",
-            "aktualisasi aktual pengembangan kembang potensi diri kreatif prestasi jabatan jabat gelar industri karir",
-            "hubungan rekan kerja suasana dukungan dukung kolaborasi tempat toxic jahat benci suka teman kawan toleransi takut"
+            "kompensasi uang pendapatan dapat penghasilan hasil intensif gaji sedikit bonus",
+            "kepuasan puas bahagia sedih nyaman lembur jam kerja waktu cape capek lelah stres stress suntuk pening pusing",
+            "pengembangan kembang potensi kreatif prestasi jabatan jabat gelar industri karir ahli ilmu bakat capai",
+            "hubungan hubung rekan teman kawan kolaborasi tempat suasana dukungan dukung toksik toxic jahat benci toleransi takut buruk"
         ]
 
         # Fungsi untuk menghapus tanda baca
@@ -274,7 +248,7 @@ elif page == "Klastering":
         cleaned_data_2.to_csv('klaster/aktualisasi.txt', sep='\t', index=False, header=True)
         cleaned_data_3.to_csv('klaster/hubungan kerja.txt', sep='\t', index=False, header=True)
 
-elif page == "Analisis Sentimen":
+elif page == "Sentiment Analysis":
     st.header("Analisis Sentimen Faktor")
 
     # Load leksikon positif dan negatif
@@ -334,9 +308,7 @@ elif page == "Analisis Sentimen":
                     output_file_path, sep='\t', index=False, header=['analisis', 'sentiment_label', 'sentiment_score']
                 )
 
-
-
-elif page == "Visualisasi Data":
+elif page == "Data Visualization":
     st.header("Visualisasi Data")
     if st.button("Visualisasikan"):
         # Load hasil analisis sentimen dari file

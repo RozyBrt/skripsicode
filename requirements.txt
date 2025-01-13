@@ -3,5 +3,5 @@ pandas
 nltk
 scikit-learn
 matplotlib
-wordcloud
 Sastrawi
+numpy

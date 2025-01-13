@@ -15,3 +15,8 @@ install vscode studio , karena ada beberapa requer yang harus dicentang.
 
 # install streamlit
 pip install streamlit
+"# code-absa-turnover" 
+# code-absa-turnover
+# code-absa-turnover
+# code-absa-turnover
+"# code-absa-turnover" 

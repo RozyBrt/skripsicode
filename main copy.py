@@ -34,16 +34,6 @@ def load_lexicon(file_path):
 def load_file(file_path):
     with open(file_path, 'r', encoding='utf-8') as file:
         return set(file.read().splitlines())
-    
-def hitung_sentimen(text, pos_lexicon, neg_lexicon):
-    pos_count = sum(1 for word in text.split() if word in pos_lexicon)
-    neg_count = sum(1 for word in text.split() if word in neg_lexicon)
-    if pos_count > neg_count:
-        return 'Positif', 1
-    elif neg_count > pos_count:
-        return 'Negatif', -1
-    else:
-        return 'Netral', 0
 
 slang_dict = json.load(open("txt/kamusSlang.json", "r", encoding="utf-8"))
 stopwords = load_file('txt/stopwords.txt')

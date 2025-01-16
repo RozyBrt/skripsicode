@@ -7,3 +7,4 @@ imblearn
 joblib
 matplotlib
 seaborn
+imbalanced-learn==0.13.0

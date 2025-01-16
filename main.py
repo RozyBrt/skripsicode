@@ -70,7 +70,7 @@ def preprocessing_page():
         text = [word for word in text if word not in stopwords and len(word) > 3 and word in kamus_indonesia]  # Filter
         return ' '.join(text)
     
-    file_path = 'code-filter-crawling/crawling.csv'
+    file_path = 'code_filter_crawling/crawling.csv'
     with open(file_path, "r", encoding="utf-8") as f:
         csv_raw_data = f.read()
     st.write("Unduh Dataset")
@@ -119,8 +119,8 @@ def klasifikasi_page():
         # st.write("Penerapan klasifikasi.")
 
         # Memuat model dan vectorizer yang telah disimpan
-        model = joblib.load('model_sentimen.pkl')
-        vectorizer = joblib.load('vectorizer_sentimen.pkl')
+        model = joblib.load('model/model_sentimen.pkl')
+        vectorizer = joblib.load('model/vectorizer_sentimen.pkl')
 
         # Membaca data yang telah dipreproses
         data_baru = pd.read_csv("preprocessing/preprocessing.csv")
@@ -219,7 +219,10 @@ def klasterisasi_page():
 
         # menghapus baris yang berisi teks yang dijadikan centroid sebelumnya dari dataframe
         centroid_texts = set(centroid_sentences.values())
+
         df_selected = df_selected[~df_selected['teks-kmeans'].isin(centroid_texts)].reset_index(drop=True)
+
+        df_selected.to_csv("dataset_berlabel/klaster_prediksi.csv", index=False) # Digunakan untuk confussion matrix k-means
 
         # Memisahkan klaster menjadi DataFrame yang berbeda dan menambahkan kolom 'label'
         clusters = [df_selected[df_selected['label-klaster'] == i][['teks-kmeans', 'label', 'label-klaster']].reset_index(drop=True) for i in range(4)]
@@ -263,7 +266,7 @@ def visualisasi_page():
         ax.bar(label_klaster, jumlah_data_klaster, color='#87CEFA')
         ax.set_title("Jumlah Data untuk Setiap Klaster", fontsize=16)
         ax.set_xlabel("Klaster", fontsize=14)
-        ax.set_ylabel("Jumlah Data", fontsize=14)
+        ax.set_ylabel("Jumlah data", fontsize=14)
         ax.bar_label(ax.containers[0])
         st.pyplot(fig)
 
@@ -276,10 +279,10 @@ def visualisasi_page():
                 # Buat Pie Chart untuk distribusi sentimen
                 st.subheader(f"Visualisasi Data Sentimen Klaster {label.capitalize()}")
                 st.write(f"Total data pada klaster {label.capitalize()} sebanyak: {len(dataframe_klaster)}")
-                explode = (0.01, 0.05, 0.15)  # Jarak antara potongan pie dan pusatnya
-                fig, ax = plt.subplots(figsize=(13,7))
+                explode = (0.03, 0.03, 0.03)  # Jarak antara potongan pie dan pusatnya
+                fig, ax = plt.subplots(figsize=(5,5))
                 colors = ['#ADD8E6', '#87CEFA', '#4682B4']
-                ax.pie(jumlah_sentimen, labels=jumlah_sentimen.index, autopct='%1.1f%%', startangle=90, colors=colors, pctdistance=0.7,  explode=explode)
+                ax.pie(jumlah_sentimen, labels=jumlah_sentimen.index, autopct='%1.1f%%', startangle=0, colors=colors, pctdistance=0.7, explode=explode)
                 ax.axis('equal')  # Membuat pie chart berbentuk lingkaran.
                 st.pyplot(fig)
 
@@ -287,11 +290,7 @@ def visualisasi_page():
                 st.write(f"Distribusi sentimen pada klaster {label.capitalize()} menunjukkan:")
                 for sentiment, count in jumlah_sentimen.items():
                     st.write(f"- **{sentiment}**: {count} ulasan")
-
-
-
-
-    
+  
 
 # Menu navigasi halaman
 page = st.sidebar.selectbox("Pilih Halaman", ["Preprocessing", "Klasifikasi", "Klasterisasi", "Visualisasi"])

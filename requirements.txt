@@ -1,8 +1,9 @@
 streamlit
 pandas
 nltk
-scikit-learn
-seaborn
-matplotlib
 Sastrawi
-numpy
+scikit-learn
+imblearn
+joblib
+matplotlib
+seaborn

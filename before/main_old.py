@@ -110,36 +110,6 @@ def HClustering():
         # menghapus stopwords dari kolom 'teks' dan menyimpannya dalam kolom baru 'teks-kmeans'
         df_selected['teks'] = df_selected['teks'].apply(lambda x: preprocessing(x, stopwords2))
 
-        # centroid_sentences = {
-        #     'kompensasi': "gaji kompensasi",
-        #     'kepuasan_kerja': "mental stres jam",
-        #     'aktualisasi': "berkembang kembang jabatan skill",
-        #     'hubungan_kerja': "hubungan jahat hubungan baik lingkung"
-        # }
-
-        # # menghitung posisi dalam DataFrame untuk setiap centroid
-        # num_rows = len(df_selected)
-        # posisi = {
-        #     int(num_rows * 0.25): centroid_sentences['kompensasi'],
-        #     int(num_rows * 0.50): centroid_sentences['kepuasan_kerja'],
-        #     int(num_rows * 0.75): centroid_sentences['aktualisasi'],
-        #     int(num_rows * 0.90): centroid_sentences['hubungan_kerja']
-        # }
-
-        # # menyisipkan kalimat ke dalam DataFrame pada posisi yang ditentukan
-        # for pos, sentence in posisi.items():
-        #     df_selected.at[pos, 'teks'] = sentence
-
-        # # vektorisasi teks menggunakan TF-IDF
-        # vectorizer = TfidfVectorizer()
-        # X = vectorizer.fit_transform(df_selected['teks']) 
-        # lokasi_centroid = X[list(posisi.keys())].toarray()
-
-        # # K-means clustering
-        # kmeans = KMeans(n_clusters=4, init=lokasi_centroid, n_init=10, random_state=0)
-        # kmeans.fit(X)
-
-        num_rows = len(df_selected)
         centroid_sentences = {
             'kompensasi': "gaji kompensasi",
             'kepuasan_kerja': "mental stres jam",
@@ -147,29 +117,41 @@ def HClustering():
             'hubungan_kerja': "hubungan jahat hubungan baik lingkung"
         }
 
-        additional_data = pd.DataFrame({'teks' : list(centroid_sentences.values())})
-        df_selected = pd.concat([df_selected, additional_data], ignore_index=True)
+        # menghitung posisi dalam DataFrame untuk setiap centroid
+        num_rows = len(df_selected)
+        posisi = {
+            int(num_rows * 0.25): centroid_sentences['kompensasi'],
+            int(num_rows * 0.50): centroid_sentences['kepuasan_kerja'],
+            int(num_rows * 0.75): centroid_sentences['aktualisasi'],
+            int(num_rows * 0.90): centroid_sentences['hubungan_kerja']
+        }
 
-        centroid_indices = list(range(num_rows, num_rows + len(centroid_sentences)))
+        # menyisipkan kalimat ke dalam DataFrame pada posisi yang ditentukan
+        for pos, sentence in posisi.items():
+            df_selected.at[pos, 'teks'] = sentence
+
+        # vektorisasi teks menggunakan TF-IDF
         vectorizer = TfidfVectorizer()
-        X = vectorizer.fit_transform(df_selected['teks'])
-        lokasi_centroid = X[centroid_indices].toarray()
+        X = vectorizer.fit_transform(df_selected['teks']) 
+        lokasi_centroid = X[list(posisi.keys())].toarray()
 
         # K-means clustering
         kmeans = KMeans(n_clusters=4, init=lokasi_centroid, n_init=10, random_state=0)
         kmeans.fit(X)
-        st.write(len(df_selected))
-        
+
         # menyimpan hasil klaster pada kolom baru 'label-klaster'
         df_selected['label_klaster'] = kmeans.labels_
-        st.dataframe(df_selected)
+
         # nampilkan Davies-Bouldin Score
         db_score = davies_bouldin_score(X.toarray(), kmeans.labels_)
         st.write(f"Davies-Bouldin Score: {db_score:.2f}")
-        # hapus baris
-        df_selected = df_selected.iloc[:-4].reset_index(drop=True)
-        st.dataframe(df_selected.tail(10))
-        # df_selected.to_csv("dataset_berlabel/klaster_prediksi.csv", index=False) # digunakan untuk confussion matrix k-means
+
+        # menghapus baris yang berisi teks yang dijadikan centroid sebelumnya dari dataframe
+        centroid_texts = set(centroid_sentences.values())
+        df_selected = df_selected[~df_selected['teks'].isin(centroid_texts)].reset_index(drop=True)
+        df_selected = df_selected[~df_selected['teks'].str.strip().eq('')]
+
+        df_selected.to_csv("dataset_berlabel/klaster_prediksi.csv", index=False) # digunakan untuk confussion matrix k-means
 
         # pisah klaster menjadi dataframe yang berbeda dan menambahkan kolom 'label'
         clusters = [df_selected[df_selected['label_klaster'] == i][['teks', 'label_klaster']].reset_index(drop=True) for i in range(4)]
@@ -182,7 +164,7 @@ def HClustering():
             st.subheader(f"Faktor {label.capitalize()}")
             st.dataframe(cleaned_data)
             # Menyimpan data ke file
-            # cleaned_data.to_csv(f'klaster/{label}.csv', sep='\t', index=False, header=True)
+            cleaned_data.to_csv(f'klaster/{label}.csv', sep='\t', index=False, header=True)
 
 def HSentimentAnalysis():
     st.title("Halaman Klasifikasi")

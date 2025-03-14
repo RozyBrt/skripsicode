@@ -7,6 +7,6 @@ Streamlit projek dapat diakses dari link
 
 # 🚀 Akses Aplikasi Streamlit
 Klik di sini untuk mencoba aplikasi secara langsung:  
-👉 [Buka Aplikasi](https://your-app-name.streamlit.app/)
+👉 [Buka Aplikasi](https://skripsicode.streamlit.app/)
 
 ![Demo Aplikasi](demo_app/viewgif.gif)

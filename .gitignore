@@ -1,0 +1,50 @@
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# ===== Virtual Environments =====
+.venv/
+venv/
+env/
+.conda/
+
+# ===== Jupyter Notebook =====
+.ipynb_checkpoints/
+*.ipynb_tmp
+
+# ===== Data sementara (tidak perlu di-commit) =====
+preprocessing/preprocessing.csv
+dataset_berlabel/
+code_filter_crawling/crawling.csv
+code_filter_crawling/file/
+
+# Catatan: klaster/*.csv, klasifikasi/*.csv, dan model/*.pkl
+# sengaja TIDAK di-ignore agar Streamlit Share tetap bisa berjalan.
+
+# ===== File sementara / sisa kerja =====
+txt/rapih.ipynb
+txt/stopwords_awal.txt
+before/
+
+# ===== OS =====
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===== IDE =====
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# ===== Streamlit =====
+.streamlit/secrets.toml
